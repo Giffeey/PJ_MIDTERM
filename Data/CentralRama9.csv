@@ -1,4 +1,4 @@
-จัดให้ตามคำขอครับ! นี่คือข้อมูลร้านค้าและบริการของสาขา **Central Rama 9** (เซ็นทรัล พระราม 9) ที่ผมได้ทำการสกัดข้อมูล คัดกรองข้อมูลที่ซ้ำซ้อนออก พร้อมทั้งจัดเรียงตามลำดับตัวอักษร (A-Z และตามด้วยภาษาไทย) และปรับหมวดหมู่ (Category) ให้เป็นมาตรฐานเดียวกันในรูปแบบ CSV เรียบร้อยแล้วครับ
+﻿จัดให้ตามคำขอครับ! นี่คือข้อมูลร้านค้าและบริการของสาขา **Central Rama 9** (เซ็นทรัล พระราม 9) ที่ผมได้ทำการสกัดข้อมูล คัดกรองข้อมูลที่ซ้ำซ้อนออก พร้อมทั้งจัดเรียงตามลำดับตัวอักษร (A-Z และตามด้วยภาษาไทย) และปรับหมวดหมู่ (Category) ให้เป็นมาตรฐานเดียวกันในรูปแบบ CSV เรียบร้อยแล้วครับ
 
 
 
@@ -47,166 +47,94 @@
 
 
 Source,Target,Weight,Floor,Category
-M LIFE,Central Rama 9,1,4F,Technology
-52 TOYS,Central Rama 9,1,3F,Lifestyle & Specialty
-A'MAZE,Central Rama 9,1,3F,Fashion
-ADIDAS,Central Rama 9,1,1F,Fashion
-ADIDAS,Central Rama 9,1,4F,Fashion
-ADIDAS,Central Rama 9,1,GF,Fashion
-ADIDAS,Central Rama 9,1,BF,Fashion
-ADIDAS,Central Rama 9,1,BF,Fashion
-ADORE COSMETICS,Central Rama 9,1,2F,Beauty & Wellness
-AIS,Central Rama 9,1,4F,Technology
-AIS,Central Rama 9,1,BF,Technology
-AIS,Central Rama 9,1,4F,Technology
-AKA,Central Rama 9,1,6F,Food & Beverage
+M LIFE,Central Rama 9,1,4F,Technology & Electronics52 TOYS,Central Rama 9,1,3F,Lifestyle & Specialty
+A'MAZE,Central Rama 9,1,3F,Fashion & ApparelADIDAS,Central Rama 9,1,1F,Fashion & ApparelADIDAS,Central Rama 9,1,4F,Fashion & ApparelADIDAS,Central Rama 9,1,GF,Fashion & ApparelADIDAS,Central Rama 9,1,BF,Fashion & ApparelADIDAS,Central Rama 9,1,BF,Fashion & ApparelADORE COSMETICS,Central Rama 9,1,2F,Beauty & Wellness
+AIS,Central Rama 9,1,4F,Technology & ElectronicsAIS,Central Rama 9,1,BF,Technology & ElectronicsAIS,Central Rama 9,1,4F,Technology & ElectronicsAKA,Central Rama 9,1,6F,Food & Beverage
 AKALIKO,Central Rama 9,1,5F,Beauty & Wellness
 ALTO COFFEE ROASTERS,Central Rama 9,1,BF,Food & Beverage
 AMOR,Central Rama 9,1,6F,Food & Beverage
-ANANTA,Central Rama 9,1,2F,Fashion
-ANELLO,Central Rama 9,1,BF,Fashion
-ANELLO,Central Rama 9,1,GF,Fashion
-APEX,Central Rama 9,1,5F,Beauty & Wellness
-APPLE PHONE,Central Rama 9,1,4F,Technology
-AQUA COSMETICS,Central Rama 9,1,2F,Beauty & Wellness
+ANANTA,Central Rama 9,1,2F,Fashion & ApparelANELLO,Central Rama 9,1,BF,Fashion & ApparelANELLO,Central Rama 9,1,GF,Fashion & ApparelAPEX,Central Rama 9,1,5F,Beauty & Wellness
+APPLE PHONE,Central Rama 9,1,4F,Technology & ElectronicsAQUA COSMETICS,Central Rama 9,1,2F,Beauty & Wellness
 ARAMO AROMA,Central Rama 9,1,1F,Beauty & Wellness
-ARENA,Central Rama 9,1,3F,Fashion
-ASIA BOOKS,Central Rama 9,1,5F,Lifestyle & Specialty
-ASICS,Central Rama 9,1,GF,Fashion
-AUNTIE ANNE'S,Central Rama 9,1,2F,Food & Beverage
+ARENA,Central Rama 9,1,3F,Fashion & ApparelASIA BOOKS,Central Rama 9,1,5F,Lifestyle & Specialty
+ASICS,Central Rama 9,1,GF,Fashion & ApparelAUNTIE ANNE'S,Central Rama 9,1,2F,Food & Beverage
 AURA BANGKOK CLINIC,Central Rama 9,1,8F,Beauty & Wellness
-AURORA,Central Rama 9,1,2F,Fashion
-AVOCADO,Central Rama 9,1,BF,Fashion
-B2S,Central Rama 9,1,BF,Lifestyle & Specialty
+AURORA,Central Rama 9,1,2F,Fashion & ApparelAVOCADO,Central Rama 9,1,BF,Fashion & ApparelB2S,Central Rama 9,1,BF,Lifestyle & Specialty
 BAAN YING CAFE & MEAL,Central Rama 9,1,7F,Food & Beverage
 BAKE A WISH,Central Rama 9,1,GF,Food & Beverage
-IT BANANA,Central Rama 9,1,4F,Technology
-BANDAI KIDZ&KITZ,Central Rama 9,1,4F,Lifestyle & Specialty
+IT BANANA,Central Rama 9,1,4F,Technology & ElectronicsBANDAI KIDZ&KITZ,Central Rama 9,1,4F,Lifestyle & Specialty
 BANGKOK BANK,Central Rama 9,1,5F,Bank & Financial Services
 BANGKOK INSURANCE,Central Rama 9,1,5F,Bank & Financial Services
-BANGKOK MUSIC INSTITUTE CENTRAL PLAZA GRAND RAMA 9,Central Rama 9,1,11F,Education
-BAOJI,Central Rama 9,1,BF,Fashion
-BAR-B-Q PLAZA,Central Rama 9,1,6F,Food & Beverage
-BATA,Central Rama 9,1,3F,Fashion
-BATH & BODY WORKS,Central Rama 9,1,1F,Beauty & Wellness
+BANGKOK MUSIC INSTITUTE CENTRAL PLAZA GRAND RAMA 9,Central Rama 9,1,11F,Services & EducationBAOJI,Central Rama 9,1,BF,Fashion & ApparelBAR-B-Q PLAZA,Central Rama 9,1,6F,Food & Beverage
+BATA,Central Rama 9,1,3F,Fashion & ApparelBATH & BODY WORKS,Central Rama 9,1,1F,Beauty & Wellness
 BEARD PAPA'S,Central Rama 9,1,6F,Food & Beverage
 BEARHOUSE,Central Rama 9,1,3F,Food & Beverage
 BEAUTRIUM,Central Rama 9,1,2F,Beauty & Wellness
 BEAUTY BUFFET,Central Rama 9,1,3F,Beauty & Wellness
-BETTER VISION,Central Rama 9,1,3F,Fashion
-BIG CAMERA,Central Rama 9,1,4F,Technology
-BKK TIME SERVICE,Central Rama 9,1,BF,Lifestyle & Specialty
+BETTER VISION,Central Rama 9,1,3F,Fashion & ApparelBIG CAMERA,Central Rama 9,1,4F,Technology & ElectronicsBKK TIME SERVICE,Central Rama 9,1,BF,Lifestyle & Specialty
 BLACK CANYON COFFEE,Central Rama 9,1,6F,Food & Beverage
 BLANC EYELASH SALON,Central Rama 9,1,5F,Beauty & Wellness
 BONCHON,Central Rama 9,1,7F,Food & Beverage
 BOON TONG KEE,Central Rama 9,1,BF,Food & Beverage
 BOOST JUICE BAR,Central Rama 9,1,BF,Food & Beverage
 BOOTS,Central Rama 9,1,3F,Beauty & Wellness
-BOY LONDON,Central Rama 9,1,1F,Fashion
-BREADTALK,Central Rama 9,1,BF,Food & Beverage
+BOY LONDON,Central Rama 9,1,1F,Fashion & ApparelBREADTALK,Central Rama 9,1,BF,Food & Beverage
 BROWN CAFE,Central Rama 9,1,6F,Food & Beverage
 BSAB,Central Rama 9,1,1F,Beauty & Wellness
-BUTTER SCOTCH,Central Rama 9,1,BF,Fashion
-BUTTERFLY THAI PERFUME,Central Rama 9,1,BF,Beauty & Wellness
-CATH KIDSTON,Central Rama 9,1,2F,Fashion
-CC-OO,Central Rama 9,1,2F,Fashion
-CHARLES & KEITH,Central Rama 9,1,2F,Fashion
-CHATRAMUE,Central Rama 9,1,1F,Food & Beverage
+BUTTER SCOTCH,Central Rama 9,1,BF,Fashion & ApparelBUTTERFLY THAI PERFUME,Central Rama 9,1,BF,Beauty & Wellness
+CATH KIDSTON,Central Rama 9,1,2F,Fashion & ApparelCC-OO,Central Rama 9,1,2F,Fashion & ApparelCHARLES & KEITH,Central Rama 9,1,2F,Fashion & ApparelCHATRAMUE,Central Rama 9,1,1F,Food & Beverage
 CHESTER'S,Central Rama 9,1,BF,Food & Beverage
 CHONGDEE TEAHOUSE,Central Rama 9,1,BF,Food & Beverage
 CIMB THAI BANK,Central Rama 9,1,5F,Bank & Financial Services
-COACH,Central Rama 9,1,1F,Fashion
-COCO FRESH TEA & JUICE,Central Rama 9,1,3F,Food & Beverage
+COACH,Central Rama 9,1,1F,Fashion & ApparelCOCO FRESH TEA & JUICE,Central Rama 9,1,3F,Food & Beverage
 COCO ICHIBANYA,Central Rama 9,1,BF,Food & Beverage
 COLD STONE CREAMERY,Central Rama 9,1,6F,Food & Beverage
-COLUMBIA,Central Rama 9,1,3F,Fashion
-CONVERSE,Central Rama 9,1,BF,Fashion
-CONVERSE,Central Rama 9,1,GF,Fashion
-COWAY,Central Rama 9,1,7F,Lifestyle & Specialty
-CPS CHAPS,Central Rama 9,1,1F,Fashion
-CROCS,Central Rama 9,1,4F,Fashion
-CROCS,Central Rama 9,1,BF,Fashion
-CROCS,Central Rama 9,1,GF,Fashion
-CUT & CURL,Central Rama 9,1,5F,Beauty & Wellness
+COLUMBIA,Central Rama 9,1,3F,Fashion & ApparelCONVERSE,Central Rama 9,1,BF,Fashion & ApparelCONVERSE,Central Rama 9,1,GF,Fashion & ApparelCOWAY,Central Rama 9,1,7F,Lifestyle & Specialty
+CPS CHAPS,Central Rama 9,1,1F,Fashion & ApparelCROCS,Central Rama 9,1,4F,Fashion & ApparelCROCS,Central Rama 9,1,BF,Fashion & ApparelCROCS,Central Rama 9,1,GF,Fashion & ApparelCUT & CURL,Central Rama 9,1,5F,Beauty & Wellness
 CUTE PRESS,Central Rama 9,1,3F,Beauty & Wellness
 CW CURRYWURST,Central Rama 9,1,7F,Food & Beverage
 DAIRY QUEEN,Central Rama 9,1,BF,Food & Beverage
 DAISO,Central Rama 9,1,BF,Lifestyle & Specialty
 DAKASHI,Central Rama 9,1,6F,Food & Beverage
-DANIEL WELLINGTON,Central Rama 9,1,1F,Fashion
-DE RICH GRAND CLINIC,Central Rama 9,1,8F,Beauty & Wellness
-DJI,Central Rama 9,1,4F,Technology
-DOCTOR LIFE,Central Rama 9,1,8F,Beauty & Wellness
-DOLLAR BOUTIQUE,Central Rama 9,1,BF,Fashion
-DOUBLE GOOSE,Central Rama 9,1,3F,Fashion
-DOUBLE GOOSE,Central Rama 9,1,4F,Fashion
-DTAC,Central Rama 9,1,4F,Technology
-DUCATI,Central Rama 9,1,GF,Fashion
-EASY BUDDY,Central Rama 9,1,BF,Food & Beverage
-EDU FIRST,Central Rama 9,1,12F,Education
-ERIC KAYSER,Central Rama 9,1,BF,Food & Beverage
-EYE CLASS,Central Rama 9,1,3F,Fashion
-FITFLOP,Central Rama 9,1,2F,Fashion
-FITFLOP,Central Rama 9,1,3F,Fashion
-FOCUS,Central Rama 9,1,4F,Technology
-FOOD REPUBLIC,Central Rama 9,1,6F,Food & Beverage
+DANIEL WELLINGTON,Central Rama 9,1,1F,Fashion & ApparelDE RICH GRAND CLINIC,Central Rama 9,1,8F,Beauty & Wellness
+DJI,Central Rama 9,1,4F,Technology & ElectronicsDOCTOR LIFE,Central Rama 9,1,8F,Beauty & Wellness
+DOLLAR BOUTIQUE,Central Rama 9,1,BF,Fashion & ApparelDOUBLE GOOSE,Central Rama 9,1,3F,Fashion & ApparelDOUBLE GOOSE,Central Rama 9,1,4F,Fashion & ApparelDTAC,Central Rama 9,1,4F,Technology & ElectronicsDUCATI,Central Rama 9,1,GF,Fashion & ApparelEASY BUDDY,Central Rama 9,1,BF,Food & Beverage
+EDU FIRST,Central Rama 9,1,12F,Services & EducationERIC KAYSER,Central Rama 9,1,BF,Food & Beverage
+EYE CLASS,Central Rama 9,1,3F,Fashion & ApparelFITFLOP,Central Rama 9,1,2F,Fashion & ApparelFITFLOP,Central Rama 9,1,3F,Fashion & ApparelFOCUS,Central Rama 9,1,4F,Technology & ElectronicsFOOD REPUBLIC,Central Rama 9,1,6F,Food & Beverage
 FOUR SEASONS,Central Rama 9,1,BF,Food & Beverage
 FUJI,Central Rama 9,1,6F,Food & Beverage
 FUKU MATCHA,Central Rama 9,1,6F,Food & Beverage
 GANGNAM CLINIC,Central Rama 9,1,9F,Beauty & Wellness
-GENTLEWOMAN,Central Rama 9,1,2F,Fashion
-GIORDANO,Central Rama 9,1,3F,Fashion
-GOVERNMENT HOUSING BANK,Central Rama 9,1,5F,Bank & Financial Services
+GENTLEWOMAN,Central Rama 9,1,2F,Fashion & ApparelGIORDANO,Central Rama 9,1,3F,Fashion & ApparelGOVERNMENT HOUSING BANK,Central Rama 9,1,5F,Bank & Financial Services
 GOVERNMENT SAVINGS BANK,Central Rama 9,1,5F,Bank & Financial Services
-H&M,Central Rama 9,1,2F,Fashion
-H.MILLION CLINIC,Central Rama 9,1,5F,Beauty & Wellness
+H&M,Central Rama 9,1,2F,Fashion & ApparelH.MILLION CLINIC,Central Rama 9,1,5F,Beauty & Wellness
 HAAGEN-DAZS,Central Rama 9,1,GF,Food & Beverage
 HACHIBAN RAMEN,Central Rama 9,1,6F,Food & Beverage
 HACK BEAUTY LAB,Central Rama 9,1,5F,Beauty & Wellness
 HAI DI LAO,Central Rama 9,1,7F,Food & Beverage
 HARBORLAND,Central Rama 9,1,7F,Entertainment
 HASUL,Central Rama 9,1,BF,Food & Beverage
-HAVAIANAS,Central Rama 9,1,GF,Fashion
-HAVE A ZEED BY STEAK LAO,Central Rama 9,1,7F,Food & Beverage
-HCT LANGUAGE SCHOOL,Central Rama 9,1,11F,Education
-HLA,Central Rama 9,1,2F,Fashion
-HONAJI RAMEN,Central Rama 9,1,BF,Food & Beverage
+HAVAIANAS,Central Rama 9,1,GF,Fashion & ApparelHAVE A ZEED BY STEAK LAO,Central Rama 9,1,7F,Food & Beverage
+HCT LANGUAGE SCHOOL,Central Rama 9,1,11F,Services & EducationHLA,Central Rama 9,1,2F,Fashion & ApparelHONAJI RAMEN,Central Rama 9,1,BF,Food & Beverage
 HONMONO,Central Rama 9,1,7F,Food & Beverage
 HUA SENG HONG,Central Rama 9,1,7F,Food & Beverage
-HUAWEI,Central Rama 9,1,BF,Technology
-HUSH PUPPIES,Central Rama 9,1,2F,Fashion
-HUSH PUPPIES,Central Rama 9,1,3F,Fashion
-HUSH PUPPIES,Central Rama 9,1,GF,Fashion
-I STUDIO,Central Rama 9,1,4F,Technology
-ILY-I LIVE YOUNG,Central Rama 9,1,BF,Fashion
-INNISFREE,Central Rama 9,1,1F,Beauty & Wellness
+HUAWEI,Central Rama 9,1,BF,Technology & ElectronicsHUSH PUPPIES,Central Rama 9,1,2F,Fashion & ApparelHUSH PUPPIES,Central Rama 9,1,3F,Fashion & ApparelHUSH PUPPIES,Central Rama 9,1,GF,Fashion & ApparelI STUDIO,Central Rama 9,1,4F,Technology & ElectronicsILY-I LIVE YOUNG,Central Rama 9,1,BF,Fashion & ApparelINNISFREE,Central Rama 9,1,1F,Beauty & Wellness
 IPPUDO,Central Rama 9,1,BF,Food & Beverage
-J.I.B.,Central Rama 9,1,4F,Technology
-JANE DEER DESSERT,Central Rama 9,1,6F,Food & Beverage
-JASPAL,Central Rama 9,1,1F,Fashion
-JAYMART,Central Rama 9,1,BF,Technology
-JELLY BUNNY,Central Rama 9,1,1F,Fashion
-JIAN CHA TEA,Central Rama 9,1,5F,Food & Beverage
+J.I.B.,Central Rama 9,1,4F,Technology & ElectronicsJANE DEER DESSERT,Central Rama 9,1,6F,Food & Beverage
+JASPAL,Central Rama 9,1,1F,Fashion & ApparelJAYMART,Central Rama 9,1,BF,Technology & ElectronicsJELLY BUNNY,Central Rama 9,1,1F,Fashion & ApparelJIAN CHA TEA,Central Rama 9,1,5F,Food & Beverage
 JONES SALAD,Central Rama 9,1,BF,Food & Beverage
 JOYLIDAY PLUS,Central Rama 9,1,7F,Entertainment
-JUBILEE DIAMOND,Central Rama 9,1,1F,Fashion
-JUBILEE DIAMOND,Central Rama 9,1,2F,Fashion
-KA-NOM,Central Rama 9,1,BF,Food & Beverage
+JUBILEE DIAMOND,Central Rama 9,1,1F,Fashion & ApparelJUBILEE DIAMOND,Central Rama 9,1,2F,Fashion & ApparelKA-NOM,Central Rama 9,1,BF,Food & Beverage
 KABOCHA SUSHI,Central Rama 9,1,BF,Food & Beverage
 KAGONOYA,Central Rama 9,1,7F,Food & Beverage
 KARADA,Central Rama 9,1,5F,Beauty & Wellness
 KARAMENYA MASUMOTO,Central Rama 9,1,7F,Food & Beverage
 KASIKORN BANK,Central Rama 9,1,5F,Bank & Financial Services
 KFC,Central Rama 9,1,6F,Food & Beverage
-KHUNPOOM,Central Rama 9,1,BF,Fashion
-KIANI,Central Rama 9,1,6F,Food & Beverage
-KING'S COLLEGE,Central Rama 9,1,11F,Education
-KIPLING,Central Rama 9,1,2F,Fashion
-KMD,Central Rama 9,1,BF,Fashion
-KOI THE,Central Rama 9,1,GF,Food & Beverage
+KHUNPOOM,Central Rama 9,1,BF,Fashion & ApparelKIANI,Central Rama 9,1,6F,Food & Beverage
+KING'S COLLEGE,Central Rama 9,1,11F,Services & EducationKIPLING,Central Rama 9,1,2F,Fashion & ApparelKMD,Central Rama 9,1,BF,Fashion & ApparelKOI THE,Central Rama 9,1,GF,Food & Beverage
 KOOMI,Central Rama 9,1,BF,Food & Beverage
-KPN MUSIC ACADEMY,Central Rama 9,1,12F,Education
-KRISPY KREME,Central Rama 9,1,1F,Food & Beverage
+KPN MUSIC ACADEMY,Central Rama 9,1,12F,Services & EducationKRISPY KREME,Central Rama 9,1,1F,Food & Beverage
 KRUNG THAI BANK,Central Rama 9,1,5F,Bank & Financial Services
 KRUNGSRI,Central Rama 9,1,5F,Bank & Financial Services
 KRUNGSRI FIRST CHOICE,Central Rama 9,1,5F,Bank & Financial Services
@@ -215,55 +143,29 @@ KYO ROLL EN,Central Rama 9,1,7F,Food & Beverage
 L'OCCITANE,Central Rama 9,1,1F,Beauty & Wellness
 LA MEAW,Central Rama 9,1,BF,Food & Beverage
 LABX,Central Rama 9,1,5F,Beauty & Wellness
-LACOSTE,Central Rama 9,1,1F,Fashion
-LACOSTE,Central Rama 9,1,2F,Fashion
-LACOSTE,Central Rama 9,1,3F,Fashion
-LACOSTE,Central Rama 9,1,BF,Fashion
-LAEM CHAROEN SEAFOOD,Central Rama 9,1,7F,Food & Beverage
+LACOSTE,Central Rama 9,1,1F,Fashion & ApparelLACOSTE,Central Rama 9,1,2F,Fashion & ApparelLACOSTE,Central Rama 9,1,3F,Fashion & ApparelLACOSTE,Central Rama 9,1,BF,Fashion & ApparelLAEM CHAROEN SEAFOOD,Central Rama 9,1,7F,Food & Beverage
 LALIL,Central Rama 9,1,2F,Beauty & Wellness
 LALIZA CLINIC,Central Rama 9,1,9F,Beauty & Wellness
 LAND AND HOUSE BANK,Central Rama 9,1,5F,Bank & Financial Services
-LENS & TIME,Central Rama 9,1,4F,Fashion
-LEVI'S,Central Rama 9,1,GF,Fashion
-LIKE DENTAL CLINIC,Central Rama 9,1,5F,Beauty & Wellness
-LIVERPOOL,Central Rama 9,1,GF,Fashion
-LYN,Central Rama 9,1,2F,Fashion
-LYN AROUND,Central Rama 9,1,1F,Fashion
-MAKALIN CLINIC,Central Rama 9,1,10F,Beauty & Wellness
+LENS & TIME,Central Rama 9,1,4F,Fashion & ApparelLEVI'S,Central Rama 9,1,GF,Fashion & ApparelLIKE DENTAL CLINIC,Central Rama 9,1,5F,Beauty & Wellness
+LIVERPOOL,Central Rama 9,1,GF,Fashion & ApparelLYN,Central Rama 9,1,2F,Fashion & ApparelLYN AROUND,Central Rama 9,1,1F,Fashion & ApparelMAKALIN CLINIC,Central Rama 9,1,10F,Beauty & Wellness
 MAKOTO,Central Rama 9,1,7F,Lifestyle & Specialty
-MAMIL,Central Rama 9,1,BF,Fashion
-MARKS & SPENCER,Central Rama 9,1,1F,Fashion
-MARKS & SPENCER,Central Rama 9,1,3F,Fashion
-MATH TALENT BY DR. YING,Central Rama 9,1,11F,Education
-MATSUMOTO KIYOSHI,Central Rama 9,1,BF,Beauty & Wellness
+MAMIL,Central Rama 9,1,BF,Fashion & ApparelMARKS & SPENCER,Central Rama 9,1,1F,Fashion & ApparelMARKS & SPENCER,Central Rama 9,1,3F,Fashion & ApparelMATH TALENT BY DR. YING,Central Rama 9,1,11F,Services & EducationMATSUMOTO KIYOSHI,Central Rama 9,1,BF,Beauty & Wellness
 MC DONALD'S,Central Rama 9,1,7F,Food & Beverage
-MC JEANS,Central Rama 9,1,BF,Fashion
-MEGA NAILS SPA,Central Rama 9,1,5F,Beauty & Wellness
+MC JEANS,Central Rama 9,1,BF,Fashion & ApparelMEGA NAILS SPA,Central Rama 9,1,5F,Beauty & Wellness
 MINISO,Central Rama 9,1,4F,Lifestyle & Specialty
 MIRABEL SKIN CLINIC,Central Rama 9,1,10F,Beauty & Wellness
 MISTER DONUT,Central Rama 9,1,BF,Food & Beverage
 MK RESTAURANT,Central Rama 9,1,6F,Food & Beverage
 MO-MO-PARADISE,Central Rama 9,1,7F,Food & Beverage
-MODOLO KIDS,Central Rama 9,1,12F,Education
-MODULO,Central Rama 9,1,12F,Education
-MOLTO,Central Rama 9,1,BF,Food & Beverage
+MODOLO KIDS,Central Rama 9,1,12F,Services & EducationMODULO,Central Rama 9,1,12F,Services & EducationMOLTO,Central Rama 9,1,BF,Food & Beverage
 MOM'S TOUCH,Central Rama 9,1,BF,Food & Beverage
 MOS BURGER,Central Rama 9,1,BF,Food & Beverage
 MOSHI MOSHI,Central Rama 9,1,3F,Lifestyle & Specialty
-MOTTA X MONTIPA,Central Rama 9,1,BF,Fashion
-MR. SHAKE,Central Rama 9,1,BF,Food & Beverage
+MOTTA X MONTIPA,Central Rama 9,1,BF,Fashion & ApparelMR. SHAKE,Central Rama 9,1,BF,Food & Beverage
 MR.BIG PILLOW,Central Rama 9,1,5F,Lifestyle & Specialty
 MUJI,Central Rama 9,1,GF,Lifestyle & Specialty
-NARAYA,Central Rama 9,1,1F,Fashion
-NATURE,Central Rama 9,1,GF,Fashion
-NAUTICA,Central Rama 9,1,GF,Fashion
-NEW BALANCE,Central Rama 9,1,4F,Fashion
-NEW BALANCE,Central Rama 9,1,BF,Fashion
-NEW BALANCE,Central Rama 9,1,GF,Fashion
-NIKE,Central Rama 9,1,4F,Fashion
-NIKE,Central Rama 9,1,BF,Fashion
-NIYOM JEANS,Central Rama 9,1,BF,Fashion
-NOSE TEA,Central Rama 9,1,6F,Food & Beverage
+NARAYA,Central Rama 9,1,1F,Fashion & ApparelNATURE,Central Rama 9,1,GF,Fashion & ApparelNAUTICA,Central Rama 9,1,GF,Fashion & ApparelNEW BALANCE,Central Rama 9,1,4F,Fashion & ApparelNEW BALANCE,Central Rama 9,1,BF,Fashion & ApparelNEW BALANCE,Central Rama 9,1,GF,Fashion & ApparelNIKE,Central Rama 9,1,4F,Fashion & ApparelNIKE,Central Rama 9,1,BF,Fashion & ApparelNIYOM JEANS,Central Rama 9,1,BF,Fashion & ApparelNOSE TEA,Central Rama 9,1,6F,Food & Beverage
 OAK BERRY,Central Rama 9,1,6F,Food & Beverage
 OFFICEMATE,Central Rama 9,1,BF,Lifestyle & Specialty
 OH RICH THAILAND,Central Rama 9,1,5F,Bank & Financial Services
@@ -271,30 +173,16 @@ OISHI EATERIUM,Central Rama 9,1,7F,Food & Beverage
 OLINO CREPE & TEA,Central Rama 9,1,BF,Food & Beverage
 ON THE TABLE,Central Rama 9,1,6F,Food & Beverage
 OOTOYA,Central Rama 9,1,6F,Food & Beverage
-OPPO,Central Rama 9,1,BF,Technology
-OPTIC SQUARE,Central Rama 9,1,4F,Fashion
-OPTICAL 88,Central Rama 9,1,3F,Fashion
-ORIENTAL PRINCESS,Central Rama 9,1,2F,Beauty & Wellness
+OPPO,Central Rama 9,1,BF,Technology & ElectronicsOPTIC SQUARE,Central Rama 9,1,4F,Fashion & ApparelOPTICAL 88,Central Rama 9,1,3F,Fashion & ApparelORIENTAL PRINCESS,Central Rama 9,1,2F,Beauty & Wellness
 OSIM,Central Rama 9,1,4F,Lifestyle & Specialty
 OSIM,Central Rama 9,1,5F,Lifestyle & Specialty
 PACAMARA,Central Rama 9,1,2F,Food & Beverage
-PANDORA,Central Rama 9,1,1F,Fashion
-PAOPA,Central Rama 9,1,BF,Fashion
-PEPPER LUNCH,Central Rama 9,1,6F,Food & Beverage
-PHATARAMANEE,Central Rama 9,1,2F,Fashion
-PLAYBOY,Central Rama 9,1,2F,Fashion
-PLAYBOY,Central Rama 9,1,3F,Fashion
-POMELO,Central Rama 9,1,1F,Fashion
-POTATO CORNER,Central Rama 9,1,BF,Food & Beverage
-POWER BUY,Central Rama 9,1,4F,Technology
-PRO CLEAN,Central Rama 9,1,BF,Lifestyle & Specialty
-PRONTO,Central Rama 9,1,GF,Fashion
-PULL & BEAR,Central Rama 9,1,1F,Fashion
-QQ DESSERT,Central Rama 9,1,BF,Food & Beverage
-QUINN,Central Rama 9,1,1F,Fashion
-RAJDHEVEE CLINIC,Central Rama 9,1,9F,Beauty & Wellness
-REGENT DIAMOND,Central Rama 9,1,2F,Fashion
-RELAX TIME,Central Rama 9,1,5F,Beauty & Wellness
+PANDORA,Central Rama 9,1,1F,Fashion & ApparelPAOPA,Central Rama 9,1,BF,Fashion & ApparelPEPPER LUNCH,Central Rama 9,1,6F,Food & Beverage
+PHATARAMANEE,Central Rama 9,1,2F,Fashion & ApparelPLAYBOY,Central Rama 9,1,2F,Fashion & ApparelPLAYBOY,Central Rama 9,1,3F,Fashion & ApparelPOMELO,Central Rama 9,1,1F,Fashion & ApparelPOTATO CORNER,Central Rama 9,1,BF,Food & Beverage
+POWER BUY,Central Rama 9,1,4F,Technology & ElectronicsPRO CLEAN,Central Rama 9,1,BF,Lifestyle & Specialty
+PRONTO,Central Rama 9,1,GF,Fashion & ApparelPULL & BEAR,Central Rama 9,1,1F,Fashion & ApparelQQ DESSERT,Central Rama 9,1,BF,Food & Beverage
+QUINN,Central Rama 9,1,1F,Fashion & ApparelRAJDHEVEE CLINIC,Central Rama 9,1,9F,Beauty & Wellness
+REGENT DIAMOND,Central Rama 9,1,2F,Fashion & ApparelRELAX TIME,Central Rama 9,1,5F,Beauty & Wellness
 RELAX TIME,Central Rama 9,1,9F,Beauty & Wellness
 REUN ROM,Central Rama 9,1,BF,Beauty & Wellness
 RIVERSIDE MALA,Central Rama 9,1,6F,Food & Beverage
@@ -304,92 +192,60 @@ ROBINSON DEPARTMENT STORE,Central Rama 9,1,3F,Lifestyle & Specialty
 ROBINSON DEPARTMENT STORE,Central Rama 9,1,4F,Lifestyle & Specialty
 ROBINSON DEPARTMENT STORE,Central Rama 9,1,5F,Lifestyle & Specialty
 ROBINSON DEPARTMENT STORE,Central Rama 9,1,GF,Lifestyle & Specialty
-ROLEX AT NAMSAWANG,Central Rama 9,1,1F,Fashion
-ROMRAWIN CLINIC,Central Rama 9,1,5F,Beauty & Wellness
-ROSE JEWELRY STUDIO,Central Rama 9,1,2F,Fashion
-ROYAL IVY REGATTA,Central Rama 9,1,2F,Fashion
-S&P,Central Rama 9,1,6F,Food & Beverage
-SABINA,Central Rama 9,1,3F,Fashion
-SABINA,Central Rama 9,1,4F,Fashion
-SABOTEN,Central Rama 9,1,7F,Food & Beverage
+ROLEX AT NAMSAWANG,Central Rama 9,1,1F,Fashion & ApparelROMRAWIN CLINIC,Central Rama 9,1,5F,Beauty & Wellness
+ROSE JEWELRY STUDIO,Central Rama 9,1,2F,Fashion & ApparelROYAL IVY REGATTA,Central Rama 9,1,2F,Fashion & ApparelS&P,Central Rama 9,1,6F,Food & Beverage
+SABINA,Central Rama 9,1,3F,Fashion & ApparelSABINA,Central Rama 9,1,4F,Fashion & ApparelSABOTEN,Central Rama 9,1,7F,Food & Beverage
 SAEMAEUL,Central Rama 9,1,6F,Food & Beverage
 SAINT ETOILE BY YAMAZAKI,Central Rama 9,1,BF,Food & Beverage
-SAMSONITE,Central Rama 9,1,3F,Fashion
-SAMSUNG SERVICE,Central Rama 9,1,4F,Technology
-SANYOD WOK,Central Rama 9,1,BF,Food & Beverage
+SAMSONITE,Central Rama 9,1,3F,Fashion & ApparelSAMSUNG SERVICE,Central Rama 9,1,4F,Technology & ElectronicsSANYOD WOK,Central Rama 9,1,BF,Food & Beverage
 SATO DON,Central Rama 9,1,7F,Food & Beverage
 SE-ED,Central Rama 9,1,5F,Lifestyle & Specialty
-SEIKO,Central Rama 9,1,1F,Fashion
-SF CINEMA,Central Rama 9,1,7F,Entertainment
+SEIKO,Central Rama 9,1,1F,Fashion & ApparelSF CINEMA,Central Rama 9,1,7F,Entertainment
 SHABUSHI,Central Rama 9,1,6F,Food & Beverage
-SHANE ENGLISH SCHOOL,Central Rama 9,1,12F,Education
-SHU UEMURA,Central Rama 9,1,2F,Fashion
-SIAM COMMERCIAL BANK,Central Rama 9,1,5F,Bank & Financial Services
+SHANE ENGLISH SCHOOL,Central Rama 9,1,12F,Services & EducationSHU UEMURA,Central Rama 9,1,2F,Fashion & ApparelSIAM COMMERCIAL BANK,Central Rama 9,1,5F,Bank & Financial Services
 SIAM LASER CLINIC,Central Rama 9,1,9F,Beauty & Wellness
-SIAM RAMA III MUSIC SCHOOL,Central Rama 9,1,11F,Education
-SIZZLER,Central Rama 9,1,6F,Food & Beverage
+SIAM RAMA III MUSIC SCHOOL,Central Rama 9,1,11F,Services & EducationSIZZLER,Central Rama 9,1,6F,Food & Beverage
 SKD CLINIC,Central Rama 9,1,8F,Beauty & Wellness
-SKECHERS,Central Rama 9,1,4F,Fashion
-SKECHERS,Central Rama 9,1,BF,Fashion
-SKECHERS,Central Rama 9,1,GF,Fashion
-SMILEYHOUND,Central Rama 9,1,3F,Fashion
-SOMJAI,Central Rama 9,1,4F,Lifestyle & Specialty
+SKECHERS,Central Rama 9,1,4F,Fashion & ApparelSKECHERS,Central Rama 9,1,BF,Fashion & ApparelSKECHERS,Central Rama 9,1,GF,Fashion & ApparelSMILEYHOUND,Central Rama 9,1,3F,Fashion & ApparelSOMJAI,Central Rama 9,1,4F,Lifestyle & Specialty
 SOUND CHECK KARAOKE,Central Rama 9,1,7F,Entertainment
 SPAGHETTI FACTORY,Central Rama 9,1,6F,Food & Beverage
 STARBUCKS COFFEE,Central Rama 9,1,1F,Food & Beverage
 STARBUCKS COFFEE,Central Rama 9,1,5F,Food & Beverage
 STRACK YUM,Central Rama 9,1,BF,Food & Beverage
-STYLE BALA SHOP,Central Rama 9,1,BF,Fashion
-SUKISHI BUFFET,Central Rama 9,1,6F,Food & Beverage
-SUPER SPORTS,Central Rama 9,1,3F,Fashion
-SUSHIRO,Central Rama 9,1,6F,Food & Beverage
-SWAROVSKI,Central Rama 9,1,1F,Fashion
-SWEET BORA,Central Rama 9,1,7F,Food & Beverage
+STYLE BALA SHOP,Central Rama 9,1,BF,Fashion & ApparelSUKISHI BUFFET,Central Rama 9,1,6F,Food & Beverage
+SUPER SPORTS,Central Rama 9,1,3F,Fashion & ApparelSUSHIRO,Central Rama 9,1,6F,Food & Beverage
+SWAROVSKI,Central Rama 9,1,1F,Fashion & ApparelSWEET BORA,Central Rama 9,1,7F,Food & Beverage
 SWENSEN'S,Central Rama 9,1,6F,Food & Beverage
 T2C CURRENCY EXCHANGE,Central Rama 9,1,5F,Bank & Financial Services
 TBC CLINIC,Central Rama 9,1,8F,Beauty & Wellness
 TENJO,Central Rama 9,1,7F,Food & Beverage
 TENYA,Central Rama 9,1,6F,Food & Beverage
-TEVA,Central Rama 9,1,BF,Fashion
-TG FONE,Central Rama 9,1,BF,Technology
-THA SIAM,Central Rama 9,1,7F,Food & Beverage
+TEVA,Central Rama 9,1,BF,Fashion & ApparelTG FONE,Central Rama 9,1,BF,Technology & ElectronicsTHA SIAM,Central Rama 9,1,7F,Food & Beverage
 THE BIBIMBAB,Central Rama 9,1,BF,Food & Beverage
 THE BODY SHOP,Central Rama 9,1,2F,Beauty & Wellness
 THE FACE SHOP,Central Rama 9,1,3F,Beauty & Wellness
 THE KLINIQUE,Central Rama 9,1,8F,Beauty & Wellness
-THE NORTH FACE,Central Rama 9,1,3F,Fashion
-TO B 1 HAIR STATION,Central Rama 9,1,5F,Beauty & Wellness
+THE NORTH FACE,Central Rama 9,1,3F,Fashion & ApparelTO B 1 HAIR STATION,Central Rama 9,1,5F,Beauty & Wellness
 TONKATSU WAKO,Central Rama 9,1,6F,Food & Beverage
 TOPS,Central Rama 9,1,3F,Beauty & Wellness
 TOPS DAILY,Central Rama 9,1,1F,Lifestyle & Specialty
 TOPS MARKET,Central Rama 9,1,BF,Lifestyle & Specialty
-TORSLIP,Central Rama 9,1,11F,Education
-TPARTNER,Central Rama 9,1,BF,Fashion
-TRUE,Central Rama 9,1,4F,Technology
-TRUE,Central Rama 9,1,BF,Technology
-TTB BANK,Central Rama 9,1,5F,Bank & Financial Services
+TORSLIP,Central Rama 9,1,11F,Services & EducationTPARTNER,Central Rama 9,1,BF,Fashion & ApparelTRUE,Central Rama 9,1,4F,Technology & ElectronicsTRUE,Central Rama 9,1,BF,Technology & ElectronicsTTB BANK,Central Rama 9,1,5F,Bank & Financial Services
 U CARE,Central Rama 9,1,BF,Beauty & Wellness
 UMAY PLUS,Central Rama 9,1,5F,Bank & Financial Services
-UNIQLO,Central Rama 9,1,GF,Fashion
-UNITED OVERSEAS BANK,Central Rama 9,1,5F,Bank & Financial Services
+UNIQLO,Central Rama 9,1,GF,Fashion & ApparelUNITED OVERSEAS BANK,Central Rama 9,1,5F,Bank & Financial Services
 UOB XPRESS,Central Rama 9,1,5F,Bank & Financial Services
 VALDUS CLINIC,Central Rama 9,1,8F,Beauty & Wellness
 VICTORIA SECRET BEAUTY,Central Rama 9,1,1F,Beauty & Wellness
-VIVO,Central Rama 9,1,4F,Technology
-WAGASHI,Central Rama 9,1,7F,Food & Beverage
+VIVO,Central Rama 9,1,4F,Technology & ElectronicsWAGASHI,Central Rama 9,1,7F,Food & Beverage
 WATSONS,Central Rama 9,1,3F,Beauty & Wellness
 WHITE STORY,Central Rama 9,1,6F,Food & Beverage
-WITH IT PREMIUM,Central Rama 9,1,BF,Fashion
-WORLDWIDE EDUCATION,Central Rama 9,1,11F,Education
-WUAGYU,Central Rama 9,1,BF,Food & Beverage
+WITH IT PREMIUM,Central Rama 9,1,BF,Fashion & ApparelWORLDWIDE EDUCATION,Central Rama 9,1,11F,Services & EducationWUAGYU,Central Rama 9,1,BF,Food & Beverage
 YAKINIKU LIKE,Central Rama 9,1,7F,Food & Beverage
 YAYOI,Central Rama 9,1,6F,Food & Beverage
-YUEDPAO,Central Rama 9,1,BF,Fashion
-YVES ROCHER,Central Rama 9,1,2F,Beauty & Wellness
+YUEDPAO,Central Rama 9,1,BF,Fashion & ApparelYVES ROCHER,Central Rama 9,1,2F,Beauty & Wellness
 ZEN JAPANESE RESTAURANT,Central Rama 9,1,6F,Food & Beverage
 ZHANG LIANG,Central Rama 9,1,7F,Food & Beverage
 ธนาคารไทยเครดิต,Central Rama 9,1,5F,Bank & Financial Services
 ธนาคารไทยเครดิต เพื่อรายย่อย,Central Rama 9,1,5F,Bank & Financial Services
-เซ่งเฮง,Central Rama 9,1,2F,Fashion
-โรงเรียนสอนภาษาจงไทยทอง,Central Rama 9,1,12F,Education
-โอ้กะจู๋,Central Rama 9,1,7F,Food & Beverage
+เซ่งเฮง,Central Rama 9,1,2F,Fashion & Apparelโรงเรียนสอนภาษาจงไทยทอง,Central Rama 9,1,12F,Services & Educationโอ้กะจู๋,Central Rama 9,1,7F,Food & Beverage

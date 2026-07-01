@@ -1,76 +1,76 @@
-Source,Target,Weight,Floor,Category
-71 EXPORT,Central Chiangrai,1,2F,Fashion
-ADIDAS,Central Chiangrai,1,1F,Fashion
-ADVICE,Central Chiangrai,1,GF,Technology
+﻿Source,Target,Weight,Floor,Category
+71 EXPORT,Central Chiangrai,1,2F,Fashion & Apparel
+ADIDAS,Central Chiangrai,1,1F,Fashion & Apparel
+ADVICE,Central Chiangrai,1,GF,Technology & Electronics
 AEON,Central Chiangrai,1,2F,Bank & Financial Services
-AIIZ,Central Chiangrai,1,1F,Fashion
-AIS,Central Chiangrai,1,GF,Technology
-AIS,Central Chiangrai,1,1F,Technology
-ANELLO,Central Chiangrai,1,1F,Fashion
+AIIZ,Central Chiangrai,1,1F,Fashion & Apparel
+AIS,Central Chiangrai,1,GF,Technology & Electronics
+AIS,Central Chiangrai,1,1F,Technology & Electronics
+ANELLO,Central Chiangrai,1,1F,Fashion & Apparel
 AUNTIE ANNE'S,Central Chiangrai,1,1F,Food & Beverage
-AURORA,Central Chiangrai,1,1F,Fashion
+AURORA,Central Chiangrai,1,1F,Fashion & Apparel
 AUTO1,Central Chiangrai,1,GF,Lifestyle & Specialty
 B2S,Central Chiangrai,1,2F,Lifestyle & Specialty
-IT BANANA,Central Chiangrai,1,1F,Technology
-IT BANANA,Central Chiangrai,1,GF,Technology
+IT BANANA,Central Chiangrai,1,1F,Technology & Electronics
+IT BANANA,Central Chiangrai,1,GF,Technology & Electronics
 BANGKOK BANK,Central Chiangrai,1,2F,Bank & Financial Services
-BANGKOK GOLD,Central Chiangrai,1,1F,Fashion
+BANGKOK GOLD,Central Chiangrai,1,1F,Fashion & Apparel
 BANGKOK INSURANCE,Central Chiangrai,1,2F,Bank & Financial Services
 BANK OF AYUDHYA,Central Chiangrai,1,2F,Bank & Financial Services
 BAR-B-Q PLAZA,Central Chiangrai,1,2F,Food & Beverage
-BATA,Central Chiangrai,1,2F,Fashion
-BEBE PHONE,Central Chiangrai,1,1F,Technology
+BATA,Central Chiangrai,1,2F,Fashion & Apparel
+BEBE PHONE,Central Chiangrai,1,1F,Technology & Electronics
 BEERPARK,Central Chiangrai,1,2F,Food & Beverage
-BETTER VISION,Central Chiangrai,1,1F,Fashion
-BIG CAMERA,Central Chiangrai,1,GF,Technology
+BETTER VISION,Central Chiangrai,1,1F,Fashion & Apparel
+BIG CAMERA,Central Chiangrai,1,GF,Technology & Electronics
 BLACK CANYON COFFEE,Central Chiangrai,1,1F,Food & Beverage
-BLISS STONE,Central Chiangrai,1,2F,Fashion
+BLISS STONE,Central Chiangrai,1,2F,Fashion & Apparel
 BONCHON,Central Chiangrai,1,2F,Food & Beverage
 BOOTS,Central Chiangrai,1,2F,Beauty & Wellness
 CAFE AMAZON,Central Chiangrai,1,2F,Food & Beverage
 CAFECHAODOY,Central Chiangrai,1,2F,Food & Beverage
-CC-OO,Central Chiangrai,1,1F,Fashion
-CHARLES & KEITH,Central Chiangrai,1,1F,Fashion
+CC-OO,Central Chiangrai,1,1F,Fashion & Apparel
+CHARLES & KEITH,Central Chiangrai,1,1F,Fashion & Apparel
 CHATRAMUE,Central Chiangrai,1,2F,Food & Beverage
 CHOB CHA,Central Chiangrai,1,GF,Food & Beverage
-CPS CHAPS,Central Chiangrai,1,1F,Fashion
-CROCS,Central Chiangrai,1,1F,Fashion
+CPS CHAPS,Central Chiangrai,1,1F,Fashion & Apparel
+CROCS,Central Chiangrai,1,1F,Fashion & Apparel
 CUTE PRESS,Central Chiangrai,1,1F,Beauty & Wellness
 DAIDOMON,Central Chiangrai,1,2F,Food & Beverage
 DAIRY QUEEN,Central Chiangrai,1,2F,Food & Beverage
 DAIRY QUEEN,Central Chiangrai,1,GF,Food & Beverage
 DAISO,Central Chiangrai,1,2F,Lifestyle & Specialty
-DILAVIE,Central Chiangrai,1,1F,Fashion
-DTAC,Central Chiangrai,1,1F,Technology
-EXPORT SHOP,Central Chiangrai,1,2F,Fashion
-EYE CLASS,Central Chiangrai,1,2F,Fashion
-EYE LAB EXCLUSIVE,Central Chiangrai,1,1F,Fashion
+DILAVIE,Central Chiangrai,1,1F,Fashion & Apparel
+DTAC,Central Chiangrai,1,1F,Technology & Electronics
+EXPORT SHOP,Central Chiangrai,1,2F,Fashion & Apparel
+EYE CLASS,Central Chiangrai,1,2F,Fashion & Apparel
+EYE LAB EXCLUSIVE,Central Chiangrai,1,1F,Fashion & Apparel
 FOOD PARK,Central Chiangrai,1,2F,Food & Beverage
 FRESH ME,Central Chiangrai,1,2F,Food & Beverage
 FUJI,Central Chiangrai,1,2F,Food & Beverage
 FUKU MATCHA,Central Chiangrai,1,GF,Food & Beverage
 FUN CITY,Central Chiangrai,1,3F,Entertainment
-GIORDANO,Central Chiangrai,1,1F,Fashion
+GIORDANO,Central Chiangrai,1,1F,Fashion & Apparel
 GOVERNMENT HOUSING BANK,Central Chiangrai,1,2F,Bank & Financial Services
 GOVERNMENT SAVINGS BANK,Central Chiangrai,1,2F,Bank & Financial Services
-GRAZIOSA DIAMOND,Central Chiangrai,1,1F,Fashion
-GUY LAROCHE,Central Chiangrai,1,1F,Fashion
+GRAZIOSA DIAMOND,Central Chiangrai,1,1F,Fashion & Apparel
+GUY LAROCHE,Central Chiangrai,1,1F,Fashion & Apparel
 HACHIBAN RAMEN,Central Chiangrai,1,1F,Food & Beverage
-HIGH SCHOOL,Central Chiangrai,1,GF,Fashion
-HUANLAMAI NAN SILVER,Central Chiangrai,1,GF,Fashion
-HUG MOBILE,Central Chiangrai,1,1F,Technology
-HUG TECH,Central Chiangrai,1,1F,Technology
-I BEAT,Central Chiangrai,1,1F,Technology
-I CENTER,Central Chiangrai,1,1F,Technology
+HIGH SCHOOL,Central Chiangrai,1,GF,Fashion & Apparel
+HUANLAMAI NAN SILVER,Central Chiangrai,1,GF,Fashion & Apparel
+HUG MOBILE,Central Chiangrai,1,1F,Technology & Electronics
+HUG TECH,Central Chiangrai,1,1F,Technology & Electronics
+I BEAT,Central Chiangrai,1,1F,Technology & Electronics
+I CENTER,Central Chiangrai,1,1F,Technology & Electronics
 IM AROI KAPRAO THAD,Central Chiangrai,1,2F,Food & Beverage
 IMDEE KAOMUNKAI,Central Chiangrai,1,2F,Food & Beverage
-IT CITY,Central Chiangrai,1,GF,Technology
-IT MOBILE,Central Chiangrai,1,1F,Technology
-IT MOBILE & SERVICE,Central Chiangrai,1,1F,Technology
-JASPAL,Central Chiangrai,1,1F,Fashion
-JAYMART,Central Chiangrai,1,1F,Technology
-JIB,Central Chiangrai,1,GF,Technology
-JUBILEE DIAMOND,Central Chiangrai,1,1F,Fashion
+IT CITY,Central Chiangrai,1,GF,Technology & Electronics
+IT MOBILE,Central Chiangrai,1,1F,Technology & Electronics
+IT MOBILE & SERVICE,Central Chiangrai,1,1F,Technology & Electronics
+JASPAL,Central Chiangrai,1,1F,Fashion & Apparel
+JAYMART,Central Chiangrai,1,1F,Technology & Electronics
+JIB,Central Chiangrai,1,GF,Technology & Electronics
+JUBILEE DIAMOND,Central Chiangrai,1,1F,Fashion & Apparel
 KAOMUDAENGMUKROB,Central Chiangrai,1,2F,Food & Beverage
 KASIKORN BANK,Central Chiangrai,1,2F,Bank & Financial Services
 KFC,Central Chiangrai,1,1F,Food & Beverage
@@ -81,18 +81,18 @@ KRUNG THAI BANK,Central Chiangrai,1,2F,Bank & Financial Services
 KUAITIAORUENAIPHOL,Central Chiangrai,1,2F,Food & Beverage
 KUAYTIEWPLAKUNJUM,Central Chiangrai,1,2F,Food & Beverage
 LEENA,Central Chiangrai,1,2F,Food & Beverage
-LYN,Central Chiangrai,1,1F,Fashion
-LYN AROUND,Central Chiangrai,1,1F,Fashion
-MAEWANG SUESARN,Central Chiangrai,1,1F,Technology
+LYN,Central Chiangrai,1,1F,Fashion & Apparel
+LYN AROUND,Central Chiangrai,1,1F,Fashion & Apparel
+MAEWANG SUESARN,Central Chiangrai,1,1F,Technology & Electronics
 MAJOR CINEPLEX,Central Chiangrai,1,3F,Entertainment
-MAMA BABY,Central Chiangrai,1,2F,Fashion
+MAMA BABY,Central Chiangrai,1,2F,Fashion & Apparel
 MC DONALD'S,Central Chiangrai,1,1F,Food & Beverage
-MC JEANS,Central Chiangrai,1,1F,Fashion
+MC JEANS,Central Chiangrai,1,1F,Fashion & Apparel
 MINISO,Central Chiangrai,1,GF,Lifestyle & Specialty
-MISS SIS,Central Chiangrai,1,2F,Fashion
+MISS SIS,Central Chiangrai,1,2F,Fashion & Apparel
 MISTER DONUT,Central Chiangrai,1,1F,Food & Beverage
 MK RESTAURANT,Central Chiangrai,1,2F,Food & Beverage
-MOBILE SHOP CENTER,Central Chiangrai,1,1F,Technology
+MOBILE SHOP CENTER,Central Chiangrai,1,1F,Technology & Electronics
 MOSHI MOSHI,Central Chiangrai,1,GF,Lifestyle & Specialty
 MR. DIY,Central Chiangrai,1,GF,Lifestyle & Specialty
 MUANG NUAE,Central Chiangrai,1,GF,Food & Beverage
@@ -101,24 +101,24 @@ NAIL LOVER VIP,Central Chiangrai,1,GF,Beauty & Wellness
 NITIPON CLINIC,Central Chiangrai,1,2F,Beauty & Wellness
 NONGSAHAROS,Central Chiangrai,1,2F,Food & Beverage
 OFFICEMATE,Central Chiangrai,1,1F,Lifestyle & Specialty
-ORIENTAL JEWELRY & GOLD,Central Chiangrai,1,1F,Fashion
+ORIENTAL JEWELRY & GOLD,Central Chiangrai,1,1F,Fashion & Apparel
 ORIENTAL PRINCESS,Central Chiangrai,1,1F,Beauty & Wellness
-OWNDAYS,Central Chiangrai,1,1F,Fashion
-P PHONE,Central Chiangrai,1,1F,Technology
+OWNDAYS,Central Chiangrai,1,1F,Fashion & Apparel
+P PHONE,Central Chiangrai,1,1F,Technology & Electronics
 P&F,Central Chiangrai,1,GF,Beauty & Wellness
-P.A. PHONE,Central Chiangrai,1,1F,Technology
+P.A. PHONE,Central Chiangrai,1,1F,Technology & Electronics
 PADTHAI HOYTODMAEKHRUEWAN,Central Chiangrai,1,2F,Food & Beverage
-PETCH PRADUP PLOY 1995,Central Chiangrai,1,1F,Fashion
+PETCH PRADUP PLOY 1995,Central Chiangrai,1,1F,Fashion & Apparel
 PHARMACARE PLUS,Central Chiangrai,1,GF,Beauty & Wellness
 PHUNGNOI BAKERY,Central Chiangrai,1,GF,Food & Beverage
 PIM @ POST,Central Chiangrai,1,GF,Lifestyle & Specialty
 POLI-CHEM,Central Chiangrai,1,GF,Lifestyle & Specialty
 POTATO CORNER,Central Chiangrai,1,2F,Food & Beverage
-POWER BUY,Central Chiangrai,1,1F,Technology
-PRADAP,Central Chiangrai,1,1F,Fashion
-PREM,Central Chiangrai,1,1F,Fashion
+POWER BUY,Central Chiangrai,1,1F,Technology & Electronics
+PRADAP,Central Chiangrai,1,1F,Fashion & Apparel
+PREM,Central Chiangrai,1,1F,Fashion & Apparel
 PROVINCIAL ELECTRICITY AUTHORITY,Central Chiangrai,1,2F,Bank & Financial Services
-PUMA,Central Chiangrai,1,1F,Fashion
+PUMA,Central Chiangrai,1,1F,Fashion & Apparel
 RADNAHJERAT,Central Chiangrai,1,2F,Food & Beverage
 ROBINSON DEPARTMENT STORE,Central Chiangrai,1,1F,Lifestyle & Specialty
 ROBINSON DEPARTMENT STORE,Central Chiangrai,1,2F,Lifestyle & Specialty
@@ -128,36 +128,36 @@ SE-ED,Central Chiangrai,1,2F,Lifestyle & Specialty
 SHABUSHI,Central Chiangrai,1,1F,Food & Beverage
 SIAM COMMERCIAL BANK,Central Chiangrai,1,2F,Bank & Financial Services
 SIZZLER,Central Chiangrai,1,2F,Food & Beverage
-SKECHERS,Central Chiangrai,1,1F,Fashion
+SKECHERS,Central Chiangrai,1,1F,Fashion & Apparel
 SOMTAMKAIYANGKHAOSUANKWANG,Central Chiangrai,1,2F,Food & Beverage
 STARBUCKS COFFEE,Central Chiangrai,1,1F,Food & Beverage
 SUKISHI KOREAN CHARCOAL GRILL,Central Chiangrai,1,2F,Food & Beverage
-SUPER SPORTS,Central Chiangrai,1,1F,Fashion
+SUPER SPORTS,Central Chiangrai,1,1F,Fashion & Apparel
 SUSHI RICHA,Central Chiangrai,1,GF,Food & Beverage
 SWENSEN'S,Central Chiangrai,1,2F,Food & Beverage
 TALIA,Central Chiangrai,1,1F,Beauty & Wellness
-TAYWIN ORIGINAL STYLE,Central Chiangrai,1,1F,Fashion
-TECHNOCOM,Central Chiangrai,1,1F,Technology
-TECHNOCOM,Central Chiangrai,1,GF,Technology
+TAYWIN ORIGINAL STYLE,Central Chiangrai,1,1F,Fashion & Apparel
+TECHNOCOM,Central Chiangrai,1,1F,Technology & Electronics
+TECHNOCOM,Central Chiangrai,1,GF,Technology & Electronics
 TG EXPRESS,Central Chiangrai,1,2F,Lifestyle & Specialty
-TG FONE,Central Chiangrai,1,1F,Technology
+TG FONE,Central Chiangrai,1,1F,Technology & Electronics
 THE FACE SHOP,Central Chiangrai,1,1F,Beauty & Wellness
 THE PIZZA COMPANY,Central Chiangrai,1,1F,Food & Beverage
 THE VIRIYAH INSURANCE,Central Chiangrai,1,2F,Bank & Financial Services
-THONG YAOWARAJ,Central Chiangrai,1,1F,Fashion
+THONG YAOWARAJ,Central Chiangrai,1,1F,Fashion & Apparel
 TMB THANACHART BANK,Central Chiangrai,1,2F,Bank & Financial Services
 TO B 1 HAIR STATION,Central Chiangrai,1,2F,Beauty & Wellness
 TOPS MARKET,Central Chiangrai,1,GF,Lifestyle & Specialty
-TOT,Central Chiangrai,1,1F,Technology
-TRUE,Central Chiangrai,1,GF,Technology
+TOT,Central Chiangrai,1,1F,Technology & Electronics
+TRUE,Central Chiangrai,1,GF,Technology & Electronics
 TUMRUBTHAI,Central Chiangrai,1,GF,Beauty & Wellness
-UNIQLO,Central Chiangrai,1,1F,Fashion
+UNIQLO,Central Chiangrai,1,1F,Fashion & Apparel
 WAGASHI,Central Chiangrai,1,2F,Food & Beverage
 WATSONS,Central Chiangrai,1,2F,Beauty & Wellness
 WATTS,Central Chiangrai,1,2F,Lifestyle & Specialty
 YAMAZAKI,Central Chiangrai,1,GF,Food & Beverage
-YAOWARAJ SINTHAWEE GOLD,Central Chiangrai,1,1F,Fashion
+YAOWARAJ SINTHAWEE GOLD,Central Chiangrai,1,1F,Fashion & Apparel
 YAYOI,Central Chiangrai,1,2F,Food & Beverage
-YES I AM,Central Chiangrai,1,1F,Technology
+YES I AM,Central Chiangrai,1,1F,Technology & Electronics
 YVES ROCHER,Central Chiangrai,1,1F,Beauty & Wellness
 พระเครื่องเชียงราย,Central Chiangrai,1,GF,Lifestyle & Specialty

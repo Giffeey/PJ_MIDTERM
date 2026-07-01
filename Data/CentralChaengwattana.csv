@@ -1,39 +1,39 @@
-Source,Target,Weight,Floor,Category
+﻿Source,Target,Weight,Floor,Category
 100 DEGREES,Central Chaengwattana,1,GF,Food & Beverage
-2ND STREET,Central Chaengwattana,1,2F,Fashion
-ADIDAS,Central Chaengwattana,1,2F,Fashion
-AIS,Central Chaengwattana,1,4F,Technology
+2ND STREET,Central Chaengwattana,1,2F,Fashion & Apparel
+ADIDAS,Central Chaengwattana,1,2F,Fashion & Apparel
+AIS,Central Chaengwattana,1,4F,Technology & Electronics
 AKA,Central Chaengwattana,1,5F,Food & Beverage
-ALL PHONE,Central Chaengwattana,1,4F,Technology
+ALL PHONE,Central Chaengwattana,1,4F,Technology & Electronics
 AMOR,Central Chaengwattana,1,5F,Food & Beverage
-AONG-SA MOBILE,Central Chaengwattana,1,4F,Technology
+AONG-SA MOBILE,Central Chaengwattana,1,4F,Technology & Electronics
 APEX,Central Chaengwattana,1,3F,Beauty & Wellness
 ASIA BOOKS,Central Chaengwattana,1,3F,Lifestyle & Specialty
 ATEGGJAEWTORJAN,Central Chaengwattana,1,6F,Food & Beverage
 AUNTIE ANNE'S,Central Chaengwattana,1,2F,Food & Beverage
-AURORA,Central Chaengwattana,1,1F,Fashion
+AURORA,Central Chaengwattana,1,1F,Fashion & Apparel
 B2S,Central Chaengwattana,1,5F,Lifestyle & Specialty
 BAKE A WISH,Central Chaengwattana,1,GF,Food & Beverage
 BAN PAI MY PRINTING,Central Chaengwattana,1,5F,Lifestyle & Specialty
-IT BANANA,Central Chaengwattana,1,4F,Technology
-BANANA SOLAR,Central Chaengwattana,1,4F,Technology
+IT BANANA,Central Chaengwattana,1,4F,Technology & Electronics
+BANANA SOLAR,Central Chaengwattana,1,4F,Technology & Electronics
 BANGKOK BANK,Central Chaengwattana,1,4F,Bank & Financial Services
-BANGKOK TIME CENTER,Central Chaengwattana,1,3F,Fashion
+BANGKOK TIME CENTER,Central Chaengwattana,1,3F,Fashion & Apparel
 BANK OF AYUDHYA,Central Chaengwattana,1,4F,Bank & Financial Services
 BAR-B-Q PLAZA,Central Chaengwattana,1,5F,Food & Beverage
-BATA,Central Chaengwattana,1,1F,Fashion
-BB PHONE,Central Chaengwattana,1,4F,Technology
-BB SERVICES,Central Chaengwattana,1,4F,Technology
+BATA,Central Chaengwattana,1,1F,Fashion & Apparel
+BB PHONE,Central Chaengwattana,1,4F,Technology & Electronics
+BB SERVICES,Central Chaengwattana,1,4F,Technology & Electronics
 BEAUTRIUM,Central Chaengwattana,1,2F,Beauty & Wellness
-BETTER VISION,Central Chaengwattana,1,2F,Fashion
-BIG CAMERA,Central Chaengwattana,1,4F,Technology
+BETTER VISION,Central Chaengwattana,1,2F,Fashion & Apparel
+BIG CAMERA,Central Chaengwattana,1,4F,Technology & Electronics
 BIG MAC DIGITAL PRINTING,Central Chaengwattana,1,4F,Lifestyle & Specialty
 BLOSSOM NAILS,Central Chaengwattana,1,3F,Beauty & Wellness
 BONCHON,Central Chaengwattana,1,6F,Food & Beverage
 BOOST JUICE BAR,Central Chaengwattana,1,GF,Food & Beverage
 BOOTS,Central Chaengwattana,1,3F,Beauty & Wellness
 BOUNCE INC.,Central Chaengwattana,1,7F,Entertainment
-BRAIN SCHOOL,Central Chaengwattana,1,7F,Education
+BRAIN SCHOOL,Central Chaengwattana,1,7F,Services & Education
 CAFE AMAZON,Central Chaengwattana,1,2F,Food & Beverage
 CENTRAL DEPARTMENT STORE,Central Chaengwattana,1,2F,Lifestyle & Specialty
 CENTRAL DEPARTMENT STORE,Central Chaengwattana,1,6F,Lifestyle & Specialty
@@ -45,69 +45,69 @@ CHAENG WATTANA THE GOVERNMENT CENTER,Central Chaengwattana,1,3F,Lifestyle & Spec
 CHALEESTEAK,Central Chaengwattana,1,6F,Food & Beverage
 CHATRAMUE,Central Chaengwattana,1,GF,Food & Beverage
 CHER CLINIC,Central Chaengwattana,1,6F,Beauty & Wellness
-CHILLI CHIC,Central Chaengwattana,1,2F,Fashion
-CHOI'S TAEKWONDO,Central Chaengwattana,1,7F,Education
-CLICKROBOT,Central Chaengwattana,1,7F,Education
+CHILLI CHIC,Central Chaengwattana,1,2F,Fashion & Apparel
+CHOI'S TAEKWONDO,Central Chaengwattana,1,7F,Services & Education
+CLICKROBOT,Central Chaengwattana,1,7F,Services & Education
 COLD STONE CREAMERY,Central Chaengwattana,1,1F,Food & Beverage
-COMMA &ND,Central Chaengwattana,1,1F,Fashion
+COMMA &ND,Central Chaengwattana,1,1F,Fashion & Apparel
 COWAY,Central Chaengwattana,1,2F,Lifestyle & Specialty
-CRAFT CODE ROBOTIC,Central Chaengwattana,1,7F,Education
-CROCS,Central Chaengwattana,1,1F,Fashion
-CRUZY THAILAND,Central Chaengwattana,1,2F,Fashion
-CURIOO KIDS,Central Chaengwattana,1,7F,Education
+CRAFT CODE ROBOTIC,Central Chaengwattana,1,7F,Services & Education
+CROCS,Central Chaengwattana,1,1F,Fashion & Apparel
+CRUZY THAILAND,Central Chaengwattana,1,2F,Fashion & Apparel
+CURIOO KIDS,Central Chaengwattana,1,7F,Services & Education
 DAIRY QUEEN,Central Chaengwattana,1,3F,Food & Beverage
 DAISO,Central Chaengwattana,1,3F,Lifestyle & Specialty
-DANCE PLUS,Central Chaengwattana,1,7F,Education
-DTAC,Central Chaengwattana,1,4F,Technology
+DANCE PLUS,Central Chaengwattana,1,7F,Services & Education
+DTAC,Central Chaengwattana,1,4F,Technology & Electronics
 EAT AM ARE,Central Chaengwattana,1,GF,Food & Beverage
-EYE CLASS,Central Chaengwattana,1,3F,Fashion
-EYE LEVEL,Central Chaengwattana,1,7F,Education
+EYE CLASS,Central Chaengwattana,1,3F,Fashion & Apparel
+EYE LEVEL,Central Chaengwattana,1,7F,Services & Education
 FITNESS FIRST,Central Chaengwattana,1,6F,Lifestyle & Specialty
 FIX & WASH,Central Chaengwattana,1,2F,Lifestyle & Specialty
 FOOD PATIO,Central Chaengwattana,1,6F,Food & Beverage
 FOOD PATIO,Central Chaengwattana,1,GF,Food & Beverage
-FOTO FILE,Central Chaengwattana,1,4F,Technology
-FRESH MOBILE,Central Chaengwattana,1,4F,Technology
+FOTO FILE,Central Chaengwattana,1,4F,Technology & Electronics
+FRESH MOBILE,Central Chaengwattana,1,4F,Technology & Electronics
 FUJI,Central Chaengwattana,1,5F,Food & Beverage
 FUKU MATCHA,Central Chaengwattana,1,GF,Food & Beverage
-FULL FILM,Central Chaengwattana,1,4F,Technology
+FULL FILM,Central Chaengwattana,1,4F,Technology & Electronics
 FURLISH COMMON ROOM,Central Chaengwattana,1,5F,Lifestyle & Specialty
 FURLISH COMMON ROOM,Central Chaengwattana,1,6F,Lifestyle & Specialty
-G2000,Central Chaengwattana,1,1F,Fashion
+G2000,Central Chaengwattana,1,1F,Fashion & Apparel
 GANGNAM CLINIC,Central Chaengwattana,1,3F,Beauty & Wellness
 GEAIHOMUY,Central Chaengwattana,1,6F,Food & Beverage
 GIFTSHOP AND POPTOY,Central Chaengwattana,1,4F,Lifestyle & Specialty
-GIORDANO,Central Chaengwattana,1,2F,Fashion
+GIORDANO,Central Chaengwattana,1,2F,Fashion & Apparel
 GOVERNMENT SAVINGS BANK,Central Chaengwattana,1,4F,Bank & Financial Services
 GUAY DTIEOW NEUA DTUN,Central Chaengwattana,1,6F,Food & Beverage
-H&M,Central Chaengwattana,1,1F,Fashion
-H&M,Central Chaengwattana,1,2F,Fashion
+H&M,Central Chaengwattana,1,1F,Fashion & Apparel
+H&M,Central Chaengwattana,1,2F,Fashion & Apparel
 HAAGEN-DAZS,Central Chaengwattana,1,3F,Food & Beverage
 HACHIBAN RAMEN,Central Chaengwattana,1,5F,Food & Beverage
 HAINHAN,Central Chaengwattana,1,GF,Food & Beverage
 HAIR @ NAIL,Central Chaengwattana,1,3F,Beauty & Wellness
 HAIR D' CRAFT,Central Chaengwattana,1,3F,Beauty & Wellness
 HAIR GANIC,Central Chaengwattana,1,GF,Beauty & Wellness
-HAPPY HOME ACADEMY,Central Chaengwattana,1,7F,Education
+HAPPY HOME ACADEMY,Central Chaengwattana,1,7F,Services & Education
 HAPPY PIG,Central Chaengwattana,1,GF,Food & Beverage
 HITORI SHABU,Central Chaengwattana,1,1F,Food & Beverage
 HONAJI RAMEN,Central Chaengwattana,1,GF,Food & Beverage
 HUA SENG HONG,Central Chaengwattana,1,6F,Food & Beverage
-I CAN READ,Central Chaengwattana,1,7F,Education
-I CONNECT,Central Chaengwattana,1,4F,Technology
-I GENIUS,Central Chaengwattana,1,4F,Technology
-I SMART,Central Chaengwattana,1,4F,Technology
-INLINGUA,Central Chaengwattana,1,7F,Education
-ISTUDIO,Central Chaengwattana,1,2F,Technology
-IT ALL FILM,Central Chaengwattana,1,4F,Technology
-IT CITY,Central Chaengwattana,1,4F,Technology
-JASPAL,Central Chaengwattana,1,1F,Fashion
-JAYMART,Central Chaengwattana,1,4F,Technology
-JIB,Central Chaengwattana,1,4F,Technology
+I CAN READ,Central Chaengwattana,1,7F,Services & Education
+I CONNECT,Central Chaengwattana,1,4F,Technology & Electronics
+I GENIUS,Central Chaengwattana,1,4F,Technology & Electronics
+I SMART,Central Chaengwattana,1,4F,Technology & Electronics
+INLINGUA,Central Chaengwattana,1,7F,Services & Education
+ISTUDIO,Central Chaengwattana,1,2F,Technology & Electronics
+IT ALL FILM,Central Chaengwattana,1,4F,Technology & Electronics
+IT CITY,Central Chaengwattana,1,4F,Technology & Electronics
+JASPAL,Central Chaengwattana,1,1F,Fashion & Apparel
+JAYMART,Central Chaengwattana,1,4F,Technology & Electronics
+JIB,Central Chaengwattana,1,4F,Technology & Electronics
 JISON CLINIC,Central Chaengwattana,1,3F,Beauty & Wellness
 JONES SALAD,Central Chaengwattana,1,6F,Food & Beverage
 JOYLIDAY,Central Chaengwattana,1,7F,Entertainment
-K.J.MOBILE,Central Chaengwattana,1,4F,Technology
+K.J.MOBILE,Central Chaengwattana,1,4F,Technology & Electronics
 KA PHOW THAD,Central Chaengwattana,1,6F,Food & Beverage
 KANNIKAR MASSAGE,Central Chaengwattana,1,6F,Beauty & Wellness
 KANNIKAR MASSAGE,Central Chaengwattana,1,6F,Beauty & Wellness
@@ -122,7 +122,7 @@ KHAOKHAIJEAWSONGKHRUEANG,Central Chaengwattana,1,6F,Food & Beverage
 KHAOKHAMUSAMOSORN,Central Chaengwattana,1,6F,Food & Beverage
 KHIANG,Central Chaengwattana,1,6F,Food & Beverage
 KIEW KAI KA,Central Chaengwattana,1,1F,Food & Beverage
-KIPLING,Central Chaengwattana,1,2F,Fashion
+KIPLING,Central Chaengwattana,1,2F,Fashion & Apparel
 KLEENS,Central Chaengwattana,1,6F,Food & Beverage
 KOFUKU,Central Chaengwattana,1,6F,Food & Beverage
 KOI THE,Central Chaengwattana,1,1F,Food & Beverage
@@ -133,24 +133,24 @@ KRUNGSRI FIRST CHOICE,Central Chaengwattana,1,4F,Bank & Financial Services
 KUATIEW SUKHOTHAI NAI HIN,Central Chaengwattana,1,6F,Food & Beverage
 KUAYJUBSAMTOOM,Central Chaengwattana,1,6F,Food & Beverage
 KUAYTEAWRERVOYVAY,Central Chaengwattana,1,6F,Food & Beverage
-KUMO CREATIVE STUDIO BY CLAY WORK,Central Chaengwattana,1,7F,Education
+KUMO CREATIVE STUDIO BY CLAY WORK,Central Chaengwattana,1,7F,Services & Education
 KUMPOON,Central Chaengwattana,1,1F,Food & Beverage
 KYO ROLL EN,Central Chaengwattana,1,5F,Food & Beverage
 LA GRÂCE CLINIC,Central Chaengwattana,1,3F,Beauty & Wellness
 LABX,Central Chaengwattana,1,3F,Beauty & Wellness
-LACOSTE,Central Chaengwattana,1,1F,Fashion
+LACOSTE,Central Chaengwattana,1,1F,Fashion & Apparel
 LAEM CHAROEN SEAFOOD,Central Chaengwattana,1,6F,Food & Beverage
 LAO YUAN,Central Chaengwattana,1,5F,Food & Beverage
 LAOYUANBYTUMMUA,Central Chaengwattana,1,6F,Food & Beverage
-LENS & TIME,Central Chaengwattana,1,3F,Fashion
-LENSKART,Central Chaengwattana,1,GF,Fashion
+LENS & TIME,Central Chaengwattana,1,3F,Fashion & Apparel
+LENSKART,Central Chaengwattana,1,GF,Fashion & Apparel
 LER CLAIRE CLINIC,Central Chaengwattana,1,3F,Beauty & Wellness
-LIVIA BY MONTIP,Central Chaengwattana,1,2F,Fashion
-LUCKY,Central Chaengwattana,1,4F,Technology
+LIVIA BY MONTIP,Central Chaengwattana,1,2F,Fashion & Apparel
+LUCKY,Central Chaengwattana,1,4F,Technology & Electronics
 MAESRIRUEN,Central Chaengwattana,1,5F,Food & Beverage
-MAMA ACCESSORIES,Central Chaengwattana,1,4F,Technology
-MAMA SERVICE,Central Chaengwattana,1,4F,Technology
-MATH TALENT BY DR. YING,Central Chaengwattana,1,7F,Education
+MAMA ACCESSORIES,Central Chaengwattana,1,4F,Technology & Electronics
+MAMA SERVICE,Central Chaengwattana,1,4F,Technology & Electronics
+MATH TALENT BY DR. YING,Central Chaengwattana,1,7F,Services & Education
 MFC ASSET MANAGEMENT PUBLIC COMPANY LIMITED,Central Chaengwattana,1,4F,Bank & Financial Services
 MIDNIGHTGAITON,Central Chaengwattana,1,6F,Food & Beverage
 MIKI MIKI,Central Chaengwattana,1,3F,Lifestyle & Specialty
@@ -159,45 +159,45 @@ MK RESTAURANT,Central Chaengwattana,1,5F,Food & Beverage
 MO-MO-PARADISE,Central Chaengwattana,1,6F,Food & Beverage
 MODERN AIR,Central Chaengwattana,1,3F,Lifestyle & Specialty
 MOLTO,Central Chaengwattana,1,GF,Food & Beverage
-MONOTONE,Central Chaengwattana,1,2F,Fashion
-MONTIPA,Central Chaengwattana,1,1F,Fashion
+MONOTONE,Central Chaengwattana,1,2F,Fashion & Apparel
+MONTIPA,Central Chaengwattana,1,1F,Fashion & Apparel
 MOSHI MOSHI,Central Chaengwattana,1,3F,Lifestyle & Specialty
-MOTTA,Central Chaengwattana,1,2F,Fashion
+MOTTA,Central Chaengwattana,1,2F,Fashion & Apparel
 MOYU MEAW,Central Chaengwattana,1,GF,Food & Beverage
 MR. SHAKE,Central Chaengwattana,1,GF,Food & Beverage
 MR. DIY,Central Chaengwattana,1,GF,Lifestyle & Specialty
 MR.SURE,Central Chaengwattana,1,3F,Lifestyle & Specialty
-MTS GOLD แม่ทองสุก,Central Chaengwattana,1,1F,Fashion
+MTS GOLD แม่ทองสุก,Central Chaengwattana,1,1F,Fashion & Apparel
 MUJI,Central Chaengwattana,1,2F,Lifestyle & Specialty
 MUSIC STANDARD,Central Chaengwattana,1,4F,Lifestyle & Specialty
-MY WAY,Central Chaengwattana,1,4F,Technology
-N.G. MOBILE,Central Chaengwattana,1,4F,Technology
-NANA PHONE,Central Chaengwattana,1,4F,Technology
+MY WAY,Central Chaengwattana,1,4F,Technology & Electronics
+N.G. MOBILE,Central Chaengwattana,1,4F,Technology & Electronics
+NANA PHONE,Central Chaengwattana,1,4F,Technology & Electronics
 NEO SUKI,Central Chaengwattana,1,6F,Food & Beverage
-NEPP STUDIO BY โกดังผ้า,Central Chaengwattana,1,1F,Fashion
+NEPP STUDIO BY โกดังผ้า,Central Chaengwattana,1,1F,Fashion & Apparel
 NITIPON CLINIC,Central Chaengwattana,1,3F,Beauty & Wellness
 NOBICHA,Central Chaengwattana,1,7F,Food & Beverage
 NOODLEGARDEN,Central Chaengwattana,1,GF,Food & Beverage
 NOSE TEA,Central Chaengwattana,1,1F,Food & Beverage
 NXN TECHNOLOGY,Central Chaengwattana,1,6F,Lifestyle & Specialty
 ODC DENTAL CLINIC,Central Chaengwattana,1,3F,Beauty & Wellness
-OLDMAN,Central Chaengwattana,1,2F,Fashion
+OLDMAN,Central Chaengwattana,1,2F,Fashion & Apparel
 OLINO CREPE & TEA,Central Chaengwattana,1,GF,Food & Beverage
 ONE TO TWO,Central Chaengwattana,1,GF,Food & Beverage
-ONGSA MOBILE,Central Chaengwattana,1,4F,Technology
+ONGSA MOBILE,Central Chaengwattana,1,4F,Technology & Electronics
 OOTOYA,Central Chaengwattana,1,5F,Food & Beverage
-OPPO,Central Chaengwattana,1,4F,Technology
-OPTIC SQUARE,Central Chaengwattana,1,3F,Fashion
+OPPO,Central Chaengwattana,1,4F,Technology & Electronics
+OPTIC SQUARE,Central Chaengwattana,1,3F,Fashion & Apparel
 ORIENTAL PRINCESS,Central Chaengwattana,1,1F,Beauty & Wellness
 PADTHAICHAOWANGTAWANDA,Central Chaengwattana,1,6F,Food & Beverage
 PADTHAIHOYTODSIAMUMPAVA,Central Chaengwattana,1,GF,Food & Beverage
-PAINT N PLAY,Central Chaengwattana,1,7F,Education
+PAINT N PLAY,Central Chaengwattana,1,7F,Services & Education
 PANG SIAM,Central Chaengwattana,1,GF,Food & Beverage
 PEPPER LUNCH,Central Chaengwattana,1,GF,Food & Beverage
-POP UP ENGLISH SCHOOL,Central Chaengwattana,1,7F,Education
+POP UP ENGLISH SCHOOL,Central Chaengwattana,1,7F,Services & Education
 PORNKASEM CLINIC,Central Chaengwattana,1,3F,Beauty & Wellness
 POTATO CORNER,Central Chaengwattana,1,GF,Food & Beverage
-POWER BUY,Central Chaengwattana,1,6F,Technology
+POWER BUY,Central Chaengwattana,1,6F,Technology & Electronics
 PRINT ONE,Central Chaengwattana,1,5F,Lifestyle & Specialty
 QQ DESSERT,Central Chaengwattana,1,6F,Food & Beverage
 QQ DESSERT,Central Chaengwattana,1,6F,Food & Beverage
@@ -207,78 +207,78 @@ RARDNANAIKIENG,Central Chaengwattana,1,6F,Food & Beverage
 RE-IT,Central Chaengwattana,1,1F,Lifestyle & Specialty
 ROMRAWIN CLINIC,Central Chaengwattana,1,3F,Beauty & Wellness
 S&P,Central Chaengwattana,1,5F,Food & Beverage
-SAMSUNG,Central Chaengwattana,1,4F,Technology
+SAMSUNG,Central Chaengwattana,1,4F,Technology & Electronics
 SANTA FE' STEAK,Central Chaengwattana,1,5F,Food & Beverage
 SAVE DRUG,Central Chaengwattana,1,GF,Beauty & Wellness
 SCOOZI PIZZA,Central Chaengwattana,1,5F,Food & Beverage
 SE-ED,Central Chaengwattana,1,3F,Lifestyle & Specialty
 SEECHA,Central Chaengwattana,1,GF,Beauty & Wellness
 SEFARKHANOMJEEN,Central Chaengwattana,1,GF,Food & Beverage
-SENDAI,Central Chaengwattana,1,1F,Fashion
-SERVICE PHONE,Central Chaengwattana,1,4F,Technology
-SF BRAND NAME,Central Chaengwattana,1,1F,Fashion
+SENDAI,Central Chaengwattana,1,1F,Fashion & Apparel
+SERVICE PHONE,Central Chaengwattana,1,4F,Technology & Electronics
+SF BRAND NAME,Central Chaengwattana,1,1F,Fashion & Apparel
 SFX CINEMA CENTRAL CHAENGWATTANA,Central Chaengwattana,1,7F,Entertainment
 SHABUSHI,Central Chaengwattana,1,6F,Food & Beverage
 SHUYI,Central Chaengwattana,1,GF,Food & Beverage
 SIAM COMMERCIAL BANK,Central Chaengwattana,1,4F,Bank & Financial Services
-SIAM GOLD MAETHONGSUK,Central Chaengwattana,1,1F,Fashion
+SIAM GOLD MAETHONGSUK,Central Chaengwattana,1,1F,Fashion & Apparel
 SIZZLER,Central Chaengwattana,1,5F,Food & Beverage
-SKECHERS,Central Chaengwattana,1,1F,Fashion
+SKECHERS,Central Chaengwattana,1,1F,Fashion & Apparel
 SKS,Central Chaengwattana,1,2F,Lifestyle & Specialty
 SKYLUCK,Central Chaengwattana,1,6F,Food & Beverage
 SLC CLINIC,Central Chaengwattana,1,3F,Beauty & Wellness
 SLIM UP CENTER,Central Chaengwattana,1,3F,Beauty & Wellness
 SMILE SEASONS DENTAL CLINIC,Central Chaengwattana,1,3F,Beauty & Wellness
-SOLO PHONE,Central Chaengwattana,1,4F,Technology
+SOLO PHONE,Central Chaengwattana,1,4F,Technology & Electronics
 SOM TUM RIM NAM MOON,Central Chaengwattana,1,6F,Food & Beverage
 SOUND CHECK KARAOKE,Central Chaengwattana,1,7F,Entertainment
 SOURI,Central Chaengwattana,1,1F,Food & Beverage
-STAR MAKER,Central Chaengwattana,1,7F,Education
+STAR MAKER,Central Chaengwattana,1,7F,Services & Education
 STARBUCKS COFFEE,Central Chaengwattana,1,1F,Food & Beverage
-SUCHAT PHONE,Central Chaengwattana,1,4F,Technology
-SUIT SELECT,Central Chaengwattana,1,2F,Fashion
+SUCHAT PHONE,Central Chaengwattana,1,4F,Technology & Electronics
+SUIT SELECT,Central Chaengwattana,1,2F,Fashion & Apparel
 SUKIYA,Central Chaengwattana,1,GF,Food & Beverage
-SUPER SPORTS,Central Chaengwattana,1,4F,Fashion
+SUPER SPORTS,Central Chaengwattana,1,4F,Fashion & Apparel
 SUSHI,Central Chaengwattana,1,6F,Food & Beverage
 SUSHI EXPRESS,Central Chaengwattana,1,6F,Food & Beverage
 SUSHIRO,Central Chaengwattana,1,1F,Food & Beverage
 SWENSEN'S,Central Chaengwattana,1,6F,Food & Beverage
-TAYWIN,Central Chaengwattana,1,2F,Fashion
-TG FONE,Central Chaengwattana,1,4F,Technology
-THAT'S MANDARIN,Central Chaengwattana,1,7F,Education
-THE BEST,Central Chaengwattana,1,4F,Technology
+TAYWIN,Central Chaengwattana,1,2F,Fashion & Apparel
+TG FONE,Central Chaengwattana,1,4F,Technology & Electronics
+THAT'S MANDARIN,Central Chaengwattana,1,7F,Services & Education
+THE BEST,Central Chaengwattana,1,4F,Technology & Electronics
 THE KLINIQUE,Central Chaengwattana,1,3F,Beauty & Wellness
 TISCO BANK,Central Chaengwattana,1,4F,Bank & Financial Services
 TO B 1 HAIR STATION,Central Chaengwattana,1,3F,Beauty & Wellness
 TOM LURD MOO ROT DET,Central Chaengwattana,1,6F,Food & Beverage
 TOPS,Central Chaengwattana,1,GF,Lifestyle & Specialty
-TRUE,Central Chaengwattana,1,4F,Technology
+TRUE,Central Chaengwattana,1,4F,Technology & Electronics
 TTB,Central Chaengwattana,1,4F,Bank & Financial Services
 UMAY PLUS,Central Chaengwattana,1,4F,Bank & Financial Services
-UNIQLO,Central Chaengwattana,1,2F,Fashion
+UNIQLO,Central Chaengwattana,1,2F,Fashion & Apparel
 UOB XPRESS,Central Chaengwattana,1,4F,Bank & Financial Services
 URANUS CLINIC,Central Chaengwattana,1,3F,Beauty & Wellness
 V SQUARE CLINIC,Central Chaengwattana,1,3F,Beauty & Wellness
 V2LAND,Central Chaengwattana,1,3F,Lifestyle & Specialty
 VELA CLINIC,Central Chaengwattana,1,3F,Beauty & Wellness
 VIORA,Central Chaengwattana,1,3F,Beauty & Wellness
-VOCALIZE,Central Chaengwattana,1,7F,Education
+VOCALIZE,Central Chaengwattana,1,7F,Services & Education
 WAKASHI,Central Chaengwattana,1,6F,Lifestyle & Specialty
 WARAPORN SALAPAO,Central Chaengwattana,1,GF,Food & Beverage
 WATSONS,Central Chaengwattana,1,3F,Beauty & Wellness
 WAXCORNER,Central Chaengwattana,1,2F,Beauty & Wellness
 WHITE STORY,Central Chaengwattana,1,GF,Food & Beverage
-XIAOMI,Central Chaengwattana,1,4F,Technology
+XIAOMI,Central Chaengwattana,1,4F,Technology & Electronics
 YAAK SHOP,Central Chaengwattana,1,3F,Lifestyle & Specialty
-YAMAHA MUSIC SCHOOL,Central Chaengwattana,1,7F,Education
+YAMAHA MUSIC SCHOOL,Central Chaengwattana,1,7F,Services & Education
 YAMAZAKI,Central Chaengwattana,1,GF,Food & Beverage
 YAYOI,Central Chaengwattana,1,6F,Food & Beverage
 YEN TA FOUR NAI LERT,Central Chaengwattana,1,6F,Food & Beverage
-YING MOBILE,Central Chaengwattana,1,4F,Technology
-YO MOBILE,Central Chaengwattana,1,4F,Technology
+YING MOBILE,Central Chaengwattana,1,4F,Technology & Electronics
+YO MOBILE,Central Chaengwattana,1,4F,Technology & Electronics
 YOGURUTO,Central Chaengwattana,1,GF,Food & Beverage
 YOLE,Central Chaengwattana,1,1F,Food & Beverage
-YOUANDME BY SINGTO,Central Chaengwattana,1,2F,Fashion
+YOUANDME BY SINGTO,Central Chaengwattana,1,2F,Fashion & Apparel
 YOUR FACE,Central Chaengwattana,1,6F,Beauty & Wellness
 YUMEYA,Central Chaengwattana,1,GF,Lifestyle & Specialty
 ZEN,Central Chaengwattana,1,5F,Food & Beverage
@@ -286,7 +286,7 @@ ZHANG LIANG,Central Chaengwattana,1,GF,Food & Beverage
 ก๋วยเตี๋ยวเรือกลางกรุง,Central Chaengwattana,1,GF,Food & Beverage
 นวดรื่นฤดี,Central Chaengwattana,1,GF,Beauty & Wellness
 สถาบันรับรองและตรวจสอบวัตถุมงคลประเทศไทย,Central Chaengwattana,1,1F,Lifestyle & Specialty
-ห้างทองหวังโต๊ะกังเยาวราช,Central Chaengwattana,1,1F,Fashion
-ห้างทองเยาวราชกรุงเทพ,Central Chaengwattana,1,1F,Fashion
-เซ่งเฮง,Central Chaengwattana,1,1F,Fashion
+ห้างทองหวังโต๊ะกังเยาวราช,Central Chaengwattana,1,1F,Fashion & Apparel
+ห้างทองเยาวราชกรุงเทพ,Central Chaengwattana,1,1F,Fashion & Apparel
+เซ่งเฮง,Central Chaengwattana,1,1F,Fashion & Apparel
 ไม้ด่าง,Central Chaengwattana,1,1F,Lifestyle & Specialty

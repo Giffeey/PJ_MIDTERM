@@ -1,29 +1,29 @@
-Source,Target,Weight,Floor,Category
+﻿Source,Target,Weight,Floor,Category
 @ NAIL,Central Bangna,1,3F,Beauty & Wellness
-ADIDAS,Central Bangna,1,2F,Fashion
-AIS,Central Bangna,1,4F,Technology
+ADIDAS,Central Bangna,1,2F,Fashion & Apparel
+AIS,Central Bangna,1,4F,Technology & Electronics
 ALUMINIUM,Central Bangna,1,B1,Lifestyle & Specialty
 ANGLE HOUSE,Central Bangna,1,B2,Beauty & Wellness
 ASA SERVICE,Central Bangna,1,2F,Lifestyle & Specialty
 ASIA BOOKS,Central Bangna,1,3F,Lifestyle & Specialty
 AU BON PAIN,Central Bangna,1,2F,Food & Beverage
 AUNTIE ANNE'S,Central Bangna,1,2F,Food & Beverage
-AURORA,Central Bangna,1,3F,Fashion
+AURORA,Central Bangna,1,3F,Fashion & Apparel
 B2S,Central Bangna,1,5F,Lifestyle & Specialty
-IT BANANA,Central Bangna,1,4F,Technology
+IT BANANA,Central Bangna,1,4F,Technology & Electronics
 BANGKOK BANK,Central Bangna,1,4F,Bank & Financial Services
 BANGKOK BOLD,Central Bangna,1,5F,Food & Beverage
 BANK OF AYUDHYA,Central Bangna,1,4F,Bank & Financial Services
 BAR-B-Q PLAZA,Central Bangna,1,5F,Food & Beverage
-BATA,Central Bangna,1,2F,Fashion
-BETTER VISION,Central Bangna,1,3F,Fashion
+BATA,Central Bangna,1,2F,Fashion & Apparel
+BETTER VISION,Central Bangna,1,3F,Fashion & Apparel
 BLACK CANYON COFFEE,Central Bangna,1,5F,Food & Beverage
 BLANC EYELASH SALON TOKYO,Central Bangna,1,3F,Beauty & Wellness
 BONCHON,Central Bangna,1,5F,Food & Beverage
 BOOMERANG,Central Bangna,1,4F,Lifestyle & Specialty
 BOOTS,Central Bangna,1,3F,Beauty & Wellness
 CAFE AMAZON,Central Bangna,1,5F,Food & Beverage
-CATH KIDSTON,Central Bangna,1,1F,Fashion
+CATH KIDSTON,Central Bangna,1,1F,Fashion & Apparel
 CENTRAL DEPARTMENT STORE,Central Bangna,1,1F,Lifestyle & Specialty
 CENTRAL DEPARTMENT STORE,Central Bangna,1,2F,Lifestyle & Specialty
 CENTRAL DEPARTMENT STORE,Central Bangna,1,3F,Lifestyle & Specialty
@@ -31,7 +31,7 @@ CENTRAL DEPARTMENT STORE,Central Bangna,1,4F,Lifestyle & Specialty
 CENTRAL FOOD HALL,Central Bangna,1,B1,Lifestyle & Specialty
 CHUAN CHIM,Central Bangna,1,B1,Food & Beverage
 CIMB THAI BANK,Central Bangna,1,4F,Bank & Financial Services
-CITY CHAIN,Central Bangna,1,1F,Fashion
+CITY CHAIN,Central Bangna,1,1F,Fashion & Apparel
 COCO ICHIBANYA,Central Bangna,1,5F,Food & Beverage
 COLD STONE CREAMERY,Central Bangna,1,B1,Food & Beverage
 CUTE PRESS,Central Bangna,1,2F,Beauty & Wellness
@@ -39,10 +39,10 @@ DAENG KAN PAK,Central Bangna,1,B2,Lifestyle & Specialty
 DAIRY QUEEN,Central Bangna,1,B1,Food & Beverage
 DAISO,Central Bangna,1,5F,Lifestyle & Specialty
 DIAMOND SERVICE,Central Bangna,1,B2,Lifestyle & Specialty
-DOMINIC,Central Bangna,1,3F,Fashion
-DREAME,Central Bangna,1,4F,Technology
-EXPORT SHOP,Central Bangna,1,2F,Fashion
-EYE LAB EXCLUSIVE,Central Bangna,1,1F,Fashion
+DOMINIC,Central Bangna,1,3F,Fashion & Apparel
+DREAME,Central Bangna,1,4F,Technology & Electronics
+EXPORT SHOP,Central Bangna,1,2F,Fashion & Apparel
+EYE LAB EXCLUSIVE,Central Bangna,1,1F,Fashion & Apparel
 FANTACY SHOP,Central Bangna,1,B1,Lifestyle & Specialty
 FIRST TIME SERVICE,Central Bangna,1,B1,Lifestyle & Specialty
 FOCUS CITY,Central Bangna,1,3F,Lifestyle & Specialty
@@ -51,36 +51,36 @@ FUJI,Central Bangna,1,5F,Food & Beverage
 FUN CITY,Central Bangna,1,5F,Entertainment
 GNC,Central Bangna,1,2F,Beauty & Wellness
 GOVERNMENT SAVINGS BANK,Central Bangna,1,4F,Bank & Financial Services
-H&M,Central Bangna,1,1F,Fashion
-H&M,Central Bangna,1,2F,Fashion
+H&M,Central Bangna,1,1F,Fashion & Apparel
+H&M,Central Bangna,1,2F,Fashion & Apparel
 HACHIBAN RAMEN,Central Bangna,1,5F,Food & Beverage
 HAIR DÉCOR,Central Bangna,1,3F,Beauty & Wellness
-HANG THONG TONGSUKDEE,Central Bangna,1,3F,Fashion
-HUAWEI,Central Bangna,1,4F,Technology
+HANG THONG TONGSUKDEE,Central Bangna,1,3F,Fashion & Apparel
+HUAWEI,Central Bangna,1,4F,Technology & Electronics
 ISBN,Central Bangna,1,3F,Beauty & Wellness
-JAYMART,Central Bangna,1,4F,Technology
-JIB,Central Bangna,1,4F,Technology
-K. ACCESSORIES,Central Bangna,1,4F,Technology
+JAYMART,Central Bangna,1,4F,Technology & Electronics
+JIB,Central Bangna,1,4F,Technology & Electronics
+K. ACCESSORIES,Central Bangna,1,4F,Technology & Electronics
 KASIKORNBANK,Central Bangna,1,4F,Bank & Financial Services
 KATSUYA,Central Bangna,1,5F,Food & Beverage
 KFC,Central Bangna,1,B1,Food & Beverage
 KHIANG,Central Bangna,1,B1,Food & Beverage
-KIPLING,Central Bangna,1,2F,Fashion
+KIPLING,Central Bangna,1,2F,Fashion & Apparel
 KOI THE,Central Bangna,1,B1,Food & Beverage
 KONGKA FURNITURE,Central Bangna,1,4F,Lifestyle & Specialty
 KRISPY KREME,Central Bangna,1,1F,Food & Beverage
 KRUNG THAI BANK,Central Bangna,1,4F,Bank & Financial Services
 LAEM CHAROEN SEAFOOD,Central Bangna,1,5F,Food & Beverage
 LENG..YOKLOR,Central Bangna,1,B1,Food & Beverage
-MAE THONGBAI,Central Bangna,1,3F,Fashion
+MAE THONGBAI,Central Bangna,1,3F,Fashion & Apparel
 MAJOR CINEPLEX,Central Bangna,1,6F,Entertainment
 MALDIVES,Central Bangna,1,B2,Beauty & Wellness
-MANGO,Central Bangna,1,1F,Fashion
-MARIMEKKO,Central Bangna,1,1F,Fashion
+MANGO,Central Bangna,1,1F,Fashion & Apparel
+MARIMEKKO,Central Bangna,1,1F,Fashion & Apparel
 MC DONALD'S,Central Bangna,1,1F,Food & Beverage
 MK RESTAURANT,Central Bangna,1,5F,Food & Beverage
 MO-MO-PARADISE,Central Bangna,1,5F,Food & Beverage
-MODERN AIR,Central Bangna,1,4F,Technology
+MODERN AIR,Central Bangna,1,4F,Technology & Electronics
 MOMO LAND,Central Bangna,1,5F,Entertainment
 MOPLAY,Central Bangna,1,5F,Entertainment
 MR. BAG FIX,Central Bangna,1,1F,Lifestyle & Specialty
@@ -90,43 +90,43 @@ NEO CLINIC,Central Bangna,1,3F,Beauty & Wellness
 NITIPON CLINIC,Central Bangna,1,3F,Beauty & Wellness
 NOBICHA,Central Bangna,1,B1,Food & Beverage
 OOTOYA,Central Bangna,1,5F,Food & Beverage
-OPTIC SQUARE,Central Bangna,1,2F,Fashion
-OPTICAL 88,Central Bangna,1,1F,Fashion
+OPTIC SQUARE,Central Bangna,1,2F,Fashion & Apparel
+OPTICAL 88,Central Bangna,1,1F,Fashion & Apparel
 ORIENTAL PRINCESS,Central Bangna,1,2F,Beauty & Wellness
 PAN CLINIC,Central Bangna,1,3F,Beauty & Wellness
-PANDORA,Central Bangna,1,1F,Fashion
+PANDORA,Central Bangna,1,1F,Fashion & Apparel
 PEPPER LUNCH,Central Bangna,1,5F,Food & Beverage
 PEPPER LUNCH,Central Bangna,1,B1,Food & Beverage
 PEPPINA,Central Bangna,1,5F,Food & Beverage
 PERFECT OFFICE,Central Bangna,1,4F,Lifestyle & Specialty
 PINTOPAKTAI,Central Bangna,1,B1,Food & Beverage
 POLI-CHEM,Central Bangna,1,B1,Lifestyle & Specialty
-POWER BUY,Central Bangna,1,4F,Technology
+POWER BUY,Central Bangna,1,4F,Technology & Electronics
 PUIKENGMUNGSAWIRAT,Central Bangna,1,B1,Food & Beverage
 RAJDHEVEE CLINIC,Central Bangna,1,3F,Beauty & Wellness
-RUAY MONGKOL,Central Bangna,1,3F,Fashion
+RUAY MONGKOL,Central Bangna,1,3F,Fashion & Apparel
 S&P,Central Bangna,1,B1,Food & Beverage
-SAMSUNG,Central Bangna,1,4F,Technology
+SAMSUNG,Central Bangna,1,4F,Technology & Electronics
 SE-ED,Central Bangna,1,3F,Lifestyle & Specialty
 SIZZLER,Central Bangna,1,5F,Food & Beverage
-SONG SENG HENG YAOWARAJ,Central Bangna,1,3F,Fashion
+SONG SENG HENG YAOWARAJ,Central Bangna,1,3F,Fashion & Apparel
 STARBUCKS COFFEE,Central Bangna,1,1F,Food & Beverage
 STARBUCKS COFFEE,Central Bangna,1,2F,Food & Beverage
-STUDIO 7,Central Bangna,1,2F,Technology
-SUPER SPORTS,Central Bangna,1,3F,Fashion
+STUDIO 7,Central Bangna,1,2F,Technology & Electronics
+SUPER SPORTS,Central Bangna,1,3F,Fashion & Apparel
 SUREE FLORIST,Central Bangna,1,B2,Lifestyle & Specialty
 T.TIME,Central Bangna,1,1F,Lifestyle & Specialty
-TAPTIM GOLD,Central Bangna,1,3F,Fashion
-TG FONE,Central Bangna,1,5F,Technology
+TAPTIM GOLD,Central Bangna,1,3F,Fashion & Apparel
+TG FONE,Central Bangna,1,5F,Technology & Electronics
 THAILAND POST OFFICE,Central Bangna,1,B1,Lifestyle & Specialty
 THE KLINIQUE,Central Bangna,1,3F,Beauty & Wellness
-THONGTHAWEECHAI 1,Central Bangna,1,3F,Fashion
+THONGTHAWEECHAI 1,Central Bangna,1,3F,Fashion & Apparel
 TISCO BANK,Central Bangna,1,4F,Bank & Financial Services
 TMB THANACHART BANK,Central Bangna,1,4F,Bank & Financial Services
 UMAY PLUS,Central Bangna,1,4F,Bank & Financial Services
-UNIQLO,Central Bangna,1,1F,Fashion
+UNIQLO,Central Bangna,1,1F,Fashion & Apparel
 UNITED OVERSEAS BANK,Central Bangna,1,4F,Bank & Financial Services
-VIVO,Central Bangna,1,4F,Technology
+VIVO,Central Bangna,1,4F,Technology & Electronics
 WASH ME,Central Bangna,1,B2,Lifestyle & Specialty
 WATSONS,Central Bangna,1,3F,Beauty & Wellness
 YAYOI,Central Bangna,1,5F,Food & Beverage

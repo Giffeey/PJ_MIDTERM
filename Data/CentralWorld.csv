@@ -1,51 +1,51 @@
-Source,Target,Weight,Floor,Category
-@THREE,centralwOrld,1,4F,Technology
-24 KILATES,centralwOrld,1,2F,Fashion
-425 DEGREE,centralwOrld,1,4F,Technology
+﻿Source,Target,Weight,Floor,Category
+@THREE,centralwOrld,1,4F,Technology & Electronics
+24 KILATES,centralwOrld,1,2F,Fashion & Apparel
+425 DEGREE,centralwOrld,1,4F,Technology & Electronics
 722 SEVEN TWENTY TWO,centralwOrld,1,7F,Food & Beverage
-ABC COOKING STUDIO,centralwOrld,1,3F,Education
+ABC COOKING STUDIO,centralwOrld,1,3F,Services & Education
 ABOVE THE NAIL,centralwOrld,1,4F,Beauty & Wellness
-ADIDAS,centralwOrld,1,3F,Fashion
-ADVICE,centralwOrld,1,4F,Technology
+ADIDAS,centralwOrld,1,3F,Fashion & Apparel
+ADVICE,centralwOrld,1,4F,Technology & Electronics
 AEON,centralwOrld,1,4F,Bank & Financial Services
 AESOP,centralwOrld,1,1F,Beauty & Wellness
 AFTER YOU,centralwOrld,1,7F,Food & Beverage
-AIS,centralwOrld,1,4F,Technology
+AIS,centralwOrld,1,4F,Technology & Electronics
 AKA,centralwOrld,1,7F,Food & Beverage
 AKALIKO,centralwOrld,1,1F,Beauty & Wellness
 AKIMITSU TENDON,centralwOrld,1,3F,Food & Beverage
-ALDO,centralwOrld,1,2F,Fashion
+ALDO,centralwOrld,1,2F,Fashion & Apparel
 ALL ABOUT YOU,centralwOrld,1,2F,Beauty & Wellness
-AMERICAN EAGLE OUTFITTERS,centralwOrld,1,3F,Fashion
+AMERICAN EAGLE OUTFITTERS,centralwOrld,1,3F,Fashion & Apparel
 AMPERSAND,centralwOrld,1,7F,Food & Beverage
-ANANTA,centralwOrld,1,1F,Fashion
+ANANTA,centralwOrld,1,1F,Fashion & Apparel
 ANASTASIA,centralwOrld,1,3F,Beauty & Wellness
-ANELLO,centralwOrld,1,2F,Fashion
+ANELLO,centralwOrld,1,2F,Fashion & Apparel
 ANRI BAKERY,centralwOrld,1,5F,Food & Beverage
 ANRI BAKERY,centralwOrld,1,6F,Food & Beverage
-ANTA,centralwOrld,1,3F,Fashion
+ANTA,centralwOrld,1,3F,Fashion & Apparel
 ANTIDOTES,centralwOrld,1,2F,Beauty & Wellness
 ARIGYUGRILL,centralwOrld,1,3F,Food & Beverage
-ARI RUNNING CONCEPT STORE,centralwOrld,1,3F,Fashion
+ARI RUNNING CONCEPT STORE,centralwOrld,1,3F,Fashion & Apparel
 ARTANI,centralwOrld,1,5F,Lifestyle & Specialty
 ASA SERVICE,centralwOrld,1,B1,Lifestyle & Specialty
 ASIA BOOKS,centralwOrld,1,6F,Lifestyle & Specialty
-ASICS,centralwOrld,1,3F,Fashion
-ASUS,centralwOrld,1,4F,Technology
-ATMOS,centralwOrld,1,2F,Fashion
+ASICS,centralwOrld,1,3F,Fashion & Apparel
+ASUS,centralwOrld,1,4F,Technology & Electronics
+ATMOS,centralwOrld,1,2F,Fashion & Apparel
 AUNTIE ANNE'S,centralwOrld,1,3F,Food & Beverage
 AZABU SABO,centralwOrld,1,3F,Food & Beverage
 B SA B,centralwOrld,1,2F,Beauty & Wellness
-B-SMART,centralwOrld,1,2F,Fashion
+B-SMART,centralwOrld,1,2F,Fashion & Apparel
 BAAN YING CAFE & MEAL,centralwOrld,1,3F,Food & Beverage
 BAANBENJARONG PAI,centralwOrld,1,1F,Food & Beverage
 BABY BASKET,centralwOrld,1,2F,Lifestyle & Specialty
 BABY GIFT,centralwOrld,1,2F,Lifestyle & Specialty
 BABY HILLS,centralwOrld,1,2F,Lifestyle & Specialty
-BABYBOTTE,centralwOrld,1,2F,Fashion
+BABYBOTTE,centralwOrld,1,2F,Fashion & Apparel
 BAKE WORKS,centralwOrld,1,6F,Food & Beverage
 BAKE A WISH,centralwOrld,1,7F,Food & Beverage
-IT BANANA,centralwOrld,1,4F,Technology
+IT BANANA,centralwOrld,1,4F,Technology & Electronics
 BANGKOK BANK,centralwOrld,1,1F,Bank & Financial Services
 BANGKOK INSURANCE,centralwOrld,1,4F,Bank & Financial Services
 BANILA CO.,centralwOrld,1,2F,Beauty & Wellness
@@ -53,11 +53,11 @@ BANK OF AYUDHYA,centralwOrld,1,4F,Bank & Financial Services
 BATH&BLOOM,centralwOrld,1,2F,Beauty & Wellness
 BATH & BODY WORKS,centralwOrld,1,2F,Beauty & Wellness
 BEAUTY LOK,centralwOrld,1,2F,Beauty & Wellness
-BERSHKA,centralwOrld,1,2F,Fashion
-BETTER VISION,centralwOrld,1,1F,Fashion
-BEYOND THE VINES,centralwOrld,1,2F,Fashion
-BIG CAMERA,centralwOrld,1,4F,Technology
-BIRKENSTOCK,centralwOrld,1,1F,Fashion
+BERSHKA,centralwOrld,1,2F,Fashion & Apparel
+BETTER VISION,centralwOrld,1,1F,Fashion & Apparel
+BEYOND THE VINES,centralwOrld,1,2F,Fashion & Apparel
+BIG CAMERA,centralwOrld,1,4F,Technology & Electronics
+BIRKENSTOCK,centralwOrld,1,1F,Fashion & Apparel
 BLOODY BUNNY,centralwOrld,1,6F,Lifestyle & Specialty
 BONCHON,centralwOrld,1,6F,Food & Beverage
 BOOMERANG,centralwOrld,1,5F,Lifestyle & Specialty
@@ -67,7 +67,7 @@ BOOST JUICE BAR,centralwOrld,1,7F,Food & Beverage
 BOQUET DECOR,centralwOrld,1,3F,Lifestyle & Specialty
 BOUQUET,centralwOrld,1,2F,Lifestyle & Specialty
 BRANGUS,centralwOrld,1,1F,Food & Beverage
-BRATPACK,centralwOrld,1,2F,Fashion
+BRATPACK,centralwOrld,1,2F,Fashion & Apparel
 BUBBLE FAMILY,centralwOrld,1,2F,Lifestyle & Specialty
 BUDDHI BELLY,centralwOrld,1,4F,Food & Beverage
 BUTTERFLY THAI PERFUME,centralwOrld,1,1F,Beauty & Wellness
@@ -75,24 +75,24 @@ BUTTERFLY THAI PERFUME,centralwOrld,1,5F,Beauty & Wellness
 B&W,centralwOrld,1,5F,Lifestyle & Specialty
 CAFE AMAZON,centralwOrld,1,4F,Food & Beverage
 CAFÉ BAGA SPECIALTY COFFEE & LIFESTYLE CAFÉ,centralwOrld,1,3F,Food & Beverage
-CALVIN KLEIN,centralwOrld,1,1F,Fashion
+CALVIN KLEIN,centralwOrld,1,1F,Fashion & Apparel
 CAMIN CUISINE & CAFE,centralwOrld,1,6F,Food & Beverage
-CAMPER,centralwOrld,1,1F,Fashion
+CAMPER,centralwOrld,1,1F,Fashion & Apparel
 CANTON PARADISE,centralwOrld,1,7F,Food & Beverage
-CARNIVAL,centralwOrld,1,3F,Fashion
-CAROLINA LEMKE,centralwOrld,1,2F,Fashion
-CATH KIDSTON,centralwOrld,1,1F,Fashion
-CC-OO,centralwOrld,1,2F,Fashion
-CELI,centralwOrld,1,1F,Fashion
+CARNIVAL,centralwOrld,1,3F,Fashion & Apparel
+CAROLINA LEMKE,centralwOrld,1,2F,Fashion & Apparel
+CATH KIDSTON,centralwOrld,1,1F,Fashion & Apparel
+CC-OO,centralwOrld,1,2F,Fashion & Apparel
+CELI,centralwOrld,1,1F,Fashion & Apparel
 CENTRAL DEPARTMENT STORE,centralwOrld,1,3F,Lifestyle & Specialty
 CENTRAL FOOD HALL,centralwOrld,1,7F,Food & Beverage
 CHABATREE,centralwOrld,1,5F,Lifestyle & Specialty
 CHABUTON,centralwOrld,1,6F,Food & Beverage
-CHAMPION,centralwOrld,1,3F,Fashion
-CHARLES & KEITH,centralwOrld,1,2F,Fashion
+CHAMPION,centralwOrld,1,3F,Fashion & Apparel
+CHARLES & KEITH,centralwOrld,1,2F,Fashion & Apparel
 CHARNA,centralwOrld,1,6F,Food & Beverage
 CHATERAISE,centralwOrld,1,3F,Food & Beverage
-CHATO STUDIO,centralwOrld,1,1F,Fashion
+CHATO STUDIO,centralwOrld,1,1F,Fashion & Apparel
 CHOSITA,centralwOrld,1,2F,Lifestyle & Specialty
 CHONGJAROEN GROOVE,centralwOrld,1,2F,Food & Beverage
 CHUAN KITCHEN,centralwOrld,1,6F,Food & Beverage
@@ -103,145 +103,145 @@ CN WONDERLAND,centralwOrld,1,7F,Lifestyle & Specialty
 CO GO ROUND,centralwOrld,1,7F,Food & Beverage
 CO UNLIMITED,centralwOrld,1,2F,Food & Beverage
 COCA,centralwOrld,1,6F,Food & Beverage
-COACH,centralwOrld,1,1F,Fashion
-COCCINELLE,centralwOrld,1,1F,Fashion
+COACH,centralwOrld,1,1F,Fashion & Apparel
+COCCINELLE,centralwOrld,1,1F,Fashion & Apparel
 COCO ICHIBANYA,centralwOrld,1,7F,Food & Beverage
 COFFEE BEAN BY DAO,centralwOrld,1,2F,Food & Beverage
 COFFEELISM,centralwOrld,1,4F,Food & Beverage
 COLA,centralwOrld,1,8F,Lifestyle & Specialty
 COLD STONE CREAMERY,centralwOrld,1,6F,Food & Beverage
-COLUMBIA,centralwOrld,1,3F,Fashion
-CONTAINER,centralwOrld,1,2F,Fashion
-CONVERSE,centralwOrld,1,3F,Fashion
-CPS CHAPS,centralwOrld,1,2F,Fashion
-CROCS,centralwOrld,1,3F,Fashion
-CROSSXROOM,centralwOrld,1,2F,Fashion
+COLUMBIA,centralwOrld,1,3F,Fashion & Apparel
+CONTAINER,centralwOrld,1,2F,Fashion & Apparel
+CONVERSE,centralwOrld,1,3F,Fashion & Apparel
+CPS CHAPS,centralwOrld,1,2F,Fashion & Apparel
+CROCS,centralwOrld,1,3F,Fashion & Apparel
+CROSSXROOM,centralwOrld,1,2F,Fashion & Apparel
 CROWN CHRONO,centralwOrld,1,B1,Lifestyle & Specialty
 CUT & CURL,centralwOrld,1,3F,Beauty & Wellness
-D'ULTIMATE,centralwOrld,1,2F,Fashion
-DAKS,centralwOrld,1,1F,Fashion
-DALY BABY,centralwOrld,1,2F,Fashion
-DARLIN,centralwOrld,1,2F,Fashion
-DE PRECO,centralwOrld,1,2F,Fashion
+D'ULTIMATE,centralwOrld,1,2F,Fashion & Apparel
+DAKS,centralwOrld,1,1F,Fashion & Apparel
+DALY BABY,centralwOrld,1,2F,Fashion & Apparel
+DARLIN,centralwOrld,1,2F,Fashion & Apparel
+DE PRECO,centralwOrld,1,2F,Fashion & Apparel
 DECK ME,centralwOrld,1,2F,Lifestyle & Specialty
-DEFRY 01,centralwOrld,1,3F,Fashion
+DEFRY 01,centralwOrld,1,3F,Fashion & Apparel
 DEVES INSURANCE,centralwOrld,1,4F,Bank & Financial Services
-DIESEL,centralwOrld,1,1F,Fashion
-DILAVIE,centralwOrld,1,2F,Fashion
+DIESEL,centralwOrld,1,1F,Fashion & Apparel
+DILAVIE,centralwOrld,1,2F,Fashion & Apparel
 DIN TAI FUNG,centralwOrld,1,3F,Food & Beverage
-DISAYA,centralwOrld,1,2F,Fashion
+DISAYA,centralwOrld,1,2F,Fashion & Apparel
 DIVANA SIGNATURE,centralwOrld,1,2F,Food & Beverage
-DKNY AND CK,centralwOrld,1,1F,Fashion
-DKNY AND CK,centralwOrld,1,2F,Fashion
+DKNY AND CK,centralwOrld,1,1F,Fashion & Apparel
+DKNY AND CK,centralwOrld,1,2F,Fashion & Apparel
 DONNA CHANG,centralwOrld,1,1F,Beauty & Wellness
 DONNA CHANG,centralwOrld,1,2F,Beauty & Wellness
-DUCATI,centralwOrld,1,3F,Fashion
+DUCATI,centralwOrld,1,3F,Fashion & Apparel
 EARW THAI SUKI BORAN,centralwOrld,1,7F,Food & Beverage
 EASY BUDDY,centralwOrld,1,7F,Food & Beverage
-ECCO,centralwOrld,1,3F,Fashion
+ECCO,centralwOrld,1,3F,Fashion & Apparel
 ELEMIS,centralwOrld,1,1F,Beauty & Wellness
 ELEPH,centralwOrld,1,5F,Lifestyle & Specialty
 EMPORIO DELL'ARTE,centralwOrld,1,5F,Lifestyle & Specialty
 EVERSEOUL OT,centralwOrld,1,1F,Food & Beverage
-EVERSEOUL,centralwOrld,1,1F,Fashion
-EVERYTHING,centralwOrld,1,4F,Technology
-EXODIA,centralwOrld,1,3F,Fashion
+EVERSEOUL,centralwOrld,1,1F,Fashion & Apparel
+EVERYTHING,centralwOrld,1,4F,Technology & Electronics
+EXODIA,centralwOrld,1,3F,Fashion & Apparel
 EXPRET WATCH,centralwOrld,1,B1,Lifestyle & Specialty
-EYE LAB EXCLUSIVE,centralwOrld,1,3F,Fashion
-FAIRTEX,centralwOrld,1,2F,Fashion
-FAIRTEX,centralwOrld,1,3F,Fashion
+EYE LAB EXCLUSIVE,centralwOrld,1,3F,Fashion & Apparel
+FAIRTEX,centralwOrld,1,2F,Fashion & Apparel
+FAIRTEX,centralwOrld,1,3F,Fashion & Apparel
 FARM CHOKCHAI,centralwOrld,1,7F,Food & Beverage
-FILA,centralwOrld,1,2F,Fashion
-FITFLOP,centralwOrld,1,2F,Fashion
-FITFLOP,centralwOrld,1,3F,Fashion
+FILA,centralwOrld,1,2F,Fashion & Apparel
+FITFLOP,centralwOrld,1,2F,Fashion & Apparel
+FITFLOP,centralwOrld,1,3F,Fashion & Apparel
 FLEUR CLASIQUE,centralwOrld,1,B1,Lifestyle & Specialty
 FLUFF'S EGG CAKE,centralwOrld,1,7F,Food & Beverage
 FOLIO,centralwOrld,1,3F,Lifestyle & Specialty
 FOODWORLD,centralwOrld,1,7F,Food & Beverage
-FOREVER WEEKEND,centralwOrld,1,2F,Fashion
+FOREVER WEEKEND,centralwOrld,1,2F,Fashion & Apparel
 FORMULA 10.0.6,centralwOrld,1,2F,Beauty & Wellness
-FOSSIL,centralwOrld,1,2F,Fashion
-FRED PERRY,centralwOrld,1,1F,Fashion
+FOSSIL,centralwOrld,1,2F,Fashion & Apparel
+FRED PERRY,centralwOrld,1,1F,Fashion & Apparel
 FRESH ME,centralwOrld,1,7F,Food & Beverage
 FUJI,centralwOrld,1,6F,Food & Beverage
 FUKU MATCHA,centralwOrld,1,6F,Food & Beverage
-FURLA,centralwOrld,1,1F,Fashion
-G-SHOCK CASIO,centralwOrld,1,3F,Fashion
-G2000,centralwOrld,1,3F,Fashion
-GARMIN,centralwOrld,1,1F,Fashion
+FURLA,centralwOrld,1,1F,Fashion & Apparel
+G-SHOCK CASIO,centralwOrld,1,3F,Fashion & Apparel
+G2000,centralwOrld,1,3F,Fashion & Apparel
+GARMIN,centralwOrld,1,1F,Fashion & Apparel
 GARRETT POPCORN SHOPS,centralwOrld,1,3F,Food & Beverage
 GAVINSON,centralwOrld,1,7F,Food & Beverage
 GELATE,centralwOrld,1,3F,Food & Beverage
-GENTLEWOMAN,centralwOrld,1,2F,Fashion
+GENTLEWOMAN,centralwOrld,1,2F,Fashion & Apparel
 GIALONG,centralwOrld,1,6F,Food & Beverage
 GIORGIO ARMANI,centralwOrld,1,1F,Beauty & Wellness
 GMM LIVE HOUSE,centralwOrld,1,8F,Lifestyle & Specialty
 GNC,centralwOrld,1,3F,Beauty & Wellness
 GOOD GOODS,centralwOrld,1,1F,Lifestyle & Specialty
-GOOD NEWS,centralwOrld,1,4F,Technology
+GOOD NEWS,centralwOrld,1,4F,Technology & Electronics
 GOVERNMENT SAVINGS BANK,centralwOrld,1,4F,Bank & Financial Services
 GOVERNMENT SERVICE POINT,centralwOrld,1,2F,Lifestyle & Specialty
 GRAM CAFE & PANCAKES,centralwOrld,1,7F,Food & Beverage
 GRAND SANYOD,centralwOrld,1,6F,Food & Beverage
 GREYHOUND CAFÉ,centralwOrld,1,2F,Food & Beverage
-GUESS,centralwOrld,1,1F,Fashion
+GUESS,centralwOrld,1,1F,Fashion & Apparel
 GUSS DAMN GOOD,centralwOrld,1,3F,Food & Beverage
-GUY LAROCHE,centralwOrld,1,3F,Fashion
+GUY LAROCHE,centralwOrld,1,3F,Fashion & Apparel
 HAAGEN-DAZS,centralwOrld,1,3F,Food & Beverage
 HACHIBAN RAMEN,centralwOrld,1,6F,Food & Beverage
 HAI DI LAO,centralwOrld,1,7F,Food & Beverage
 HARAJUKU CAFE CREPES,centralwOrld,1,7F,Food & Beverage
 HARMONY LIFE CENTER MEDICAL CLINIC,centralwOrld,1,8F,Beauty & Wellness
 HARNN,centralwOrld,1,3F,Beauty & Wellness
-HASHTAG956,centralwOrld,1,4F,Technology
-HATSAYA,centralwOrld,1,2F,Fashion
-HAVAIANAS,centralwOrld,1,2F,Fashion
-HERO GADGET,centralwOrld,1,4F,Technology
+HASHTAG956,centralwOrld,1,4F,Technology & Electronics
+HATSAYA,centralwOrld,1,2F,Fashion & Apparel
+HAVAIANAS,centralwOrld,1,2F,Fashion & Apparel
+HERO GADGET,centralwOrld,1,4F,Technology & Electronics
 HIYAKU,centralwOrld,1,2F,Food & Beverage
-HIT GALLERIA,centralwOrld,1,6F,Education
+HIT GALLERIA,centralwOrld,1,6F,Services & Education
 HIVE SALON & CAFE,centralwOrld,1,1F,Beauty & Wellness
 HOBS,centralwOrld,1,1F,Food & Beverage
-HOKA,centralwOrld,1,3F,Fashion
+HOKA,centralwOrld,1,3F,Fashion & Apparel
 HOKKAIDO SOFTKREAM,centralwOrld,1,3F,Food & Beverage
 HONEY NUKA,centralwOrld,1,3F,Food & Beverage
 HONMONO,centralwOrld,1,7F,Food & Beverage
 HONOHO,centralwOrld,1,2F,Food & Beverage
 HUA SENG HONG,centralwOrld,1,6F,Food & Beverage
-I STUDIO,centralwOrld,1,4F,Technology
+I STUDIO,centralwOrld,1,4F,Technology & Electronics
 IATA EXPRESS,centralwOrld,1,7F,Food & Beverage
 IMMAGINI,centralwOrld,1,5F,Beauty & Wellness
-IN CASE,centralwOrld,1,4F,Technology
+IN CASE,centralwOrld,1,4F,Technology & Electronics
 INGLOT,centralwOrld,1,2F,Beauty & Wellness
 INNISFREE,centralwOrld,1,2F,Beauty & Wellness
-INTER MATH,centralwOrld,1,6F,Education
+INTER MATH,centralwOrld,1,6F,Services & Education
 IPPUDO,centralwOrld,1,7F,Food & Beverage
 IROHA RAMEN,centralwOrld,1,3F,Food & Beverage
 IRVINS SALTED EGG,centralwOrld,1,3F,Food & Beverage
 ITALIAN OSTERIA,centralwOrld,1,1F,Food & Beverage
 JAPARA,centralwOrld,1,2F,Beauty & Wellness
-JASPAL,centralwOrld,1,2F,Fashion
-JAYMART,centralwOrld,1,4F,Technology
-JELLY BUNNY,centralwOrld,1,2F,Fashion
+JASPAL,centralwOrld,1,2F,Fashion & Apparel
+JAYMART,centralwOrld,1,4F,Technology & Electronics
+JELLY BUNNY,centralwOrld,1,2F,Fashion & Apparel
 JOK โต๊ะเดียว,centralwOrld,1,7F,Food & Beverage
 JOOM ZAP HUT/BAR B Q,centralwOrld,1,6F,Food & Beverage
 JOURNAL,centralwOrld,1,2F,Beauty & Wellness
-JUBILEE DIAMOND,centralwOrld,1,1F,Fashion
+JUBILEE DIAMOND,centralwOrld,1,1F,Fashion & Apparel
 JURLIQUE,centralwOrld,1,2F,Beauty & Wellness
-JUST IN CASE,centralwOrld,1,5F,Fashion
-K-TOP EDUCATION,centralwOrld,1,6F,Education
+JUST IN CASE,centralwOrld,1,5F,Fashion & Apparel
+K-TOP EDUCATION,centralwOrld,1,6F,Services & Education
 KAAOSOILUMDUANFARHAAMCHANGMAI,centralwOrld,1,7F,Food & Beverage
 KAGONOYA,centralwOrld,1,7F,Food & Beverage
 KAM'S ROAST GOOSE,centralwOrld,1,7F,Food & Beverage
 KANUMWAANBAANMOR,centralwOrld,1,7F,Food & Beverage
-KARL LAGERFELD,centralwOrld,1,1F,Fashion
+KARL LAGERFELD,centralwOrld,1,1F,Fashion & Apparel
 KARMAKAMET,centralwOrld,1,1F,Beauty & Wellness
 KARUN THAI TEA,centralwOrld,1,7F,Food & Beverage
 KASIKORN BANK,centralwOrld,1,4F,Bank & Financial Services
-KATE SPADE,centralwOrld,1,1F,Fashion
+KATE SPADE,centralwOrld,1,1F,Fashion & Apparel
 KATSUYA,centralwOrld,1,6F,Food & Beverage
-KAWAI MUSIC SCHOOL,centralwOrld,1,6F,Education
-KEDS,centralwOrld,1,1F,Fashion
-KEEN,centralwOrld,1,3F,Fashion
+KAWAI MUSIC SCHOOL,centralwOrld,1,6F,Services & Education
+KEDS,centralwOrld,1,1F,Fashion & Apparel
+KEEN,centralwOrld,1,3F,Fashion & Apparel
 KENSHIN IZAKAYA,centralwOrld,1,2F,Food & Beverage
 KERRY EXPRESS,centralwOrld,1,B1,Lifestyle & Specialty
 KHAHMUSENTHLUY,centralwOrld,1,7F,Food & Beverage
@@ -249,12 +249,12 @@ KHAO JAAN-PROD,centralwOrld,1,7F,Food & Beverage
 KHAS,centralwOrld,1,2F,Beauty & Wellness
 KHRAW SYAM,centralwOrld,1,7F,Food & Beverage
 KIATNAKINPHATRA BANK,centralwOrld,1,4F,Bank & Financial Services
-KIDDOLAND BABY,centralwOrld,1,2F,Fashion
+KIDDOLAND BABY,centralwOrld,1,2F,Fashion & Apparel
 KIDDY LAND,centralwOrld,1,2F,Entertainment
-KINGCLASS ACADEMY,centralwOrld,1,6F,Education
-KIPLING,centralwOrld,1,2F,Fashion
-KISS ME DOLL,centralwOrld,1,3F,Fashion
-KLOSET,centralwOrld,1,1F,Fashion
+KINGCLASS ACADEMY,centralwOrld,1,6F,Services & Education
+KIPLING,centralwOrld,1,2F,Fashion & Apparel
+KISS ME DOLL,centralwOrld,1,3F,Fashion & Apparel
+KLOSET,centralwOrld,1,1F,Fashion & Apparel
 KOBE STEAK HOUSE,centralwOrld,1,6F,Food & Beverage
 KODAWARI,centralwOrld,1,3F,Food & Beverage
 KOGORO,centralwOrld,1,6F,Food & Beverage
@@ -266,30 +266,30 @@ KUAWTEAWRUARAYONG,centralwOrld,1,7F,Food & Beverage
 KUAYJUBSAMTOOM,centralwOrld,1,7F,Food & Beverage
 KUAYTEAWTOMYAMKHAISAPCHACHU,centralwOrld,1,7F,Food & Beverage
 KUB KAO KUB PLA,centralwOrld,1,3F,Food & Beverage
-KUMO CREATIVE STUDIO BY CLAYWORKS,centralwOrld,1,6F,Education
+KUMO CREATIVE STUDIO BY CLAYWORKS,centralwOrld,1,6F,Services & Education
 KUMPOON,centralwOrld,1,7F,Food & Beverage
 KUNCHERN(AEKKAMAI),centralwOrld,1,7F,Food & Beverage
 KUTSUGEN BY TONKUTSU WAKO,centralwOrld,1,7F,Food & Beverage
 KYO ROLL EN,centralwOrld,1,3F,Food & Beverage
-LACOSTE,centralwOrld,1,2F,Fashion
+LACOSTE,centralwOrld,1,2F,Fashion & Apparel
 LAEM CHAROEN SEAFOOD,centralwOrld,1,3F,Food & Beverage
 LAGRACE CLINIC,centralwOrld,1,5F,Beauty & Wellness
 LAMEOW,centralwOrld,1,7F,Food & Beverage
 LEARKSEN LENNAM,centralwOrld,1,1F,Food & Beverage
-LEE,centralwOrld,1,3F,Fashion
-LENS & TIME,centralwOrld,1,3F,Fashion
-LES NEREIDES PARIS / N2 PARIS,centralwOrld,1,1F,Fashion
+LEE,centralwOrld,1,3F,Fashion & Apparel
+LENS & TIME,centralwOrld,1,3F,Fashion & Apparel
+LES NEREIDES PARIS / N2 PARIS,centralwOrld,1,1F,Fashion & Apparel
 LETAO,centralwOrld,1,7F,Food & Beverage
 LH BANK,centralwOrld,1,4F,Bank & Financial Services
 LITTLE CHOUX,centralwOrld,1,2F,Lifestyle & Specialty
 LITTLE HONGKONG,centralwOrld,1,7F,Food & Beverage
 LOCK BOX,centralwOrld,1,2F,Lifestyle & Specialty
 LT FISH RESTAURANT,centralwOrld,1,7F,Food & Beverage
-LUKFOOK JEWELLERY,centralwOrld,1,1F,Fashion
+LUKFOOK JEWELLERY,centralwOrld,1,1F,Fashion & Apparel
 LUXURY LIVING,centralwOrld,1,5F,Lifestyle & Specialty
-LYN,centralwOrld,1,2F,Fashion
-LYN AROUND,centralwOrld,1,2F,Fashion
-LYN AROUND,centralwOrld,1,2F,Fashion
+LYN,centralwOrld,1,2F,Fashion & Apparel
+LYN AROUND,centralwOrld,1,2F,Fashion & Apparel
+LYN AROUND,centralwOrld,1,2F,Fashion & Apparel
 LYN BEAUTY,centralwOrld,1,2F,Beauty & Wellness
 M LIFE,centralwOrld,1,5F,Lifestyle & Specialty
 M LIFE,centralwOrld,1,3F,Lifestyle & Specialty
@@ -300,40 +300,40 @@ MAISEN,centralwOrld,1,7F,Food & Beverage
 MAKALIN CLINIC,centralwOrld,1,5F,Beauty & Wellness
 MAKAI AÇAÍ & SUPERFOOD BAR,centralwOrld,1,3F,Food & Beverage
 MAKE ME MANGO,centralwOrld,1,3F,Food & Beverage
-MAKE N HAPPEN,centralwOrld,1,2F,Fashion
-MANGO,centralwOrld,1,1F,Fashion
-MANGO,centralwOrld,1,2F,Fashion
-MANIBLEU,centralwOrld,1,5F,Fashion
-MARC JACOBS,centralwOrld,1,1F,Fashion
-MARIMEKKO,centralwOrld,1,1F,Fashion
-MASSIMO DUTTI,centralwOrld,1,1F,Fashion
+MAKE N HAPPEN,centralwOrld,1,2F,Fashion & Apparel
+MANGO,centralwOrld,1,1F,Fashion & Apparel
+MANGO,centralwOrld,1,2F,Fashion & Apparel
+MANIBLEU,centralwOrld,1,5F,Fashion & Apparel
+MARC JACOBS,centralwOrld,1,1F,Fashion & Apparel
+MARIMEKKO,centralwOrld,1,1F,Fashion & Apparel
+MASSIMO DUTTI,centralwOrld,1,1F,Fashion & Apparel
 MEAT LABO,centralwOrld,1,7F,Food & Beverage
 MEET FRESH,centralwOrld,1,7F,Food & Beverage
 MEETSEEDBARBEER,centralwOrld,1,7F,Food & Beverage
 MEKO CLINIC,centralwOrld,1,5F,Beauty & Wellness
-MELISSA JELLY DREAMS,centralwOrld,1,1F,Fashion
-METICULOUS,centralwOrld,1,2F,Fashion
-MICHAEL KORS,centralwOrld,1,1F,Fashion
+MELISSA JELLY DREAMS,centralwOrld,1,1F,Fashion & Apparel
+METICULOUS,centralwOrld,1,2F,Fashion & Apparel
+MICHAEL KORS,centralwOrld,1,1F,Fashion & Apparel
 MIGHTY CAFÉ,centralwOrld,1,3F,Food & Beverage
 MILK KIDS' SALON&NAIL,centralwOrld,1,2F,Beauty & Wellness
 MINAMOTO KITCHOAN,centralwOrld,1,3F,Food & Beverage
-MINE,centralwOrld,1,4F,Technology
-MISTY MYNX,centralwOrld,1,2F,Fashion
+MINE,centralwOrld,1,4F,Technology & Electronics
+MISTY MYNX,centralwOrld,1,2F,Fashion & Apparel
 MITH,centralwOrld,1,2F,Beauty & Wellness
 MITH,centralwOrld,1,3F,Beauty & Wellness
 MK LIVE,centralwOrld,1,6F,Food & Beverage
-MLB,centralwOrld,1,2F,Fashion
+MLB,centralwOrld,1,2F,Fashion & Apparel
 MO-MO-PARADISE,centralwOrld,1,7F,Food & Beverage
-MOBISTER,centralwOrld,1,4F,Technology
-MODULO,centralwOrld,1,6F,Education
+MOBISTER,centralwOrld,1,4F,Technology & Electronics
+MODULO,centralwOrld,1,6F,Services & Education
 MOGA,centralwOrld,1,2F,Beauty & Wellness
 MOLTO,centralwOrld,1,3F,Food & Beverage
 MOM AND SIS THE SMOOTHIE CAFE,centralwOrld,1,3F,Food & Beverage
-MONKEY MEAL,centralwOrld,1,6F,Education
-MONT BELL,centralwOrld,1,2F,Fashion
+MONKEY MEAL,centralwOrld,1,6F,Services & Education
+MONT BELL,centralwOrld,1,2F,Fashion & Apparel
 MONTRA HEALTH & SPA,centralwOrld,1,2F,Beauty & Wellness
 MOO YOO,centralwOrld,1,3F,Food & Beverage
-MOTTA,centralwOrld,1,5F,Fashion
+MOTTA,centralwOrld,1,5F,Fashion & Apparel
 MR. SKY,centralwOrld,1,B1,Lifestyle & Specialty
 MT. SAPOLA,centralwOrld,1,2F,Beauty & Wellness
 MUANG THAI LIFE ASSURANCE,centralwOrld,1,4F,Bank & Financial Services
@@ -345,100 +345,100 @@ NAMNAM PASTA AND TAPAS,centralwOrld,1,3F,Food & Beverage
 NARA THAI CUISINE,centralwOrld,1,7F,Food & Beverage
 NARAYA,centralwOrld,1,1F,Lifestyle & Specialty
 NEUATUNJUNGPET,centralwOrld,1,7F,Food & Beverage
-NEW BALANCE,centralwOrld,1,3F,Fashion
-NEW ERA,centralwOrld,1,3F,Fashion
-NGG,centralwOrld,1,1F,Fashion
-NHK GADGET,centralwOrld,1,4F,Technology
+NEW BALANCE,centralwOrld,1,3F,Fashion & Apparel
+NEW ERA,centralwOrld,1,3F,Fashion & Apparel
+NGG,centralwOrld,1,1F,Fashion & Apparel
+NHK GADGET,centralwOrld,1,4F,Technology & Electronics
 NICE TWO MEAT U,centralwOrld,1,6F,Food & Beverage
-NIKE,centralwOrld,1,2F,Fashion
-O&B,centralwOrld,1,2F,Fashion
+NIKE,centralwOrld,1,2F,Fashion & Apparel
+O&B,centralwOrld,1,2F,Fashion & Apparel
 OLINO CREPE & TEA,centralwOrld,1,3F,Food & Beverage
-OLIVIA DIAMONDS,centralwOrld,1,1F,Fashion
+OLIVIA DIAMONDS,centralwOrld,1,1F,Fashion & Apparel
 OMU,centralwOrld,1,6F,Food & Beverage
-ON RUNNING,centralwOrld,1,3F,Fashion
+ON RUNNING,centralwOrld,1,3F,Fashion & Apparel
 ON THE TABLE,centralwOrld,1,6F,Food & Beverage
 ONCE UPON A TIME,centralwOrld,1,2F,Lifestyle & Specialty
-ONITSUKA TIGER,centralwOrld,1,1F,Fashion
+ONITSUKA TIGER,centralwOrld,1,1F,Fashion & Apparel
 ONKIJUNG,centralwOrld,1,6F,Food & Beverage
 OOTOYA,centralwOrld,1,7F,Food & Beverage
-OPPO,centralwOrld,1,5F,Technology
-ORAWAN COLLECTION,centralwOrld,1,1F,Fashion
+OPPO,centralwOrld,1,5F,Technology & Electronics
+ORAWAN COLLECTION,centralwOrld,1,1F,Fashion & Apparel
 ORBIS,centralwOrld,1,2F,Beauty & Wellness
-OTTER BOX,centralwOrld,1,4F,Technology
+OTTER BOX,centralwOrld,1,4F,Technology & Electronics
 OUTDOOR BOTANICA BY ELEMENT 72,centralwOrld,1,2F,Lifestyle & Specialty
-OVV,centralwOrld,1,1F,Fashion
-OWNDAYS,centralwOrld,1,2F,Fashion
-OYSHO,centralwOrld,1,2F,Fashion
+OVV,centralwOrld,1,1F,Fashion & Apparel
+OWNDAYS,centralwOrld,1,2F,Fashion & Apparel
+OYSHO,centralwOrld,1,2F,Fashion & Apparel
 P@T IT SERVICE,centralwOrld,1,B1,Lifestyle & Specialty
 PANCAKE CAFÉ,centralwOrld,1,3F,Food & Beverage
-PANDORA,centralwOrld,1,1F,Fashion
+PANDORA,centralwOrld,1,1F,Fashion & Apparel
 PANG CHA BY LUKKAITHONG,centralwOrld,1,3F,Food & Beverage
 PANKRACHAKUYTEAWKAI,centralwOrld,1,7F,Food & Beverage
 PAÑPURI,centralwOrld,1,2F,Beauty & Wellness
-PAPAYA,centralwOrld,1,5F,Fashion
+PAPAYA,centralwOrld,1,5F,Fashion & Apparel
 PAPILLON PARFUM,centralwOrld,1,3F,Beauty & Wellness
-PARIS MIKI,centralwOrld,1,3F,Fashion
+PARIS MIKI,centralwOrld,1,3F,Fashion & Apparel
 PARIS MIKKI,centralwOrld,1,1F,Food & Beverage
 PAUL BAKERY,centralwOrld,1,2F,Food & Beverage
-PAUL FRANK / TOKIDOKI,centralwOrld,1,3F,Fashion
-PAVEMENT,centralwOrld,1,2F,Fashion
+PAUL FRANK / TOKIDOKI,centralwOrld,1,3F,Fashion & Apparel
+PAVEMENT,centralwOrld,1,2F,Fashion & Apparel
 PAWIS,centralwOrld,1,1F,Beauty & Wellness
-PENDULUM,centralwOrld,1,1F,Fashion
+PENDULUM,centralwOrld,1,1F,Fashion & Apparel
 PENNII PREMIUM POPCORN,centralwOrld,1,7F,Food & Beverage
 PEPPER LUNCH,centralwOrld,1,6F,Food & Beverage
-PETCH TANA,centralwOrld,1,1F,Fashion
+PETCH TANA,centralwOrld,1,1F,Fashion & Apparel
 PHOENIX LAVA,centralwOrld,1,6F,Food & Beverage
 PHUTAWAN,centralwOrld,1,1F,Beauty & Wellness
 PINRIMKONG,centralwOrld,1,7F,Food & Beverage
-PIYANAS,centralwOrld,1,5F,Technology
+PIYANAS,centralwOrld,1,5F,Technology & Electronics
 PLACELL,centralwOrld,1,5F,Lifestyle & Specialty
 PLAYMONDO/PLAYSQUARE,centralwOrld,1,2F,Entertainment
-PLAYWORKS,centralwOrld,1,5F,Fashion
+PLAYWORKS,centralwOrld,1,5F,Fashion & Apparel
 POKODOT.ACCESSORIES,centralwOrld,1,5F,Lifestyle & Specialty
-POLO RALPH LAUREN,centralwOrld,1,1F,Fashion
-POMELO,centralwOrld,1,2F,Fashion
+POLO RALPH LAUREN,centralwOrld,1,1F,Fashion & Apparel
+POMELO,centralwOrld,1,2F,Fashion & Apparel
 POTATO CORNER,centralwOrld,1,6F,Food & Beverage
 POULET,centralwOrld,1,6F,Food & Beverage
 PRAILEELA,centralwOrld,1,1F,Beauty & Wellness
 PRÄLYN,centralwOrld,1,2F,Beauty & Wellness
-PRAW SUGAR,centralwOrld,1,2F,Fashion
+PRAW SUGAR,centralwOrld,1,2F,Fashion & Apparel
 PRIME BURGER THAILAND,centralwOrld,1,7F,Food & Beverage
-PRIVE,centralwOrld,1,1F,Fashion
+PRIVE,centralwOrld,1,1F,Fashion & Apparel
 PROPAGANDA,centralwOrld,1,5F,Lifestyle & Specialty
 PS. I LOVE YOU BY PIMARA,centralwOrld,1,1F,Food & Beverage
-PULL & BEAR,centralwOrld,1,2F,Fashion
-PUMA,centralwOrld,1,3F,Fashion
+PULL & BEAR,centralwOrld,1,2F,Fashion & Apparel
+PUMA,centralwOrld,1,3F,Fashion & Apparel
 QQ DESSERT,centralwOrld,1,6F,Food & Beverage
-QUINN,centralwOrld,1,2F,Fashion
+QUINN,centralwOrld,1,2F,Fashion & Apparel
 RADNA40PEE SANCHOAPHOSUA,centralwOrld,1,7F,Food & Beverage
-RAGAZZE 1984,centralwOrld,1,2F,Fashion
-RAVIPA,centralwOrld,1,2F,Fashion
+RAGAZZE 1984,centralwOrld,1,2F,Fashion & Apparel
+RAVIPA,centralwOrld,1,2F,Fashion & Apparel
 RED DIAMOND,centralwOrld,1,7F,Food & Beverage
 RED DIAMOND,centralwOrld,1,5F,Food & Beverage
-REEBOK,centralwOrld,1,3F,Fashion
+REEBOK,centralwOrld,1,3F,Fashion & Apparel
 REUNROM,centralwOrld,1,1F,Beauty & Wellness
-REV RUNNR,centralwOrld,1,3F,Fashion
+REV RUNNR,centralwOrld,1,3F,Fashion & Apparel
 RIKU,centralwOrld,1,2F,Beauty & Wellness
-RIP CURL,centralwOrld,1,2F,Fashion
+RIP CURL,centralwOrld,1,2F,Fashion & Apparel
 RIVERSIDE MALA,centralwOrld,1,6F,Food & Beverage
-RNG,centralwOrld,1,3F,Fashion
+RNG,centralwOrld,1,3F,Fashion & Apparel
 ROBOROCK,centralwOrld,1,4F,Lifestyle & Specialty
-ROBOTHINK,centralwOrld,1,6F,Education
+ROBOTHINK,centralwOrld,1,6F,Services & Education
 ROCK PLANET,centralwOrld,1,4F,Lifestyle & Specialty
 ROCK PLANET,centralwOrld,1,5F,Lifestyle & Specialty
-ROLEX(SRICHAI),centralwOrld,1,1F,Fashion
+ROLEX(SRICHAI),centralwOrld,1,1F,Fashion & Apparel
 ROS'NIYOM,centralwOrld,1,6F,Food & Beverage
-ROYAL IVY REGATTA NEW ENGLAND,centralwOrld,1,2F,Fashion
+ROYAL IVY REGATTA NEW ENGLAND,centralwOrld,1,2F,Fashion & Apparel
 ROYCE & JALUX CORNER,centralwOrld,1,3F,Food & Beverage
 RUENNAMPRIK,centralwOrld,1,7F,Food & Beverage
 S CAPE BY HARNN,centralwOrld,1,1F,Beauty & Wellness
 SABOTEN,centralwOrld,1,3F,Food & Beverage
 SAEMAEUL,centralwOrld,1,7F,Food & Beverage
 SALAPAO KOOUAN,centralwOrld,1,7F,Food & Beverage
-SALOMON,centralwOrld,1,3F,Fashion
+SALOMON,centralwOrld,1,3F,Fashion & Apparel
 SALT // PEPPER,centralwOrld,1,7F,Food & Beverage
 SAMSONITE BLACK LABEL,centralwOrld,1,1F,Lifestyle & Specialty
-SAMSUNG,centralwOrld,1,4F,Technology
+SAMSUNG,centralwOrld,1,4F,Technology & Electronics
 SANAN SEAFOOD,centralwOrld,1,7F,Food & Beverage
 SANPO FISHERIES,centralwOrld,1,3F,Food & Beverage
 SAYAM KINRI,centralwOrld,1,7F,Food & Beverage
@@ -450,21 +450,21 @@ SEPHORA,centralwOrld,1,2F,Beauty & Wellness
 SHABUSHI,centralwOrld,1,6F,Food & Beverage
 SHAKE SHACK,centralwOrld,1,1F,Food & Beverage
 SHITORI,centralwOrld,1,3F,Food & Beverage
-SHOE STORY,centralwOrld,1,2F,Fashion
-SHU UEMURA,centralwOrld,1,2F,Fashion
+SHOE STORY,centralwOrld,1,2F,Fashion & Apparel
+SHU UEMURA,centralwOrld,1,2F,Fashion & Apparel
 SIAM COMMERCIAL BANK,centralwOrld,1,4F,Bank & Financial Services
 SIAM LASER CLINIC,centralwOrld,1,5F,Beauty & Wellness
 SIAM MARKETING,centralwOrld,1,5F,Lifestyle & Specialty
 SIAMAUMPAWA,centralwOrld,1,7F,Food & Beverage
 SIAMPARASITE,centralwOrld,1,1F,Food & Beverage
-SILHOUETTE,centralwOrld,1,2F,Fashion
-SKECHERS,centralwOrld,1,3F,Fashion
-SLAMMERS,centralwOrld,1,3F,Fashion
+SILHOUETTE,centralwOrld,1,2F,Fashion & Apparel
+SKECHERS,centralwOrld,1,3F,Fashion & Apparel
+SLAMMERS,centralwOrld,1,3F,Fashion & Apparel
 SLIM CONCEPT - MARIZA CLINIC,centralwOrld,1,5F,Beauty & Wellness
-SMART TRAVEL,centralwOrld,1,3F,Fashion
+SMART TRAVEL,centralwOrld,1,3F,Fashion & Apparel
 SMELL LEMONGRASS,centralwOrld,1,1F,Beauty & Wellness
-SMILEYHOUND,centralwOrld,1,2F,Fashion
-SODA,centralwOrld,1,1F,Fashion
+SMILEYHOUND,centralwOrld,1,2F,Fashion & Apparel
+SODA,centralwOrld,1,1F,Fashion & Apparel
 SOMBOON SEAFOOD,centralwOrld,1,6F,Food & Beverage
 SOMTAM NUA,centralwOrld,1,3F,Food & Beverage
 SONG FA BAK KUT TEH,centralwOrld,1,3F,Food & Beverage
@@ -475,111 +475,111 @@ STARBUCKS COFFEE,centralwOrld,1,3F,Food & Beverage
 STARBUCKS COFFEE,centralwOrld,1,5F,Food & Beverage
 STRETCH ME BY LET'S RELAX,centralwOrld,1,3F,Beauty & Wellness
 STUDIO360,centralwOrld,1,5F,Lifestyle & Specialty
-SUIT SELECT,centralwOrld,1,3F,Fashion
+SUIT SELECT,centralwOrld,1,3F,Fashion & Apparel
 SUKEE MAO WORLD LIK,centralwOrld,1,7F,Food & Beverage
 SUKISHI,centralwOrld,1,6F,Food & Beverage
 SUKONTA,centralwOrld,1,3F,Beauty & Wellness
 SUNMOULIN ROYAL,centralwOrld,1,3F,Food & Beverage
-SUPER SPORTS,centralwOrld,1,3F,Fashion
+SUPER SPORTS,centralwOrld,1,3F,Fashion & Apparel
 SUPER RICH,centralwOrld,1,1F,Bank & Financial Services
 SUPER RICH,centralwOrld,1,3F,Bank & Financial Services
 SUSHI CYU,centralwOrld,1,3F,Food & Beverage
 SUSHI DEN,centralwOrld,1,7F,Food & Beverage
 SUSHIRO,centralwOrld,1,7F,Food & Beverage
-SUUNTO,centralwOrld,1,3F,Fashion
+SUUNTO,centralwOrld,1,3F,Fashion & Apparel
 SUVARN,centralwOrld,1,2F,Beauty & Wellness
-SWAROVSKI,centralwOrld,1,1F,Fashion
-SWATCH,centralwOrld,1,1F,Fashion
+SWAROVSKI,centralwOrld,1,1F,Fashion & Apparel
+SWATCH,centralwOrld,1,1F,Fashion & Apparel
 SWENSEN'S,centralwOrld,1,6F,Food & Beverage
 TAJIMAYA YAKINIKU,centralwOrld,1,7F,Food & Beverage
-TAKEO KIKUCHI,centralwOrld,1,3F,Fashion
+TAKEO KIKUCHI,centralwOrld,1,3F,Fashion & Apparel
 TAMMACHAATSEEFOOD,centralwOrld,1,7F,Food & Beverage
 TAN KUN,centralwOrld,1,1F,Food & Beverage
-TANK STORE,centralwOrld,1,3F,Fashion
+TANK STORE,centralwOrld,1,3F,Fashion & Apparel
 TAOHOAY PEDDEANG,centralwOrld,1,7F,Food & Beverage
 TAROTO,centralwOrld,1,3F,Food & Beverage
 TEDDY HOUSE,centralwOrld,1,5F,Lifestyle & Specialty
-TELEWIZ,centralwOrld,1,4F,Technology
+TELEWIZ,centralwOrld,1,4F,Technology & Electronics
 TENJO,centralwOrld,1,6F,Food & Beverage
 TERACHAIKAIYANGBANGTAN,centralwOrld,1,7F,Food & Beverage
-TEVA,centralwOrld,1,2F,Fashion
-TG FONE,centralwOrld,1,5F,Technology
+TEVA,centralwOrld,1,2F,Fashion & Apparel
+TG FONE,centralwOrld,1,5F,Technology & Electronics
 THAI CREDIT BANK,centralwOrld,1,4F,Bank & Financial Services
 THAILAND POST OFFICE,centralwOrld,1,B1,Lifestyle & Specialty
 THANN,centralwOrld,1,2F,Beauty & Wellness
-THE ADJECTIVE,centralwOrld,1,1F,Fashion
+THE ADJECTIVE,centralwOrld,1,1F,Fashion & Apparel
 THE ALLEY,centralwOrld,1,6F,Food & Beverage
 THE BODY SHOP,centralwOrld,1,2F,Beauty & Wellness
 THE CASSETTE MUSIC BAR,centralwOrld,1,2F,Food & Beverage
 THE COFFEE ACADEMICS,centralwOrld,1,2F,Food & Beverage
-THE EDITOR'S MARKET,centralwOrld,1,2F,Fashion
+THE EDITOR'S MARKET,centralwOrld,1,2F,Fashion & Apparel
 THE FACE SHOP,centralwOrld,1,2F,Beauty & Wellness
-THE GADGET,centralwOrld,1,4F,Technology
+THE GADGET,centralwOrld,1,4F,Technology & Electronics
 THE KLINIQUE,centralwOrld,1,5F,Beauty & Wellness
-THE NEXT,centralwOrld,1,4F,Fashion
-THE NORTH FACE,centralwOrld,1,3F,Fashion
-THE PARROT,centralwOrld,1,2F,Fashion
+THE NEXT,centralwOrld,1,4F,Fashion & Apparel
+THE NORTH FACE,centralwOrld,1,3F,Fashion & Apparel
+THE PARROT,centralwOrld,1,2F,Fashion & Apparel
 THE RINK ICE ARENA,centralwOrld,1,2F,Entertainment
 THEPNAKORN,centralwOrld,1,7F,Food & Beverage
 THONG SMITH,centralwOrld,1,3F,Food & Beverage
-TIME ZONE,centralwOrld,1,5F,Fashion
+TIME ZONE,centralwOrld,1,5F,Fashion & Apparel
 TIME CARE SHOP,centralwOrld,1,B1,Lifestyle & Specialty
 TIME CLINIC,centralwOrld,1,B1,Lifestyle & Specialty
 TIME,centralwOrld,1,B1,Lifestyle & Specialty
 TISCO BANK,centralwOrld,1,4F,Bank & Financial Services
-TISSOT,centralwOrld,1,1F,Fashion
+TISSOT,centralwOrld,1,1F,Fashion & Apparel
 TMB THANACHART BANK,centralwOrld,1,4F,Bank & Financial Services
 TO B 1 HAIR STATION,centralwOrld,1,3F,Beauty & Wellness
 TOKYO SWEETS,centralwOrld,1,3F,Food & Beverage
-TOMMY HILFIGER,centralwOrld,1,1F,Fashion
-TOMS,centralwOrld,1,3F,Fashion
-TORY BURCH,centralwOrld,1,1F,Fashion
+TOMMY HILFIGER,centralwOrld,1,1F,Fashion & Apparel
+TOMS,centralwOrld,1,3F,Fashion & Apparel
+TORY BURCH,centralwOrld,1,1F,Fashion & Apparel
 TOYBIES,centralwOrld,1,2F,Lifestyle & Specialty
 TOYS R US,centralwOrld,1,6F,Lifestyle & Specialty
-TRUE,centralwOrld,1,4F,Technology
-TRUE,centralwOrld,1,4F,Technology
+TRUE,centralwOrld,1,4F,Technology & Electronics
+TRUE,centralwOrld,1,4F,Technology & Electronics
 TSUJIRI,centralwOrld,1,7F,Food & Beverage
 TSUTA,centralwOrld,1,3F,Food & Beverage
-TUMI,centralwOrld,1,1F,Fashion
+TUMI,centralwOrld,1,1F,Fashion & Apparel
 UMM!..MILK,centralwOrld,1,7F,Food & Beverage
-UNDER ARMOUR,centralwOrld,1,3F,Fashion
-UNIQLO,centralwOrld,1,3F,Fashion
+UNDER ARMOUR,centralwOrld,1,3F,Fashion & Apparel
+UNIQLO,centralwOrld,1,3F,Fashion & Apparel
 UNITED OVERSEAS BANK,centralwOrld,1,4F,Bank & Financial Services
 UOB,centralwOrld,1,4F,Bank & Financial Services
 UPRISE,centralwOrld,1,2F,Lifestyle & Specialty
 UPRISE,centralwOrld,1,5F,Lifestyle & Specialty
-VANS,centralwOrld,1,3F,Fashion
+VANS,centralwOrld,1,3F,Fashion & Apparel
 VARELA,centralwOrld,1,5F,Beauty & Wellness
 VASO TAPAS BAR,centralwOrld,1,1F,Food & Beverage
 VICTORIA BY COCOTTE,centralwOrld,1,1F,Food & Beverage
 VICTORIA SECRET BEAUTY,centralwOrld,1,1F,Beauty & Wellness
-VICTORINOX,centralwOrld,1,3F,Fashion
-VIJITTRA'S JEWELRY,centralwOrld,1,2F,Fashion
+VICTORINOX,centralwOrld,1,3F,Fashion & Apparel
+VIJITTRA'S JEWELRY,centralwOrld,1,2F,Fashion & Apparel
 VITREE,centralwOrld,1,2F,Lifestyle & Specialty
 VIVE PERFUME,centralwOrld,1,2F,Beauty & Wellness
-VIVO,centralwOrld,1,4F,Technology
-VOCALIZE SINGING ACADEMY,centralwOrld,1,6F,Education
+VIVO,centralwOrld,1,4F,Technology & Electronics
+VOCALIZE SINGING ACADEMY,centralwOrld,1,6F,Services & Education
 VUUDH,centralwOrld,1,3F,Beauty & Wellness
-WAKINGBEE,centralwOrld,1,2F,Fashion
-WAKINGBEE,centralwOrld,1,3F,Fashion
+WAKINGBEE,centralwOrld,1,2F,Fashion & Apparel
+WAKINGBEE,centralwOrld,1,3F,Fashion & Apparel
 WARP,centralwOrld,1,2F,Food & Beverage
 WASH ME,centralwOrld,1,B1,Lifestyle & Specialty
-WATCH STATION,centralwOrld,1,2F,Fashion
+WATCH STATION,centralwOrld,1,2F,Fashion & Apparel
 WATCH MANIA PROTECTION,centralwOrld,1,5F,Lifestyle & Specialty
 WATSONS,centralwOrld,1,4F,Beauty & Wellness
 WATTS,centralwOrld,1,5F,Lifestyle & Specialty
-WIREFAST,centralwOrld,1,4F,Technology
-WITH IT,centralwOrld,1,2F,Fashion
+WIREFAST,centralwOrld,1,4F,Technology & Electronics
+WITH IT,centralwOrld,1,2F,Fashion & Apparel
 WONDER PHOTO SHOP,centralwOrld,1,4F,Lifestyle & Specialty
-X=ACT,centralwOrld,1,2F,Fashion
-XIAOMI,centralwOrld,1,4F,Technology
+X=ACT,centralwOrld,1,2F,Fashion & Apparel
+XIAOMI,centralwOrld,1,4F,Technology & Electronics
 XING FU TANG THAILAND BUBBLE TEA,centralwOrld,1,7F,Food & Beverage
-YACCO MARICARD,centralwOrld,1,1F,Fashion
-YAMAHA MUSIC SCHOOL,centralwOrld,1,6F,Education
+YACCO MARICARD,centralwOrld,1,1F,Fashion & Apparel
+YAMAHA MUSIC SCHOOL,centralwOrld,1,6F,Services & Education
 YAMAMORI WAFFLE,centralwOrld,1,3F,Food & Beverage
 YAMASA CHIKUWA,centralwOrld,1,3F,Food & Beverage
 YENLY YOURS,centralwOrld,1,7F,Food & Beverage
-YODYOKO,centralwOrld,1,3F,Fashion
+YODYOKO,centralwOrld,1,3F,Fashion & Apparel
 YOGURT LAND,centralwOrld,1,6F,Food & Beverage
 YOMIE'S RICE X YOGURT,centralwOrld,1,3F,Food & Beverage
 YOSHINOYA,centralwOrld,1,6F,Food & Beverage

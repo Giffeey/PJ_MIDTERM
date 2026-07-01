@@ -43,13 +43,14 @@ CATEGORY_KEYWORDS = {
 }
 
 CATEGORY_COLORS = {
-    "Fashion": "#e91e63", "Fashion & Apparel": "#e91e63",
+    "Fashion & Apparel": "#e91e63",
     "Food & Beverage": "#ff5722",
     "Beauty & Wellness": "#4caf50",
-    "Technology": "#2196f3", "Technology & Electronics": "#2196f3",
+    "Technology & Electronics": "#2196f3",
     "Lifestyle & Specialty": "#9c27b0",
-    "Bank & Financial Services": "#ffc107", "Bank & Financial": "#ffc107",
-    "Education": "#00bcd4", "Services & Education": "#00bcd4",
+    "Bank & Financial Services": "#ffc107",
+    "Bank & Financial": "#ffc107",
+    "Services & Education": "#00bcd4",
     "Entertainment": "#ff9800",
     "Supermarket": "#795548",
 }
@@ -313,7 +314,7 @@ with tab4:
     H = G.subgraph(top_tenants).copy()
 
     H2 = nx.Graph()
-    H2.add_nodes_from(H.nodes())
+    H2.add_nodes_from(top_tenants)
     for u, v in H.edges():
         if u in top_tenants and v in top_tenants:
             H2.add_edge(u, v, weight=G[u][v]["weight"])

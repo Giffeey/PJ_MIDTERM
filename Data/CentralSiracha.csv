@@ -1,61 +1,61 @@
-Source,Target,Weight,Floor,Category
-ADIDAS,Central Siracha,1,1F,Fashion
+﻿Source,Target,Weight,Floor,Category
+ADIDAS,Central Siracha,1,1F,Fashion & Apparel
 AEON,Central Siracha,1,2F,Bank & Financial Services
 AES CLASS CLINIC,Central Siracha,1,2F,Beauty & Wellness
-AIS,Central Siracha,1,2F,Technology
-AIS,Central Siracha,1,2F,Technology
+AIS,Central Siracha,1,2F,Technology & Electronics
+AIS,Central Siracha,1,2F,Technology & Electronics
 AKA,Central Siracha,1,3F,Food & Beverage
 AKIMITSU TENDON,Central Siracha,1,1F,Food & Beverage
-ALBEDO,Central Siracha,1,1F,Fashion
-ANELLO,Central Siracha,1,GF,Fashion
-ARROW,Central Siracha,1,1F,Fashion
+ALBEDO,Central Siracha,1,1F,Fashion & Apparel
+ANELLO,Central Siracha,1,GF,Fashion & Apparel
+ARROW,Central Siracha,1,1F,Fashion & Apparel
 AUGUST TOYS,Central Siracha,1,1F,Lifestyle & Specialty
 AUNTIE ANNE'S,Central Siracha,1,GF,Food & Beverage
-AURORA,Central Siracha,1,GF,Fashion
+AURORA,Central Siracha,1,GF,Fashion & Apparel
 AUTO1,Central Siracha,1,LG,Lifestyle & Specialty
 B.BURNT,Central Siracha,1,1F,Food & Beverage
 B2S,Central Siracha,1,3F,Lifestyle & Specialty
 BAAN CAKE BY NUNAN,Central Siracha,1,GF,Food & Beverage
-IT BANANA,Central Siracha,1,2F,Technology
-IT BANANA,Central Siracha,1,2F,Technology
+IT BANANA,Central Siracha,1,2F,Technology & Electronics
+IT BANANA,Central Siracha,1,2F,Technology & Electronics
 BANGKOK BANK,Central Siracha,1,2F,Bank & Financial Services
-BANGKOK GOLDS,Central Siracha,1,GF,Fashion
-BAOJI,Central Siracha,1,1F,Fashion
+BANGKOK GOLDS,Central Siracha,1,GF,Fashion & Apparel
+BAOJI,Central Siracha,1,1F,Fashion & Apparel
 BAR-B-Q PLAZA,Central Siracha,1,3F,Food & Beverage
-BATA,Central Siracha,1,GF,Fashion
+BATA,Central Siracha,1,GF,Fashion & Apparel
 BEAUTRIUM,Central Siracha,1,GF,Beauty & Wellness
-BEBE PHONE,Central Siracha,1,2F,Technology
-BETTER VISION,Central Siracha,1,1F,Fashion
-BIG CAMERA,Central Siracha,1,2F,Technology
-BKK DIAMOND,Central Siracha,1,GF,Fashion
-BLOOMING HOUSE,Central Siracha,1,3F,Fashion
+BEBE PHONE,Central Siracha,1,2F,Technology & Electronics
+BETTER VISION,Central Siracha,1,1F,Fashion & Apparel
+BIG CAMERA,Central Siracha,1,2F,Technology & Electronics
+BKK DIAMOND,Central Siracha,1,GF,Fashion & Apparel
+BLOOMING HOUSE,Central Siracha,1,3F,Fashion & Apparel
 BLUE GOLD ROASTER SPECIALTY,Central Siracha,1,1F,Food & Beverage
-BODY GLOVE,Central Siracha,1,GF,Fashion
+BODY GLOVE,Central Siracha,1,GF,Fashion & Apparel
 BONCHON,Central Siracha,1,3F,Food & Beverage
 BOOST JUICE BAR,Central Siracha,1,GF,Food & Beverage
-BOSS TIME,Central Siracha,1,GF,Fashion
+BOSS TIME,Central Siracha,1,GF,Fashion & Apparel
 BUNNY SHAKE,Central Siracha,1,GF,Food & Beverage
 CAFE AMAZON,Central Siracha,1,GF,Food & Beverage
-CATH KIDSTON,Central Siracha,1,GF,Fashion
-CC DOUBLE O,Central Siracha,1,GF,Fashion
+CATH KIDSTON,Central Siracha,1,GF,Fashion & Apparel
+CC DOUBLE O,Central Siracha,1,GF,Fashion & Apparel
 CHATRAMUE,Central Siracha,1,GF,Food & Beverage
-CHIN GOLD&JEWELRY,Central Siracha,1,GF,Fashion
+CHIN GOLD&JEWELRY,Central Siracha,1,GF,Fashion & Apparel
 CHIVAROME,Central Siracha,1,2F,Beauty & Wellness
 CIMB THAI BANK,Central Siracha,1,2F,Bank & Financial Services
 CLAUDIA & DAVIS,Central Siracha,1,GF,Beauty & Wellness
 COCO ICHIBANYA,Central Siracha,1,1F,Food & Beverage
-CONVERSE,Central Siracha,1,1F,Fashion
-CROCS,Central Siracha,1,1F,Fashion
-CRUZY,Central Siracha,1,GF,Fashion
-D STUDIO,Central Siracha,1,2F,Technology
-D'ARTE,Central Siracha,1,1F,Fashion
+CONVERSE,Central Siracha,1,1F,Fashion & Apparel
+CROCS,Central Siracha,1,1F,Fashion & Apparel
+CRUZY,Central Siracha,1,GF,Fashion & Apparel
+D STUDIO,Central Siracha,1,2F,Technology & Electronics
+D'ARTE,Central Siracha,1,1F,Fashion & Apparel
 DAIRY QUEEN,Central Siracha,1,GF,Food & Beverage
-DIAMOND FOR YOU,Central Siracha,1,GF,Fashion
-DILAVIE,Central Siracha,1,GF,Fashion
-DOTLIFE,Central Siracha,1,2F,Technology
+DIAMOND FOR YOU,Central Siracha,1,GF,Fashion & Apparel
+DILAVIE,Central Siracha,1,GF,Fashion & Apparel
+DOTLIFE,Central Siracha,1,2F,Technology & Electronics
 ECLAIRE,Central Siracha,1,1F,Beauty & Wellness
-EYE CLASS,Central Siracha,1,1F,Fashion
-FITFLOP,Central Siracha,1,GF,Fashion
+EYE CLASS,Central Siracha,1,1F,Fashion & Apparel
+FITFLOP,Central Siracha,1,GF,Fashion & Apparel
 FOOD PARK,Central Siracha,1,GF,Food & Beverage
 FRUZBERRY,Central Siracha,1,3F,Food & Beverage
 FUJI,Central Siracha,1,3F,Food & Beverage
@@ -63,138 +63,138 @@ FUKU MATCHA,Central Siracha,1,3F,Food & Beverage
 FUN CITY,Central Siracha,1,1F,Entertainment
 FUN STATION,Central Siracha,1,3F,Entertainment
 FUTURE LIVING,Central Siracha,1,2F,Lifestyle & Specialty
-G-SHOCK CASIO,Central Siracha,1,1F,Fashion
-GIORDANO,Central Siracha,1,GF,Fashion
-GLAMOR,Central Siracha,1,GF,Fashion
+G-SHOCK CASIO,Central Siracha,1,1F,Fashion & Apparel
+GIORDANO,Central Siracha,1,GF,Fashion & Apparel
+GLAMOR,Central Siracha,1,GF,Fashion & Apparel
 GO WOW!,Central Siracha,1,1F,Lifestyle & Specialty
-GUESS ACCESSORIES,Central Siracha,1,GF,Fashion
+GUESS ACCESSORIES,Central Siracha,1,GF,Fashion & Apparel
 HACHIBAN RAMEN,Central Siracha,1,3F,Food & Beverage
 HAIR'S PLACE,Central Siracha,1,1F,Beauty & Wellness
-HAVAIANAS,Central Siracha,1,1F,Fashion
+HAVAIANAS,Central Siracha,1,1F,Fashion & Apparel
 HI CHA,Central Siracha,1,1F,Food & Beverage
-HIGH SCHOOL,Central Siracha,1,1F,Fashion
-HOUSE OF SHOES BY HEAVY SHOES,Central Siracha,1,1F,Fashion
-HUAWEI,Central Siracha,1,2F,Technology
+HIGH SCHOOL,Central Siracha,1,1F,Fashion & Apparel
+HOUSE OF SHOES BY HEAVY SHOES,Central Siracha,1,1F,Fashion & Apparel
+HUAWEI,Central Siracha,1,2F,Technology & Electronics
 HUB STATION 1,Central Siracha,1,LG,Lifestyle & Specialty
-IDEVICE SELECTION,Central Siracha,1,2F,Technology
+IDEVICE SELECTION,Central Siracha,1,2F,Technology & Electronics
 INTHANIN COFFEE,Central Siracha,1,1F,Food & Beverage
-ISTUDIO BY COPPERWIRED,Central Siracha,1,1F,Technology
-IT CITY,Central Siracha,1,2F,Technology
+ISTUDIO BY COPPERWIRED,Central Siracha,1,1F,Technology & Electronics
+IT CITY,Central Siracha,1,2F,Technology & Electronics
 ITALASIA,Central Siracha,1,GF,Food & Beverage
 JAITHUENG,Central Siracha,1,3F,Food & Beverage
-JAYMART,Central Siracha,1,2F,Technology
-JELLY BUNNY,Central Siracha,1,GF,Fashion
+JAYMART,Central Siracha,1,2F,Technology & Electronics
+JELLY BUNNY,Central Siracha,1,GF,Fashion & Apparel
 JETTS 24 HOUR FITNESS,Central Siracha,1,2F,Lifestyle & Specialty
-JIB,Central Siracha,1,2F,Technology
-JUBILEE DIAMOND,Central Siracha,1,GF,Fashion
+JIB,Central Siracha,1,2F,Technology & Electronics
+JUBILEE DIAMOND,Central Siracha,1,GF,Fashion & Apparel
 KASH JOY,Central Siracha,1,2F,Bank & Financial Services
 KATSUYA,Central Siracha,1,1F,Food & Beverage
-KAWAI,Central Siracha,1,3F,Education
+KAWAI,Central Siracha,1,3F,Services & Education
 KFC,Central Siracha,1,GF,Food & Beverage
-KHONGKWAN BY AURORA,Central Siracha,1,GF,Fashion
+KHONGKWAN BY AURORA,Central Siracha,1,GF,Fashion & Apparel
 KIDZOOONA,Central Siracha,1,3F,Entertainment
-KIKI BABY,Central Siracha,1,GF,Fashion
+KIKI BABY,Central Siracha,1,GF,Fashion & Apparel
 KLEAN SQUARE,Central Siracha,1,LG,Lifestyle & Specialty
 KOI THE,Central Siracha,1,GF,Food & Beverage
 KRUNGSRI,Central Siracha,1,2F,Bank & Financial Services
 KRUNGSRI FIRST CHOICE,Central Siracha,1,2F,Bank & Financial Services
 KRUNGTHAI BANK,Central Siracha,1,2F,Bank & Financial Services
 LAO YUAN,Central Siracha,1,3F,Food & Beverage
-LE COQ SPORTIF,Central Siracha,1,1F,Fashion
-LOOKER,Central Siracha,1,GF,Fashion
+LE COQ SPORTIF,Central Siracha,1,1F,Fashion & Apparel
+LOOKER,Central Siracha,1,GF,Fashion & Apparel
 LUCKY MILK,Central Siracha,1,1F,Food & Beverage
-LYN,Central Siracha,1,GF,Fashion
-MAEKAISAENWAN,Central Siracha,1,GF,Fashion
+LYN,Central Siracha,1,GF,Fashion & Apparel
+MAEKAISAENWAN,Central Siracha,1,GF,Fashion & Apparel
 MAKOTO,Central Siracha,1,GF,Lifestyle & Specialty
-MC JEANS,Central Siracha,1,1F,Fashion
+MC JEANS,Central Siracha,1,1F,Fashion & Apparel
 MELODY KARAOKE,Central Siracha,1,3F,Entertainment
 MIKI MIKI,Central Siracha,1,3F,Lifestyle & Specialty
 MILK KIDS SALON & NAILS,Central Siracha,1,1F,Beauty & Wellness
 MISTER DONUT,Central Siracha,1,GF,Food & Beverage
 MIXUE,Central Siracha,1,GF,Food & Beverage
 MK RESTAURANT,Central Siracha,1,3F,Food & Beverage
-MORTIMER,Central Siracha,1,3F,Fashion
+MORTIMER,Central Siracha,1,3F,Fashion & Apparel
 MOS BURGER,Central Siracha,1,1F,Food & Beverage
 MOSHI MOSHI,Central Siracha,1,1F,Lifestyle & Specialty
 MUJI,Central Siracha,1,GF,Lifestyle & Specialty
-NATURE,Central Siracha,1,1F,Fashion
-NGG,Central Siracha,1,GF,Fashion
+NATURE,Central Siracha,1,1F,Fashion & Apparel
+NGG,Central Siracha,1,GF,Fashion & Apparel
 NITORI,Central Siracha,1,2F,Lifestyle & Specialty
-NIYOMJEANS,Central Siracha,1,1F,Fashion
-NOVEMBER,Central Siracha,1,1F,Fashion
+NIYOMJEANS,Central Siracha,1,1F,Fashion & Apparel
+NOVEMBER,Central Siracha,1,1F,Fashion & Apparel
 OCHAYA,Central Siracha,1,GF,Food & Beverage
 OISHI BIZTORO,Central Siracha,1,1F,Food & Beverage
 OKAMI YAKINIKU BUFFET,Central Siracha,1,3F,Food & Beverage
 OLINO CREPE & TEA,Central Siracha,1,GF,Food & Beverage
 ON THE TABLE,Central Siracha,1,3F,Food & Beverage
-ONE ACADEMY OF DANCE CENTRAL SI RACHA,Central Siracha,1,3F,Education
+ONE ACADEMY OF DANCE CENTRAL SI RACHA,Central Siracha,1,3F,Services & Education
 ONION,Central Siracha,1,1F,Lifestyle & Specialty
-OPPO,Central Siracha,1,2F,Technology
+OPPO,Central Siracha,1,2F,Technology & Electronics
 ORIENTAL PRINCESS,Central Siracha,1,GF,Beauty & Wellness
 OTTERI WASH & DRY,Central Siracha,1,LG,Lifestyle & Specialty
-OWNDAYS,Central Siracha,1,GF,Fashion
+OWNDAYS,Central Siracha,1,GF,Fashion & Apparel
 P&F SMOOTH LIFE,Central Siracha,1,1F,Beauty & Wellness
-PAINT N PLAY,Central Siracha,1,3F,Education
+PAINT N PLAY,Central Siracha,1,3F,Services & Education
 PAN KHAM HOM,Central Siracha,1,GF,Food & Beverage
-PANDORA,Central Siracha,1,GF,Fashion
-PAY BY P.A.PHONE,Central Siracha,1,2F,Technology
+PANDORA,Central Siracha,1,GF,Fashion & Apparel
+PAY BY P.A.PHONE,Central Siracha,1,2F,Technology & Electronics
 PENGUIN KNIGHT,Central Siracha,1,1F,Food & Beverage
 PET LOVER CENTRE,Central Siracha,1,LG,Lifestyle & Specialty
-PHONE PHONE,Central Siracha,1,2F,Technology
-PHONPASSTRA,Central Siracha,1,1F,Fashion
+PHONE PHONE,Central Siracha,1,2F,Technology & Electronics
+PHONPASSTRA,Central Siracha,1,1F,Fashion & Apparel
 PONGSAK CLINIC,Central Siracha,1,2F,Beauty & Wellness
 PORNKASEM CLINIC,Central Siracha,1,2F,Beauty & Wellness
 POTATO CORNER,Central Siracha,1,GF,Food & Beverage
-POWER BUY,Central Siracha,1,2F,Technology
-PRADAP,Central Siracha,1,1F,Fashion
+POWER BUY,Central Siracha,1,2F,Technology & Electronics
+PRADAP,Central Siracha,1,1F,Fashion & Apparel
 PRANAKORN BOAT NOODLE,Central Siracha,1,GF,Food & Beverage
-PREM,Central Siracha,1,GF,Fashion
+PREM,Central Siracha,1,GF,Fashion & Apparel
 PROMISE,Central Siracha,1,2F,Bank & Financial Services
-PROSTAR ACADEMY,Central Siracha,1,3F,Education
-RAM RUAY TELEPHONE,Central Siracha,1,2F,Technology
+PROSTAR ACADEMY,Central Siracha,1,3F,Services & Education
+RAM RUAY TELEPHONE,Central Siracha,1,2F,Technology & Electronics
 RECYCLE DAY,Central Siracha,1,LG,Lifestyle & Specialty
-ROBOTHINK,Central Siracha,1,3F,Education
-SABINA,Central Siracha,1,1F,Fashion
+ROBOTHINK,Central Siracha,1,3F,Services & Education
+SABINA,Central Siracha,1,1F,Fashion & Apparel
 SAINT CROISSANT,Central Siracha,1,GF,Food & Beverage
-SAMSUNG,Central Siracha,1,2F,Technology
+SAMSUNG,Central Siracha,1,2F,Technology & Electronics
 SANTA FE' STEAK,Central Siracha,1,3F,Food & Beverage
 SBARSHA,Central Siracha,1,2F,Beauty & Wellness
-SENGHENG,Central Siracha,1,GF,Fashion
+SENGHENG,Central Siracha,1,GF,Fashion & Apparel
 SHABUSHI,Central Siracha,1,3F,Food & Beverage
-SHANE ENGLISH SCHOOL,Central Siracha,1,3F,Education
+SHANE ENGLISH SCHOOL,Central Siracha,1,3F,Services & Education
 SI RACHA CINEPLEX,Central Siracha,1,4F,Entertainment
 SIAM COMMERCIAL BANK,Central Siracha,1,2F,Bank & Financial Services
 SIRACHA HALL,Central Siracha,1,4F,Entertainment
 SIZZLER,Central Siracha,1,3F,Food & Beverage
-SKECHERS,Central Siracha,1,1F,Fashion
+SKECHERS,Central Siracha,1,1F,Fashion & Apparel
 SKY PLUS DENTAL CLINIC,Central Siracha,1,2F,Beauty & Wellness
 SOUL SOCIETY CLINCE,Central Siracha,1,2F,Beauty & Wellness
 STARBUCKS COFFEE,Central Siracha,1,GF,Food & Beverage
 STRAW FACTORY,Central Siracha,1,GF,Food & Beverage
-SUPER SPORTS,Central Siracha,1,1F,Fashion
+SUPER SPORTS,Central Siracha,1,1F,Fashion & Apparel
 SURASANG,Central Siracha,1,1F,Food & Beverage
 SWENSEN'S,Central Siracha,1,3F,Food & Beverage
-TG FONE,Central Siracha,1,2F,Technology
+TG FONE,Central Siracha,1,2F,Technology & Electronics
 THE KLINIQUE,Central Siracha,1,2F,Beauty & Wellness
-THE NEXT,Central Siracha,1,1F,Fashion
+THE NEXT,Central Siracha,1,1F,Fashion & Apparel
 TMB THANACHART BANK,Central Siracha,1,2F,Bank & Financial Services
 TOP BOX TOYS,Central Siracha,1,GF,Entertainment
 TOPS,Central Siracha,1,GF,Lifestyle & Specialty
 TPARTNER,Central Siracha,1,GF,Lifestyle & Specialty
-TRUE,Central Siracha,1,2F,Technology
-UNIQLO,Central Siracha,1,GF,Fashion
+TRUE,Central Siracha,1,2F,Technology & Electronics
+UNIQLO,Central Siracha,1,GF,Fashion & Apparel
 UNITED OVERSEAS BANK,Central Siracha,1,2F,Bank & Financial Services
-V2LAND,Central Siracha,1,1F,Fashion
-VV JEWELRY,Central Siracha,1,GF,Fashion
-WACOAL,Central Siracha,1,1F,Fashion
-WALL STREET ENGLISH,Central Siracha,1,3F,Education
-WANG TOA KANG YAOWARAT GOLD,Central Siracha,1,GF,Fashion
+V2LAND,Central Siracha,1,1F,Fashion & Apparel
+VV JEWELRY,Central Siracha,1,GF,Fashion & Apparel
+WACOAL,Central Siracha,1,1F,Fashion & Apparel
+WALL STREET ENGLISH,Central Siracha,1,3F,Services & Education
+WANG TOA KANG YAOWARAT GOLD,Central Siracha,1,GF,Fashion & Apparel
 WATSONS,Central Siracha,1,1F,Beauty & Wellness
 WELCARE,Central Siracha,1,GF,Lifestyle & Specialty
-WRANGLER,Central Siracha,1,GF,Fashion
-XIAOMI,Central Siracha,1,2F,Technology
+WRANGLER,Central Siracha,1,GF,Fashion & Apparel
+XIAOMI,Central Siracha,1,2F,Technology & Electronics
 YAMAZAKI,Central Siracha,1,GF,Food & Beverage
 YAYOI,Central Siracha,1,3F,Food & Beverage
-YUEDPAO,Central Siracha,1,GF,Fashion
+YUEDPAO,Central Siracha,1,GF,Fashion & Apparel
 ZEN JAPANESE RESTAURANT,Central Siracha,1,3F,Food & Beverage
-มันเพลิน BY STORY DOG,Central Siracha,1,1F,Fashion
+มันเพลิน BY STORY DOG,Central Siracha,1,1F,Fashion & Apparel
