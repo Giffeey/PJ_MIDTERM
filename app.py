@@ -67,9 +67,10 @@ def compute_sna(edges):
     tenants = set(e[0] for e in edges)
     malls = set(e[1] for e in edges)
 
+    uniq_pairs = set((t, m) for t, m, _ in edges)
     tdeg = defaultdict(int)
     mdeg = defaultdict(int)
-    for t, m, _ in edges:
+    for t, m in uniq_pairs:
         tdeg[t] += 1
         mdeg[m] += 1
     in_deg = sorted(tdeg.items(), key=lambda x: -x[1])

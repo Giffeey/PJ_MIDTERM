@@ -184,7 +184,9 @@ for src, tgt, w, cat in company_edges:
 # ============================================================
 mall_degrees = {}
 tenant_degrees = {}
-for tenant, mall, w in tenant_mall_edges:
+mall_degrees = {}
+uniq_pairs = set((t, m) for t, m, _ in tenant_mall_edges)
+for tenant, mall in uniq_pairs:
     tenant_degrees[tenant] = tenant_degrees.get(tenant, 0) + 1
     mall_degrees[mall] = mall_degrees.get(mall, 0) + 1
 
