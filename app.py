@@ -218,11 +218,10 @@ st.sidebar.markdown(
 # ============================================================
 # TABS
 # ============================================================
-tab1, tab2, tab3, tab4, tab5 = st.tabs([
+tab1, tab2, tab3, tab4 = st.tabs([
     " In-Degree",
     " Betweenness",
     " Bridges",
-    " Communities",
     " Network Diagram",
 ])
 
@@ -285,20 +284,6 @@ with tab3:
         st.info("No bridges found — the graph is fully connected beyond single-link edges.")
 
 with tab4:
-    st.subheader("Tenant communities (Louvain detection)")
-    for cid, name, members in named_comms:
-        with st.expander(f"**{name}** — {len(members)} members"):
-            rows = []
-            for m in sorted(members):
-                corp = brand_corp.get(m, "")
-                cat_label = cat_map.get(m, "")
-                mall_cnt = dict(in_deg).get(m, 0)
-                rows.append({"Tenant": m, "Malls": mall_cnt, "Category": cat_label,
-                             "Corporate": corp})
-            df_c = pd.DataFrame(rows)
-            st.dataframe(df_c, use_container_width=True, hide_index=True)
-
-with tab5:
     st.subheader("CPN Tenant & Retail Alliance — Co-occurrence Network")
     st.caption("Circles = tenants ◆ diamonds = corporate entities (CPN, CRC, CRG). Dashed lines = brand ownership. Edges = co-occur in ≥2 same malls.")
 
