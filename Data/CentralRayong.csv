@@ -10,8 +10,8 @@ AURORA,Central Rayong,1,1F,Fashion
 B2S,Central Rayong,1,2F,Lifestyle & Specialty
 BA MEE FAN CHUAN,Central Rayong,1,1F,Food & Beverage
 BAKE A WISH,Central Rayong,1,1F,Food & Beverage
-BANANA IT,Central Rayong,1,2F,Technology
-BANANA MOBILE,Central Rayong,1,2F,Technology
+BANANA,Central Rayong,1,2F,Technology
+BANANA,Central Rayong,1,2F,Technology
 BANGKOK BANK,Central Rayong,1,2F,Bank & Financial Services
 BANK OF AYUDHYA,Central Rayong,1,2F,Bank & Financial Services
 BAR-B-Q PLAZA,Central Rayong,1,3F,Food & Beverage
@@ -26,7 +26,7 @@ BODY GLOVE,Central Rayong,1,1F,Fashion
 BONITA EXCLUSIVE,Central Rayong,1,2F,Beauty & Wellness
 BOOST JUICE BAR,Central Rayong,1,1F,Food & Beverage
 BOOTS,Central Rayong,1,2F,Beauty & Wellness
-CAFÉ AMAZON,Central Rayong,1,2F,Food & Beverage
+CAFE AMAZON,Central Rayong,1,2F,Food & Beverage
 CC-OO,Central Rayong,1,1F,Fashion
 CHESTER'S,Central Rayong,1,1F,Food & Beverage
 COFFEE WORLD,Central Rayong,1,2F,Food & Beverage
@@ -41,7 +41,7 @@ DAISO,Central Rayong,1,2F,Lifestyle & Specialty
 DENTAL FACTORY,Central Rayong,1,2F,Beauty & Wellness
 DILAVIE,Central Rayong,1,1F,Fashion
 DR. PONG,Central Rayong,1,1F,Beauty & Wellness
-DTAC HALL,Central Rayong,1,2F,Technology
+DTAC,Central Rayong,1,2F,Technology
 EYE CLASS,Central Rayong,1,2F,Fashion
 FITFLOP,Central Rayong,1,1F,Fashion
 FOODPARK,Central Rayong,1,1F,Food & Beverage
@@ -64,7 +64,7 @@ HIGH SCHOOL,Central Rayong,1,1F,Fashion
 HIS&HER LINGERIE,Central Rayong,1,1F,Fashion
 HOT TOD GRA TA RON KRUA NAI NA,Central Rayong,1,1F,Food & Beverage
 HUAWEI,Central Rayong,1,2F,Technology
-INTHANIN,Central Rayong,1,1F,Food & Beverage
+INTHANIN COFFEE,Central Rayong,1,1F,Food & Beverage
 ISTUDIO,Central Rayong,1,2F,Technology
 J&D MOBILE SERVICE,Central Rayong,1,2F,Technology
 JASPAL,Central Rayong,1,1F,Fashion
@@ -77,12 +77,12 @@ KA MOO HONG TAY,Central Rayong,1,1F,Food & Beverage
 KAOKLUKNAMPRIK MAEKANYA,Central Rayong,1,1F,Food & Beverage
 KASIKORN BANK,Central Rayong,1,2F,Bank & Financial Services
 KFC,Central Rayong,1,1F,Food & Beverage
-KOI THE',Central Rayong,1,1F,Food & Beverage
+KOI THE,Central Rayong,1,1F,Food & Beverage
 KRUNG THAI BANK,Central Rayong,1,2F,Bank & Financial Services
 LAM TAE TAE AR HAN NEUA,Central Rayong,1,1F,Food & Beverage
 LEVI'S,Central Rayong,1,1F,Fashion
 LOOKCHINTHIP,Central Rayong,1,1F,Food & Beverage
-LUCKY MILK & TEA,Central Rayong,1,1F,Food & Beverage
+LUCKY MILK,Central Rayong,1,1F,Food & Beverage
 LYN,Central Rayong,1,1F,Fashion
 MAJOR CINEPLEX,Central Rayong,1,3F,Entertainment
 MAMA BABY,Central Rayong,1,2F,Fashion
@@ -106,7 +106,7 @@ ORIENTAL PRINCESS,Central Rayong,1,1F,Beauty & Wellness
 OSAKA,Central Rayong,1,3F,Food & Beverage
 OWNDAYS,Central Rayong,1,2F,Fashion
 P&F,Central Rayong,1,2F,Beauty & Wellness
-P.A.PHONE,Central Rayong,1,2F,Technology
+P.A. PHONE,Central Rayong,1,2F,Technology
 PASAYA,Central Rayong,1,1F,Lifestyle & Specialty
 PASTA KITCHEN,Central Rayong,1,1F,Food & Beverage
 PLAYBOY,Central Rayong,1,1F,Fashion
@@ -114,7 +114,7 @@ PLOYRADA CLINIC,Central Rayong,1,2F,Beauty & Wellness
 POMELO,Central Rayong,1,1F,Fashion
 POTATO CORNER,Central Rayong,1,1F,Food & Beverage
 POWER BUY,Central Rayong,1,2F,Technology
-PRO CLEAN,Central Rayong,1,GF,Services
+PRO CLEAN,Central Rayong,1,GF,Lifestyle & Specialty
 PUCREPE,Central Rayong,1,3F,Food & Beverage
 RAD NA HIA AOUN YOW WA RAD,Central Rayong,1,1F,Food & Beverage
 RATCHANON,Central Rayong,1,2F,Technology
@@ -129,8 +129,8 @@ RUANRUDEE THAI MASSAGE,Central Rayong,1,2F,Beauty & Wellness
 S&P,Central Rayong,1,1F,Food & Beverage
 SABINA,Central Rayong,1,1F,Fashion
 SALMON FOR YOU,Central Rayong,1,1F,Food & Beverage
-SAMSUNG MOBILE,Central Rayong,1,2F,Technology
-SANTA FE' STEAK HOUSE,Central Rayong,1,3F,Food & Beverage
+SAMSUNG,Central Rayong,1,2F,Technology
+SANTA FE' STEAK,Central Rayong,1,3F,Food & Beverage
 SATO DON,Central Rayong,1,1F,Food & Beverage
 SE-ED BOOK CENTER,Central Rayong,1,2F,Lifestyle & Specialty
 SF KAO KAI JIEOW,Central Rayong,1,1F,Food & Beverage

@@ -12,12 +12,12 @@ ARROW,Central Siracha,1,1F,Fashion
 AUGUST TOYS,Central Siracha,1,1F,Lifestyle & Specialty
 AUNTIE ANNE'S,Central Siracha,1,GF,Food & Beverage
 AURORA,Central Siracha,1,GF,Fashion
-AUTO1 (CAR SERVICE),Central Siracha,1,LG,Services
+AUTO1,Central Siracha,1,LG,Lifestyle & Specialty
 B.BURNT,Central Siracha,1,1F,Food & Beverage
 B2S,Central Siracha,1,3F,Lifestyle & Specialty
 BAAN CAKE BY NUNAN,Central Siracha,1,GF,Food & Beverage
 BANANA,Central Siracha,1,2F,Technology
-BANANA MOBILE,Central Siracha,1,2F,Technology
+BANANA,Central Siracha,1,2F,Technology
 BANGKOK BANK,Central Siracha,1,2F,Bank & Financial Services
 BANGKOK GOLDS,Central Siracha,1,GF,Fashion
 BAOJI,Central Siracha,1,1F,Fashion
@@ -34,8 +34,8 @@ BODY GLOVE,Central Siracha,1,GF,Fashion
 BONCHON,Central Siracha,1,3F,Food & Beverage
 BOOST JUICE BAR,Central Siracha,1,GF,Food & Beverage
 BOSS TIME,Central Siracha,1,GF,Fashion
-BUNNY SHAKE CAFE,Central Siracha,1,GF,Food & Beverage
-CAFÉ AMAZON,Central Siracha,1,GF,Food & Beverage
+BUNNY SHAKE,Central Siracha,1,GF,Food & Beverage
+CAFE AMAZON,Central Siracha,1,GF,Food & Beverage
 CATH KIDSTON,Central Siracha,1,GF,Fashion
 CC DOUBLE O,Central Siracha,1,GF,Fashion
 CHATRAMUE,Central Siracha,1,GF,Food & Beverage
@@ -75,16 +75,16 @@ HI CHA,Central Siracha,1,1F,Food & Beverage
 HIGH SCHOOL,Central Siracha,1,1F,Fashion
 HOUSE OF SHOES BY HEAVY SHOES,Central Siracha,1,1F,Fashion
 HUAWEI,Central Siracha,1,2F,Technology
-HUB STATION 1,Central Siracha,1,LG,Services
+HUB STATION 1,Central Siracha,1,LG,Lifestyle & Specialty
 IDEVICE SELECTION,Central Siracha,1,2F,Technology
-INTHANIN,Central Siracha,1,1F,Food & Beverage
+INTHANIN COFFEE,Central Siracha,1,1F,Food & Beverage
 ISTUDIO BY COPPERWIRED,Central Siracha,1,1F,Technology
 IT CITY,Central Siracha,1,2F,Technology
 ITALASIA,Central Siracha,1,GF,Food & Beverage
 JAITHUENG,Central Siracha,1,3F,Food & Beverage
 JAY MART,Central Siracha,1,2F,Technology
 JELLY BUNNY,Central Siracha,1,GF,Fashion
-JETTS 24 HOURS FITNESS,Central Siracha,1,2F,Lifestyle & Specialty
+JETTS 24 HOUR FITNESS,Central Siracha,1,2F,Lifestyle & Specialty
 JIB,Central Siracha,1,2F,Technology
 JUBILEE DIAMOND,Central Siracha,1,GF,Fashion
 KASH JOY,Central Siracha,1,2F,Bank & Financial Services
@@ -94,8 +94,8 @@ KFC,Central Siracha,1,GF,Food & Beverage
 KHONGKWAN BY AURORA,Central Siracha,1,GF,Fashion
 KIDZOOONA,Central Siracha,1,3F,Entertainment
 KIKI BABY,Central Siracha,1,GF,Fashion
-KLEAN SQUARE,Central Siracha,1,LG,Services
-KOI THE',Central Siracha,1,GF,Food & Beverage
+KLEAN SQUARE,Central Siracha,1,LG,Lifestyle & Specialty
+KOI THE,Central Siracha,1,GF,Food & Beverage
 KRUNGSRI,Central Siracha,1,2F,Bank & Financial Services
 KRUNGSRI FIRST CHOICE,Central Siracha,1,2F,Bank & Financial Services
 KRUNGTHAI BANK,Central Siracha,1,2F,Bank & Financial Services
@@ -109,7 +109,7 @@ MAKOTO,Central Siracha,1,GF,Lifestyle & Specialty
 MC JEANS,Central Siracha,1,1F,Fashion
 MELODY KARAOKE,Central Siracha,1,3F,Entertainment
 MIKI MIKI STORE,Central Siracha,1,3F,Lifestyle & Specialty
-MILK KIDS' SALON&NAILS,Central Siracha,1,1F,Beauty & Wellness
+MILK KIDS SALON & NAILS,Central Siracha,1,1F,Beauty & Wellness
 MISTER DONUT,Central Siracha,1,GF,Food & Beverage
 MIXUE,Central Siracha,1,GF,Food & Beverage
 MK RESTAURANTS,Central Siracha,1,3F,Food & Beverage
@@ -131,7 +131,7 @@ ONE ACADEMY OF DANCE CENTRAL SI RACHA,Central Siracha,1,3F,Education
 ONION,Central Siracha,1,1F,Lifestyle & Specialty
 OPPO,Central Siracha,1,2F,Technology
 ORIENTAL PRINCESS,Central Siracha,1,GF,Beauty & Wellness
-OTTERI WASH & DRY,Central Siracha,1,LG,Services
+OTTERI WASH & DRY,Central Siracha,1,LG,Lifestyle & Specialty
 OWNDAYS,Central Siracha,1,GF,Fashion
 P&F SMOOTH LIFE,Central Siracha,1,1F,Beauty & Wellness
 PAINT N PLAY,Central Siracha,1,3F,Education
@@ -139,7 +139,7 @@ PAN KHAM HOM,Central Siracha,1,GF,Food & Beverage
 PANDORA,Central Siracha,1,GF,Fashion
 PAY BY P.A.PHONE,Central Siracha,1,2F,Technology
 PENGUIN KNIGHT,Central Siracha,1,1F,Food & Beverage
-PET LOVERS CENTRE,Central Siracha,1,LG,Lifestyle & Specialty
+PET LOVER CENTRE,Central Siracha,1,LG,Lifestyle & Specialty
 PHONE PHONE,Central Siracha,1,2F,Technology
 PHONPASSTRA,Central Siracha,1,1F,Fashion
 PONGSAK CLINIC,Central Siracha,1,2F,Beauty & Wellness
@@ -152,12 +152,12 @@ PREM,Central Siracha,1,GF,Fashion
 PROMISE,Central Siracha,1,2F,Bank & Financial Services
 PROSTAR ACADEMY,Central Siracha,1,3F,Education
 RAM RUAY TELEPHONE,Central Siracha,1,2F,Technology
-RECYCLE DAY,Central Siracha,1,LG,Services
+RECYCLE DAY,Central Siracha,1,LG,Lifestyle & Specialty
 ROBOTHINK,Central Siracha,1,3F,Education
 SABINA,Central Siracha,1,1F,Fashion
 SAINT CROISSANT,Central Siracha,1,GF,Food & Beverage
 SAMSUNG,Central Siracha,1,2F,Technology
-SANTA FE',Central Siracha,1,3F,Food & Beverage
+SANTA FE' STEAK,Central Siracha,1,3F,Food & Beverage
 SBARSHA,Central Siracha,1,2F,Beauty & Wellness
 SENGHENG,Central Siracha,1,GF,Fashion
 SHABUSHI,Central Siracha,1,3F,Food & Beverage

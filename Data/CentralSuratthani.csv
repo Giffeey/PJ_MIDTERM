@@ -5,7 +5,7 @@ AEON THANA SINSAP,Central Suratthani,1,3F,Bank & Financial Services
 AFFANFOODHALAL,Central Suratthani,1,3F,Food & Beverage
 AIIZ,Central Suratthani,1,1F,Fashion
 AIS,Central Suratthani,1,2F,Technology
-AMPHOR YIM,Central Suratthani,1,2F,Services
+AMPHOR YIM,Central Suratthani,1,2F,Lifestyle & Specialty
 ANELLO,Central Suratthani,1,1F,Fashion
 APPLE HOUSE,Central Suratthani,1,2F,Technology
 ARGO,Central Suratthani,1,3F,Food & Beverage
@@ -16,8 +16,8 @@ AURORA,Central Suratthani,1,1F,Fashion
 B2S,Central Suratthani,1,2F,Lifestyle & Specialty
 BABIES GENIUS,Central Suratthani,1,2F,Education
 BAKE A WISH,Central Suratthani,1,1F,Food & Beverage
-BANANA IT,Central Suratthani,1,2F,Technology
-BANANA MOBILE,Central Suratthani,1,2F,Technology
+BANANA,Central Suratthani,1,2F,Technology
+BANANA,Central Suratthani,1,2F,Technology
 BANG NUN TEA,Central Suratthani,1,3F,Food & Beverage
 BANSUAN CHAISAKARIN,Central Suratthani,1,2F,Lifestyle & Specialty
 BATA,Central Suratthani,1,2F,Fashion
@@ -34,12 +34,12 @@ BUA SHOP,Central Suratthani,1,2F,Fashion
 CAFE AMAZON,Central Suratthani,1,1F,Food & Beverage
 CC-OO,Central Suratthani,1,1F,Fashion
 CHAEMCHEUNNAMKAENGSAI,Central Suratthani,1,3F,Food & Beverage
-CHANON TIME SERVICE,Central Suratthani,1,GF,Services
+CHANON TIME SERVICE,Central Suratthani,1,GF,Lifestyle & Specialty
 CHAPAYOM,Central Suratthani,1,3F,Food & Beverage
 CHARLES & KEITH,Central Suratthani,1,1F,Fashion
 CHAZEN,Central Suratthani,1,1F,Food & Beverage
-CHEESY FRIED SNACK,Central Suratthani,1,3F,Food & Beverage
-CHOKDEE LOTTERY,Central Suratthani,1,GF,Services
+CHEESY FRIED SNACKS,Central Suratthani,1,3F,Food & Beverage
+CHOKDEE LOTTERY,Central Suratthani,1,GF,Lifestyle & Specialty
 CPS CHAPS,Central Suratthani,1,1F,Fashion
 CROCS,Central Suratthani,1,1F,Fashion
 CROISSAINT TAIYAKI BY SNOW CLOUDY,Central Suratthani,1,3F,Food & Beverage
@@ -67,7 +67,7 @@ HAVAIANAS,Central Suratthani,1,1F,Fashion
 HOUSE OF SHOES BY HEAVY SHOES,Central Suratthani,1,1F,Fashion
 HUAWEI,Central Suratthani,1,2F,Technology
 I CARE,Central Suratthani,1,2F,Technology
-IT BY IT CITY,Central Suratthani,1,2F,Technology
+IT CITY,Central Suratthani,1,2F,Technology
 IT CITY,Central Suratthani,1,2F,Technology
 ITEM SHOP,Central Suratthani,1,2F,Beauty & Wellness
 JAN PHONE,Central Suratthani,1,2F,Technology
@@ -101,7 +101,7 @@ KUAITIAORUAEARISSARA,Central Suratthani,1,3F,Food & Beverage
 LACOSTE,Central Suratthani,1,1F,Fashion
 LEE COOPER,Central Suratthani,1,2F,Fashion
 LITTLE GIRL,Central Suratthani,1,2F,Fashion
-LOCK SMIT SERVICE,Central Suratthani,1,GF,Services
+LOCK SMIT SERVICE,Central Suratthani,1,GF,Lifestyle & Specialty
 LONGRAKPHATHAI BY NAMTHIP,Central Suratthani,1,3F,Fashion
 LUXURY,Central Suratthani,1,3F,Fashion
 LYN AROUND,Central Suratthani,1,1F,Fashion
@@ -134,7 +134,7 @@ PECTH PLOY MANEE PHAN,Central Suratthani,1,1F,Fashion
 PICK A CHOUX,Central Suratthani,1,3F,Food & Beverage
 PIE STORE,Central Suratthani,1,3F,Food & Beverage
 PLAYBOY,Central Suratthani,1,1F,Fashion
-POLI-CHEM,Central Suratthani,1,GF,Services
+POLI-CHEM,Central Suratthani,1,GF,Lifestyle & Specialty
 POTATO CORNER,Central Suratthani,1,1F,Food & Beverage
 POWER BUY,Central Suratthani,1,2F,Technology
 PRADAP,Central Suratthani,1,2F,Fashion
@@ -150,10 +150,10 @@ RUBBER SOUL,Central Suratthani,1,2F,Fashion
 RUENNAMPRIK,Central Suratthani,1,3F,Food & Beverage
 RUNGTAEKWONDO ACADEMY,Central Suratthani,1,4F,Education
 S&P,Central Suratthani,1,3F,Food & Beverage
-S&P SIMPLY DELICIOUS,Central Suratthani,1,1F,Food & Beverage
+S&P,Central Suratthani,1,1F,Food & Beverage
 SABINA,Central Suratthani,1,1F,Fashion
 SAMSUNG,Central Suratthani,1,2F,Technology
-SANTA FE' STEAK HOUSE,Central Suratthani,1,3F,Food & Beverage
+SANTA FE' STEAK,Central Suratthani,1,3F,Food & Beverage
 SAYLUCK,Central Suratthani,1,3F,Food & Beverage
 SE-ED BOOK CENTER,Central Suratthani,1,3F,Lifestyle & Specialty
 SF CINEMA,Central Suratthani,1,4F,Entertainment
@@ -172,7 +172,7 @@ TAYWIN ORIGINAL STYLE,Central Suratthani,1,1F,Fashion
 TELEWIZ,Central Suratthani,1,2F,Technology
 TG FONE,Central Suratthani,1,2F,Technology
 THAI PERFUME,Central Suratthani,1,2F,Beauty & Wellness
-THAIPOST OFFICE,Central Suratthani,1,GF,Services
+THAIPOST OFFICE,Central Suratthani,1,GF,Lifestyle & Specialty
 THE CLOZET,Central Suratthani,1,1F,Fashion
 THE EXCLUSIVEPLUS CLINIC,Central Suratthani,1,2F,Beauty & Wellness
 THE FACE SHOP,Central Suratthani,1,1F,Beauty & Wellness

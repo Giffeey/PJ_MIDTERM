@@ -1,5 +1,5 @@
 Source,Target,Weight,Floor,Category
-425 DEEGREE,Central Westville,1,1F,Technology
+425 DEGREE,Central Westville,1,1F,Technology
 51 TALK,Central Westville,1,2F,Education
 ĂN CƠM ĂN CÁ,Central Westville,1,GF,Food & Beverage
 ADIDAS,Central Westville,1,1F,Fashion
@@ -13,7 +13,7 @@ APPLE SHEEP,Central Westville,1,2F,Technology
 AT BED,Central Westville,1,1F,Fashion
 AUNTIE ANNE'S,Central Westville,1,GF,Food & Beverage
 AURORA,Central Westville,1,GF,Fashion
-AUTO1,Central Westville,1,GF,Services
+AUTO1,Central Westville,1,GF,Lifestyle & Specialty
 B SA B,Central Westville,1,GF,Beauty & Wellness
 B2S,Central Westville,1,2F,Lifestyle & Specialty
 BA HAO TIAN MI,Central Westville,1,GF,Food & Beverage
@@ -33,14 +33,14 @@ BETTER VISION,Central Westville,1,1F,Fashion
 BIG CAMERA,Central Westville,1,2F,Technology
 BIRKENSTOCK,Central Westville,1,GF,Fashion
 BLOOMING HOUSE,Central Westville,1,1F,Lifestyle & Specialty
-BOOST JUICE,Central Westville,1,GF,Food & Beverage
+BOOST JUICE BAR,Central Westville,1,GF,Food & Beverage
 BOOTS,Central Westville,1,2F,Beauty & Wellness
 BOSTANTEN,Central Westville,1,1F,Fashion
 BOTANIFIQUE,Central Westville,1,1F,Beauty & Wellness
 BOXXY TOYS,Central Westville,1,2F,Lifestyle & Specialty
 BREO,Central Westville,1,2F,Technology
 BUASUWAN,Central Westville,1,GF,Fashion
-CAFÉ AMAZON,Central Westville,1,1F,Food & Beverage
+CAFE AMAZON,Central Westville,1,1F,Food & Beverage
 CALBEE KAITSUKA,Central Westville,1,GF,Food & Beverage
 CATTIO YOGA,Central Westville,1,1F,Lifestyle & Specialty
 CENTRAL DEPARTMENT STORE,Central Westville,1,GF,Lifestyle & Specialty
@@ -56,7 +56,7 @@ COWAY,Central Westville,1,2F,Lifestyle & Specialty
 COZZY SAYIDO,Central Westville,1,1F,Fashion
 CROCS,Central Westville,1,1F,Fashion
 CURIOO KIDS,Central Westville,1,1F,Education
-CURIOOKIDS THAILAND,Central Westville,1,2F,Education
+CURIOO KIDS,Central Westville,1,2F,Education
 CUT & CURL,Central Westville,1,1F,Beauty & Wellness
 D&D MOBILE,Central Westville,1,2F,Technology
 DAIRY QUEEN,Central Westville,1,GF,Food & Beverage
@@ -68,11 +68,11 @@ FIFTYNINE,Central Westville,1,1F,Fashion
 FIRST CLASS SCHOOL,Central Westville,1,3F,Education
 FOCUS,Central Westville,1,2F,Technology
 FUJI,Central Westville,1,2F,Food & Beverage
-FUKU MATCHAX2,Central Westville,1,2F,Food & Beverage
+FUKU MATCHA,Central Westville,1,2F,Food & Beverage
 FUN CITY,Central Westville,1,1F,Entertainment
 FUN CITY,Central Westville,1,3F,Entertainment
 FUTURE LIVING,Central Westville,1,1F,Lifestyle & Specialty
-G SHOCK,Central Westville,1,GF,Fashion
+G-SHOCK,Central Westville,1,GF,Fashion
 GAGA,Central Westville,1,2F,Food & Beverage
 GANGNAM CLINIC,Central Westville,1,1F,Beauty & Wellness
 GARMIN,Central Westville,1,GF,Technology
@@ -91,13 +91,13 @@ HI-SHIELD,Central Westville,1,2F,Technology
 I CINNECT,Central Westville,1,2F,Technology
 I SEE T,Central Westville,1,2F,Technology
 ILY,Central Westville,1,GF,Fashion
-INTHANIN,Central Westville,1,2F,Food & Beverage
+INTHANIN COFFEE,Central Westville,1,2F,Food & Beverage
 INTRENDMALL,Central Westville,1,2F,Technology
 IPATT GADGET,Central Westville,1,2F,Technology
 IPPUDO,Central Westville,1,GF,Food & Beverage
 ISTUDIO BY SPVI,Central Westville,1,1F,Technology
 IT CITY,Central Westville,1,2F,Technology
-J&T EXPRESS,Central Westville,1,LG,Services
+J&T EXPRESS,Central Westville,1,LG,Lifestyle & Specialty
 JASPAL,Central Westville,1,GF,Fashion
 JEWEL CAFE,Central Westville,1,1F,Fashion
 JIB,Central Westville,1,2F,Technology
@@ -112,7 +112,7 @@ KFC,Central Westville,1,GF,Food & Beverage
 KIKI MATCHA,Central Westville,1,GF,Food & Beverage
 KIZTOPIA,Central Westville,1,3F,Entertainment
 KOGORO KATSU,Central Westville,1,GF,Food & Beverage
-KOI THE',Central Westville,1,GF,Food & Beverage
+KOI THE,Central Westville,1,GF,Food & Beverage
 KOREADONG,Central Westville,1,1F,Food & Beverage
 KRO TRON,Central Westville,1,1F,Food & Beverage
 KRUNG THAI BANK,Central Westville,1,1F,Bank & Financial Services
@@ -169,16 +169,16 @@ PANDORA,Central Westville,1,GF,Fashion
 PANG SIAM 2515,Central Westville,1,2F,Food & Beverage
 PASTEL MAGIC,Central Westville,1,1F,Fashion
 PEEK DESIGN,Central Westville,1,2F,Technology
-PET N ME,Central Westville,1,GF,Lifestyle & Specialty
-PHOTO AUTOMAT,Central Westville,1,1F,Services
+PET 'N ME,Central Westville,1,GF,Lifestyle & Specialty
+PHOTO AUTOMAT,Central Westville,1,1F,Lifestyle & Specialty
 PLAY SOUND,Central Westville,1,2F,Education
 POTATO CORNER,Central Westville,1,GF,Food & Beverage
 POWER BUY,Central Westville,1,2F,Technology
 PRAIRAYA SIGNATURE,Central Westville,1,GF,Food & Beverage
-PROCLEAN,Central Westville,1,LG,Services
+PROCLEAN,Central Westville,1,LG,Lifestyle & Specialty
 PUSAMALA,Central Westville,1,1F,Fashion
 RAVIPA,Central Westville,1,GF,Fashion
-RE IT,Central Westville,1,LG,Lifestyle & Specialty
+RE-IT,Central Westville,1,LG,Lifestyle & Specialty
 REAL ME,Central Westville,1,2F,Technology
 RED CROISSANT,Central Westville,1,GF,Food & Beverage
 RESTER,Central Westville,1,1F,Lifestyle & Specialty
@@ -205,12 +205,12 @@ SKY TELECOM,Central Westville,1,2F,Technology
 SKYRISE ADVENTURE,Central Westville,1,3F,Entertainment
 SLC CLINIC,Central Westville,1,1F,Beauty & Wellness
 SMART GEMS,Central Westville,1,GF,Fashion
-SMILE SEASON DENTAL CLINIC,Central Westville,1,2F,Beauty & Wellness
+SMILE SEASONS DENTAL CLINIC,Central Westville,1,2F,Beauty & Wellness
 SMILEYHOUND,Central Westville,1,GF,Fashion
 SOOD'S,Central Westville,1,GF,Food & Beverage
 SPAGHETTI FACTORY,Central Westville,1,2F,Food & Beverage
 SPEEDIANCE,Central Westville,1,1F,Lifestyle & Specialty
-STARBUCKS,Central Westville,1,GF,Food & Beverage
+STARBUCKS COFFEE,Central Westville,1,GF,Food & Beverage
 SUDJAI,Central Westville,1,GF,Food & Beverage
 SUGAR MONDAY,Central Westville,1,1F,Fashion
 SUKISHI,Central Westville,1,2F,Food & Beverage
@@ -220,7 +220,7 @@ SUPER SPORTS,Central Westville,1,1F,Fashion
 SUSHI SEKI,Central Westville,1,GF,Food & Beverage
 SUSHIRO,Central Westville,1,2F,Food & Beverage
 SWENSEN'S,Central Westville,1,GF,Food & Beverage
-T.PARTNER,Central Westville,1,1F,Fashion
+T-PARTNER,Central Westville,1,1F,Fashion
 TG FONE,Central Westville,1,2F,Technology
 THAI CREDIT BANK,Central Westville,1,1F,Bank & Financial Services
 THANK YOU CUP,Central Westville,1,2F,Food & Beverage

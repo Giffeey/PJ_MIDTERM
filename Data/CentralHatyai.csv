@@ -1,6 +1,6 @@
 Source,Target,Weight,Floor,Category
 A MONEY,Central Hatyai,1,3F,Bank & Financial Services
-AB INTER SERVICE,Central Hatyai,1,3F,Services
+AB INTER SERVICE,Central Hatyai,1,3F,Lifestyle & Specialty
 ABSOLUTE YOGA,Central Hatyai,1,3F,Beauty & Wellness
 ADIDAS,Central Hatyai,1,2F,Fashion
 AEON THANA SINSAP,Central Hatyai,1,3F,Bank & Financial Services
@@ -14,12 +14,12 @@ ARROW,Central Hatyai,1,1F,Fashion
 ASICS,Central Hatyai,1,2F,Fashion
 AUNTIE ANNE'S,Central Hatyai,1,2F,Food & Beverage
 AURORA,Central Hatyai,1,1F,Fashion
-AUTO1,Central Hatyai,1,GF,Services
+AUTO1,Central Hatyai,1,GF,Lifestyle & Specialty
 B2S,Central Hatyai,1,2F,Lifestyle & Specialty
 BABANA CORN,Central Hatyai,1,4F,Food & Beverage
 BABIES GENIUS,Central Hatyai,1,3F,Education
 BAKE A WISH,Central Hatyai,1,GF,Food & Beverage
-BANANA IT,Central Hatyai,1,3F,Technology
+BANANA,Central Hatyai,1,3F,Technology
 BANGKOK BANK,Central Hatyai,1,3F,Bank & Financial Services
 BANK OF AYUDHYA,Central Hatyai,1,3F,Bank & Financial Services
 BAR-B-Q PLAZA,Central Hatyai,1,5F,Food & Beverage
@@ -34,7 +34,7 @@ BOATSHOP,Central Hatyai,1,3F,Fashion
 BODY GLOVE,Central Hatyai,1,2F,Fashion
 BONCHON,Central Hatyai,1,1F,Food & Beverage
 BOOTS,Central Hatyai,1,GF,Beauty & Wellness
-CAFÉ AMAZON,Central Hatyai,1,3F,Food & Beverage
+CAFE AMAZON,Central Hatyai,1,3F,Food & Beverage
 CC-OO,Central Hatyai,1,2F,Fashion
 CENTRAL DEPARTMENT STORE,Central Hatyai,1,1F,Lifestyle & Specialty
 CENTRAL DEPARTMENT STORE,Central Hatyai,1,2F,Lifestyle & Specialty
@@ -57,7 +57,7 @@ DAIRY QUEEN,Central Hatyai,1,GF,Food & Beverage
 DAISO,Central Hatyai,1,4F,Lifestyle & Specialty
 DILAVIE,Central Hatyai,1,1F,Fashion
 DOSH (DESCENDANT OF SUPERHEROES),Central Hatyai,1,2F,Fashion
-DTAC HALL,Central Hatyai,1,3F,Technology
+DTAC,Central Hatyai,1,3F,Technology
 ELIZABETH,Central Hatyai,1,1F,Fashion
 EYE CLASS,Central Hatyai,1,4F,Fashion
 FILA,Central Hatyai,1,2F,Fashion
@@ -69,7 +69,7 @@ GENTLEWOMAN,Central Hatyai,1,1F,Fashion
 GIORDANO,Central Hatyai,1,1F,Fashion
 GNC,Central Hatyai,1,GF,Beauty & Wellness
 GO!WOW,Central Hatyai,1,4F,Lifestyle & Specialty
-GOVERNMENT CENTER,Central Hatyai,1,4F,Services
+GOVERNMENT CENTER,Central Hatyai,1,4F,Lifestyle & Specialty
 GOVERNMENT HOUSING BANK,Central Hatyai,1,3F,Bank & Financial Services
 GOVERNMENT SAVINGS BANK,Central Hatyai,1,3F,Bank & Financial Services
 GUAYTIEWRUAR LANTAPHIEN,Central Hatyai,1,GF,Food & Beverage
@@ -96,7 +96,7 @@ KAOKANGKHONKON,Central Hatyai,1,4F,Food & Beverage
 KAOSOICHIANGMAI,Central Hatyai,1,4F,Food & Beverage
 KASIKORN BANK,Central Hatyai,1,3F,Bank & Financial Services
 KEDAIKOPI,Central Hatyai,1,4F,Food & Beverage
-KEYMAN,Central Hatyai,1,GF,Services
+KEYMAN,Central Hatyai,1,GF,Lifestyle & Specialty
 KFC,Central Hatyai,1,GF,Food & Beverage
 KHAMOOJAOSAU,Central Hatyai,1,4F,Food & Beverage
 KIJIEWSONGKRUEING,Central Hatyai,1,4F,Food & Beverage
@@ -133,13 +133,13 @@ OOTOYA,Central Hatyai,1,4F,Food & Beverage
 OPPO,Central Hatyai,1,3F,Technology
 ORIENTAL PRINCESS,Central Hatyai,1,2F,Beauty & Wellness
 OWNDAYS,Central Hatyai,1,1F,Fashion
-P.A.PHONE,Central Hatyai,1,3F,Technology
+P.A. PHONE,Central Hatyai,1,3F,Technology
 PAN PAN PAN,Central Hatyai,1,4F,Food & Beverage
 PANDALOOKCHINPLARABERD,Central Hatyai,1,4F,Food & Beverage
 PANDORA,Central Hatyai,1,1F,Fashion
 PAPATAGU,Central Hatyai,1,4F,Food & Beverage
 PLAYBOY,Central Hatyai,1,1F,Fashion
-POLI-CHEM,Central Hatyai,1,GF,Services
+POLI-CHEM,Central Hatyai,1,GF,Lifestyle & Specialty
 POOTUMYOMSAAP,Central Hatyai,1,4F,Food & Beverage
 POPCORN,Central Hatyai,1,4F,Food & Beverage
 POTATO CORNER,Central Hatyai,1,4F,Food & Beverage
@@ -152,9 +152,9 @@ S&P,Central Hatyai,1,5F,Food & Beverage
 SABINA,Central Hatyai,1,2F,Fashion
 SALE PHONE,Central Hatyai,1,3F,Technology
 SAMSONITE,Central Hatyai,1,2F,Fashion
-SAMSUNG MOBILE,Central Hatyai,1,3F,Technology
+SAMSUNG,Central Hatyai,1,3F,Technology
 SANAENAMPRIK,Central Hatyai,1,4F,Food & Beverage
-SANTA FE' STEAK HOUSE,Central Hatyai,1,5F,Food & Beverage
+SANTA FE' STEAK,Central Hatyai,1,5F,Food & Beverage
 SE-ED BOOK CENTER,Central Hatyai,1,4F,Lifestyle & Specialty
 SHABUSHI,Central Hatyai,1,5F,Food & Beverage
 SIAM COMMERCIAL BANK,Central Hatyai,1,3F,Bank & Financial Services

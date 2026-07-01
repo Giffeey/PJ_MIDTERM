@@ -3,7 +3,7 @@ Source,Target,Weight,Floor,Category
 52 TOYS,Central Westgate,1,2F,Lifestyle & Specialty
 9.9 CAFE,Central Westgate,1,1F,Food & Beverage
 A MONEY,Central Westgate,1,3F,Bank & Financial Services
-A RAMEN,Central Westgate,1,GF,Food & Beverage
+IROHA RAMEN,Central Westgate,1,GF,Food & Beverage
 A'MAZE,Central Westgate,1,1F,Fashion
 ABC DESIGN,Central Westgate,1,4F,Lifestyle & Specialty
 ABSORBA,Central Westgate,1,4F,Fashion
@@ -75,7 +75,7 @@ AUKA,Central Westgate,1,4F,Fashion
 AUNTIE ANNE'S,Central Westgate,1,2F,Food & Beverage
 AURORA,Central Westgate,1,1F,Fashion
 AURORA DIAMOND,Central Westgate,1,1F,Fashion
-AUTO1,Central Westgate,1,GF,Services
+AUTO1,Central Westgate,1,GF,Lifestyle & Specialty
 AUTORE,Central Westgate,1,1F,Fashion
 AVENT,Central Westgate,1,4F,Lifestyle & Specialty
 AVIA,Central Westgate,1,GF,Fashion
@@ -122,7 +122,7 @@ BASKET,Central Westgate,1,GF,Lifestyle & Specialty
 BATA,Central Westgate,1,2F,Fashion
 BATH & BODY WORKS,Central Westgate,1,1F,Beauty & Wellness
 BATMAN AND DC,Central Westgate,1,4F,Lifestyle & Specialty
-BB BEYOND,Central Westgate,1,2F,Technology
+BB BEYOND D-BOX,Central Westgate,1,2F,Technology
 BB BEYOND D-BOX,Central Westgate,1,2F,Technology
 BB TOYS,Central Westgate,1,4F,Lifestyle & Specialty
 BE CHARACTERS,Central Westgate,1,4F,Fashion
@@ -200,7 +200,7 @@ BRITA,Central Westgate,1,GF,Lifestyle & Specialty
 BRUSTA,Central Westgate,1,4F,Lifestyle & Specialty
 BSC,Central Westgate,1,4F,Beauty & Wellness
 BSC,Central Westgate,1,GF,Beauty & Wellness
-BSC COSMETOLOGY,Central Westgate,1,1F,Beauty & Wellness
+BSC,Central Westgate,1,1F,Beauty & Wellness
 BT21,Central Westgate,1,2F,Lifestyle & Specialty
 BUCK OFF DENIM,Central Westgate,1,3F,Fashion
 BUNNY FRESH,Central Westgate,1,2F,Lifestyle & Specialty
@@ -211,8 +211,8 @@ BVLGARI,Central Westgate,1,1F,Beauty & Wellness
 BWELL,Central Westgate,1,GF,Lifestyle & Specialty
 BY NATURE,Central Westgate,1,2F,Beauty & Wellness
 BYD,Central Westgate,1,1F,Lifestyle & Specialty
-CAFÉ AMAZON,Central Westgate,1,1F,Food & Beverage
-CAFÉ AMAZON,Central Westgate,1,2F,Food & Beverage
+CAFE AMAZON,Central Westgate,1,1F,Food & Beverage
+CAFE AMAZON,Central Westgate,1,2F,Food & Beverage
 CALLA CREATIV,Central Westgate,1,2F,Lifestyle & Specialty
 CALVIN KLEIN,Central Westgate,1,1F,Fashion
 CALVIN KLEIN,Central Westgate,1,3F,Fashion
@@ -240,7 +240,7 @@ CENTRAL DEPARTMENT STORE,Central Westgate,1,3F,Lifestyle & Specialty
 CENTRAL DEPARTMENT STORE,Central Westgate,1,4F,Lifestyle & Specialty
 CENTRAL HOME,Central Westgate,1,GF,Lifestyle & Specialty
 CENTRAL HOME,Central Westgate,1,2F,Lifestyle & Specialty
-CENTRAL HOME LOCAL,Central Westgate,1,GF,Lifestyle & Specialty
+CENTRAL HOME,Central Westgate,1,GF,Lifestyle & Specialty
 CENTRAL LOVE THE EARTH,Central Westgate,1,GF,Lifestyle & Specialty
 CETAPHIL,Central Westgate,1,4F,Beauty & Wellness
 CHABA NAILS & EYELASHES PRO,Central Westgate,1,2F,Beauty & Wellness
@@ -261,7 +261,7 @@ CHEFN,Central Westgate,1,GF,Lifestyle & Specialty
 CHELSEE,Central Westgate,1,4F,Fashion
 CHERILON,Central Westgate,1,4F,Fashion
 CHESTER'S,Central Westgate,1,1F,Food & Beverage
-CHESTER'S GRILL,Central Westgate,1,1F,Food & Beverage
+CHESTER'S,Central Westgate,1,1F,Food & Beverage
 CHICCO,Central Westgate,1,4F,Lifestyle & Specialty
 CHILDS FARM,Central Westgate,1,4F,Beauty & Wellness
 CHILEWICH,Central Westgate,1,GF,Lifestyle & Specialty
@@ -274,18 +274,18 @@ CITIZEN,Central Westgate,1,1F,Fashion
 CITRUS MATE,Central Westgate,1,2F,Lifestyle & Specialty
 CITY MODE,Central Westgate,1,2F,Fashion
 CITY TOYS,Central Westgate,1,4F,Lifestyle & Specialty
-CITY TOYS CREDIT,Central Westgate,1,4F,Lifestyle & Specialty
+CITY TOYS,Central Westgate,1,4F,Lifestyle & Specialty
 CK,Central Westgate,1,1F,Fashion
 CLARINS,Central Westgate,1,1F,Beauty & Wellness
 CLAUDIA KLEID,Central Westgate,1,2F,Fashion
-CLAUDIA KLEID BLACK&WHITE,Central Westgate,1,2F,Fashion
-CLAUDIA KLEID WEEKEND,Central Westgate,1,2F,Fashion
+CLAUDIA KLEID,Central Westgate,1,2F,Fashion
+CLAUDIA KLEID,Central Westgate,1,2F,Fashion
 CLAUDIAS ROMANCE,Central Westgate,1,4F,Fashion
 CLEVAMAMA,Central Westgate,1,4F,Lifestyle & Specialty
 CLINIQUE,Central Westgate,1,1F,Beauty & Wellness
 CLOVER,Central Westgate,1,4F,Fashion
 CMP,Central Westgate,1,4F,Fashion
-CMP GROUP,Central Westgate,1,4F,Fashion
+CMP,Central Westgate,1,4F,Fashion
 COACH,Central Westgate,1,1F,Fashion
 COCO ICHIBANYA,Central Westgate,1,3F,Food & Beverage
 COCORO HANAKO,Central Westgate,1,4F,Beauty & Wellness
@@ -296,7 +296,7 @@ COLORKIT,Central Westgate,1,GF,Lifestyle & Specialty
 COLORLAND,Central Westgate,1,4F,Lifestyle & Specialty
 COMBI,Central Westgate,1,4F,Lifestyle & Specialty
 COMFORT ZONE,Central Westgate,1,1F,Beauty & Wellness
-COMMERCIAL,Central Westgate,1,2F,Services
+COMMERCIAL,Central Westgate,1,2F,Lifestyle & Specialty
 CONVERSE,Central Westgate,1,2F,Fashion
 COOL CUTZ,Central Westgate,1,1F,Beauty & Wellness
 COOL MAKER,Central Westgate,1,4F,Lifestyle & Specialty
@@ -353,7 +353,7 @@ DEES SUPREME,Central Westgate,1,4F,Fashion
 DEFRY 01,Central Westgate,1,2F,Fashion
 DEFRY 01,Central Westgate,1,3F,Fashion
 DEFRY 01,Central Westgate,1,4F,Fashion
-DELIVERY FEE,Central Westgate,1,GF,Services
+DELIVERY FEE,Central Westgate,1,GF,Lifestyle & Specialty
 DELIZI,Central Westgate,1,GF,Lifestyle & Specialty
 DELONGHI,Central Westgate,1,GF,Lifestyle & Specialty
 DELSEY,Central Westgate,1,3F,Fashion
@@ -399,7 +399,7 @@ DRAGONS 2,Central Westgate,1,4F,Lifestyle & Specialty
 DRBROWN,Central Westgate,1,4F,Lifestyle & Specialty
 DREAME,Central Westgate,1,GF,Technology
 DRINK IN THE BOX,Central Westgate,1,4F,Lifestyle & Specialty
-DTAC HALL,Central Westgate,1,2F,Technology
+DTAC,Central Westgate,1,2F,Technology
 DUCATI,Central Westgate,1,1F,Fashion
 DUNLOP,Central Westgate,1,GF,Lifestyle & Specialty
 DURA FRASH,Central Westgate,1,GF,Lifestyle & Specialty
@@ -414,8 +414,8 @@ EASTMAN,Central Westgate,1,1F,Fashion
 EASY PIECES,Central Westgate,1,2F,Fashion
 EAT AM ARE,Central Westgate,1,GF,Food & Beverage
 EATPIZZA,Central Westgate,1,GF,Food & Beverage
-EAZY CLEAN,Central Westgate,1,GF,Services
-EAZY CLEAN LOCAL,Central Westgate,1,GF,Services
+EAZY CLEAN,Central Westgate,1,GF,Lifestyle & Specialty
+EAZY CLEAN LOCAL,Central Westgate,1,GF,Lifestyle & Specialty
 ECC,Central Westgate,1,GF,Education
 ECCO,Central Westgate,1,1F,Fashion
 ECCO,Central Westgate,1,3F,Fashion
@@ -559,7 +559,7 @@ GOLD MASTER ELECTRO,Central Westgate,1,1F,Fashion
 GOODUSE,Central Westgate,1,2F,Lifestyle & Specialty
 GOODY,Central Westgate,1,1F,Fashion
 GOTETSU,Central Westgate,1,GF,Lifestyle & Specialty
-GOVERNMENT CENTER,Central Westgate,1,1F,Services
+GOVERNMENT CENTER,Central Westgate,1,1F,Lifestyle & Specialty
 GOVERNMENT HOUSING BANK,Central Westgate,1,2F,Bank & Financial Services
 GOVERNMENT SAVINGS BANK,Central Westgate,1,3F,Bank & Financial Services
 GP,Central Westgate,1,GF,Lifestyle & Specialty
@@ -574,7 +574,7 @@ GRANNY BEN,Central Westgate,1,4F,Lifestyle & Specialty
 GRISON,Central Westgate,1,1F,Fashion
 GRISON,Central Westgate,1,3F,Fashion
 GSP,Central Westgate,1,2F,Fashion
-GSP SPORT,Central Westgate,1,2F,Fashion
+GSP,Central Westgate,1,2F,Fashion
 GUCCI,Central Westgate,1,1F,Fashion
 GUESS,Central Westgate,1,1F,Fashion
 GUGU CHICKEN,Central Westgate,1,3F,Food & Beverage
@@ -619,7 +619,7 @@ HELLO KITTY WD,Central Westgate,1,4F,Lifestyle & Specialty
 HELLO WD,Central Westgate,1,4F,Lifestyle & Specialty
 HENG MUANG THONG,Central Westgate,1,3F,Food & Beverage
 HERO KIDS,Central Westgate,1,4F,Fashion
-HI CARE,Central Westgate,1,GF,Beauty & Wellness
+I CARE,Central Westgate,1,GF,Beauty & Wellness
 HITACHI,Central Westgate,1,GF,Lifestyle & Specialty
 HITEK,Central Westgate,1,GF,Technology
 HOBBY ENGINE,Central Westgate,1,4F,Lifestyle & Specialty
@@ -661,7 +661,7 @@ ING TARN THAI MASSAGE,Central Westgate,1,1F,Beauty & Wellness
 INLINGUA,Central Westgate,1,3F,Education
 INLINGUA,Central Westgate,1,GF,Education
 INNISFREE,Central Westgate,1,1F,Beauty & Wellness
-INTHANIN,Central Westgate,1,GF,Food & Beverage
+INTHANIN COFFEE,Central Westgate,1,GF,Food & Beverage
 INVISI BOBBLE,Central Westgate,1,2F,Fashion
 IPAC,Central Westgate,1,GF,Lifestyle & Specialty
 IPSA,Central Westgate,1,1F,Beauty & Wellness
@@ -704,10 +704,10 @@ JOHN VARVATOS,Central Westgate,1,1F,Fashion
 JOIE,Central Westgate,1,4F,Lifestyle & Specialty
 JOLI SNOB,Central Westgate,1,1F,Fashion
 JOLLYNN,Central Westgate,1,4F,Fashion
-JONES' SALAD,Central Westgate,1,1F,Food & Beverage
+JONES SALAD,Central Westgate,1,1F,Food & Beverage
 JOOLZ,Central Westgate,1,4F,Lifestyle & Specialty
 JOSILIN,Central Westgate,1,2F,Fashion
-JOSILINS,Central Westgate,1,4F,Fashion
+JOSILIN,Central Westgate,1,4F,Fashion
 JOURNAL,Central Westgate,1,1F,Beauty & Wellness
 JOURNAL,Central Westgate,1,2F,Beauty & Wellness
 JUBILEE,Central Westgate,1,1F,Fashion
@@ -760,7 +760,7 @@ KIWY,Central Westgate,1,4F,Lifestyle & Specialty
 KLANDTH,Central Westgate,1,2F,Fashion
 KLANG KRUNG NOODLE,Central Westgate,1,2F,Food & Beverage
 KOFUKU,Central Westgate,1,3F,Food & Beverage
-KOI THE',Central Westgate,1,3F,Food & Beverage
+KOI THE,Central Westgate,1,3F,Food & Beverage
 KOKOEKO,Central Westgate,1,GF,Lifestyle & Specialty
 KOMKOM,Central Westgate,1,GF,Lifestyle & Specialty
 KOMONOYA,Central Westgate,1,GF,Lifestyle & Specialty
@@ -977,7 +977,7 @@ MORIGIRL SEASON,Central Westgate,1,4F,Fashion
 MOSCHINO,Central Westgate,1,1F,Fashion
 MOSCLEAN,Central Westgate,1,GF,Lifestyle & Specialty
 MOSHI,Central Westgate,1,1F,Lifestyle & Specialty
-MOSHI AVA,Central Westgate,1,1F,Lifestyle & Specialty
+MOSHI MOSHI,Central Westgate,1,1F,Lifestyle & Specialty
 MOSHI MOSHI,Central Westgate,1,2F,Lifestyle & Specialty
 MOSSIMO,Central Westgate,1,2F,Fashion
 MOTHERY,Central Westgate,1,4F,Fashion
@@ -1174,7 +1174,7 @@ PLENTITUDE,Central Westgate,1,4F,Lifestyle & Specialty
 PLOEN POONG,Central Westgate,1,1F,Food & Beverage
 PLY,Central Westgate,1,3F,Fashion
 POLAR SPRAY,Central Westgate,1,4F,Lifestyle & Specialty
-POLI-CHEM,Central Westgate,1,GF,Services
+POLI-CHEM,Central Westgate,1,GF,Lifestyle & Specialty
 POLICE,Central Westgate,1,1F,Fashion
 POLO CLUB,Central Westgate,1,1F,Fashion
 POLO WORLD,Central Westgate,1,3F,Fashion
@@ -1198,8 +1198,8 @@ PRETTY OVO,Central Westgate,1,4F,Fashion
 PRIMA ART,Central Westgate,1,1F,Fashion
 PRIMA DIAMOND,Central Westgate,1,1F,Fashion
 PRIMA GOLD,Central Westgate,1,1F,Fashion
-PRO CLEAN,Central Westgate,1,GF,Services
-PROFESSIONAL WATCH SERVICE,Central Westgate,1,1F,Services
+PRO CLEAN,Central Westgate,1,GF,Lifestyle & Specialty
+PROFESSIONAL WATCH SERVICE,Central Westgate,1,1F,Lifestyle & Specialty
 PROMISE,Central Westgate,1,3F,Bank & Financial Services
 PROMP PROTECT,Central Westgate,1,GF,Lifestyle & Specialty
 PULCINELLA,Central Westgate,1,2F,Fashion
@@ -1256,7 +1256,7 @@ RUBBERMAID,Central Westgate,1,GF,Lifestyle & Specialty
 RUNWAYS CLINIC,Central Westgate,1,2F,Beauty & Wellness
 RUSSELL HOBBS,Central Westgate,1,GF,Lifestyle & Specialty
 RYU KOIZUMI,Central Westgate,1,3F,Fashion
-S&P SIMPLY DELICIOUS,Central Westgate,1,3F,Food & Beverage
+S&P,Central Westgate,1,3F,Food & Beverage
 S. B. FURNITURE,Central Westgate,1,1F,Lifestyle & Specialty
 S. B. FURNITURE,Central Westgate,1,GF,Lifestyle & Specialty
 SAARD JAI,Central Westgate,1,GF,Lifestyle & Specialty
@@ -1271,8 +1271,8 @@ SAINT CROISSANT,Central Westgate,1,1F,Food & Beverage
 SAKULTHONG,Central Westgate,1,3F,Food & Beverage
 SALAD FACTORY,Central Westgate,1,3F,Food & Beverage
 SAMSONITE,Central Westgate,1,3F,Fashion
-SAMSONITE RED,Central Westgate,1,3F,Fashion
-SAMSUNG MOBILE,Central Westgate,1,2F,Technology
+SAMSONITE,Central Westgate,1,3F,Fashion
+SAMSUNG,Central Westgate,1,2F,Technology
 SAMSUNG SERVICE,Central Westgate,1,2F,Technology
 SAN MIGUEL,Central Westgate,1,GF,Food & Beverage
 SANDESICA,Central Westgate,1,4F,Lifestyle & Specialty
@@ -1282,7 +1282,7 @@ SANRIO,Central Westgate,1,3F,Lifestyle & Specialty
 SANRIO,Central Westgate,1,4F,Lifestyle & Specialty
 SANRIO LOCAL,Central Westgate,1,3F,Lifestyle & Specialty
 SANTA BARBARA,Central Westgate,1,3F,Fashion
-SANTA FE' STEAK HOUSE,Central Westgate,1,3F,Food & Beverage
+SANTA FE' STEAK,Central Westgate,1,3F,Food & Beverage
 SANTAS,Central Westgate,1,GF,Lifestyle & Specialty
 SARABURI TOYS,Central Westgate,1,4F,Lifestyle & Specialty
 SARAMANDA,Central Westgate,1,3F,Fashion
@@ -1301,18 +1301,18 @@ SEAGULL,Central Westgate,1,GF,Lifestyle & Specialty
 SEALY,Central Westgate,1,GF,Lifestyle & Specialty
 SEECHA,Central Westgate,1,1F,Fashion
 SEIKO,Central Westgate,1,1F,Fashion
-SEIKO CLOCK,Central Westgate,1,GF,Lifestyle & Specialty
+SEIKO,Central Westgate,1,GF,Lifestyle & Specialty
 SELEKTIV,Central Westgate,1,2F,Fashion
 SEMBEM,Central Westgate,1,1F,Fashion
 SENJU,Central Westgate,1,3F,Food & Beverage
 SENSE,Central Westgate,1,GF,Fashion
 SEOUL BEIGE,Central Westgate,1,1F,Fashion
 SEPHORA,Central Westgate,1,1F,Beauty & Wellness
-SERVICE,Central Westgate,1,1F,Services
-SERVICE,Central Westgate,1,2F,Services
-SERVICE,Central Westgate,1,3F,Services
-SERVICE,Central Westgate,1,4F,Services
-SERVICE,Central Westgate,1,GF,Services
+SERVICE,Central Westgate,1,1F,Lifestyle & Specialty
+SERVICE,Central Westgate,1,2F,Lifestyle & Specialty
+SERVICE,Central Westgate,1,3F,Lifestyle & Specialty
+SERVICE,Central Westgate,1,4F,Lifestyle & Specialty
+SERVICE,Central Westgate,1,GF,Lifestyle & Specialty
 SESAME STREET,Central Westgate,1,2F,Lifestyle & Specialty
 SETH,Central Westgate,1,GF,Fashion
 SFERA,Central Westgate,1,2F,Fashion
@@ -1328,7 +1328,7 @@ SHINWA,Central Westgate,1,GF,Lifestyle & Specialty
 SHINY WAX,Central Westgate,1,GF,Lifestyle & Specialty
 SHISEIDO,Central Westgate,1,1F,Beauty & Wellness
 SHOWA,Central Westgate,1,GF,Lifestyle & Specialty
-SHU,Central Westgate,1,1F,Fashion
+SHU UEMURA,Central Westgate,1,1F,Fashion
 SIAM COMMERCIAL BANK,Central Westgate,1,3F,Bank & Financial Services
 SIAM LASER CLINIC,Central Westgate,1,2F,Beauty & Wellness
 SIAMWELL,Central Westgate,1,1F,Fashion
@@ -1352,8 +1352,8 @@ SJ,Central Westgate,1,GF,Lifestyle & Specialty
 SKECHERS,Central Westgate,1,1F,Fashion
 SKECHERS,Central Westgate,1,2F,Fashion
 SKECHERS,Central Westgate,1,4F,Fashion
-SKECHERS FOAMIES,Central Westgate,1,2F,Fashion
-SKECHERS FOAMIES,Central Westgate,1,4F,Fashion
+SKECHERS,Central Westgate,1,2F,Fashion
+SKECHERS,Central Westgate,1,4F,Fashion
 SKII,Central Westgate,1,1F,Beauty & Wellness
 SKIPHOP,Central Westgate,1,4F,Lifestyle & Specialty
 SKOE,Central Westgate,1,2F,Fashion
@@ -1504,7 +1504,7 @@ TOMMY HILFIGER,Central Westgate,1,1F,Fashion
 TONCHIN RAMEN,Central Westgate,1,3F,Food & Beverage
 TONKA,Central Westgate,1,4F,Lifestyle & Specialty
 TOP SLIM,Central Westgate,1,4F,Fashion
-TOPS CARE,Central Westgate,1,GF,Beauty & Wellness
+TOPS,Central Westgate,1,GF,Beauty & Wellness
 TOPS CLUB,Central Westgate,1,4F,Lifestyle & Specialty
 TOPS DAILY,Central Westgate,1,1F,Lifestyle & Specialty
 TOPS MARKET,Central Westgate,1,1F,Lifestyle & Specialty
@@ -1524,7 +1524,7 @@ TRIM,Central Westgate,1,1F,Beauty & Wellness
 TRIUMPH,Central Westgate,1,4F,Fashion
 TRP,Central Westgate,1,GF,Lifestyle & Specialty
 TRUE,Central Westgate,1,2F,Technology
-TRUE SPHERE,Central Westgate,1,2F,Technology
+TRUE,Central Westgate,1,2F,Technology
 TSUBOHACHI,Central Westgate,1,GF,Food & Beverage
 TTN,Central Westgate,1,1F,Fashion
 TTN,Central Westgate,1,2F,Fashion
@@ -1545,7 +1545,7 @@ UNICHARM,Central Westgate,1,GF,Lifestyle & Specialty
 UNIQLO,Central Westgate,1,1F,Fashion
 UNITED,Central Westgate,1,GF,Lifestyle & Specialty
 UNITED OVERSEAS BANK,Central Westgate,1,3F,Bank & Financial Services
-UOB EXPRESS,Central Westgate,1,3F,Bank & Financial Services
+UOB,Central Westgate,1,3F,Bank & Financial Services
 URBANSNAPS,Central Westgate,1,3F,Lifestyle & Specialty
 URTHE,Central Westgate,1,1F,Fashion
 USPOLO ASSN,Central Westgate,1,3F,Fashion

@@ -14,7 +14,7 @@ AUNTIE ANNE'S,Central Khonkaen,1,2F,Food & Beverage
 AURORA,Central Khonkaen,1,2F,Fashion
 B SA B,Central Khonkaen,1,2F,Beauty & Wellness
 B2S,Central Khonkaen,1,GF,Lifestyle & Specialty
-BANANA IT,Central Khonkaen,1,3F,Technology
+BANANA,Central Khonkaen,1,3F,Technology
 BANGKOK BANK,Central Khonkaen,1,2F,Bank & Financial Services
 BANGKOK GOLDS,Central Khonkaen,1,2F,Fashion
 BANGKOK INSURANCE,Central Khonkaen,1,2F,Bank & Financial Services
@@ -34,7 +34,7 @@ BOOTS,Central Khonkaen,1,2F,Beauty & Wellness
 BOOTS,Central Khonkaen,1,GF,Beauty & Wellness
 BUJEONG CLINIC,Central Khonkaen,1,2F,Beauty & Wellness
 C&D,Central Khonkaen,1,1F,Fashion
-CAFÉ AMAZON,Central Khonkaen,1,3F,Food & Beverage
+CAFE AMAZON,Central Khonkaen,1,3F,Food & Beverage
 CAMP,Central Khonkaen,1,1F,Fashion
 CANTEEN,Central Khonkaen,1,4F,Food & Beverage
 CC-OO,Central Khonkaen,1,1F,Fashion
@@ -48,8 +48,8 @@ CHIANGMAI FLOWER,Central Khonkaen,1,GF,Lifestyle & Specialty
 CPS CHAPS,Central Khonkaen,1,1F,Fashion
 CROCS,Central Khonkaen,1,1F,Fashion
 CSC,Central Khonkaen,1,3F,Technology
-CURIOOKIDS,Central Khonkaen,1,4F,Education
-CURIOOKIDS,Central Khonkaen,1,5F,Education
+CURIOO KIDS,Central Khonkaen,1,4F,Education
+CURIOO KIDS,Central Khonkaen,1,5F,Education
 CUTE PRESS,Central Khonkaen,1,GF,Beauty & Wellness
 D'ARTE,Central Khonkaen,1,1F,Fashion
 DAIRY QUEEN,Central Khonkaen,1,4F,Food & Beverage
@@ -81,7 +81,7 @@ GELATE,Central Khonkaen,1,3F,Food & Beverage
 GIORDANO,Central Khonkaen,1,1F,Fashion
 GLOBAL ART,Central Khonkaen,1,5F,Education
 GLODI,Central Khonkaen,1,GF,Fashion
-GOVERNMENT COUNTER SERVICE,Central Khonkaen,1,GF,Services
+GOVERNMENT COUNTER SERVICE,Central Khonkaen,1,GF,Lifestyle & Specialty
 GOVERNMENT HOUSING BANK,Central Khonkaen,1,3F,Bank & Financial Services
 GOVERNMENT SAVINGS BANK,Central Khonkaen,1,2F,Bank & Financial Services
 GRAND IT,Central Khonkaen,1,3F,Technology
@@ -148,7 +148,7 @@ MONGNI CAFÉ,Central Khonkaen,1,4F,Food & Beverage
 MOSHI MOSHI,Central Khonkaen,1,GF,Lifestyle & Specialty
 MR. DIY,Central Khonkaen,1,5F,Lifestyle & Specialty
 MR.GAO,Central Khonkaen,1,GF,Food & Beverage
-MR.S.SERVICE,Central Khonkaen,1,GF,Services
+MR.S.SERVICE,Central Khonkaen,1,GF,Lifestyle & Specialty
 MUANG THAI LIFE ASSURANCE,Central Khonkaen,1,3F,Bank & Financial Services
 MUSIC COLLECTION,Central Khonkaen,1,3F,Lifestyle & Specialty
 NAI IN,Central Khonkaen,1,3F,Lifestyle & Specialty
@@ -168,14 +168,14 @@ OPTICAL 88,Central Khonkaen,1,2F,Fashion
 ORIENTAL PRINCESS,Central Khonkaen,1,1F,Beauty & Wellness
 OWNDAYS,Central Khonkaen,1,2F,Fashion
 P&F,Central Khonkaen,1,GF,Beauty & Wellness
-P.A.PHONE,Central Khonkaen,1,3F,Technology
+P.A. PHONE,Central Khonkaen,1,3F,Technology
 PERFECT NAIL,Central Khonkaen,1,GF,Beauty & Wellness
 PINN SHOP,Central Khonkaen,1,2F,Lifestyle & Specialty
 PLAYBOY,Central Khonkaen,1,1F,Fashion
-POLI-CHEM,Central Khonkaen,1,GF,Services
+POLI-CHEM,Central Khonkaen,1,GF,Lifestyle & Specialty
 POTATO CORNER,Central Khonkaen,1,3F,Food & Beverage
 POWER BUY,Central Khonkaen,1,3F,Technology
-PROVINCIAL ELECTRICITY AUTHORITY,Central Khonkaen,1,GF,Services
+PROVINCIAL ELECTRICITY AUTHORITY,Central Khonkaen,1,GF,Lifestyle & Specialty
 RACHAKHAMOO,Central Khonkaen,1,4F,Food & Beverage
 RARDNALUNGHOITIENLAO,Central Khonkaen,1,4F,Food & Beverage
 RCN,Central Khonkaen,1,3F,Technology
@@ -191,8 +191,8 @@ ROMRAWIN CLINIC,Central Khonkaen,1,2F,Beauty & Wellness
 S&P,Central Khonkaen,1,4F,Food & Beverage
 S&P,Central Khonkaen,1,GF,Food & Beverage
 SABINA,Central Khonkaen,1,2F,Fashion
-SAMSUNG MOBILE,Central Khonkaen,1,3F,Technology
-SANTA FE' STEAK HOUSE,Central Khonkaen,1,4F,Food & Beverage
+SAMSUNG,Central Khonkaen,1,3F,Technology
+SANTA FE' STEAK,Central Khonkaen,1,4F,Food & Beverage
 SE-ED BOOK CENTER,Central Khonkaen,1,3F,Lifestyle & Specialty
 SF CINEMA,Central Khonkaen,1,5F,Entertainment
 SHABUSHI,Central Khonkaen,1,4F,Food & Beverage
@@ -202,7 +202,7 @@ SINET,Central Khonkaen,1,3F,Technology
 SIZZLER,Central Khonkaen,1,4F,Food & Beverage
 SKATE PROPLUS,Central Khonkaen,1,5F,Entertainment
 SKECHERS,Central Khonkaen,1,2F,Fashion
-SMILE POST,Central Khonkaen,1,GF,Services
+SMILE POST,Central Khonkaen,1,GF,Lifestyle & Specialty
 SOMPHONGKHAOMOK,Central Khonkaen,1,4F,Food & Beverage
 SOMTAMPAAOUN,Central Khonkaen,1,4F,Food & Beverage
 SOMTAMZABVER,Central Khonkaen,1,4F,Food & Beverage

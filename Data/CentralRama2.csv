@@ -1,7 +1,7 @@
 Source,Target,Weight,Floor,Category
 178,Central Rama 2,1,1F,Food & Beverage
 7TH STREET,Central Rama 2,1,1F,Fashion
-A RAMEN,Central Rama 2,1,4F,Food & Beverage
+IROHA RAMEN,Central Rama 2,1,4F,Food & Beverage
 A'MAZE,Central Rama 2,1,1F,Fashion
 ADIDAS,Central Rama 2,1,1F,Fashion
 ADORE,Central Rama 2,1,2F,Beauty & Wellness
@@ -20,11 +20,11 @@ AT MEDICAL CLINIC,Central Rama 2,1,2F,Beauty & Wellness
 AUNTIE ANNE'S,Central Rama 2,1,1F,Food & Beverage
 AUNTIE ANNE'S,Central Rama 2,1,3F,Food & Beverage
 AURORA,Central Rama 2,1,GF,Fashion
-AUTO1,Central Rama 2,1,GF,Services
+AUTO1,Central Rama 2,1,GF,Lifestyle & Specialty
 BAIMIANG,Central Rama 2,1,4F,Food & Beverage
 BAKE A WISH,Central Rama 2,1,GF,Food & Beverage
-BAN PAI MY PRINTING,Central Rama 2,1,GF,Services
-BANANA IT,Central Rama 2,1,3F,Technology
+BAN PAI MY PRINTING,Central Rama 2,1,GF,Lifestyle & Specialty
+BANANA,Central Rama 2,1,3F,Technology
 BANDAI,Central Rama 2,1,2F,Lifestyle & Specialty
 BANGKOK BANK,Central Rama 2,1,GF,Bank & Financial Services
 BANGKOK GOLDS,Central Rama 2,1,GF,Fashion
@@ -32,7 +32,7 @@ BANGKOK INSURANCE,Central Rama 2,1,GF,Bank & Financial Services
 BANN SABAI,Central Rama 2,1,GF,Beauty & Wellness
 BANTAI CRYSTAL CERAMIC,Central Rama 2,1,4F,Lifestyle & Specialty
 BATA,Central Rama 2,1,2F,Fashion
-BATH&BODY WORK,Central Rama 2,1,1F,Beauty & Wellness
+BATH & BODY WORKS,Central Rama 2,1,1F,Beauty & Wellness
 BEARHOUSE,Central Rama 2,1,4F,Food & Beverage
 BEAUTRIUM,Central Rama 2,1,1F,Beauty & Wellness
 BEN'S COOKIES,Central Rama 2,1,1F,Food & Beverage
@@ -42,7 +42,7 @@ BKK DIAMOND,Central Rama 2,1,GF,Fashion
 BLACK CANYON COFFEE,Central Rama 2,1,4F,Food & Beverage
 BLOOMING CAFÉ,Central Rama 2,1,GF,Lifestyle & Specialty
 BLT,Central Rama 2,1,2F,Fashion
-BMA EXPRESS SERVICE,Central Rama 2,1,GF,Services
+BMA EXPRESS SERVICE,Central Rama 2,1,GF,Lifestyle & Specialty
 BODY GLOVE,Central Rama 2,1,1F,Fashion
 BONAGE,Central Rama 2,1,2F,Beauty & Wellness
 BONCHON,Central Rama 2,1,1F,Food & Beverage
@@ -52,7 +52,7 @@ BOON TONG KEE,Central Rama 2,1,GF,Food & Beverage
 BOOTS,Central Rama 2,1,1F,Beauty & Wellness
 BOTANIFIQUE,Central Rama 2,1,1F,Beauty & Wellness
 BREADTALK,Central Rama 2,1,GF,Food & Beverage
-CAFÉ AMAZON,Central Rama 2,1,GF,Food & Beverage
+CAFE AMAZON,Central Rama 2,1,GF,Food & Beverage
 CARLABEROTTI,Central Rama 2,1,1F,Fashion
 CATH KIDSTON,Central Rama 2,1,1F,Fashion
 CC-OO,Central Rama 2,1,1F,Fashion
@@ -87,11 +87,11 @@ DLUX OPTIC,Central Rama 2,1,GF,Fashion
 DOLCE GELATINO,Central Rama 2,1,3F,Food & Beverage
 DR.KONG,Central Rama 2,1,GF,Fashion
 DREAME,Central Rama 2,1,3F,Technology
-DTAC HALL,Central Rama 2,1,2F,Technology
-DTAC SHOP,Central Rama 2,1,2F,Technology
+DTAC,Central Rama 2,1,2F,Technology
+DTAC,Central Rama 2,1,2F,Technology
 DYSON,Central Rama 2,1,1F,Lifestyle & Specialty
 EARDOTS,Central Rama 2,1,GF,Fashion
-EASY LAUNDRY,Central Rama 2,1,GF,Services
+EASY LAUNDRY,Central Rama 2,1,GF,Lifestyle & Specialty
 ECC AND TUTOR HOUSE,Central Rama 2,1,3F,Education
 ERGO,Central Rama 2,1,GF,Bank & Financial Services
 ERGOTREND,Central Rama 2,1,3F,Lifestyle & Specialty
@@ -133,7 +133,7 @@ IDEAL,Central Rama 2,1,GF,Fashion
 INNISFREE,Central Rama 2,1,1F,Beauty & Wellness
 IPPUDO,Central Rama 2,1,1F,Food & Beverage
 IT CITY,Central Rama 2,1,3F,Technology
-JACK RUSSLE,Central Rama 2,1,1F,Fashion
+JACK RUSSEL,Central Rama 2,1,1F,Fashion
 JAYMART,Central Rama 2,1,2F,Technology
 JELLY BUNNY,Central Rama 2,1,1F,Fashion
 JFOURT,Central Rama 2,1,1F,Fashion
@@ -145,7 +145,7 @@ KAREN,Central Rama 2,1,GF,Fashion
 KARMART,Central Rama 2,1,3F,Beauty & Wellness
 KASIKORN BANK,Central Rama 2,1,GF,Bank & Financial Services
 KATSUYA,Central Rama 2,1,4F,Food & Beverage
-KEY & SHOES SERVICE,Central Rama 2,1,GF,Services
+KEY & SHOES SERVICE,Central Rama 2,1,GF,Lifestyle & Specialty
 KFC,Central Rama 2,1,GF,Food & Beverage
 KHANOM JEEN BANGKOK,Central Rama 2,1,4F,Food & Beverage
 KHUNPOOM,Central Rama 2,1,GF,Fashion
@@ -242,7 +242,7 @@ PHATARA GEMS,Central Rama 2,1,2F,Fashion
 PHATARAMANEE,Central Rama 2,1,2F,Fashion
 PLAIN PLAIN BY NOI,Central Rama 2,1,GF,Fashion
 PLAYBOY,Central Rama 2,1,1F,Fashion
-POLI-CHEM,Central Rama 2,1,GF,Services
+POLI-CHEM,Central Rama 2,1,GF,Lifestyle & Specialty
 POPCORN MAJOR,Central Rama 2,1,GF,Food & Beverage
 PORNKASEM CLINIC,Central Rama 2,1,3F,Beauty & Wellness
 POTATO CORNER,Central Rama 2,1,4F,Food & Beverage
@@ -250,7 +250,7 @@ PRAAO,Central Rama 2,1,GF,Fashion
 PRADAP,Central Rama 2,1,2F,Fashion
 PREMIUM DIAMOND,Central Rama 2,1,2F,Fashion
 PRIMA GOLD,Central Rama 2,1,1F,Fashion
-PRO CLEAN,Central Rama 2,1,GF,Services
+PRO CLEAN,Central Rama 2,1,GF,Lifestyle & Specialty
 QUINN,Central Rama 2,1,1F,Fashion
 R.O.X,Central Rama 2,1,1F,Fashion
 RAVIPA,Central Rama 2,1,1F,Fashion
@@ -269,7 +269,7 @@ SATANG POON,Central Rama 2,1,GF,Fashion
 SECRET NO.9,Central Rama 2,1,GF,Fashion
 SECRET RECIPE,Central Rama 2,1,4F,Food & Beverage
 SEOULCHON,Central Rama 2,1,3F,Food & Beverage
-SHU,Central Rama 2,1,1F,Fashion
+SHU UEMURA,Central Rama 2,1,1F,Fashion
 SIAM COMMERCIAL BANK,Central Rama 2,1,GF,Bank & Financial Services
 SIAM LASER CLINIC,Central Rama 2,1,2F,Beauty & Wellness
 SIL,Central Rama 2,1,GF,Fashion
@@ -296,7 +296,7 @@ TEDDY HOUSE,Central Rama 2,1,GF,Lifestyle & Specialty
 TEVA,Central Rama 2,1,1F,Fashion
 THAI CREDIT BANK,Central Rama 2,1,GF,Bank & Financial Services
 THAI TERRACE,Central Rama 2,1,2F,Food & Beverage
-THAILAND POST OFFICE,Central Rama 2,1,GF,Services
+THAILAND POST OFFICE,Central Rama 2,1,GF,Lifestyle & Specialty
 THE ALLEY,Central Rama 2,1,1F,Food & Beverage
 THE FACE SHOP,Central Rama 2,1,1F,Beauty & Wellness
 THE KICK TAEKWONDO,Central Rama 2,1,3F,Education
@@ -331,7 +331,7 @@ WARUNYUPA JEWELRY,Central Rama 2,1,2F,Fashion
 WATSONS,Central Rama 2,1,1F,Beauty & Wellness
 WHITE STORY,Central Rama 2,1,GF,Food & Beverage
 WITH IT / HIGH SCHOOL,Central Rama 2,1,1F,Fashion
-WORLD TIME,Central Rama 2,1,GF,Services
+WORLD TIME,Central Rama 2,1,GF,Lifestyle & Specialty
 XIAOMI,Central Rama 2,1,2F,Technology
 YAYOI,Central Rama 2,1,4F,Food & Beverage
 YODCHA,Central Rama 2,1,GF,Food & Beverage

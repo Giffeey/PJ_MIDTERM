@@ -27,9 +27,9 @@ BIG CAMERA,Central Ubon,1,2F,Technology
 BLACK CANYON COFFEE,Central Ubon,1,3F,Food & Beverage
 BODY GLOVE,Central Ubon,1,1F,Fashion
 BONCHON,Central Ubon,1,3F,Food & Beverage
-BOOST JUICE BARS,Central Ubon,1,1F,Food & Beverage
+BOOST JUICE BAR,Central Ubon,1,1F,Food & Beverage
 BOOTS,Central Ubon,1,2F,Beauty & Wellness
-CAFÉ AMAZON,Central Ubon,1,2F,Food & Beverage
+CAFE AMAZON,Central Ubon,1,2F,Food & Beverage
 CC-OO,Central Ubon,1,1F,Fashion
 CHANA,Central Ubon,1,2F,Fashion
 CHARLES & KEITH,Central Ubon,1,1F,Fashion
@@ -51,8 +51,8 @@ ESCENT CONDO,Central Ubon,1,3F,Lifestyle & Specialty
 ESP FRENCHIE,Central Ubon,1,1F,Fashion
 EYE CLASS,Central Ubon,1,2F,Fashion
 FITFLOP,Central Ubon,1,1F,Fashion
-FLASH EXPRESS,Central Ubon,1,GF,Services
-FOCUS STORE,Central Ubon,1,2F,Technology
+FLASH EXPRESS,Central Ubon,1,GF,Lifestyle & Specialty
+FOCUS,Central Ubon,1,2F,Technology
 FUJI JAPANESE RESTAURANT,Central Ubon,1,3F,Food & Beverage
 FUKU MATCHA,Central Ubon,1,3F,Food & Beverage
 GAGA,Central Ubon,1,3F,Food & Beverage
@@ -67,8 +67,8 @@ HER,Central Ubon,1,2F,Fashion
 HI PHONE,Central Ubon,1,2F,Technology
 HIGH SCHOOL,Central Ubon,1,1F,Fashion
 I STUDIO,Central Ubon,1,2F,Technology
-INTHANIN,Central Ubon,1,3F,Food & Beverage
-IT BY IT CITY,Central Ubon,1,2F,Technology
+INTHANIN COFFEE,Central Ubon,1,3F,Food & Beverage
+IT CITY,Central Ubon,1,2F,Technology
 IT CITY,Central Ubon,1,2F,Technology
 JASPAL,Central Ubon,1,1F,Fashion
 JAY MART,Central Ubon,1,2F,Technology
@@ -81,12 +81,12 @@ KASIKORN BANK,Central Ubon,1,3F,Bank & Financial Services
 KFC,Central Ubon,1,1F,Food & Beverage
 KFC,Central Ubon,1,2F,Food & Beverage
 KHUNPOOM,Central Ubon,1,2F,Fashion
-KOI THE',Central Ubon,1,1F,Food & Beverage
+KOI THE,Central Ubon,1,1F,Food & Beverage
 KOJI CHA,Central Ubon,1,3F,Food & Beverage
 KRUNG THAI BANK,Central Ubon,1,3F,Bank & Financial Services
 KRUNGSRI FIRST CHOICE,Central Ubon,1,3F,Bank & Financial Services
 KT OPTIC,Central Ubon,1,3F,Fashion
-LEAM CHAROEN SEAFOOD,Central Ubon,1,3F,Food & Beverage
+LAEM CHAROEN SEAFOOD,Central Ubon,1,3F,Food & Beverage
 LEMONY,Central Ubon,1,2F,Fashion
 LEVI'S,Central Ubon,1,1F,Fashion
 LOFT 81,Central Ubon,1,2F,Fashion
@@ -113,7 +113,7 @@ NITIPON CLINIC,Central Ubon,1,2F,Beauty & Wellness
 OFFICEMATE,Central Ubon,1,2F,Lifestyle & Specialty
 OPPO,Central Ubon,1,2F,Technology
 ORIENTAL PRINCESS,Central Ubon,1,2F,Beauty & Wellness
-P.A.PHONE,Central Ubon,1,2F,Technology
+P.A. PHONE,Central Ubon,1,2F,Technology
 PEEWARA CLINIC,Central Ubon,1,2F,Beauty & Wellness
 PENA HOUSE,Central Ubon,1,1F,Fashion
 PHA RUAI,Central Ubon,1,2F,Fashion
@@ -123,9 +123,9 @@ POTATO CORNER,Central Ubon,1,1F,Food & Beverage
 POWER BUY,Central Ubon,1,2F,Technology
 PRADAP,Central Ubon,1,2F,Fashion
 PRIMA GOLD,Central Ubon,1,1F,Fashion
-PRO CLEAN,Central Ubon,1,GF,Services
-PRO EXTRA TIME,Central Ubon,1,GF,Services
-PROMAN,Central Ubon,1,GF,Services
+PRO CLEAN,Central Ubon,1,GF,Lifestyle & Specialty
+PRO EXTRA TIME,Central Ubon,1,GF,Lifestyle & Specialty
+PROMAN,Central Ubon,1,GF,Lifestyle & Specialty
 PUNTHAI COFFEE,Central Ubon,1,2F,Food & Beverage
 QUICKLY PLUS,Central Ubon,1,3F,Food & Beverage
 RATCHANON,Central Ubon,1,2F,Technology
@@ -137,7 +137,7 @@ S&P,Central Ubon,1,3F,Food & Beverage
 SABINA,Central Ubon,1,2F,Fashion
 SAMSUNG,Central Ubon,1,2F,Technology
 SANSOOK DENTAL CLINIC,Central Ubon,1,3F,Beauty & Wellness
-SANTA FE' STEAK HOUSE,Central Ubon,1,3F,Food & Beverage
+SANTA FE' STEAK,Central Ubon,1,3F,Food & Beverage
 SE-ED BOOK CENTER,Central Ubon,1,3F,Lifestyle & Specialty
 SEREE JEWELRY,Central Ubon,1,1F,Fashion
 SHABUSHI,Central Ubon,1,3F,Food & Beverage
@@ -149,7 +149,7 @@ SKECHERS,Central Ubon,1,1F,Fashion
 SPIN,Central Ubon,1,2F,Fashion
 STARBUCKS COFFEE,Central Ubon,1,1F,Food & Beverage
 SUKISHI CHARCOAL GRILL,Central Ubon,1,3F,Food & Beverage
-SUPER FIX,Central Ubon,1,2F,Services
+SUPER FIX,Central Ubon,1,2F,Lifestyle & Specialty
 SUPER SPORTS,Central Ubon,1,1F,Fashion
 SWENSEN'S,Central Ubon,1,3F,Food & Beverage
 TANG TANG,Central Ubon,1,2F,Fashion
@@ -186,4 +186,4 @@ YUEDPAO,Central Ubon,1,1F,Fashion
 YVES ROCHER,Central Ubon,1,1F,Beauty & Wellness
 ก๋วยเตี๋ยวเรือพระนคร,Central Ubon,1,3F,Food & Beverage
 อ๋อมแอ๋ม,Central Ubon,1,2F,Fashion
-อำเภอยิ้ม,Central Ubon,1,GF,Services
+อำเภอยิ้ม,Central Ubon,1,GF,Lifestyle & Specialty

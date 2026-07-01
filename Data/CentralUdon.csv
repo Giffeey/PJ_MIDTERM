@@ -1,5 +1,5 @@
 Source,Target,Weight,Floor,Category
-.LIFE,Central Udon,1,2F,Technology
+M LIFE,Central Udon,1,2F,Technology
 1976,Central Udon,1,3F,Fashion
 @MEDICAL CLINIC BY หมอไก่,Central Udon,1,3F,Beauty & Wellness
 A1,Central Udon,1,3F,Beauty & Wellness
@@ -9,7 +9,7 @@ AEON THANA SINSAP,Central Udon,1,3F,Bank & Financial Services
 AFTER YOU,Central Udon,1,1F,Food & Beverage
 AIIZ,Central Udon,1,1F,Fashion
 AIS,Central Udon,1,2F,Technology
-AIS SERENADE CLUB,Central Udon,1,2F,Technology
+AIS SERENADE,Central Udon,1,2F,Technology
 AKA,Central Udon,1,4F,Food & Beverage
 ANELLO,Central Udon,1,1F,Fashion
 ANGLE ZONE COLOR,Central Udon,1,4F,Fashion
@@ -20,8 +20,8 @@ AUNTIE ANNE'S,Central Udon,1,1F,Food & Beverage
 AURORA,Central Udon,1,3F,Fashion
 B2S,Central Udon,1,4F,Lifestyle & Specialty
 BABYLOFT,Central Udon,1,3F,Fashion
-BANANA IT,Central Udon,1,2F,Technology
-BANANA MOBILE,Central Udon,1,2F,Technology
+BANANA,Central Udon,1,2F,Technology
+BANANA,Central Udon,1,2F,Technology
 BANGKOK BANK,Central Udon,1,3F,Bank & Financial Services
 BANGKOK GOLDS,Central Udon,1,3F,Fashion
 BANGKOK INSURANCE,Central Udon,1,3F,Bank & Financial Services
@@ -39,14 +39,14 @@ BLOSSOM,Central Udon,1,4F,Education
 BONCHON,Central Udon,1,4F,Food & Beverage
 BONJOUR,Central Udon,1,3F,Food & Beverage
 BOONTAWEE,Central Udon,1,3F,Fashion
-BOOST JUICE,Central Udon,1,GF,Food & Beverage
+BOOST JUICE BAR,Central Udon,1,GF,Food & Beverage
 BOOTS,Central Udon,1,GF,Beauty & Wellness
 BREAD TALK,Central Udon,1,GF,Food & Beverage
 BUJEONG CLINIC,Central Udon,1,3F,Beauty & Wellness
 BUMBLEBEE CAFE,Central Udon,1,GF,Food & Beverage
 BUNGU,Central Udon,1,4F,Lifestyle & Specialty
 BY MIN,Central Udon,1,2F,Fashion
-CAFÉ AMAZON,Central Udon,1,1F,Food & Beverage
+CAFE AMAZON,Central Udon,1,1F,Food & Beverage
 CANTEEN,Central Udon,1,5F,Food & Beverage
 CATH KIDSTON,Central Udon,1,1F,Fashion
 CC-OO,Central Udon,1,1F,Fashion
@@ -57,20 +57,20 @@ CHANEL,Central Udon,1,1F,Beauty & Wellness
 CHARLES & KEITH,Central Udon,1,1F,Fashion
 CHATRAMUE,Central Udon,1,GF,Food & Beverage
 CHERILON,Central Udon,1,1F,Fashion
-CHRISTIAN DIOR,Central Udon,1,1F,Beauty & Wellness
+DIOR,Central Udon,1,1F,Beauty & Wellness
 CLICKROBOT,Central Udon,1,4F,Education
 COACH,Central Udon,1,1F,Fashion
 CPS CHAPS,Central Udon,1,1F,Fashion
 CROCS,Central Udon,1,1F,Fashion
 CSC,Central Udon,1,2F,Technology
-CURIOO,Central Udon,1,4F,Education
+CURIOO KIDS,Central Udon,1,4F,Education
 CUTE PRESS,Central Udon,1,1F,Beauty & Wellness
 DAIRY QUEEN,Central Udon,1,4F,Food & Beverage
 DAIRY QUEEN,Central Udon,1,GF,Food & Beverage
 DAISO,Central Udon,1,GF,Lifestyle & Specialty
-DREAM UP HOUSE BUIDER,Central Udon,1,3F,Services
+DREAM UP HOUSE BUIDER,Central Udon,1,3F,Lifestyle & Specialty
 DRIED BANANA CHIPS,Central Udon,1,GF,Food & Beverage
-DTAC HALL,Central Udon,1,2F,Technology
+DTAC,Central Udon,1,2F,Technology
 DUCATI,Central Udon,1,1F,Fashion
 EARDOTS,Central Udon,1,3F,Technology
 EXPORT SHOP,Central Udon,1,3F,Fashion
@@ -89,7 +89,7 @@ GARMIN,Central Udon,1,1F,Technology
 GELATO,Central Udon,1,4F,Food & Beverage
 GIANTLOOKCHINPLARABERD,Central Udon,1,GF,Food & Beverage
 GIORDANO,Central Udon,1,1F,Fashion
-GOVERNMENT EASY CONTACT CENTER,Central Udon,1,2F,Services
+GOVERNMENT EASY CONTACT CENTER,Central Udon,1,2F,Lifestyle & Specialty
 GOVERNMENT HOUSING BANK,Central Udon,1,3F,Bank & Financial Services
 GOVERNMENT SAVINGS BANK,Central Udon,1,3F,Bank & Financial Services
 GRUNG GAO GUAY TIEW RUEA,Central Udon,1,GF,Food & Beverage
@@ -103,7 +103,7 @@ HOITORDINTER,Central Udon,1,GF,Food & Beverage
 IKON,Central Udon,1,1F,Fashion
 IMON FRUITS,Central Udon,1,GF,Food & Beverage
 INLINGUA,Central Udon,1,4F,Education
-INTHANIN,Central Udon,1,2F,Food & Beverage
+INTHANIN COFFEE,Central Udon,1,2F,Food & Beverage
 IT CITY,Central Udon,1,2F,Technology
 IT GO,Central Udon,1,2F,Technology
 JASPAL,Central Udon,1,1F,Fashion
@@ -124,7 +124,7 @@ KHAMOOTROKSUNG,Central Udon,1,GF,Food & Beverage
 KHAO KOOK NAM PRIK MUEANG YA,Central Udon,1,GF,Food & Beverage
 KHAO MOO KROB NAI KONG,Central Udon,1,GF,Food & Beverage
 KIDZOOONA,Central Udon,1,5F,Entertainment
-KOI THE',Central Udon,1,1F,Food & Beverage
+KOI THE,Central Udon,1,1F,Food & Beverage
 KRAURTHAI,Central Udon,1,GF,Food & Beverage
 KRUNG THAI BANK,Central Udon,1,3F,Bank & Financial Services
 KRUNGSRI FIRST CHOICE,Central Udon,1,3F,Bank & Financial Services
@@ -176,20 +176,20 @@ ORIENTAL PRINCESS,Central Udon,1,1F,Beauty & Wellness
 ORIGANI,Central Udon,1,1F,Beauty & Wellness
 OWNDAYS,Central Udon,1,2F,Fashion
 P&F,Central Udon,1,GF,Beauty & Wellness
-P.A.PHONE,Central Udon,1,2F,Technology
+P.A. PHONE,Central Udon,1,2F,Technology
 PANCAKE HOUSE,Central Udon,1,GF,Food & Beverage
 PANDORA,Central Udon,1,1F,Fashion
-PASSPORT CENTER สำนักงานหนังสือเดินทาง,Central Udon,1,3F,Services
+PASSPORT CENTER สำนักงานหนังสือเดินทาง,Central Udon,1,3F,Lifestyle & Specialty
 PHANNEEMOOPING,Central Udon,1,GF,Food & Beverage
-PLUS CONDO,Central Udon,1,4F,Services
+PLUS CONDO,Central Udon,1,4F,Lifestyle & Specialty
 POR POCHANA GUAY JUB,Central Udon,1,GF,Food & Beverage
 POTATO CORNER,Central Udon,1,GF,Food & Beverage
 POWER BUY,Central Udon,1,2F,Technology
 PRADAP,Central Udon,1,3F,Fashion
-PRANAKORN NOODLE RESTAURANT ก๋วยเตี๋ยวเรือพระนคร,Central Udon,1,GF,Food & Beverage
+PRANAKORN BOAT NOODLE,Central Udon,1,GF,Food & Beverage
 PRIMA DIAMOND,Central Udon,1,2F,Fashion
 PRIMA GOLD,Central Udon,1,2F,Fashion
-PRO CLEAN,Central Udon,1,2F,Services
+PRO CLEAN,Central Udon,1,2F,Lifestyle & Specialty
 PROJECT HYPE BKK.,Central Udon,1,1F,Fashion
 RACHAKUAYTEAWPED,Central Udon,1,GF,Food & Beverage
 RARDNALUNGHOITIENLAO,Central Udon,1,GF,Food & Beverage
@@ -205,8 +205,8 @@ S&P,Central Udon,1,4F,Food & Beverage
 S&P,Central Udon,1,GF,Food & Beverage
 SABINA,Central Udon,1,1F,Fashion
 SAMSONITE,Central Udon,1,1F,Fashion
-SAMSUNG MOBILE,Central Udon,1,2F,Technology
-SANTA FE' STEAK HOUSE,Central Udon,1,4F,Food & Beverage
+SAMSUNG,Central Udon,1,2F,Technology
+SANTA FE' STEAK,Central Udon,1,4F,Food & Beverage
 SAP SA-DET,Central Udon,1,GF,Food & Beverage
 SE-ED BOOK CENTER,Central Udon,1,GF,Lifestyle & Specialty
 SEOUL HERE,Central Udon,1,2F,Fashion
@@ -230,14 +230,14 @@ SUPER SPORTS,Central Udon,1,3F,Fashion
 SUSHI LIKE,Central Udon,1,GF,Food & Beverage
 SWEET XODA,Central Udon,1,3F,Fashion
 SWENSEN'S,Central Udon,1,1F,Food & Beverage
-T PARTNER,Central Udon,1,1F,Lifestyle & Specialty
-TAR TIME,Central Udon,1,GF,Services
-TATOO BY CARTOON,Central Udon,1,3F,Services
+T-PARTNER,Central Udon,1,1F,Lifestyle & Specialty
+TAR TIME,Central Udon,1,GF,Lifestyle & Specialty
+TATOO BY CARTOON,Central Udon,1,3F,Lifestyle & Specialty
 TAYWIN,Central Udon,1,3F,Fashion
 TAYWIN ORIGINAL STYLE,Central Udon,1,1F,Fashion
 TEMAIM,Central Udon,1,GF,Food & Beverage
 TENNO SUSHI,Central Udon,1,4F,Food & Beverage
-TG EXPRESS,Central Udon,1,3F,Services
+TG EXPRESS,Central Udon,1,3F,Lifestyle & Specialty
 TG FONE,Central Udon,1,2F,Technology
 THE BEYOND CLINIC,Central Udon,1,3F,Beauty & Wellness
 THE ICON,Central Udon,1,3F,Beauty & Wellness
@@ -272,7 +272,7 @@ WATCH STATION,Central Udon,1,1F,Fashion
 WATSONS,Central Udon,1,3F,Beauty & Wellness
 WATSONS,Central Udon,1,GF,Beauty & Wellness
 WITH IT,Central Udon,1,3F,Fashion
-WONDER PHOTO SHOP,Central Udon,1,2F,Services
+WONDER PHOTO SHOP,Central Udon,1,2F,Lifestyle & Specialty
 WRANGLER,Central Udon,1,1F,Fashion
 XIAOMI,Central Udon,1,2F,Technology
 YAMAHA MUSIC SCHOOL,Central Udon,1,4F,Education
@@ -290,4 +290,4 @@ ZINE SHOP,Central Udon,1,4F,Fashion
 วัวล้วนๆ ไม่มีควายผสม,Central Udon,1,GF,Food & Beverage
 ห้างทองแม่ทองพูล,Central Udon,1,3F,Fashion
 เซ่งเฮง,Central Udon,1,3F,Fashion
-ไปรษณีย์ไทย,Central Udon,1,2F,Services
+ไปรษณีย์ไทย,Central Udon,1,2F,Lifestyle & Specialty

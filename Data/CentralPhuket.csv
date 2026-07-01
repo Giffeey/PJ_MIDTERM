@@ -1,5 +1,5 @@
 Source,Target,Weight,Floor,Category
-.LIFE,Central Phuket,1,2F,Technology
+M LIFE,Central Phuket,1,2F,Technology
 ADIDAS,Central Phuket,1,2F,Fashion
 AEAKALAK KUAY TIEW NEA TUN,Central Phuket,1,3F,Food & Beverage
 AEON THANA SINSAP,Central Phuket,1,4F,Bank & Financial Services
@@ -40,7 +40,7 @@ BAANMANGSAWIRAT,Central Phuket,1,3F,Food & Beverage
 BABIE GENIUS,Central Phuket,1,2F,Education
 BAKE A WISH,Central Phuket,1,1F,Food & Beverage
 BALENCIAGA,Central Phuket,1,1F,Fashion
-BANANA IT,Central Phuket,1,2F,Technology
+BANANA,Central Phuket,1,2F,Technology
 BANDAI,Central Phuket,1,GF,Lifestyle & Specialty
 BANGKOK BANK,Central Phuket,1,4F,Bank & Financial Services
 BANGKOK BOOTERY,Central Phuket,1,3F,Fashion
@@ -49,7 +49,7 @@ BANGKOK INSURANCE,Central Phuket,1,4F,Bank & Financial Services
 BANGKOK TALES,Central Phuket,1,GF,Fashion
 BAR-B-Q PLAZA,Central Phuket,1,3F,Food & Beverage
 BATA,Central Phuket,1,2F,Fashion
-BATH AND BODY WORKS,Central Phuket,1,1F,Beauty & Wellness
+BATH & BODY WORKS,Central Phuket,1,1F,Beauty & Wellness
 BATH&BLOOM,Central Phuket,1,GF,Beauty & Wellness
 BEAUTY UNIQUE,Central Phuket,1,2F,Beauty & Wellness
 BETTER VISION,Central Phuket,1,2F,Fashion
@@ -62,7 +62,7 @@ BLACKBARRETT,Central Phuket,1,1F,Fashion
 BOBBI BROWN,Central Phuket,1,1F,Beauty & Wellness
 BOON TONG KEE,Central Phuket,1,GF,Food & Beverage
 BOOTS,Central Phuket,1,GF,Beauty & Wellness
-BOSS,Central Phuket,1,1F,Fashion
+HUGO BOSS,Central Phuket,1,1F,Fashion
 BOSSINI,Central Phuket,1,2F,Fashion
 BOTTEGA VENETA,Central Phuket,1,1F,Fashion
 BP WORLD,Central Phuket,1,3F,Fashion
@@ -70,9 +70,9 @@ BREADTALK,Central Phuket,1,1F,Food & Beverage
 BREITLING,Central Phuket,1,1F,Fashion
 BRITISH INDIA,Central Phuket,1,2F,Fashion
 BSC,Central Phuket,1,GF,Fashion
-BSC COSMETOLOGY,Central Phuket,1,1F,Beauty & Wellness
+BSC,Central Phuket,1,1F,Beauty & Wellness
 C&D,Central Phuket,1,2F,Fashion
-CAFÉ AMAZON,Central Phuket,1,4F,Food & Beverage
+CAFE AMAZON,Central Phuket,1,4F,Food & Beverage
 CAGGIONI,Central Phuket,1,3F,Fashion
 CALVIN KLEIN,Central Phuket,1,2F,Fashion
 CAPTHAI,Central Phuket,1,2F,Fashion
@@ -88,7 +88,7 @@ CHATRAMUE,Central Phuket,1,GF,Food & Beverage
 CHILL CHILL BAR,Central Phuket,1,1F,Food & Beverage
 CHILLI THAI RESTAURANT,Central Phuket,1,GF,Food & Beverage
 CHOW TAI FOOK,Central Phuket,1,1F,Fashion
-CHRISTIAN DIOR,Central Phuket,1,1F,Fashion
+DIOR,Central Phuket,1,1F,Fashion
 CIMB THAI BANK,Central Phuket,1,4F,Bank & Financial Services
 CITIZEN,Central Phuket,1,1F,Fashion
 CK,Central Phuket,1,1F,Fashion
@@ -107,7 +107,7 @@ CPS CHAPS,Central Phuket,1,1F,Fashion
 CPS COFFEE,Central Phuket,1,1F,Food & Beverage
 CROCS,Central Phuket,1,1F,Fashion
 CUT & CURL,Central Phuket,1,3F,Beauty & Wellness
-CZECH BUSINESS CENTER,Central Phuket,1,3F,Services
+CZECH BUSINESS CENTER,Central Phuket,1,3F,Lifestyle & Specialty
 DAIRY QUEEN,Central Phuket,1,1F,Food & Beverage
 DAISO,Central Phuket,1,4F,Lifestyle & Specialty
 DANIEL HECHTER,Central Phuket,1,3F,Fashion
@@ -125,7 +125,7 @@ DJI,Central Phuket,1,2F,Technology
 DKNY,Central Phuket,1,1F,Fashion
 DOLCE GABBANA,Central Phuket,1,1F,Fashion
 DR.MARTENS,Central Phuket,1,3F,Fashion
-DTAC HALL,Central Phuket,1,2F,Technology
+DTAC,Central Phuket,1,2F,Technology
 DUCATI,Central Phuket,1,2F,Fashion
 DUR KUAITIAO NUEA,Central Phuket,1,1F,Food & Beverage
 DYSON,Central Phuket,1,GF,Technology
@@ -144,7 +144,7 @@ ESPADA,Central Phuket,1,2F,Fashion
 ESPRIT,Central Phuket,1,1F,Fashion
 ESTEE LAUDER,Central Phuket,1,1F,Beauty & Wellness
 EYE CLASS,Central Phuket,1,3F,Fashion
-EYE LAB,Central Phuket,1,2F,Fashion
+EYE LAB EXCLUSIVE,Central Phuket,1,2F,Fashion
 EYE LEVEL,Central Phuket,1,2F,Education
 EYE LAB EXCLUSIVE,Central Phuket,1,2F,Fashion
 F-FASHION,Central Phuket,1,2F,Fashion
@@ -306,27 +306,27 @@ ORIGINS,Central Phuket,1,1F,Beauty & Wellness
 ORIS,Central Phuket,1,1F,Fashion
 OUTDOOR BOTANICA BY ELEMENT 72,Central Phuket,1,2F,Fashion
 OWNDAYS,Central Phuket,1,2F,Fashion
-P.A.PHONE,Central Phuket,1,2F,Technology
+P.A. PHONE,Central Phuket,1,2F,Technology
 PACO RABANNE,Central Phuket,1,1F,Fashion
 PADTHAIPANHIN,Central Phuket,1,1F,Food & Beverage
 PANCAKE CORNER,Central Phuket,1,GF,Food & Beverage
 PANDORA,Central Phuket,1,2F,Fashion
 PANERAI,Central Phuket,1,1F,Fashion
 PANPURI,Central Phuket,1,GF,Beauty & Wellness
-PASSPORT CENTER,Central Phuket,1,B2,Services
+PASSPORT CENTER,Central Phuket,1,B2,Lifestyle & Specialty
 PAUL SMITH,Central Phuket,1,1F,Fashion
 PEPPER LUNCH,Central Phuket,1,3F,Food & Beverage
 PIERRE CARDIN,Central Phuket,1,3F,Fashion
 PIZZA HUT,Central Phuket,1,GF,Food & Beverage
 PLAYBOY,Central Phuket,1,2F,Fashion
-POLI-CHEM,Central Phuket,1,GF,Services
+POLI-CHEM,Central Phuket,1,GF,Lifestyle & Specialty
 POLICE,Central Phuket,1,1F,Fashion
 POLO RALPH LAUREN,Central Phuket,1,1F,Fashion
 POMELO,Central Phuket,1,1F,Fashion
 PORTO HOUSE BY RIDER CAFÉ,Central Phuket,1,1F,Food & Beverage
 PRIMA,Central Phuket,1,2F,Fashion
 PRIME BURGER THAILAND,Central Phuket,1,GF,Food & Beverage
-PROCLEAN,Central Phuket,1,B1,Services
+PROCLEAN,Central Phuket,1,B1,Lifestyle & Specialty
 PUMA,Central Phuket,1,2F,Fashion
 PUNGKI KUAY TEAW RUEA,Central Phuket,1,1F,Food & Beverage
 QUIKSILVER,Central Phuket,1,3F,Fashion
@@ -350,14 +350,14 @@ SAINT LAURENT,Central Phuket,1,1F,Fashion
 SAISON DU SOLEIL BY YAMAZAKI,Central Phuket,1,1F,Food & Beverage
 SAMSONITE,Central Phuket,1,2F,Fashion
 SAMSUNG,Central Phuket,1,2F,Technology
-SANTA FE' STEAK HOUSE,Central Phuket,1,3F,Food & Beverage
+SANTA FE' STEAK,Central Phuket,1,3F,Food & Beverage
 SCHOLL,Central Phuket,1,1F,Fashion
 SEIKO,Central Phuket,1,1F,Fashion
 SEPHORA,Central Phuket,1,1F,Beauty & Wellness
 SHABUSHI,Central Phuket,1,1F,Food & Beverage
 SHINO MASSAGE,Central Phuket,1,GF,Beauty & Wellness
 SHISEIDO,Central Phuket,1,1F,Beauty & Wellness
-SHU,Central Phuket,1,1F,Fashion
+SHU UEMURA,Central Phuket,1,1F,Fashion
 SIAM COMMERCIAL BANK,Central Phuket,1,4F,Bank & Financial Services
 SIAMPORK INTERFOOD,Central Phuket,1,GF,Food & Beverage
 SISLEY,Central Phuket,1,1F,Beauty & Wellness

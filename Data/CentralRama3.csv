@@ -1,5 +1,5 @@
 Source,Target,Weight,Floor,Category
-A RAMEN,Central Rama 3,1,6F,Food & Beverage
+IROHA RAMEN,Central Rama 3,1,6F,Food & Beverage
 ADIDAS,Central Rama 3,1,2F,Fashion
 ADVICE,Central Rama 3,1,3F,Technology
 AIIZ,Central Rama 3,1,1F,Fashion
@@ -7,12 +7,12 @@ AIS,Central Rama 3,1,3F,Technology
 AKA,Central Rama 3,1,5F,Food & Beverage
 AMOR,Central Rama 3,1,GF,Food & Beverage
 ANANTRA,Central Rama 3,1,4F,Beauty & Wellness
-ANNA LAUNDRY,Central Rama 3,1,B1,Services
+ANNA LAUNDRY,Central Rama 3,1,B1,Lifestyle & Specialty
 ANNAKANOMJEEN,Central Rama 3,1,6F,Food & Beverage
 AQUA COSMETICS,Central Rama 3,1,2F,Beauty & Wellness
 AROIDEE,Central Rama 3,1,6F,Food & Beverage
 AROIRIMRABIANG,Central Rama 3,1,6F,Food & Beverage
-ASA,Central Rama 3,1,B1,Services
+ASA,Central Rama 3,1,B1,Lifestyle & Specialty
 AU BON PAIN,Central Rama 3,1,1F,Food & Beverage
 AUNTIE ANNE'S,Central Rama 3,1,GF,Food & Beverage
 AURORA DIAMOND,Central Rama 3,1,3F,Fashion
@@ -21,7 +21,7 @@ B2S,Central Rama 3,1,6F,Lifestyle & Specialty
 BABIES GENIUS,Central Rama 3,1,7F,Education
 BAIMIANG,Central Rama 3,1,GF,Food & Beverage
 BANANA,Central Rama 3,1,3F,Technology
-BANANA IT,Central Rama 3,1,3F,Technology
+BANANA,Central Rama 3,1,3F,Technology
 BANANA LEAF,Central Rama 3,1,5F,Food & Beverage
 BANARMAE ARHANTAMSANG,Central Rama 3,1,6F,Food & Beverage
 BANGKOK BANK,Central Rama 3,1,4F,Bank & Financial Services
@@ -37,12 +37,12 @@ BILIX,Central Rama 3,1,2F,Fashion
 BLOOMING HOUSE,Central Rama 3,1,2F,Fashion
 BLUE COFFEE,Central Rama 3,1,1F,Food & Beverage
 BONCHON,Central Rama 3,1,6F,Food & Beverage
-BOOST JUICE,Central Rama 3,1,GF,Food & Beverage
+BOOST JUICE BAR,Central Rama 3,1,GF,Food & Beverage
 BOOTS,Central Rama 3,1,2F,Beauty & Wellness
 BORA BEAUTY SALON,Central Rama 3,1,3F,Beauty & Wellness
 BS BRANDNAME,Central Rama 3,1,1F,Fashion
 C&D,Central Rama 3,1,2F,Fashion
-CAFÉ AMAZON,Central Rama 3,1,3F,Food & Beverage
+CAFE AMAZON,Central Rama 3,1,3F,Food & Beverage
 CAMERA&LENS,Central Rama 3,1,3F,Technology
 CC-OO,Central Rama 3,1,2F,Fashion
 CENTRAL DEPARTMENT STORE,Central Rama 3,1,1F,Lifestyle & Specialty
@@ -53,12 +53,12 @@ CHATRAMUE,Central Rama 3,1,GF,Food & Beverage
 CHER CLINIC,Central Rama 3,1,4F,Beauty & Wellness
 CIMB THAI BANK,Central Rama 3,1,3F,Bank & Financial Services
 CLAY WORKS,Central Rama 3,1,6F,Lifestyle & Specialty
-CLICK CLACK,Central Rama 3,1,2F,Services
+CLICK CLACK,Central Rama 3,1,2F,Lifestyle & Specialty
 COCO ICHIBANYA,Central Rama 3,1,1F,Food & Beverage
 COFFEE TODAY,Central Rama 3,1,5F,Food & Beverage
 COFFEE WORLD,Central Rama 3,1,1F,Food & Beverage
-COLD STONE,Central Rama 3,1,2F,Food & Beverage
-COLTHES FIXING,Central Rama 3,1,2F,Services
+COLD STONE CREAMERY,Central Rama 3,1,2F,Food & Beverage
+COLTHES FIXING,Central Rama 3,1,2F,Lifestyle & Specialty
 COWAY,Central Rama 3,1,3F,Lifestyle & Specialty
 CPS CHAPS,Central Rama 3,1,2F,Fashion
 CURLY CUT,Central Rama 3,1,2F,Beauty & Wellness
@@ -76,12 +76,12 @@ EASY MONEY SHOP,Central Rama 3,1,GF,Fashion
 EGG OPTICAL BOUTIQUE,Central Rama 3,1,GF,Fashion
 EGG STORY,Central Rama 3,1,6F,Food & Beverage
 EPIPHANY,Central Rama 3,1,3F,Fashion
-EPS DESIGN,Central Rama 3,1,B1,Services
+EPS DESIGN,Central Rama 3,1,B1,Lifestyle & Specialty
 ERAWAN GEMS,Central Rama 3,1,3F,Fashion
 ERGO,Central Rama 3,1,4F,Bank & Financial Services
 EXPORT SHOP,Central Rama 3,1,2F,Fashion
 EYE CLASS,Central Rama 3,1,2F,Fashion
-EYE LAB,Central Rama 3,1,GF,Fashion
+EYE LAB EXCLUSIVE,Central Rama 3,1,GF,Fashion
 EYE LEVEL LEARNING CENTER,Central Rama 3,1,7F,Education
 FITNESS FIRST,Central Rama 3,1,6F,Lifestyle & Specialty
 FLEURS EN PRAIRIE CAFE,Central Rama 3,1,GF,Food & Beverage
@@ -115,7 +115,7 @@ INDY CREPE & BAKED,Central Rama 3,1,6F,Food & Beverage
 INLINGUA,Central Rama 3,1,6F,Education
 INTER,Central Rama 3,1,6F,Food & Beverage
 IT CITY,Central Rama 3,1,3F,Technology
-IT CITY ACE,Central Rama 3,1,3F,Technology
+IT CITY,Central Rama 3,1,3F,Technology
 JACOB,Central Rama 3,1,2F,Fashion
 JADE GARDEN,Central Rama 3,1,6F,Food & Beverage
 JASPAL,Central Rama 3,1,1F,Fashion
@@ -124,10 +124,10 @@ JAYMART IOT,Central Rama 3,1,3F,Technology
 JIB,Central Rama 3,1,3F,Technology
 JIENG FISH BALL,Central Rama 3,1,5F,Food & Beverage
 JINTAICECREAM,Central Rama 3,1,6F,Food & Beverage
-JONES' SALAD,Central Rama 3,1,GF,Food & Beverage
+JONES SALAD,Central Rama 3,1,GF,Food & Beverage
 JS PHONE,Central Rama 3,1,3F,Technology
 JUBILEE,Central Rama 3,1,3F,Fashion
-K.ACCESSORIES,Central Rama 3,1,3F,Technology
+K. ACCESSORIES,Central Rama 3,1,3F,Technology
 KAITUNMARAAYUTTAYA,Central Rama 3,1,6F,Food & Beverage
 KANOM BANN AYAKARN,Central Rama 3,1,GF,Food & Beverage
 KANOMBEUANGMAESOMJIT,Central Rama 3,1,6F,Food & Beverage
@@ -142,7 +142,7 @@ KHAMOOJUKKAPAT,Central Rama 3,1,6F,Food & Beverage
 KIATNAKIN BANK,Central Rama 3,1,4F,Bank & Financial Services
 KIPLING,Central Rama 3,1,2F,Fashion
 KOBE STEAK HOUSE,Central Rama 3,1,6F,Food & Beverage
-KOI THE',Central Rama 3,1,6F,Food & Beverage
+KOI THE,Central Rama 3,1,6F,Food & Beverage
 KRISPY KREME,Central Rama 3,1,1F,Food & Beverage
 KRUNG THAI BANK,Central Rama 3,1,3F,Bank & Financial Services
 KRUNGSRI FIRST CHOICE,Central Rama 3,1,4F,Bank & Financial Services
@@ -167,7 +167,7 @@ LYN AROUND,Central Rama 3,1,2F,Fashion
 MAEMEEKAOSOI,Central Rama 3,1,6F,Food & Beverage
 MAESREE,Central Rama 3,1,6F,Food & Beverage
 MAESRIRUEN,Central Rama 3,1,GF,Food & Beverage
-MAGNANO,Central Rama 3,1,1F,Services
+MAGNANO,Central Rama 3,1,1F,Lifestyle & Specialty
 MAJOR CINEPLEX,Central Rama 3,1,7F,Entertainment
 MARRAKESH EXCLUSIVE SPA,Central Rama 3,1,4F,Beauty & Wellness
 MATH TALENT BY DR. YING,Central Rama 3,1,6F,Education
@@ -188,7 +188,7 @@ MUST LOOJ MORE,Central Rama 3,1,GF,Fashion
 MX CAKES & BAKERY,Central Rama 3,1,GF,Food & Beverage
 MYEONGRYUN JINSA GALBI,Central Rama 3,1,5F,Food & Beverage
 NAIL CLUB,Central Rama 3,1,4F,Beauty & Wellness
-NGAN PAK LUNG PIAK,Central Rama 3,1,B1,Services
+NGAN PAK LUNG PIAK,Central Rama 3,1,B1,Lifestyle & Specialty
 NGG,Central Rama 3,1,3F,Fashion
 NITIPON CLINIC,Central Rama 3,1,3F,Beauty & Wellness
 NITTAYA KAI YANG,Central Rama 3,1,6F,Food & Beverage
@@ -208,19 +208,19 @@ PAN SHOP,Central Rama 3,1,2F,Fashion
 PENG GEE,Central Rama 3,1,5F,Food & Beverage
 PENGPHOCHANA RACHAKUAYTEAWKHAUKAI,Central Rama 3,1,6F,Food & Beverage
 PEPPER LUNCH,Central Rama 3,1,5F,Food & Beverage
-PET LOVERS CENTRE,Central Rama 3,1,GF,Lifestyle & Specialty
+PET LOVER CENTRE,Central Rama 3,1,GF,Lifestyle & Specialty
 PETCH KANCHANA,Central Rama 3,1,3F,Fashion
 PEWDEE CLINIC,Central Rama 3,1,3F,Beauty & Wellness
 PHOOM-JAI-THAI,Central Rama 3,1,GF,Beauty & Wellness
 PINRIMKHONGYAMJEEDJAD,Central Rama 3,1,6F,Food & Beverage
 POMELO,Central Rama 3,1,1F,Fashion
 PORNKASEM CLINIC,Central Rama 3,1,4F,Beauty & Wellness
-POST MAIL BOX,Central Rama 3,1,B2,Services
+POST MAIL BOX,Central Rama 3,1,B2,Lifestyle & Specialty
 POTATO CORNER,Central Rama 3,1,GF,Food & Beverage
 POWER BUY,Central Rama 3,1,5F,Technology
 PREM,Central Rama 3,1,2F,Fashion
-PRO CLEAN,Central Rama 3,1,GF,Services
-PROAD,Central Rama 3,1,5F,Services
+PRO CLEAN,Central Rama 3,1,GF,Lifestyle & Specialty
+PROAD,Central Rama 3,1,5F,Lifestyle & Specialty
 QQ DESSERT,Central Rama 3,1,GF,Food & Beverage
 QUALITY KIDS,Central Rama 3,1,7F,Education
 QUEENSWAY,Central Rama 3,1,4F,Beauty & Wellness
@@ -230,21 +230,21 @@ RAVIPA,Central Rama 3,1,1F,Fashion
 REGENT DIAMOND,Central Rama 3,1,3F,Fashion
 REMAX,Central Rama 3,1,3F,Technology
 REUANNAMPRIK,Central Rama 3,1,6F,Food & Beverage
-S&P SIMPLY DELICIOUS,Central Rama 3,1,GF,Food & Beverage
-S&S TIME SERVICE,Central Rama 3,1,GF,Services
+S&P,Central Rama 3,1,GF,Food & Beverage
+S&S TIME SERVICE,Central Rama 3,1,GF,Lifestyle & Specialty
 SABINA,Central Rama 3,1,2F,Fashion
 SABOTEN,Central Rama 3,1,1F,Food & Beverage
 SAEMAEUL,Central Rama 3,1,6F,Food & Beverage
 SAINT ETOILE BY YAMAZAKI,Central Rama 3,1,GF,Food & Beverage
 SAKULTHONG,Central Rama 3,1,6F,Food & Beverage
 SALAD FACTORY,Central Rama 3,1,1F,Food & Beverage
-SAMSUNG MOBILE,Central Rama 3,1,3F,Technology
-SANTA FE' STEAK HOUSE,Central Rama 3,1,5F,Food & Beverage
+SAMSUNG,Central Rama 3,1,3F,Technology
+SANTA FE' STEAK,Central Rama 3,1,5F,Food & Beverage
 SE-ED,Central Rama 3,1,GF,Lifestyle & Specialty
 SET UP,Central Rama 3,1,GF,Lifestyle & Specialty
 SHABUSHI,Central Rama 3,1,6F,Food & Beverage
 SHICHIDA,Central Rama 3,1,7F,Education
-SHU,Central Rama 3,1,2F,Fashion
+SHU UEMURA,Central Rama 3,1,2F,Fashion
 SIAM COMMERCIAL BANK,Central Rama 3,1,3F,Bank & Financial Services
 SIAM DRUG,Central Rama 3,1,GF,Beauty & Wellness
 SIAM RAMA III MUSIC SCHOOL,Central Rama 3,1,6F,Education
@@ -285,7 +285,7 @@ THE THAI CREDIT RETAIL BANK,Central Rama 3,1,4F,Bank & Financial Services
 THEFRUITHOUSE,Central Rama 3,1,6F,Food & Beverage
 THIRTY LOVE 30-0,Central Rama 3,1,1F,Fashion
 THONG MAE SOM BOON,Central Rama 3,1,3F,Fashion
-TIENG TONG NALIGA,Central Rama 3,1,B1,Services
+TIENG TONG NALIGA,Central Rama 3,1,B1,Lifestyle & Specialty
 TISCO BANK,Central Rama 3,1,4F,Bank & Financial Services
 TMB THANACHART BANK,Central Rama 3,1,4F,Bank & Financial Services
 TO B 1 HAIR STATION,Central Rama 3,1,2F,Beauty & Wellness
@@ -299,7 +299,7 @@ TUMRABTHAI,Central Rama 3,1,GF,Beauty & Wellness
 UMAY PLUS,Central Rama 3,1,4F,Bank & Financial Services
 UNIQLO,Central Rama 3,1,1F,Fashion
 UOB,Central Rama 3,1,4F,Bank & Financial Services
-UOB WEATH BANKING,Central Rama 3,1,4F,Bank & Financial Services
+UOB,Central Rama 3,1,4F,Bank & Financial Services
 URBANAKTIV,Central Rama 3,1,2F,Fashion
 V SQUARE CLINIC,Central Rama 3,1,4F,Beauty & Wellness
 V2LAND,Central Rama 3,1,3F,Lifestyle & Specialty
