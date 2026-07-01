@@ -214,25 +214,6 @@ with tab1:
     with c2:
         st.dataframe(df_in, use_container_width=True, hide_index=True)
 
-    st.divider()
-    st.subheader("Malls by tenant count")
-    df_mall = pd.DataFrame(mall_deg, columns=["Mall", "Tenants"])
-    c1, c2 = st.columns([2, 1])
-    with c1:
-        fig = go.Figure(go.Bar(
-            x=df_mall["Tenants"], y=df_mall["Mall"],
-            orientation="h", marker_color="#3498db",
-            text=df_mall["Tenants"], textposition="outside",
-        ))
-        fig.update_layout(
-            height=600, margin=dict(l=0, r=0, t=0, b=0),
-            xaxis_title="Tenants", yaxis=dict(autorange="reversed"),
-            plot_bgcolor="rgba(0,0,0,0)",
-        )
-        st.plotly_chart(fig, use_container_width=True)
-    with c2:
-        st.dataframe(df_mall, use_container_width=True, hide_index=True)
-
 with tab2:
     st.subheader("Top connectors (Betweenness Centrality)")
     st.caption("Higher betweenness = more tenants depend on this tenant to bridge across different mall clusters")
