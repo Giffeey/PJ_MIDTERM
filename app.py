@@ -284,7 +284,7 @@ with tab3:
 
 with tab4:
     st.subheader("CPN Tenant & Retail Alliance — Network")
-    st.caption("Circles = tenants  ◆  diamonds = corporate entities. Light gray = CPN→tenant affiliation. Dashed = brand ownership. Bold = alliance. Solid = co-occurrence.")
+    st.caption("Circles = tenants  ◆  diamonds = corporate entities. Light gray = CPN→tenant affiliation. Dashed = brand ownership. Bold = alliance.")
 
     color_mode = st.radio("Color by", ["Community", "Corporate Group"], horizontal=True)
     max_nodes = st.slider("Max tenants to show (largest by mall count)", 20, 300, 80, key="net_n")
@@ -364,20 +364,7 @@ with tab4:
             hoverinfo="none", mode="lines",
         ))
 
-    # 2. Co-occurrence edges (tenant ↔ tenant)
-    for u, v, d in H2.edges(data=True):
-        if d.get("etype") in ("affiliation", "ownership", "alliance"):
-            continue
-        x0, y0 = pos[u]
-        x1, y1 = pos[v]
-        w = d.get("weight", 1)
-        traces.append(go.Scatter(
-            x=[x0, x1, None], y=[y0, y1, None],
-            line=dict(width=min(w * 1.5, 6), color="rgba(150,150,150,0.35)"),
-            hoverinfo="none", mode="lines",
-        ))
-
-    # 3. Ownership edges (dashed)
+    # 2. Ownership edges (dashed CRC/CRG → brand)
     for corp, clr in [("CRC", "#3498db"), ("CRG", "#2ecc71")]:
         if corp not in H2:
             continue
@@ -392,7 +379,7 @@ with tab4:
                 hoverinfo="none", mode="lines",
             ))
 
-    # 4. Alliance edges (CPN ↔ CRC / CPN ↔ CRG) — bold
+    # 3. Alliance edges (CPN ↔ CRC / CPN ↔ CRG)
     for corp in ("CRC", "CRG"):
         if corp not in H2 or "CPN" not in H2:
             continue
@@ -404,7 +391,7 @@ with tab4:
             hoverinfo="none", mode="lines",
         ))
 
-    # 5. Tenant nodes
+    # 4. Tenant nodes
     node_x, node_y, node_text, node_size, node_color_list = [], [], [], [], []
     for n in H2.nodes():
         if n in ALLIANCE_NODES:
