@@ -49,10 +49,17 @@ CATEGORY_COLORS = {
     "Technology & Electronics": "#2196f3",
     "Lifestyle & Specialty": "#9c27b0",
     "Bank & Financial Services": "#ffc107",
-    "Bank & Financial": "#ffc107",
     "Services & Education": "#00bcd4",
     "Entertainment": "#ff9800",
     "Supermarket": "#795548",
+}
+
+# Manual category overrides for variant/non-CSV tenant names
+VARIANT_CATEGORIES = {
+    "FUJI JAPANESE RESTAURANT": "Food & Beverage",
+    "MK RESTAURANTS": "Food & Beverage",
+    "BANANA": "Technology & Electronics",
+    "JAY MART": "Technology & Electronics",
 }
 
 def fallback_category(name):
@@ -324,6 +331,7 @@ with tab4:
         H2.add_node(node)
 
     adj_path = os.path.join(DATA_DIR, "..", "Output", "adjacency_list.csv")
+    extra_adj_tenants = []
     if os.path.exists(adj_path):
         with open(adj_path, "r", encoding="utf-8-sig") as f:
             for row in csv.DictReader(f):
@@ -331,6 +339,13 @@ with tab4:
                 w = int(row["Weight"])
                 if tenant in H2:
                     H2.add_edge("CPN", tenant, weight=w, etype="affiliation")
+                elif tenant in VARIANT_CATEGORIES:
+                    extra_adj_tenants.append((tenant, w))
+
+    for tenant, w in extra_adj_tenants:
+        if tenant not in H2:
+            H2.add_node(tenant)
+        H2.add_edge("CPN", tenant, weight=w, etype="affiliation")
 
     for brand, corp in brand_corp.items():
         if brand in H2 and corp in ("CRC", "CRG"):
@@ -344,7 +359,7 @@ with tab4:
         if n in ALLIANCE_NODES:
             node_colors[n] = ALLIANCE_NODES[n]
         else:
-            cat = cat_map.get(n, fallback_category(n))
+            cat = VARIANT_CATEGORIES.get(n) or cat_map.get(n) or fallback_category(n)
             node_colors[n] = CATEGORY_COLORS.get(cat, "#9e9e9e")
 
     # ---- Build vis.js data ----
