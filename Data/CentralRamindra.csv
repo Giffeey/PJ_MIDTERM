@@ -1,7 +1,7 @@
 Source,Target,Weight,Floor,Category
 AIS,Central Ramindra,1,2F,Technology
 AKA,Central Ramindra,1,3F,Food & Beverage
-AppleSheep,Central Ramindra,1,2F,Technology
+APPLESHEEP,Central Ramindra,1,2F,Technology
 AUNTIE ANNE'S / MISTER DONUT,Central Ramindra,1,LG,Food & Beverage
 AURORA,Central Ramindra,1,GF,Fashion
 B2S,Central Ramindra,1,3F,Lifestyle & Specialty
@@ -22,18 +22,18 @@ CENTRAL DEPARTMENT STORE,Central Ramindra,1,2F,Lifestyle & Specialty
 CENTRAL DEPARTMENT STORE,Central Ramindra,1,1F,Lifestyle & Specialty
 CENTRAL DEPARTMENT STORE,Central Ramindra,1,GF,Lifestyle & Specialty
 CHATRAMUE,Central Ramindra,1,LG,Food & Beverage
-CoCo ICHIBANYA,Central Ramindra,1,LG,Food & Beverage
+COCO ICHIBANYA,Central Ramindra,1,LG,Food & Beverage
 CROCS,Central Ramindra,1,GF,Fashion
 CUTE PRESS,Central Ramindra,1,GF,Beauty & Wellness
 DAIRY QUEEN,Central Ramindra,1,LG,Food & Beverage
 DTAC,Central Ramindra,1,2F,Technology
 ERGO INSURANCE,Central Ramindra,1,3F,Bank & Financial Services
-Focus Store,Central Ramindra,1,2F,Technology
+FOCUS STORE,Central Ramindra,1,2F,Technology
 FOOD PATIO,Central Ramindra,1,LG,Food & Beverage
 FUJI JAPANESE RESTAURANT,Central Ramindra,1,4F,Food & Beverage
 GANGNAM CLINIC,Central Ramindra,1,3F,Beauty & Wellness
 GIORDANO,Central Ramindra,1,GF,Fashion
-Gizmo,Central Ramindra,1,2F,Technology
+GIZMO,Central Ramindra,1,2F,Technology
 GOVERNMENT SAVINGS BANK,Central Ramindra,1,3F,Bank & Financial Services
 HACHIBAN RAMEN,Central Ramindra,1,LG,Food & Beverage
 HUA SENG HONG DIMSUM,Central Ramindra,1,LG,Food & Beverage
@@ -50,7 +50,7 @@ KRUNGSRI FRIST CHOICE,Central Ramindra,1,3F,Bank & Financial Services
 KT OPTIC,Central Ramindra,1,2F,Lifestyle & Specialty
 MAESRIRUEN,Central Ramindra,1,4F,Food & Beverage
 MC JEANS,Central Ramindra,1,1F,Fashion
-MindHair,Central Ramindra,1,4F,Beauty & Wellness
+MINDHAIR,Central Ramindra,1,4F,Beauty & Wellness
 MK RESTAURANTS,Central Ramindra,1,4F,Food & Beverage
 MO-MO-PARADISE,Central Ramindra,1,3F,Food & Beverage
 NATURE,Central Ramindra,1,1F,Fashion
@@ -62,7 +62,7 @@ OWNDAYS,Central Ramindra,1,GF,Fashion
 PEPPER LUNCH,Central Ramindra,1,LG,Food & Beverage
 POLI-CHEM,Central Ramindra,1,LG,Services
 POTATO CORNER,Central Ramindra,1,LG,Food & Beverage
-POWERBUY,Central Ramindra,1,2F,Technology
+POWER BUY,Central Ramindra,1,2F,Technology
 PRANAKORN BOAT NOODLE,Central Ramindra,1,3F,Food & Beverage
 S&P,Central Ramindra,1,LG,Food & Beverage
 SALAD FACTORY,Central Ramindra,1,LG,Food & Beverage
@@ -71,12 +71,12 @@ SANTA FE' STEAK,Central Ramindra,1,3F,Food & Beverage
 SF CINEMA,Central Ramindra,1,3F,Entertainment
 SIAM COMMERCIAL BANK,Central Ramindra,1,3F,Bank & Financial Services
 STARBUCKS,Central Ramindra,1,GF,Food & Beverage
-Superrich Thailand,Central Ramindra,1,3F,Bank & Financial Services
-SUPERSPORTS,Central Ramindra,1,1F,Fashion
-SUSHiPLUS,Central Ramindra,1,3F,Food & Beverage
+SUPER RICH THAILAND,Central Ramindra,1,3F,Bank & Financial Services
+SUPER SPORTS,Central Ramindra,1,1F,Fashion
+SUSHI PLUS,Central Ramindra,1,3F,Food & Beverage
 TG FONE,Central Ramindra,1,2F,Technology
 THE BEST GEMS,Central Ramindra,1,GF,Fashion
-TMBThanachart Bank,Central Ramindra,1,3F,Bank & Financial Services
+TMB THANACHART BANK,Central Ramindra,1,3F,Bank & Financial Services
 TOPS CARE,Central Ramindra,1,LG,Beauty & Wellness
 TOPS MARKET,Central Ramindra,1,LG,Lifestyle & Specialty
 TRUE,Central Ramindra,1,2F,Technology
@@ -91,4 +91,4 @@ WATSONS,Central Ramindra,1,2F,Beauty & Wellness
 YAMAZAKI,Central Ramindra,1,LG,Food & Beverage
 YAYOI,Central Ramindra,1,LG,Food & Beverage
 ZEN RESTAURANT,Central Ramindra,1,3F,Food & Beverage
-Zhangliang Malatang,Central Ramindra,1,3F,Food & Beverage
+ZHANGLIANG MALATANG,Central Ramindra,1,3F,Food & Beverage

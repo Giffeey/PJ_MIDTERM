@@ -1,6 +1,6 @@
 Source,Target,Weight,Floor,Category
 225,Central Samui,1,2F,Food & Beverage
-31 st,Central Samui,1,1F,Fashion
+31 ST,Central Samui,1,1F,Fashion
 ADIDAS,Central Samui,1,1F,Fashion
 AIS,Central Samui,1,2F,Technology
 AMERICAN EAGLE OUTFITTERS,Central Samui,1,1F,Fashion
@@ -22,7 +22,7 @@ CENTRAL DEPARTMENT STORE,Central Samui,1,2F,Lifestyle & Specialty
 CENTRAL FOOD HALL,Central Samui,1,1F,Lifestyle & Specialty
 CHATRAMUE,Central Samui,1,1F,Food & Beverage
 COLD STONE CREAMERY,Central Samui,1,1F,Food & Beverage
-Copa Cabana,Central Samui,1,1F,Food & Beverage
+COPA CABANA,Central Samui,1,1F,Food & Beverage
 CROCS,Central Samui,1,2F,Fashion
 DAIRY QUEEN,Central Samui,1,1F,Food & Beverage
 DTAC HALL,Central Samui,1,2F,Technology

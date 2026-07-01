@@ -1,7 +1,7 @@
 Source,Target,Weight,Floor,Category
 ADIDAS,Central Nakhon Sawan,1,GF,Fashion
 ADVICE,Central Nakhon Sawan,1,1F,Technology
-Ai-CHA,Central Nakhon Sawan,1,1F,Food & Beverage
+AI-CHA,Central Nakhon Sawan,1,1F,Food & Beverage
 AIS,Central Nakhon Sawan,1,1F,Technology
 APEX,Central Nakhon Sawan,1,1F,Beauty & Wellness
 ASICS,Central Nakhon Sawan,1,GF,Fashion
@@ -24,9 +24,9 @@ BONCHON,Central Nakhon Sawan,1,GF,Food & Beverage
 BOOST JUICE,Central Nakhon Sawan,1,GF,Food & Beverage
 CAFÉ AMAZON,Central Nakhon Sawan,1,GF,Food & Beverage
 CC DOUBLE O,Central Nakhon Sawan,1,GF,Fashion
-CENTRAL DEPARTMENTSTORE,Central Nakhon Sawan,1,1F,Lifestyle & Specialty
-CENTRAL DEPARTMENTSTORE,Central Nakhon Sawan,1,2F,Lifestyle & Specialty
-CENTRAL DEPARTMENTSTORE,Central Nakhon Sawan,1,GF,Lifestyle & Specialty
+CENTRAL DEPARTMENT STORE,Central Nakhon Sawan,1,1F,Lifestyle & Specialty
+CENTRAL DEPARTMENT STORE,Central Nakhon Sawan,1,2F,Lifestyle & Specialty
+CENTRAL DEPARTMENT STORE,Central Nakhon Sawan,1,GF,Lifestyle & Specialty
 CHATRAMUE,Central Nakhon Sawan,1,GF,Food & Beverage
 CHESTER'S,Central Nakhon Sawan,1,2F,Food & Beverage
 CINEMA CENTRAL NAKORNSAWAN,Central Nakhon Sawan,1,3F,Entertainment
@@ -44,7 +44,7 @@ FITFLOP,Central Nakhon Sawan,1,GF,Fashion
 FOCUS BY HENGGROUP,Central Nakhon Sawan,1,1F,Technology
 FOOD PATIO,Central Nakhon Sawan,1,GF,Food & Beverage
 FUJI,Central Nakhon Sawan,1,2F,Food & Beverage
-Future Living,Central Nakhon Sawan,1,2F,Lifestyle & Specialty
+FUTURE LIVING,Central Nakhon Sawan,1,2F,Lifestyle & Specialty
 G SHOCK,Central Nakhon Sawan,1,GF,Fashion
 GAGA,Central Nakhon Sawan,1,GF,Food & Beverage
 GANGNAM,Central Nakhon Sawan,1,1F,Beauty & Wellness
@@ -96,10 +96,10 @@ NAKHON SAWAN CONVENTION HALL,Central Nakhon Sawan,1,3F,Entertainment
 NARA GEMS,Central Nakhon Sawan,1,GF,Fashion
 NATURE,Central Nakhon Sawan,1,GF,Fashion
 NGG,Central Nakhon Sawan,1,GF,Fashion
-Nineties design,Central Nakhon Sawan,1,GF,Fashion
+NINETIES DESIGN,Central Nakhon Sawan,1,GF,Fashion
 NITIPON,Central Nakhon Sawan,1,1F,Beauty & Wellness
 OCHAYA,Central Nakhon Sawan,1,1F,Food & Beverage
-OFFICE MATE,Central Nakhon Sawan,1,2F,Lifestyle & Specialty
+OFFICEMATE,Central Nakhon Sawan,1,2F,Lifestyle & Specialty
 OISHI RAMEN,Central Nakhon Sawan,1,2F,Food & Beverage
 OLINO CREPE & TEA,Central Nakhon Sawan,1,GF,Food & Beverage
 OOTOYA,Central Nakhon Sawan,1,2F,Food & Beverage
@@ -120,7 +120,7 @@ POWER BUY,Central Nakhon Sawan,1,1F,Technology
 PRADAP,Central Nakhon Sawan,1,GF,Fashion
 PRO GADGETS,Central Nakhon Sawan,1,1F,Technology
 RATCHANON,Central Nakhon Sawan,1,1F,Fashion
-realme,Central Nakhon Sawan,1,1F,Technology
+REALME,Central Nakhon Sawan,1,1F,Technology
 REMAX,Central Nakhon Sawan,1,1F,Technology
 RESTER,Central Nakhon Sawan,1,1F,Lifestyle & Specialty
 REV RUNNR,Central Nakhon Sawan,1,GF,Fashion
@@ -135,12 +135,12 @@ SHABUSHI,Central Nakhon Sawan,1,2F,Food & Beverage
 SHICHIDA,Central Nakhon Sawan,1,2F,Education
 SIAM COMMERCIAL BANK,Central Nakhon Sawan,1,2F,Bank & Financial Services
 SKECHERS,Central Nakhon Sawan,1,GF,Fashion
-SOFAs,Central Nakhon Sawan,1,1F,Lifestyle & Specialty
-Sound Check Karaoke,Central Nakhon Sawan,1,2F,Entertainment
+SOFAS,Central Nakhon Sawan,1,1F,Lifestyle & Specialty
+SOUND CHECK KARAOKE,Central Nakhon Sawan,1,2F,Entertainment
 SPIN,Central Nakhon Sawan,1,1F,Fashion
 STARBUCKS,Central Nakhon Sawan,1,GF,Food & Beverage
 SUKISHI,Central Nakhon Sawan,1,2F,Food & Beverage
-SUPERSPORTS,Central Nakhon Sawan,1,1F,Fashion
+SUPER SPORTS,Central Nakhon Sawan,1,1F,Fashion
 SWENSEN'S,Central Nakhon Sawan,1,2F,Food & Beverage
 TG FONE,Central Nakhon Sawan,1,1F,Technology
 THE FACE SHOP,Central Nakhon Sawan,1,GF,Beauty & Wellness
@@ -164,7 +164,7 @@ VIVO,Central Nakhon Sawan,1,1F,Technology
 WAGASHI,Central Nakhon Sawan,1,2F,Food & Beverage
 WANGYAKMEE,Central Nakhon Sawan,1,GF,Fashion
 WATSONS,Central Nakhon Sawan,1,1F,Beauty & Wellness
-Western Union,Central Nakhon Sawan,1,2F,Bank & Financial Services
+WESTERN UNION,Central Nakhon Sawan,1,2F,Bank & Financial Services
 WHANGTOHKANG,Central Nakhon Sawan,1,GF,Fashion
 XIAOMI,Central Nakhon Sawan,1,1F,Technology
 YAKMEETANG,Central Nakhon Sawan,1,GF,Fashion
