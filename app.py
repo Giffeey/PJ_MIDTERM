@@ -13,6 +13,10 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "Data")
 st.set_page_config(page_title="CPN Tenant SNA Dashboard", layout="wide")
 st.title("CPN Tenant & Retail Alliance — Social Network Analysis")
 
+st.markdown("""
+**CPN** (Central Pattana) operates Thailand's largest mall network. **CRC** (Central Retail Corporation) and **CRG** (Central Restaurant Group) are its key retail-alliance partners — CRC anchors malls with department stores & specialty retail while CRG supplies the F&B lineup. This analysis maps how 3,800+ tenants co-occur across 39 CPN malls to reveal influence (in-degree), bridging power (betweenness), structural weak points (bridges), and natural clusters (communities).
+""")
+
 # ---- CATEGORY KEYWORDS for community labeling ----
 CATEGORY_KEYWORDS = {
     "Fashion & Apparel": ["FASHION", "SHOES", "BAG", "JEWEL", "WATCH", "LUXURY",
@@ -177,11 +181,16 @@ for cid, members in comms:
     name = guess_community_name(members)
     named_comms.append((cid, name, members))
 
-st.sidebar.header("Graph Summary")
+st.sidebar.header("Network Summary")
 st.sidebar.metric("Tenant–Mall Edges", f"{len(edges):,}")
 st.sidebar.metric("Co-occurrence Nodes", f"{G.number_of_nodes():,}")
 st.sidebar.metric("Co-occurrence Edges", f"{G.number_of_edges():,}")
 st.sidebar.metric("Communities Found", len(comms))
+st.sidebar.metric("Corporate Entities", "CPN · CRC · CRG")
+st.sidebar.markdown(
+    "<small>◆ CPN = Mall operator &nbsp;&nbsp;◆ CRC = Retail &nbsp;&nbsp;◆ CRG = F&B</small>",
+    unsafe_allow_html=True,
+)
 
 # ============================================================
 # TABS
@@ -244,25 +253,20 @@ with tab4:
             st.dataframe(df_c, use_container_width=True, hide_index=True)
 
 with tab5:
-    st.subheader("Tenant co-occurrence network")
-    st.caption("Nodes = tenants; edges = co-occur in ≥2 same malls. Colored by community (or corporate group).")
+    st.subheader("CPN Tenant & Retail Alliance — Co-occurrence Network")
+    st.caption("Circles = tenants ◆ diamonds = corporate entities (CPN, CRC, CRG). Dashed lines = brand ownership. Edges = co-occur in ≥2 same malls.")
 
     color_mode = st.radio("Color by", ["Community", "Corporate Group"], horizontal=True)
-
     max_nodes = st.slider("Max tenants to show (largest by mall count)", 20, 300, 80, key="net_n")
 
-    # Take top tenants by mall presence
     top_tenants = [t for t, _ in in_deg[:max_nodes]]
     H = G.subgraph(top_tenants).copy()
-
-    # Keep only edges among these nodes
     H2 = nx.Graph()
     H2.add_nodes_from(H.nodes())
     for u, v in H.edges():
         if u in top_tenants and v in top_tenants:
             H2.add_edge(u, v, weight=G[u][v]["weight"])
 
-    # Assign colors
     com_colors = [
         "#e74c3c", "#3498db", "#2ecc71", "#f39c12", "#9b59b6",
         "#1abc9c", "#e67e22", "#34495e", "#e91e63", "#00bcd4",
@@ -278,28 +282,63 @@ with tab5:
             cid = partition.get(n, 0)
             node_colors[n] = com_colors[cid % len(com_colors)]
 
-    # Layout
     pos = nx.spring_layout(H2, k=2.5, iterations=50, seed=42)
 
-    # Build plotly figure
+    # ---- Corporate entity nodes (CPN, CRC, CRG) ----
+    CORP_NODES = {"CPN": "#e74c3c", "CRC": "#3498db", "CRG": "#2ecc71"}
+    corp_children = {c: [] for c in CORP_NODES}
+    for brand, corp in brand_corp.items():
+        if brand in H2 and corp in CORP_NODES:
+            corp_children[corp].append(brand)
+
+    # Position each corporate at outward offset from its brand centroid
+    corp_pos = {}
+    for corp in CORP_NODES:
+        children = corp_children[corp]
+        if children:
+            xs = [pos[b][0] for b in children]
+            ys = [pos[b][1] for b in children]
+            cx = sum(xs) / len(xs)
+            cy = sum(ys) / len(ys)
+            d = (cx**2 + cy**2)**0.5
+            if d < 0.1:
+                off = {"CPN": (2.5, 1.5), "CRC": (1.5, -2.5), "CRG": (-2.5, 1.5)}
+                corp_pos[corp] = (cx + off[corp][0], cy + off[corp][1])
+            else:
+                scale = 1 + max(1.8 / d, 0.5)
+                corp_pos[corp] = (cx * scale, cy * scale)
+        else:
+            default = {"CPN": (3.0, 1.5), "CRC": (1.5, -3.0), "CRG": (-3.0, 1.5)}
+            corp_pos[corp] = default[corp]
+
     import plotly.graph_objects as go
 
-    edge_traces = []
+    traces = []
+
+    # 1. Tenant co-occurrence edges
     for u, v, d in H2.edges(data=True):
         x0, y0 = pos[u]
         x1, y1 = pos[v]
         w = d.get("weight", 1)
-        edge_traces.append(go.Scatter(
+        traces.append(go.Scatter(
             x=[x0, x1, None], y=[y0, y1, None],
             line=dict(width=min(w * 1.5, 6), color="rgba(150,150,150,0.4)"),
             hoverinfo="none", mode="lines",
         ))
 
-    node_x = []
-    node_y = []
-    node_text = []
-    node_size = []
-    node_color_list = []
+    # 2. Corporate → Brand dashed edges
+    for corp, clr in CORP_NODES.items():
+        cx, cy = corp_pos[corp]
+        for brand in corp_children[corp]:
+            bx, by = pos[brand]
+            traces.append(go.Scatter(
+                x=[cx, bx, None], y=[cy, by, None],
+                line=dict(width=1.5, color=clr, dash="dash"),
+                hoverinfo="none", mode="lines",
+            ))
+
+    # 3. Tenant nodes
+    node_x, node_y, node_text, node_size, node_color_list = [], [], [], [], []
     for n in H2.nodes():
         node_x.append(pos[n][0])
         node_y.append(pos[n][1])
@@ -312,32 +351,47 @@ with tab5:
         node_text.append(f"{n}<br>Mall presence: {dict(in_deg).get(n, 0)} malls<br>Co-occurrences: {degree}{corp_line}{cat_line}")
         node_color_list.append(node_colors[n])
 
-    node_trace = go.Scatter(
+    traces.append(go.Scatter(
         x=node_x, y=node_y, mode="markers+text",
         text=[n for n in H2.nodes()],
         textposition="top center",
         textfont=dict(size=8, color="#333"),
-        marker=dict(
-            size=node_size, color=node_color_list,
-            line=dict(width=1, color="#fff"),
-        ),
+        marker=dict(size=node_size, color=node_color_list,
+                    line=dict(width=1, color="#fff")),
         hoverinfo="text", hovertext=node_text,
-    )
+    ))
 
-    fig = go.Figure(data=edge_traces + [node_trace],
+    # 4. Corporate nodes (diamond markers)
+    corp_names = list(CORP_NODES.keys())
+    corp_x = [corp_pos[c][0] for c in corp_names]
+    corp_y = [corp_pos[c][1] for c in corp_names]
+    corp_clrs = [CORP_NODES[c] for c in corp_names]
+    corp_hover = [f"{c}<br>Brands in view: {len(corp_children[c])}" for c in corp_names]
+
+    traces.append(go.Scatter(
+        x=corp_x, y=corp_y, mode="markers+text",
+        text=corp_names,
+        textposition="bottom center",
+        textfont=dict(size=13, color="#222"),
+        marker=dict(size=24, color=corp_clrs, symbol="diamond",
+                    line=dict(width=2, color="#fff")),
+        hoverinfo="text", hovertext=corp_hover,
+    ))
+
+    fig = go.Figure(data=traces,
                     layout=go.Layout(
                         showlegend=False,
                         hovermode="closest",
                         margin=dict(b=0, l=0, r=0, t=0),
                         xaxis=dict(showgrid=False, zeroline=False, visible=False),
                         yaxis=dict(showgrid=False, zeroline=False, visible=False),
-                        height=700,
+                        height=750,
                         plot_bgcolor="rgba(0,0,0,0)",
                     ))
     st.plotly_chart(fig, use_container_width=True)
 
-    if color_mode == "Corporate Group" and corp_color_map:
-        st.markdown("**Corporate Legend**")
+    if corp_color_map:
+        st.markdown("**Corporate Group Legend**")
         cols = st.columns(len(corp_color_map))
         for col, (corp, clr) in zip(cols, sorted(corp_color_map.items())):
             col.markdown(f'<span style="display:inline-block;width:12px;height:12px;background:{clr};border-radius:50%;margin-right:6px"></span> {corp}', unsafe_allow_html=True)
