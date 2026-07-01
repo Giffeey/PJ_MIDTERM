@@ -47,8 +47,8 @@ REGION_MAP = {
     "Central Rama 2": "Bangkok", "Central Rama 3": "Bangkok", "Central Rama 9": "Bangkok",
     "Central Bangna": "Bangkok", "Central Eastville": "Bangkok", "Central Westville": "Bangkok",
     "Central Village": "Bangkok", "Central Ramindra": "Bangkok", "Mega Bangna": "Bangkok",
-    "Central Rattanathibet": "Central", "Central Chaengwattana": "Central", "Central Ayutthaya": "Central",
-    "Central Salaya": "Central", "Central Mahachai": "Central", "Central Nakhon Pathom": "Central",
+    "Central Rattanathibet": "Bangkok", "Central Chaengwattana": "Bangkok", "Central Ayutthaya": "Bangkok",
+    "Central Salaya": "Bangkok", "Central Mahachai": "Bangkok", "Central Nakhon Pathom": "Bangkok",
     "Central Chiangmai": "Northern", "Central Chiangmai Airport": "Northern", "Central Chiangrai": "Northern",
     "Central Lampang": "Northern", "Central Phitsanulok": "Northern", "Central Nakhon Sawan": "Northern",
     "Central Udon": "Northeastern", "Central Korat": "Northeastern", "Central Khonkaen": "Northeastern",
@@ -60,7 +60,7 @@ REGION_MAP = {
 }
 
 REGION_COLORS = {
-    "Bangkok": "#e74c3c", "Central": "#f39c12", "Northern": "#3498db",
+    "Bangkok": "#e74c3c", "Northern": "#3498db",
     "Northeastern": "#2ecc71", "Eastern": "#9b59b6", "Southern": "#1abc9c",
 }
 
@@ -239,7 +239,7 @@ with tab1:
     top_per = st.slider("Show top N malls per region (0 = show all)", 0, 10, 3, key="top_per_region")
     df_mall = pd.DataFrame(mall_deg, columns=["Mall", "Tenants"])
     df_mall["Region"] = df_mall["Mall"].map(REGION_MAP).fillna("Other")
-    region_order = ["Bangkok", "Central", "Northern", "Northeastern", "Eastern", "Southern"]
+    region_order = ["Bangkok", "Northern", "Northeastern", "Eastern", "Southern"]
     df_mall["Region"] = pd.Categorical(df_mall["Region"], categories=region_order, ordered=True)
     if top_per > 0:
         df_mall = df_mall.groupby("Region", observed=True).head(top_per).reset_index(drop=True)
