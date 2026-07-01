@@ -307,7 +307,7 @@ with tab4:
     st.subheader("CPN Tenant & Retail Alliance — Network")
     st.caption("Circles = tenants  ◆  diamonds = corporate entities. Drag nodes to explore. Light gray = CPN→tenant. Dashed = brand ownership. Bold = alliance.")
 
-    color_mode = st.radio("Color by", ["Community", "Corporate Group", "Category"], horizontal=True)
+    color_mode = "Category"
     max_nodes = st.slider("Max tenants to show (largest by mall count)", 20, 300, 80, key="net_n")
 
     top_tenants = [t for t, _ in in_deg[:max_nodes]]
@@ -339,24 +339,13 @@ with tab4:
     for corp in ("CRC", "CRG"):
         H2.add_edge("CPN", corp, weight=1, etype="alliance")
 
-    com_colors = [
-        "#e74c3c", "#3498db", "#2ecc71", "#f39c12", "#9b59b6",
-        "#1abc9c", "#e67e22", "#34495e", "#e91e63", "#00bcd4",
-    ]
-
     node_colors = {}
     for n in H2.nodes():
         if n in ALLIANCE_NODES:
             node_colors[n] = ALLIANCE_NODES[n]
-        elif color_mode == "Corporate Group":
-            corp = brand_corp.get(n, "")
-            node_colors[n] = corp_color_map.get(corp, "#95a5a6")
-        elif color_mode == "Category":
+        else:
             cat = cat_map.get(n, fallback_category(n))
             node_colors[n] = CATEGORY_COLORS.get(cat, "#9e9e9e")
-        else:
-            cid = partition.get(n, 0)
-            node_colors[n] = com_colors[cid % len(com_colors)]
 
     # ---- Build vis.js data ----
     ALLIANCE_NODES_SORTED = sorted(ALLIANCE_NODES.keys())
@@ -455,25 +444,8 @@ network.once('stabilizationIterationsDone', function() { network.setOptions({ ph
     st.components.v1.html(html, height=750)
 
     # Legend
-    if color_mode == "Category":
-        st.markdown("**Category Legend**")
-        legend_items = [(cat, clr) for cat, clr in CATEGORY_COLORS.items() if cat in {cat_map.get(n, "") for n in H2.nodes()} | {fallback_category(n) for n in H2.nodes()}]
-        cols = st.columns(len(legend_items))
-        for col, (cat, clr) in zip(cols, legend_items):
-            col.markdown(f'<span style="display:inline-block;width:12px;height:12px;background:{clr};border-radius:50%;margin-right:4px"></span> {cat}', unsafe_allow_html=True)
-    elif color_mode == "Corporate Group":
-        st.markdown("**Corporate Group Legend**")
-        all_grps = {"CPN": "#e74c3c"} | corp_color_map
-        cols = st.columns(len(all_grps))
-        for col, (grp, clr) in zip(cols, sorted(all_grps.items())):
-            col.markdown(f'<span style="display:inline-block;width:12px;height:12px;background:{clr};border-radius:50%;margin-right:6px"></span> {grp}', unsafe_allow_html=True)
-    else:
-        st.markdown("**Community Legend**")
-        cnames = []
-        for cid, members in sorted(comms, key=lambda x: -len(x[1])):
-            nm = guess_community_name(members)
-            cnames.append((cid, nm))
-        cols = st.columns(len(cnames))
-        for col, (cid, nm) in zip(cols, cnames):
-            clr = com_colors[cid % len(com_colors)]
-            col.markdown(f'<span style="display:inline-block;width:12px;height:12px;background:{clr};border-radius:50%;margin-right:6px"></span> {nm}', unsafe_allow_html=True)
+    st.markdown("**Category Legend**")
+    legend_items = [(cat, clr) for cat, clr in CATEGORY_COLORS.items() if cat in {cat_map.get(n, "") for n in H2.nodes()} | {fallback_category(n) for n in H2.nodes()}]
+    cols = st.columns(len(legend_items))
+    for col, (cat, clr) in zip(cols, legend_items):
+        col.markdown(f'<span style="display:inline-block;width:12px;height:12px;background:{clr};border-radius:50%;margin-right:4px"></span> {cat}', unsafe_allow_html=True)
