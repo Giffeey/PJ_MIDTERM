@@ -42,6 +42,28 @@ CATEGORY_KEYWORDS = {
     "Entertainment": ["ENTERTAINMENT", "CINEMA", "THEATER", "ARCADE", "PLAY"],
 }
 
+REGION_MAP = {
+    "Central Ladprao": "Bangkok", "centralwOrld": "Bangkok", "Central Pinklao": "Bangkok",
+    "Central Rama 2": "Bangkok", "Central Rama 3": "Bangkok", "Central Rama 9": "Bangkok",
+    "Central Bangna": "Bangkok", "Central Eastville": "Bangkok", "Central Westville": "Bangkok",
+    "Central Village": "Bangkok", "Central Ramindra": "Bangkok", "Mega Bangna": "Bangkok",
+    "Central Rattanathibet": "Central", "Central Chaengwattana": "Central", "Central Ayutthaya": "Central",
+    "Central Salaya": "Central", "Central Mahachai": "Central", "Central Nakhon Pathom": "Central",
+    "Central Chiangmai": "Northern", "Central Chiangmai Airport": "Northern", "Central Chiangrai": "Northern",
+    "Central Lampang": "Northern", "Central Phitsanulok": "Northern", "Central Nakhon Sawan": "Northern",
+    "Central Udon": "Northeastern", "Central Korat": "Northeastern", "Central Khonkaen": "Northeastern",
+    "Central Ubon": "Northeastern",
+    "Central Pattaya": "Eastern", "Central Chonburi": "Eastern", "Central Siracha": "Eastern",
+    "Central Rayong": "Eastern", "Central Chanthaburi": "Eastern",
+    "Central Phuket": "Southern", "Central Hatyai": "Southern", "Central Suratthani": "Southern",
+    "Central Nakhon Si": "Southern", "Central Marina": "Southern", "Central Samui": "Southern",
+}
+
+REGION_COLORS = {
+    "Bangkok": "#e74c3c", "Central": "#f39c12", "Northern": "#3498db",
+    "Northeastern": "#2ecc71", "Eastern": "#9b59b6", "Southern": "#1abc9c",
+}
+
 @st.cache_data
 def load_tenant_mall_edges():
     mall_files = glob.glob(os.path.join(DATA_DIR, "Central*.csv")) + [os.path.join(DATA_DIR, "MegaBangna.csv")]
@@ -213,6 +235,31 @@ with tab1:
         st.bar_chart(df_in.set_index("Tenant"), height=500)
     with c2:
         st.dataframe(df_in, use_container_width=True, hide_index=True)
+
+    st.divider()
+    st.subheader("Malls by tenant count (grouped by region)")
+    df_mall = pd.DataFrame(mall_deg, columns=["Mall", "Tenants"])
+    df_mall["Region"] = df_mall["Mall"].map(REGION_MAP).fillna("Other")
+    region_order = ["Bangkok", "Central", "Northern", "Northeastern", "Eastern", "Southern"]
+    df_mall["Region"] = pd.Categorical(df_mall["Region"], categories=region_order, ordered=True)
+    df_mall = df_mall.sort_values(["Region", "Tenants"], ascending=[True, False])
+    fig = go.Figure()
+    for region in region_order:
+        subset = df_mall[df_mall["Region"] == region]
+        if not subset.empty:
+            fig.add_trace(go.Bar(
+                x=subset["Tenants"], y=subset["Mall"],
+                orientation="h", marker_color=REGION_COLORS[region],
+                name=region, text=subset["Tenants"], textposition="outside",
+            ))
+    fig.update_layout(
+        height=650, margin=dict(l=0, r=0, t=0, b=0),
+        xaxis_title="Tenants", yaxis=dict(autorange="reversed"),
+        legend=dict(title="Region", orientation="h", y=1.08),
+        plot_bgcolor="rgba(0,0,0,0)",
+        barmode="stack",
+    )
+    st.plotly_chart(fig, use_container_width=True)
 
 with tab2:
     st.subheader("Top connectors (Betweenness Centrality)")
