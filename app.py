@@ -238,10 +238,13 @@ with tab1:
 
     st.divider()
     st.subheader("Malls by tenant count (grouped by region)")
+    top_per = st.slider("Show top N malls per region (0 = show all)", 0, 10, 3, key="top_per_region")
     df_mall = pd.DataFrame(mall_deg, columns=["Mall", "Tenants"])
     df_mall["Region"] = df_mall["Mall"].map(REGION_MAP).fillna("Other")
     region_order = ["Bangkok", "Central", "Northern", "Northeastern", "Eastern", "Southern"]
     df_mall["Region"] = pd.Categorical(df_mall["Region"], categories=region_order, ordered=True)
+    if top_per > 0:
+        df_mall = df_mall.groupby("Region", observed=True).head(top_per).reset_index(drop=True)
     df_mall = df_mall.sort_values(["Region", "Tenants"], ascending=[True, False])
     fig = go.Figure()
     for region in region_order:
