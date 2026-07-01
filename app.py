@@ -146,10 +146,30 @@ def load_all_categories(edges):
                 cat_map[t] = cat
     return cat_map
 
+@st.cache_data
+def load_corporate_brands():
+    """Load corporate→brand mapping from corporate_brands.csv."""
+    corp_path = os.path.join(DATA_DIR, "corporate_brands.csv")
+    brand_corp = {}
+    corp_color = {}
+    colors = ["#e74c3c", "#3498db", "#2ecc71", "#f39c12", "#9b59b6", "#1abc9c"]
+    if os.path.exists(corp_path):
+        with open(corp_path, "r", encoding="utf-8-sig") as f:
+            corp_set = set()
+            for row in csv.DictReader(f):
+                corp = row["Corporate"].strip()
+                brand = row["Brand"].strip().upper()
+                brand_corp[brand] = corp
+                corp_set.add(corp)
+            for i, c in enumerate(sorted(corp_set)):
+                corp_color[c] = colors[i % len(colors)]
+    return brand_corp, corp_color
+
 with st.spinner("Loading tenant data and computing SNA metrics..."):
     edges = load_tenant_mall_edges()
     in_deg, mall_deg, bet_list, br_list, comms, G, partition = compute_sna(edges)
     cat_map = load_all_categories(edges)
+    brand_corp, corp_color_map = load_corporate_brands()
 
 # ---- Label communities ----
 named_comms = []
@@ -213,12 +233,21 @@ with tab4:
     st.subheader("Tenant communities (Louvain detection)")
     for cid, name, members in named_comms:
         with st.expander(f"**{name}** — {len(members)} members"):
-            df_c = pd.DataFrame({"Tenant": sorted(members)})
+            rows = []
+            for m in sorted(members):
+                corp = brand_corp.get(m, "")
+                cat_label = cat_map.get(m, "")
+                mall_cnt = dict(in_deg).get(m, 0)
+                rows.append({"Tenant": m, "Malls": mall_cnt, "Category": cat_label,
+                             "Corporate": corp})
+            df_c = pd.DataFrame(rows)
             st.dataframe(df_c, use_container_width=True, hide_index=True)
 
 with tab5:
     st.subheader("Tenant co-occurrence network")
-    st.caption("Nodes = tenants; edges = co-occur in ≥2 same malls. Colored by community.")
+    st.caption("Nodes = tenants; edges = co-occur in ≥2 same malls. Colored by community (or corporate group).")
+
+    color_mode = st.radio("Color by", ["Community", "Corporate Group"], horizontal=True)
 
     max_nodes = st.slider("Max tenants to show (largest by mall count)", 20, 300, 80, key="net_n")
 
@@ -233,15 +262,21 @@ with tab5:
         if u in top_tenants and v in top_tenants:
             H2.add_edge(u, v, weight=G[u][v]["weight"])
 
-    # Assign community colors
+    # Assign colors
     com_colors = [
         "#e74c3c", "#3498db", "#2ecc71", "#f39c12", "#9b59b6",
         "#1abc9c", "#e67e22", "#34495e", "#e91e63", "#00bcd4",
     ]
     node_colors = {}
-    for n in H2.nodes():
-        cid = partition.get(n, 0)
-        node_colors[n] = com_colors[cid % len(com_colors)]
+    if color_mode == "Corporate Group":
+        other_color = "#95a5a6"
+        for n in H2.nodes():
+            corp = brand_corp.get(n, "")
+            node_colors[n] = corp_color_map.get(corp, other_color)
+    else:
+        for n in H2.nodes():
+            cid = partition.get(n, 0)
+            node_colors[n] = com_colors[cid % len(com_colors)]
 
     # Layout
     pos = nx.spring_layout(H2, k=2.5, iterations=50, seed=42)
@@ -270,7 +305,11 @@ with tab5:
         node_y.append(pos[n][1])
         degree = H2.degree(n)
         node_size.append(min(degree * 3 + 5, 40))
-        node_text.append(f"{n}<br>Mall presence: {dict(in_deg).get(n, 0)} malls<br>Co-occurrences: {degree}")
+        corp = brand_corp.get(n, "")
+        cat_label = cat_map.get(n, "")
+        corp_line = f"<br>Corporate: {corp}" if corp else ""
+        cat_line = f"<br>Category: {cat_label}" if cat_label else ""
+        node_text.append(f"{n}<br>Mall presence: {dict(in_deg).get(n, 0)} malls<br>Co-occurrences: {degree}{corp_line}{cat_line}")
         node_color_list.append(node_colors[n])
 
     node_trace = go.Scatter(
@@ -296,3 +335,9 @@ with tab5:
                         plot_bgcolor="rgba(0,0,0,0)",
                     ))
     st.plotly_chart(fig, use_container_width=True)
+
+    if color_mode == "Corporate Group" and corp_color_map:
+        st.markdown("**Corporate Legend**")
+        cols = st.columns(len(corp_color_map))
+        for col, (corp, clr) in zip(cols, sorted(corp_color_map.items())):
+            col.markdown(f'<span style="display:inline-block;width:12px;height:12px;background:{clr};border-radius:50%;margin-right:6px"></span> {corp}', unsafe_allow_html=True)

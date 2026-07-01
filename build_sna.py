@@ -287,9 +287,24 @@ c_partition = community_louvain.best_partition(C, weight="weight")
 c_communities = defaultdict(list)
 for node, com_id in c_partition.items():
     c_communities[com_id].append(node)
-print(f"\nCompany Graph Communities:")
+    print(f"\nCompany Graph Communities:")
 for com_id, members in sorted(c_communities.items(), key=lambda x: -len(x[1])):
     print(f"  Community {com_id}: {', '.join(members)}")
+
+# ============================================================
+# STEP 9b: Load corporate brand relationships
+# ============================================================
+corp_brands = defaultdict(set)
+brand_corp = {}
+corp_path = os.path.join(DATA_DIR, "corporate_brands.csv")
+if os.path.exists(corp_path):
+    with open(corp_path, "r", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            corp = row["Corporate"].strip().upper()
+            brand = row["Brand"].strip().upper()
+            corp_brands[corp].add(brand)
+            brand_corp[brand] = corp
+    print(f"\nLoaded {len(brand_corp)} corporate brand mappings from {len(corp_brands)} groups")
 
 # ============================================================
 # STEP 10: Save all outputs
@@ -307,7 +322,9 @@ if bridge_info:
 rows = []
 for com_id, members in sorted(communities.items(), key=lambda x: -len(x[1])):
     for m in members:
-        rows.append({"Community": com_id, "Tenant": m})
+        rows.append({"Tenant": m, "Community": com_id,
+                     "Corporate": brand_corp.get(m, ""),
+                     "MallCount": tenant_degrees.get(m, 0)})
 pd.DataFrame(rows).to_csv(os.path.join(OUT_DIR, "tenant_communities.csv"), index=False)
 
 # Combined graph statistics
@@ -324,6 +341,28 @@ stats = {
 with open(os.path.join(OUT_DIR, "graph_stats.txt"), "w", encoding="utf-8") as f:
     for k, v in stats.items():
         f.write(f"{k}: {v}\n")
+
+# Brand node CSV: full tenant reference
+cat_map = defaultdict(set)
+for fpath in mall_files:
+    for t, m, _ in load_tenant_mall_csv(fpath):
+        pass
+    with open(fpath, "r", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            if row.get("Source"):
+                cat_map[row["Source"].strip()].add(row.get("Category", "").strip())
+bn_rows = []
+for t in sorted(tenants):
+    malls_list = sorted(set(m for tt, m, _ in tenant_mall_edges if tt == t))
+    cats = sorted(c for c in cat_map.get(t, set()) if c)
+    bn_rows.append({"Tenant": t, "MallCount": tenant_degrees.get(t, 0),
+                    "Malls": "; ".join(malls_list),
+                    "Categories": "; ".join(cats) if cats else "",
+                    "Community": partition.get(t, ""),
+                    "Corporate": brand_corp.get(t, ""),
+                    "Betweenness": round(betweenness.get(t, 0), 6)})
+pd.DataFrame(bn_rows).to_csv(os.path.join(OUT_DIR, "brandnode.csv"), index=False)
+print(f"  brandnode.csv written with {len(bn_rows)} tenants")
 
 print(f"\n{'='*60}")
 print(f"All outputs saved to {OUT_DIR}")
