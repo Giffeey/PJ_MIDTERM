@@ -1,4 +1,4 @@
-﻿Source,Target,Weight,Floor,Category
+Source,Target,Weight,Floor,Category
 71 EXPORT,Central Chiangrai,1,2F,Fashion & Apparel
 ADIDAS,Central Chiangrai,1,1F,Fashion & Apparel
 ADVICE,Central Chiangrai,1,GF,Technology & Electronics
@@ -11,8 +11,8 @@ AUNTIE ANNE'S,Central Chiangrai,1,1F,Food & Beverage
 AURORA,Central Chiangrai,1,1F,Fashion & Apparel
 AUTO1,Central Chiangrai,1,GF,Lifestyle & Specialty
 B2S,Central Chiangrai,1,2F,Lifestyle & Specialty
-IT BANANA,Central Chiangrai,1,1F,Technology & Electronics
-IT BANANA,Central Chiangrai,1,GF,Technology & Electronics
+BANANA,Central Chiangrai,1,1F,Technology & Electronics
+BANANA,Central Chiangrai,1,GF,Technology & Electronics
 BANGKOK BANK,Central Chiangrai,1,2F,Bank & Financial Services
 BANGKOK GOLD,Central Chiangrai,1,1F,Fashion & Apparel
 BANGKOK INSURANCE,Central Chiangrai,1,2F,Bank & Financial Services

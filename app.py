@@ -58,7 +58,6 @@ CATEGORY_COLORS = {
 VARIANT_CATEGORIES = {
     "FUJI JAPANESE RESTAURANT": "Food & Beverage",
     "MK RESTAURANTS": "Food & Beverage",
-    "BANANA": "Technology & Electronics",
     "JAY MART": "Technology & Electronics",
 }
 

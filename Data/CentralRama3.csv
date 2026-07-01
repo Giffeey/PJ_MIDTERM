@@ -1,4 +1,4 @@
-﻿Source,Target,Weight,Floor,Category
+Source,Target,Weight,Floor,Category
 IROHA RAMEN,Central Rama 3,1,6F,Food & Beverage
 ADIDAS,Central Rama 3,1,2F,Fashion & Apparel
 ADVICE,Central Rama 3,1,3F,Technology & Electronics
@@ -20,8 +20,8 @@ B GRILL STEAK,Central Rama 3,1,6F,Food & Beverage
 B2S,Central Rama 3,1,6F,Lifestyle & Specialty
 BABIES GENIUS,Central Rama 3,1,7F,Services & Education
 BAIMIANG,Central Rama 3,1,GF,Food & Beverage
-IT BANANA,Central Rama 3,1,3F,Technology & Electronics
-IT BANANA,Central Rama 3,1,3F,Technology & Electronics
+BANANA,Central Rama 3,1,3F,Technology & Electronics
+BANANA,Central Rama 3,1,3F,Technology & Electronics
 BANANA LEAF,Central Rama 3,1,5F,Food & Beverage
 BANARMAE ARHANTAMSANG,Central Rama 3,1,6F,Food & Beverage
 BANGKOK BANK,Central Rama 3,1,4F,Bank & Financial Services

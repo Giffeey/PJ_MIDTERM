@@ -424,10 +424,11 @@ NORM = {
     "WHAN MOBILE": "WHAN MOBILE",
     "NANA NAIL": "NANA NAIL",
     "BANANA NAIL": "BANANA NAIL",
-    "BANANA MOBILE": "IT BANANA",
-    "BANANA IT": "IT BANANA",
-    "BANANA OUTLET": "IT BANANA",
-    "BANANA": "IT BANANA",
+    "IT BANANA": "BANANA",
+    "BANANA MOBILE": "BANANA",
+    "BANANA IT": "BANANA",
+    "BANANA OUTLET": "BANANA",
+    "BANANA": "BANANA",
     # === ADDITIONAL NORMALIZATION (from user feedback) ===
     "AEON THANA SINSAP": "AEON",
     "AEON": "AEON",
@@ -566,13 +567,13 @@ def norm_category(cat):
     if any(p in c for p in bank_patterns):
         return 'Bank & Financial Services'
     if any(p in c for p in tech_patterns):
-        return 'Technology'
+        return 'Technology & Electronics'
     if any(p in c for p in entertainment_patterns):
         return 'Entertainment'
     if any(p in c for p in education_patterns):
-        return 'Education'
+        return 'Services & Education'
     if any(p in c for p in fashion_patterns):
-        return 'Fashion'
+        return 'Fashion & Apparel'
     if any(p in c for p in lifestyle_patterns):
         return 'Lifestyle & Specialty'
     return c.title()  # fallback

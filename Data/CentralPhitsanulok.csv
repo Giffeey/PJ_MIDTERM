@@ -1,4 +1,4 @@
-﻿Source,Target,Weight,Floor,Category
+Source,Target,Weight,Floor,Category
 125,Central Phitsanulok,1,1F,Fashion & Apparel
 343,Central Phitsanulok,1,3F,Food & Beverage
 3BB,Central Phitsanulok,1,2F,Technology & Electronics
@@ -20,8 +20,8 @@ AURORA,Central Phitsanulok,1,1F,Fashion & Apparel
 B PLAY,Central Phitsanulok,1,2F,Technology & Electronics
 B2S,Central Phitsanulok,1,3F,Lifestyle & Specialty
 BAAN KRONG NAM,Central Phitsanulok,1,2F,Lifestyle & Specialty
-IT BANANA,Central Phitsanulok,1,2F,Technology & Electronics
-IT BANANA,Central Phitsanulok,1,2F,Technology & Electronics
+BANANA,Central Phitsanulok,1,2F,Technology & Electronics
+BANANA,Central Phitsanulok,1,2F,Technology & Electronics
 BANGKOK BANK,Central Phitsanulok,1,3F,Bank & Financial Services
 BANGKOK GOLD,Central Phitsanulok,1,1F,Fashion & Apparel
 BANGKOK INSURANCE,Central Phitsanulok,1,3F,Bank & Financial Services
