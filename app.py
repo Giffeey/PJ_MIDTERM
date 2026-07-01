@@ -15,7 +15,7 @@ st.set_page_config(page_title="CPN Tenant SNA Dashboard", layout="wide")
 st.title("CPN Tenant & Retail Alliance — Social Network Analysis")
 
 st.markdown("""
-**CPN** (Central Pattana) operates Thailand's largest mall network. **CRC** (Central Retail Corporation) and **CRG** (Central Restaurant Group) are its key retail-alliance partners — CRC anchors malls with department stores & specialty retail while CRG supplies the F&B lineup. This analysis maps how 3,800+ tenants co-occur across 39 CPN malls to reveal influence (in-degree), bridging power (betweenness), structural weak points (bridges), and natural clusters (communities).
+**CPN** (Central Pattana) operates Thailand's largest mall network. This analysis builds an **alliance graph** from the Tenant–CPN Adjacency List — each tenant is connected to CPN with a weight (1–5) based on mall presence — plus brand-ownership edges to **CRC** (Central Retail Corporation) and **CRG** (Central Restaurant Group). The graph reveals influence (in-degree), bridging power (betweenness), structural weak points (bridges), and the overall shape of the CPN Retail Alliance.
 """)
 
 # ---- CATEGORY KEYWORDS for community labeling ----
@@ -204,12 +204,11 @@ for cid, members in comms:
     name = guess_community_name(members)
     named_comms.append((cid, name, members))
 
-st.sidebar.header("Network Summary")
+st.sidebar.header("Alliance Graph Summary")
 st.sidebar.metric("Tenant–Mall Edges", f"{len(edges):,}")
 st.sidebar.metric("Co-occurrence Nodes", f"{G.number_of_nodes():,}")
 st.sidebar.metric("Co-occurrence Edges", f"{G.number_of_edges():,}")
-st.sidebar.metric("Communities Found", len(comms))
-st.sidebar.metric("Corporate Entities", "CPN · CRC · CRG")
+st.sidebar.metric("Alliance Nodes", "CPN · CRC · CRG + tenants")
 st.sidebar.markdown(
     "<small>◆ CPN = Mall operator &nbsp;&nbsp;◆ CRC = Retail &nbsp;&nbsp;◆ CRG = F&B</small>",
     unsafe_allow_html=True,
@@ -284,20 +283,47 @@ with tab3:
         st.info("No bridges found — the graph is fully connected beyond single-link edges.")
 
 with tab4:
-    st.subheader("CPN Tenant & Retail Alliance — Co-occurrence Network")
-    st.caption("Circles = tenants ◆ diamonds = corporate entities (CPN, CRC, CRG). Dashed lines = brand ownership. Edges = co-occur in ≥2 same malls.")
+    st.subheader("CPN Tenant & Retail Alliance — Network")
+    st.caption("Circles = tenants  ◆  diamonds = corporate entities. Light gray = CPN→tenant affiliation. Dashed = brand ownership. Bold = alliance. Solid = co-occurrence.")
 
     color_mode = st.radio("Color by", ["Community", "Corporate Group"], horizontal=True)
     max_nodes = st.slider("Max tenants to show (largest by mall count)", 20, 300, 80, key="net_n")
 
     top_tenants = [t for t, _ in in_deg[:max_nodes]]
     H = G.subgraph(top_tenants).copy()
+
+    # ---- Build alliance graph ----
     H2 = nx.Graph()
     H2.add_nodes_from(H.nodes())
     for u, v in H.edges():
         if u in top_tenants and v in top_tenants:
             H2.add_edge(u, v, weight=G[u][v]["weight"])
 
+    # Add CPN, CRC, CRG
+    ALLIANCE_NODES = {"CPN": "#e74c3c", "CRC": "#3498db", "CRG": "#2ecc71"}
+    for node in ALLIANCE_NODES:
+        H2.add_node(node)
+
+    # CPN → tenant edges from adjacency_list.csv
+    adj_path = os.path.join(DATA_DIR, "..", "Output", "adjacency_list.csv")
+    if os.path.exists(adj_path):
+        with open(adj_path, "r", encoding="utf-8-sig") as f:
+            for row in csv.DictReader(f):
+                tenant = row["Source"].strip()
+                w = int(row["Weight"])
+                if tenant in H2:
+                    H2.add_edge("CPN", tenant, weight=w, etype="affiliation")
+
+    # CRC/CRG → brand ownership edges
+    for brand, corp in brand_corp.items():
+        if brand in H2 and corp in ("CRC", "CRG"):
+            H2.add_edge(corp, brand, weight=1, etype="ownership")
+
+    # CPN ↔ CRC / CPN ↔ CRG alliance
+    for corp in ("CRC", "CRG"):
+        H2.add_edge("CPN", corp, weight=1, etype="alliance")
+
+    # ---- Colors ----
     com_colors = [
         "#e74c3c", "#3498db", "#2ecc71", "#f39c12", "#9b59b6",
         "#1abc9c", "#e67e22", "#34495e", "#e91e63", "#00bcd4",
@@ -306,59 +332,59 @@ with tab4:
     if color_mode == "Corporate Group":
         other_color = "#95a5a6"
         for n in H2.nodes():
-            corp = brand_corp.get(n, "")
-            node_colors[n] = corp_color_map.get(corp, other_color)
+            if n in ALLIANCE_NODES:
+                node_colors[n] = ALLIANCE_NODES[n]
+            else:
+                corp = brand_corp.get(n, "")
+                node_colors[n] = corp_color_map.get(corp, other_color)
     else:
         for n in H2.nodes():
-            cid = partition.get(n, 0)
-            node_colors[n] = com_colors[cid % len(com_colors)]
-
-    pos = nx.spring_layout(H2, k=2.5, iterations=50, seed=42)
-
-    # ---- Corporate entity nodes (CPN, CRC, CRG) ----
-    CORP_NODES = {"CPN": "#e74c3c", "CRC": "#3498db", "CRG": "#2ecc71"}
-    corp_children = {c: [] for c in CORP_NODES}
-    for brand, corp in brand_corp.items():
-        if brand in H2 and corp in CORP_NODES:
-            corp_children[corp].append(brand)
-
-    # Position each corporate at outward offset from its brand centroid
-    corp_pos = {}
-    for corp in CORP_NODES:
-        children = corp_children[corp]
-        if children:
-            xs = [pos[b][0] for b in children]
-            ys = [pos[b][1] for b in children]
-            cx = sum(xs) / len(xs)
-            cy = sum(ys) / len(ys)
-            d = (cx**2 + cy**2)**0.5
-            if d < 0.1:
-                off = {"CPN": (2.5, 1.5), "CRC": (1.5, -2.5), "CRG": (-2.5, 1.5)}
-                corp_pos[corp] = (cx + off[corp][0], cy + off[corp][1])
+            if n in ALLIANCE_NODES:
+                node_colors[n] = ALLIANCE_NODES[n]
             else:
-                scale = 1 + max(1.8 / d, 0.5)
-                corp_pos[corp] = (cx * scale, cy * scale)
-        else:
-            default = {"CPN": (3.0, 1.5), "CRC": (1.5, -3.0), "CRG": (-3.0, 1.5)}
-            corp_pos[corp] = default[corp]
+                cid = partition.get(n, 0)
+                node_colors[n] = com_colors[cid % len(com_colors)]
 
+    # ---- Layout ----
+    pos = nx.spring_layout(H2, k=2.0, iterations=60, seed=42)
+
+    # ---- Build Plotly traces ----
     traces = []
 
-    # 1. Tenant co-occurrence edges
+    # 1. CPN → tenant edges (light, thin)
+    for tenant in H2.neighbors("CPN"):
+        if tenant in ("CRC", "CRG"):
+            continue
+        x0, y0 = pos["CPN"]
+        x1, y1 = pos[tenant]
+        w = H2["CPN"][tenant].get("weight", 1)
+        traces.append(go.Scatter(
+            x=[x0, x1, None], y=[y0, y1, None],
+            line=dict(width=w * 0.6, color="rgba(180,180,180,0.35)"),
+            hoverinfo="none", mode="lines",
+        ))
+
+    # 2. Co-occurrence edges (tenant ↔ tenant)
     for u, v, d in H2.edges(data=True):
+        if d.get("etype") in ("affiliation", "ownership", "alliance"):
+            continue
         x0, y0 = pos[u]
         x1, y1 = pos[v]
         w = d.get("weight", 1)
         traces.append(go.Scatter(
             x=[x0, x1, None], y=[y0, y1, None],
-            line=dict(width=min(w * 1.5, 6), color="rgba(150,150,150,0.4)"),
+            line=dict(width=min(w * 1.5, 6), color="rgba(150,150,150,0.35)"),
             hoverinfo="none", mode="lines",
         ))
 
-    # 2. Corporate → Brand dashed edges
-    for corp, clr in CORP_NODES.items():
-        cx, cy = corp_pos[corp]
-        for brand in corp_children[corp]:
+    # 3. Ownership edges (dashed)
+    for corp, clr in [("CRC", "#3498db"), ("CRG", "#2ecc71")]:
+        if corp not in H2:
+            continue
+        cx, cy = pos[corp]
+        for brand in H2.neighbors(corp):
+            if brand == "CPN":
+                continue
             bx, by = pos[brand]
             traces.append(go.Scatter(
                 x=[cx, bx, None], y=[cy, by, None],
@@ -366,13 +392,27 @@ with tab4:
                 hoverinfo="none", mode="lines",
             ))
 
-    # 3. Tenant nodes
+    # 4. Alliance edges (CPN ↔ CRC / CPN ↔ CRG) — bold
+    for corp in ("CRC", "CRG"):
+        if corp not in H2 or "CPN" not in H2:
+            continue
+        x0, y0 = pos["CPN"]
+        x1, y1 = pos[corp]
+        traces.append(go.Scatter(
+            x=[x0, x1, None], y=[y0, y1, None],
+            line=dict(width=3, color=ALLIANCE_NODES[corp]),
+            hoverinfo="none", mode="lines",
+        ))
+
+    # 5. Tenant nodes
     node_x, node_y, node_text, node_size, node_color_list = [], [], [], [], []
     for n in H2.nodes():
+        if n in ALLIANCE_NODES:
+            continue
         node_x.append(pos[n][0])
         node_y.append(pos[n][1])
         degree = H2.degree(n)
-        node_size.append(min(degree * 3 + 5, 40))
+        node_size.append(min(degree * 2.5 + 5, 36))
         corp = brand_corp.get(n, "")
         cat_label = cat_map.get(n, "")
         corp_line = f"<br>Corporate: {corp}" if corp else ""
@@ -382,7 +422,7 @@ with tab4:
 
     traces.append(go.Scatter(
         x=node_x, y=node_y, mode="markers+text",
-        text=[n for n in H2.nodes()],
+        text=[n for n in H2.nodes() if n not in ALLIANCE_NODES],
         textposition="top center",
         textfont=dict(size=8, color="#333"),
         marker=dict(size=node_size, color=node_color_list,
@@ -390,19 +430,29 @@ with tab4:
         hoverinfo="text", hovertext=node_text,
     ))
 
-    # 4. Corporate nodes (diamond markers)
-    corp_names = list(CORP_NODES.keys())
-    corp_x = [corp_pos[c][0] for c in corp_names]
-    corp_y = [corp_pos[c][1] for c in corp_names]
-    corp_clrs = [CORP_NODES[c] for c in corp_names]
-    corp_hover = [f"{c}<br>Brands in view: {len(corp_children[c])}" for c in corp_names]
+    # 6. Corporate nodes (diamond)
+    corp_names = sorted(ALLIANCE_NODES.keys())
+    corp_x = [pos[c][0] for c in corp_names]
+    corp_y = [pos[c][1] for c in corp_names]
+    corp_clrs = [ALLIANCE_NODES[c] for c in corp_names]
+    corp_hover = []
+    for c in corp_names:
+        if c == "CPN":
+            n_tenants = sum(1 for nb in H2.neighbors("CPN") if nb not in ("CRC", "CRG"))
+            corp_hover.append(f"CPN — Mall Operator<br>Tenants in view: {n_tenants}")
+        elif c == "CRC":
+            n_brands = sum(1 for nb in H2.neighbors("CRC") if nb != "CPN")
+            corp_hover.append(f"CRC — Central Retail Corp<br>Brands in view: {n_brands}")
+        else:
+            n_brands = sum(1 for nb in H2.neighbors("CRG") if nb != "CPN")
+            corp_hover.append(f"CRG — Central Restaurant Group<br>Brands in view: {n_brands}")
 
     traces.append(go.Scatter(
         x=corp_x, y=corp_y, mode="markers+text",
         text=corp_names,
         textposition="bottom center",
         textfont=dict(size=13, color="#222"),
-        marker=dict(size=24, color=corp_clrs, symbol="diamond",
+        marker=dict(size=26, color=corp_clrs, symbol="diamond",
                     line=dict(width=2, color="#fff")),
         hoverinfo="text", hovertext=corp_hover,
     ))
@@ -421,6 +471,7 @@ with tab4:
 
     if corp_color_map:
         st.markdown("**Corporate Group Legend**")
-        cols = st.columns(len(corp_color_map))
-        for col, (corp, clr) in zip(cols, sorted(corp_color_map.items())):
-            col.markdown(f'<span style="display:inline-block;width:12px;height:12px;background:{clr};border-radius:50%;margin-right:6px"></span> {corp}', unsafe_allow_html=True)
+        all_grps = {"CPN": "#e74c3c"} | corp_color_map
+        cols = st.columns(len(all_grps))
+        for col, (grp, clr) in zip(cols, sorted(all_grps.items())):
+            col.markdown(f'<span style="display:inline-block;width:12px;height:12px;background:{clr};border-radius:50%;margin-right:6px"></span> {grp}', unsafe_allow_html=True)
