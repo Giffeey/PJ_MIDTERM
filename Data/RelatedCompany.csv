@@ -1,12 +1,102 @@
-Company,Type,Business Nature,Relationship & Investment Proportion
-Central Department Store Co. Ltd.,Anchor Tenant / Central Group Partner,Retail,Common Directors
-Central Department Store Ltd.,Anchor Tenant / Central Group Partner,Retail / Services / Financial Management,Common Directors
-Robinson Public Company Limited,Anchor Tenant / Central Group Partner,Retail,Common Directors
-Central Retail Corporation Public Company Limited,Anchor Tenant / Central Group Partner,Retail,Common Directors
-Central Trading Co. Ltd.,Anchor Tenant / Central Group Partner,Retail,Common Directors
-Power Buy Co. Ltd.,Anchor Tenant / Central Group Partner,Retail,Common Directors
-CRC Sports Co. Ltd.,Anchor Tenant / Central Group Partner,Retail,Common Directors
-CRC Thai Watsadu Co. Ltd.,Anchor Tenant / Central Group Partner,Retail,Common Directors
-Earth Care Co. Ltd.,Anchor Tenant / Central Group Partner,Retail,Common Directors
-CR Chiangmai (Thailand) Co. Ltd.,Anchor Tenant / Central Group Partner,Retail,Common Directors
-SF Development Co. Ltd.,Joint Venture,Shopping Center Development and Management (Megabangna),Indirect Investment 49.00%
+Source,Target,Weight,Category
+CPN,Central Group Co. Ltd.,4,Ultimate Parent
+CPN,Central Holdings Company Limited,3,Major Shareholder
+CPN,Central Retail Corporation (CRC),5,Anchor Tenant
+CRC,Central Department Store,5,Retail Brand
+CRC,Robinson Department Store,5,Retail Brand
+CRC,Central Trading,3,Retail Brand
+CRC,Power Buy,4,Retail Brand
+CRC,CRC Sports / Supersports,4,Retail Brand
+CRC,CRC Thai Watsadu,4,Retail Brand
+CRC,Earth Care,2,Retail Brand
+CRC,CR Chiangmai,2,Retail Brand
+CRC,Tops / Tops Food Hall / Tops Daily,4,Retail Brand
+CRC,Big C / Go!,4,Retail Brand
+CRC,B2S,3,Retail Brand
+CRC,OfficeMate,3,Retail Brand
+CRC,Matsukiyo,3,Retail Brand
+CPN,Central Restaurant Group (CRG),4,F&B Operator
+CRG,Mister Donut,3,F&B Brand
+CRG,KFC,3,F&B Brand
+CRG,Auntie Anne's,3,F&B Brand
+CRG,Pepper Lunch,3,F&B Brand
+CRG,Yoshinoya,3,F&B Brand
+CRG,Ootoya,3,F&B Brand
+CRG,Katsuya,3,F&B Brand
+CRG,Cold Stone,3,F&B Brand
+CRG,Somtam Nua,3,F&B Brand
+CRG,Shinkanzen Sushi,3,F&B Brand
+CRG,Chabuton,3,F&B Brand
+CRG,Salad Factory,3,F&B Brand
+CPN,Central Food Avenue,4,Direct Subsidiary
+CPN,Central World Co.,4,Direct Subsidiary
+CPN,Central Pattana Rama 2,3,Direct Subsidiary
+CPN,Central Pattana Rama 3,3,Direct Subsidiary
+CPN,Central Pattana Chiangmai,3,Direct Subsidiary
+CPN,Central Pattana Rattanathibet,3,Direct Subsidiary
+CPN,Central Pattana Residence,3,Direct Subsidiary
+CPN,Central Pattana Development,3,Direct Subsidiary
+CPN,CPN Global,3,Direct Subsidiary
+CPN,Central Pattana Nine Square,3,Direct Subsidiary
+CPN,Central Pattana Khon Kaen,3,Direct Subsidiary
+CPN,CPN Pattaya,3,Direct Subsidiary
+CPN,CPN Rayong,3,Direct Subsidiary
+CPN,CPN Korat,3,Direct Subsidiary
+CPN,CPN Estate,3,Direct Subsidiary
+CPN,Central Pattana Green Growth,3,Direct Subsidiary
+CPN,Suanlum Property,3,Direct Subsidiary
+CPN,Phraram 4 Development,3,Direct Subsidiary
+CPN,Saladang Property Management,3,Direct Subsidiary
+CPN,CPN REIT Management,3,Direct Subsidiary
+CPN,Dara Harbour,3,Direct Subsidiary
+CPN,CPN Pattaya Hotel,3,Direct Subsidiary
+CPN,Chanakun Development,3,Direct Subsidiary
+CPN,CPN Village,3,Direct Subsidiary
+CPN,Bayswater,2,Direct Subsidiary
+CPN,CentralPattana Life,3,Direct Subsidiary
+CPN,Grand Canal Land (GLAND),4,Indirect Subsidiary
+GLAND,Belle Development,3,Sub-subsidiary
+GLAND,Belle Assets,3,Sub-subsidiary
+GLAND,Sterling Equity,3,Sub-subsidiary
+GLAND,G Land Property Management,3,Sub-subsidiary
+GLAND,Praram 9 Square,3,Sub-subsidiary
+GLAND,Ratchada Asset Holding,3,Sub-subsidiary
+CPN,Siam Future Development (SF),4,Indirect Subsidiary
+SF,Petchkasem Power Center,3,Sub-subsidiary
+SF,Ekkamai Lifestyle Center,3,Sub-subsidiary
+SF,Siam Future Property,3,Sub-subsidiary
+SF,Ratchayothin Avenue,2,Sub-subsidiary
+SF,Ratchayothin Avenue Management,2,Sub-subsidiary
+CPN,Bangna Central Property,3,Indirect Subsidiary
+CPN,Global Retail Development & Investment,3,Indirect Subsidiary
+CPN,CPN Complex,3,Indirect Subsidiary
+CPN,CPN City,3,Indirect Subsidiary
+CPN,C.S. City,3,Indirect Subsidiary
+CPN,CPN Residence Management,3,Indirect Subsidiary
+CPN,Pruksachart Property,3,Indirect Subsidiary
+CPN,CPN Global Vietnam,3,Indirect Subsidiary
+CPN,Phenomenon Creation,3,Indirect Subsidiary
+CPN,Chipper Global,3,Indirect Subsidiary
+CPN,CPN Ventures Sdn. Bhd.,3,Indirect Subsidiary
+CPN,Central Plaza i-City Real Estate Sdn. Bhd.,3,Indirect Subsidiary
+CPN,Thai Business Fund 4,3,Fund
+CPN,CPN Retail Growth Leasehold REIT (CPNREIT),4,Related REIT
+CPN,CPN Commercial Growth Leasehold Property Fund (CPNCG),3,Related Fund
+CPN,Dusit Thani PCL,4,Associate
+CPN,Vimarn Suriya Co.,3,Associate
+CPN,MeSpace Self Storage,3,Associate
+MeSpace,Mespace Self Storage (Ramintra),3,Sub-associate
+CPN,West Bangkok Development,2,Associate
+CPN,Square Ritz Plaza,2,Associate
+CPN,Synergistic Property Development,4,Joint Venture
+CPN,Common Ground (Thailand),4,Joint Venture
+CPN,CE Holding Co.,3,Joint Venture
+CE Holding,Central and Hongkong Land Co.,4,Indirect Joint Venture
+SF,SF Development Co. (Mega Bangna),5,Indirect Joint Venture
+SF,North Bangkok Development,3,Indirect Joint Venture
+CPN,Porto Worldwide,2,Joint Venture
+CPN,IKEA,4,Strategic Tenant
+CPN,Central Plaza Hotel PCL,3,Related Party
+CPN,Central World Hotel,3,Related Party
+CPN,Central Village (Mitsubishi Estate JV),3,Joint Venture
+CPN,Mitsubishi Estate (Thailand),3,JV Partner

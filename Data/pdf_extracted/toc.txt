@@ -1,0 +1,320 @@
+
+=== PAGE 1 ===
+Annual Registration Statement / Annual Report 2025 
+Form 56-1 One Report 
+(e-One Report)
+CENTRAL PATTANA PUBLIC COMPANY LIMITED
+Fiscal Year End 31 December 2025
+
+
+=== PAGE 2 ===
+#MARKER:TOC
+Table of Contents
+Page
+Part 1 Business Operations and Performance                                                                                                       
+1. Organizational structure and operation of the group of companies
+1.1 Policy and business overview                                                                                                                                                              1
+1.2 Business Operations                                                                                                                                                                         15
+1.3 Shareholding structure                                                                                                                                                                      31
+1.4 Number of registered capital and paid-up capital                                                                                                                                 53
+1.5 Issuance of other securities                                                                                                                                                               54
+1.6 Dividend payment policy                                                                                                                                                                  60
+2. Risk management
+2.1 Risk mgmt policy and plan                                                                                                                                                                62
+2.2 Risk factors                                                                                                                                                                                      65
+3. Business sustainability development
+3.1 Sustainability Management Policy and Targets                                                                                                                                     85
+3.2 Management of impacts on stakeholders in the business value chain                                                                                                     96
+3.3 Management of environmental sustainability                                                                                                                                     119
+3.4 Social sustainability management                                                                                                                                                     144
+4. Management Discussion and Analysis (MD&A)
+4.1 Operation, financial condition and material changes, accompanied by the causes or factors contributing thereto during the past year          182
+4.2 Potential factors or incidents that may materially affect the financial condition or the operating results                                                    187
+4.3 Disclose information from the financial statements and significant financial ratios                                                                                   189
+5. General information and other material facts
+5.1 General information                                                                                                                                                                        197
+5.2 Other material facts                                                                                                                                                                        200
+5.3 Legal disputes                                                                                                                                                                                201
+5.4 Secondary market                                                                                                                                                                          202
+5.5 Financial institution with regular contact (only in case of debt securities offeror)                                                                                    203
+
+
+=== PAGE 3 ===
+#MARKER:TOC
+Table of Contents (continued)
+Page
+Part 2 Corporate Governance                                                                                                                            
+6. Corporate governance policy
+6.1 Corporate Governance Policy                                                                                                                                                           204
+6.2 Business code of conduct (if any)                                                                                                                                                     220
+6.3 Material changes and developments regarding policy, guidelines and corporate governance system in the preceding year                           227
+7. Corporate governance structure and significant information related to the board of directors, subcommittees, executives, employees, and others
+7.1 Corporate Governance Structure                                                                                                                                                      231
+7.2 Information on the Board of Directors                                                                                                                                               233
+7.3 Information on subcommittees                                                                                                                                                        253
+7.4 Information on executives                                                                                                                                                               264
+7.5 Information on employees                                                                                                                                                              271
+7.6 Other significant information                                                                                                                                                            276
+8. Report on key operating results on corporate governance
+8.1 Summary of duty performance of the Board of Directors in the past year                                                                                              280
+8.2 Report on the results of duty performance of the Audit Committee in the past year                                                                               318
+8.3 Summary of the results of duty performance of subcommittees                                                                                                          322
+9. Internal control and related party transactions
+9.1 Internal control                                                                                                                                                                              329
+9.2 Related party transactions                                                                                                                                                               335
+Part 3 Financial Statement                                                                                                                                
+Board of Directors' Responsibility Statement for the Financial Report                                                                                                         373
+Auditor’s Report                                                                                                                                                                                  375
+Financial Statements                                                                                                                                                                            381
+Notes to the Financial Statements                                                                                                                                                         393
+Back up attachment                                                                                                                                         
+Attachment                                                                                                                                                                                        479
+
+
+=== PAGE 4 ===
+Part 1 Business Operations and Performance
+#MARKER:PAGE_PART_1
+Part 1 Business Operations and Performance
+
+
+=== PAGE 5 ===
+#MARKER:PART_1
+Part 1 Business Operations and Performance     1
+1. Organizational structure and operation of the group of companies
+1.1 Policy and business overview
+      Central Pattana Public Company Limited (“The Company” or  “Central Pattana”) was established under the name 
+of “Central Plaza Co., Ltd.” on June 17, 1980, with an initial registered capital of Baht 300 mn In 1982, Central Pattana 
+launched Central Ladprao, the first fully integrated shopping mall in Thailand, followed by Central Ramindra, Central 
+Pinklao and Central Pattaya Center (currently Central Marina Outlet). Central Pattana was listed on the Stock Exchange 
+of Thailand (SET) on March 1, 1995, with a registered capital of Baht 1,000 mn and a par value of Baht 10 per share. 
+Currently, its paid-up capital is Baht 2,244 mn, with a par value of Baht 0.5 per share, of which the majority is held by 
+Central Holdings Co., Ltd.
+      Currently, Central Pattana develops and manages large scale shopping malls and community malls in Thailand 
+and Malaysia under the Retail-let Mixed-use Development strategy. Each project also includes other components; 
+namely convention hall, co-working space, flex space, food center, water park in shopping mall, office building, hotel 
+and residential project near Central Group's malls. Central Pattana also opens for merger and acquisition opportunities 
+in other businesses related to shopping mall business that would enhance the completeness of the ecosystem.
+      With the commitment to deliver sustainable growth, Central  Pattana consistently seeks for optimal sources of 
+fund to finance existing operations and development plan. The Company was among the first Thai companies to 
+establish mutual funds for real-estate leaseholds under the name CPN Retail Growth Leasehold Property Fund (CPNRF) 
+in 2005 and CPN Commercial Growth Leasehold Property Fund (CPNCG) in 2012 to mobilize funds from domestic and 
+foreign investors eyeing real-estate investment and the benefits from the property management. At the end of 2017, 
+CPNRF was converted into CPN Retail Growth Leasehold REIT or CPNREIT, of which Central Pattana continues to act as 
+the trust manager and the property manager of the trust and the fund.
+      In 2018, Central Pattana acquired 67.5% stake in Grand Canal Land Plc. (GLAND), whose assets consist of 1) The 
+Ninth Tower office building; 2) Unilever House office building (both of which have been transferred to the CPNREIT); 3) 
+G Tower office building; 4) BELLE condominium for sale; and 5) four plots of undeveloped land: two with plans for 
+Mixed-use project development and two for residential development. In 2021, Central Pattana acquired 96% stake in 
+Siam Future  Development Public Company Limited (SF), whose assets consist of one shopping mall (Esplanade), more 
+than 10 community malls, one super regional mall (Mega Bangna) and landbanks in suburban Bangkok under its Joint-
+Venture company. Both investments mentioned above has elevated the Company’s business capability and 
+competitiveness, leading to sustainable growth in shareholders’ return.
+
+
+=== PAGE 6 ===
+#MARKER:PART_1
+Part 1 Business Operations and Performance     2
+1.  
+2.  
+3.  
+4.  
+1.1.1 Overview of the vision, objectives, goals and business strategies
+Central Pattana Beliefs
+Dynamism We are driven by an entrepreneurial spirit and a belief in our ability to create a better quality 
+of life for everyone. With optimism, we aim high, persist through challenges, and lead with innovation to 
+improve the world around us. We are pioneering and empathetic, daring to try new things, and 
+encouraging boldness in others. Our expertise, curiosity, and forward-looking mindset fuel continuous 
+learning and progress.
+Customers ur world of customers - shoppers, tenants, residents and beyond – is the inspiration for 
+everything we do. We each have a role to play in championing them at all stages, and we push ourselves 
+to go beyond their expectations, to deliver excellence for them today and in the future.
+Communities We are part of an ecosystem where people from all around the world join forces to enrich 
+and evolve the way we live. We care deeply about all those within those networks. We seek to create 
+value for all stakeholders in our ecosystem and look to achieve sustainable growth and shared success 
+through shared goals, keeping in mind people, planet and communities at every turn.
+Collaboration We thrive by learning, exploring and collaborating with other people. So, we always think 
+beyond ourselves: to other people, teams and departments; customers and communities; partners and 
+potential partners; to other companies and synergies; to the future. We each play our part and take 
+responsibility, going above and beyond, putting shared success and a long-term vision first.
+
+
+=== PAGE 7 ===
+#MARKER:PART_1
+Part 1 Business Operations and Performance     3
+Message from the chairman
+Dear Shareholders
+      2025 marked another successful year of Central Pattana (the Company), celebrating its 45 anniversary of 
+operations. Central Pattana achieved the third consecutive year of record-breaking performance, including all-time-high 
+total revenue, overall gross profit margin, net profit, and dividend. This remarkable result reaffirmed the success of it’s 
+Retail-Led Mixed-Use Development strategy.
+      It has been a great honor for Central Pattana to develop projects that serve as lifestyle hubs across Thailand for 
+over the past 45 years, establishing Central Pattana as a leading shopping mall developer in Thailand. Throughout this 
+journey, Central Pattana has cultivated a strong business ecosystem that supports the growth of its partners while 
+seamlessly connecting people, communities, and the environment. As a result, its retail-led developments have 
+evolved into key destinations and iconic landmarks that contribute to the development of districts, cities, and the 
+nation.
+      In 2025, Central Pattana reported total revenue of Baht 53,009 mn and net profit of Baht 18,841 mn, representing 
+a 13% increased from previous year. This performance reflects enhanced operational efficiency, resulting in lower costs 
+and a record-high gross profit margin of 58%. In addition, Central Pattana announced an increased dividend payment of 
+Baht 2.40 per share, equivalent to a 57% payout ratio, demonstrating strong financial discipline and a continued 
+commitment to delivering sustainable returns to shareholders.
+      Shopping mall business is the core business of Central Pattana, it maintained a high average occupancy rate of 
+over 90%, with total annual footfall exceeding 510 mn visits, continuing its upward trajectory. This growth was driven by 
+year-round marketing activities, the introduction of new consumer experiences, and strong collaborations with both 
+global and local brand partners. During the year, Central Pattana launched new projects, including Central Park, a 
+flagship super core CBD mixed-use project comprising a shopping mall and Grade A office buildings, seamlessly 
+integrated with the Dusit Thani Hotel and residential components. The retail and office components commenced 
+operations in September 2025 and have received strong positive responses from both tenants and visitors. The project 
+is poised to become a new global landmark, reinforcing Bangkok’s position as a world-class metropolis.
+      In October 2025, Central Krabi was officially opened. The project exceeded expectations in terms of visitor traffic, 
+while the first phase of its low-rise housing project, BAAN NINYA KRABI, achieved over 90% booking rate. Central Krabi is 
+Thailand’s first sustainable-lifestyle shopping center, developed with a commitment to achieving EDGE Certification – 
+Zero Level. Both projects highlight Central Pattana’s capability to deliver landmark developments of national 
+significance. Additionally, asset enhancement completed during the year, including renovations at Central 
+Chaengwattana and Central Pinklao, were well received by customers.
+      Supported by strong operating performance and prudent financial management, Central Pattana has further 
+strengthened its financial position. Recently, Central Pattana’s corporate credit rating and senior unsecured debentures 
+were upgraded to “AA+” with a “Stable” outlook by TRIS Rating, reflecting the strength of its financial structure, stable 
+cash flow from its retail business, and its ability to create value from mixed-use developments and related businesses.
+      In 2026, Central Pattana remains committed to delivering continued growth, marking another significant milestone 
+in expanding the Company’s “The Ecosystem for All.” This will be driven by the launch of new shopping malls, 
+including Central Khonkaen Campus, Central Northville, and The Central, which are set to become key landmarks that 
+enhance urban potential and create economic opportunities nationwide. In addition, Central Pattana continues to 
+expand its non-retail portfolio, including residential business for sale and hotel business. For hotel business, the 
+Company targets to have 25 hotels within the next five years. Most recently, Central Pattana announced the 
+development of Oakwood Central Hat Yai, representing the debut of the Oakwood brand in Hat Yai. The project is 
+strategically located adjacent to Central Hatyai, further strengthening the integrated mixed-use ecosystem.
+th
+
+
+=== PAGE 8 ===
+#MARKER:PART_1
+Part 1 Business Operations and Performance     4
+      Lastly, Central Pattana would like to express its sincere appreciation to its shareholders, customers, business 
+partners, financial institutions, government and private sector agencies, as well as all employees for their continued 
+trust and support. Central Pattana remains committed to conducting its business with strong corporate governance and 
+responsibility toward society, communities, and the environment, with the aim of delivering sustainable growth and 
+shared value for all stakeholders.
+Mr. Sudhitham Chirathivat
+Chairman
+Ms. Wallaya Chirathivat
+President and Chief Executive Officer
+Message from President and Chief Executive Officer
+      On this occasion, I would like to inform our shareholders that the Board of Directors has approved the 
+appointment of Mr. Chonwattana Uawattanasakul as President and Chief Executive Officer, effective May 1, 2026. I will 
+continue to serve as a member of the Board of Directors, supporting the Company’s business operations on an ongoing 
+basis. It has been a great honor to have had the opportunity to help drive the Company’s growth over the years. I am 
+pleased to pass on the leadership role at a time when the Company is built upon a strong business foundation, 
+supported by consistently strong performance and consecutive record-breaking results, as well as a clear pipeline of 
+development projects and long-term growth opportunities.
+      I am confident that under the leadership of Mr. Chonwattana Uawattanasakul, who brings extensive experience 
+and deep understanding of the Company’s business, Central Pattana will continue to advance its vision and strategy of 
+building “The Ecosystem for All.” This approach integrates people, communities, and business partners into a 
+comprehensive ecosystem, while further unlocking the potential of the Company’s developments to create broad 
+positive impacts on the economy and communities in every location we operate. Moreover, Central Pattana will 
+continue to play an integral role in shaping Thailand’s future through the development of sustainable urban spaces and 
+lifestyle destinations, thereby delivering long-term value to shareholders and all stakeholders.
+Ms. Wallaya Chirathivat
+President and Chief Executive Officer
+
+
+=== PAGE 9 ===
+#MARKER:PART_1
+Part 1 Business Operations and Performance     5
+1.  
+2.  
+3.  
+4.  
+1.  
+2.  
+3.  
+4.  
+5.  
+Vision
+To be a leading regional developer pioneering a better and more sustainable future for all.
+Objectives
+      For the Company to become a “leader in Retail-led Mixed-use real estate development and a top player in its 
+core businesses including office, hotel and residential businesses”, it has therefore established its objectives or goals of 
+the organization as follows:
+To be an industry leader with sustainable growth under the Retail-led Mixed-use developer strategy: By 
+accelerating the development of new shopping centers in potential provinces to expand the market and seek new 
+revenue streams, including the expansion in office, hotel and residential businesses to generate stable turnover 
+and maintain leadership in all industries.
+To be the top-of-mind brand for our partners and customers: Through the development of products and services 
+for customers to always enjoy new experiences, Central Pattana can be truly developed to be a “Center of Life” 
+that can open a comprehensive customer experience with an omnichannel platform.
+To create a business ecosystem that can maximize synergistic ecosystem through all businesses: By joining forces 
+with all business groups of Central Pattana and Central Group, including various partners to strengthen 
+collaboration for success, expand the business partner network, and continuously seek new business opportunities.
+To be a sustainable organization with an innovative, productive, and efficient DNA culture: Our people and 
+organization continue to increase efficiency, develop effectiveness, and promote innovation (via BEST & FIT 
+Projects), and we strive to develop our organization to align with our sustainable goals – in society, environment, 
+and governance aspects.
+Goals
+Imagining Better Futures for All
+Business strategies
+To achieve our vision, we are guided by and committed to five key strategic areas
+Center of Lifeur mission is to create spaces that are at the center of people’s lives, for better quality of life and 
+living, through the development of mixed-use projects, while simultaneously exploring new growth opportunities 
+in emerging businesses to support every dimension of modern living.
+Regional ExpansionWe continue to instill the pioneering spirit that is at the heart of our DNA, bringing the best of 
+Thailand to the region and the world, and vice versa, through strategic partnerships and the development of new 
+business models to strengthen competitiveness and drive sustainable long-term growth.
+Co-CreationWe deliver greatest value to our customers when we co-create in partnership with our tenants and 
+business partnersto continuously develop solutions and experiences that meet the needs of all stakeholders.
+SustainableWe are committed to creating long term value for all stakeholders. We believe in growing sustainably 
+and doing good for the Environment, People, the Community and for Business, to create long-term balance across 
+economic, social, and environmental value.
+Empowered Peopleur people are our greatest strength, and we believe in empowering people to realize their full 
+potential to enable future growth.
+
+
+=== PAGE 10 ===
+#MARKER:PART_1
+Part 1 Business Operations and Performance     6
+1.1.2 Material changes and developments
+Details regarding material changes and developments
+years
+Material changes and developments
+2025
+The Company is firmly committed to shaping the future through world-class mega projects, leveraging 
+over 45 years of experience and leadership in driving national development. Guided by its Retail-led 
+Mixed-use Development strategy, the Company builds on core expertise in location selection, 
+catchment analysis, master planning, and strategic partnerships. This approach has led to the creation 
+of new landmarks, including “The Central Phahonyothin,” a new CBD of Bangkok, and the highly 
+successful launch of “Central Park,” now recognized as a new landmark of the capital.
+The Company has announced a total investment budget of Baht120 bn during 2025–2029. In 2025, key 
+developments across business segments are summarized as follows:
+Rental and Service Businesses
+       Shopping Centers
+The Company launched two shopping center projects: Central Park, opened in September 2025, 
+with approximately 32,000 sq.m. of net leasable area. The project is part of one of the Company’s 
+flagship mega mixed-use developments, strategically located in Bangkok’s Central CBD. Central 
+Krabi, opened in October 2025, with approximately 20,000 sq.m. of net leasable area. Developed 
+under a Green Mall concept, the project is the Company’s first to adopt new technology for 
+energy management.
+In addition, the Company opened Market Place Thepharak, a community mall in northern 
+Bangkok, in March 2025, with approximately 5,000 sq.m. of net leasable area. The project 
+integrates a traditional community mall format with a fresh market concept to effectively serve 
+local community needs.
+       Office Buildings
+The Company opened Central Park Offices in September 2025, offering approximately 66,000 sq.m. of 
+net leasable area. The building has achieved Green Building certification and forms part of the Dusit 
+Central Park mixed-use development. The project stands out for its prime location with direct 
+connectivity to both BTS and MRT mass transit systems.
+Hotel Business
+In November 2025, the Company opened GO! Hotel Bangkok Suvarnabhumi Airport, a premium budget 
+hotel located adjacent to Robinson Lifestyle Latkrabang and approximately 10 minutes from 
+Suvarnabhumi Airport. The hotel offers strong value through its strategic location, competitive pricing, 
+convenient access to retail facilities, and the standardized quality of the GO! Hotel brand.
+Residential Development for Sale
+In 2025, the Company launched nine residential projects, comprising:
+Four condominium projects: 1) PHYLL Phuket 2; 2) PHYLL Phahol 59 Station; 3) PHYLL Krabi; 4) ESCENT 
+Chonburi
+Five low-rise housing projects: 1) Baan Nirati Chaengwattana–Chaiyaphruek; 2) Baan Nirada 
+Chaengwattana–Chaiyaphruek; 3) Baan Ninya Krungthep Kreetha–Motorway; 4) Baan Ninya Krabi; 5) Baan 
+Ninya Ramindra 83
+Other Developments
+In August 2025, the Company sold the remaining leasehold rights of approximately 10,000 sq.m. of 
+leasable area at Central Rama 2 to CPNREIT under a 30-year lease agreement, while CPN is a property 
+manager.
