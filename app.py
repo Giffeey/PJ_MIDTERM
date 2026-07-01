@@ -398,13 +398,13 @@ with tab4:
             continue
         node_x.append(pos[n][0])
         node_y.append(pos[n][1])
-        degree = H2.degree(n)
-        node_size.append(min(degree * 2.5 + 5, 36))
+        mall_cnt = dict(in_deg).get(n, 0)
+        node_size.append(min(mall_cnt * 0.8 + 8, 40))
         corp = brand_corp.get(n, "")
         cat_label = cat_map.get(n, "")
         corp_line = f"<br>Corporate: {corp}" if corp else ""
         cat_line = f"<br>Category: {cat_label}" if cat_label else ""
-        node_text.append(f"{n}<br>Mall presence: {dict(in_deg).get(n, 0)} malls<br>Co-occurrences: {degree}{corp_line}{cat_line}")
+        node_text.append(f"{n}<br>Mall presence: {mall_cnt} malls{corp_line}{cat_line}")
         node_color_list.append(node_colors[n])
 
     traces.append(go.Scatter(
