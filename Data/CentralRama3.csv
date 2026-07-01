@@ -20,8 +20,8 @@ B GRILL STEAK,Central Rama 3,1,6F,Food & Beverage
 B2S,Central Rama 3,1,6F,Lifestyle & Specialty
 BABIES GENIUS,Central Rama 3,1,7F,Education
 BAIMIANG,Central Rama 3,1,GF,Food & Beverage
-BANANA,Central Rama 3,1,3F,Technology
-BANANA,Central Rama 3,1,3F,Technology
+IT BANANA,Central Rama 3,1,3F,Technology
+IT BANANA,Central Rama 3,1,3F,Technology
 BANANA LEAF,Central Rama 3,1,5F,Food & Beverage
 BANARMAE ARHANTAMSANG,Central Rama 3,1,6F,Food & Beverage
 BANGKOK BANK,Central Rama 3,1,4F,Bank & Financial Services
@@ -86,8 +86,8 @@ EYE LEVEL LEARNING CENTER,Central Rama 3,1,7F,Education
 FITNESS FIRST,Central Rama 3,1,6F,Lifestyle & Specialty
 FLEURS EN PRAIRIE CAFE,Central Rama 3,1,GF,Food & Beverage
 FOCUS,Central Rama 3,1,3F,Technology
-FOODPATIO,Central Rama 3,1,6F,Food & Beverage
-FUJI JAPANESE RESTAURANT,Central Rama 3,1,GF,Food & Beverage
+FOOD PATIO,Central Rama 3,1,6F,Food & Beverage
+FUJI,Central Rama 3,1,GF,Food & Beverage
 FUKU MATCHA,Central Rama 3,1,5F,Food & Beverage
 FUN PLANET,Central Rama 3,1,7F,Entertainment
 FUTURE LIVING,Central Rama 3,1,4F,Lifestyle & Specialty
@@ -119,14 +119,14 @@ IT CITY,Central Rama 3,1,3F,Technology
 JACOB,Central Rama 3,1,2F,Fashion
 JADE GARDEN,Central Rama 3,1,6F,Food & Beverage
 JASPAL,Central Rama 3,1,1F,Fashion
-JAY MART,Central Rama 3,1,3F,Technology
-JAYMART IOT,Central Rama 3,1,3F,Technology
+JAYMART,Central Rama 3,1,3F,Technology
+JAYMART,Central Rama 3,1,3F,Technology
 JIB,Central Rama 3,1,3F,Technology
 JIENG FISH BALL,Central Rama 3,1,5F,Food & Beverage
 JINTAICECREAM,Central Rama 3,1,6F,Food & Beverage
 JONES SALAD,Central Rama 3,1,GF,Food & Beverage
 JS PHONE,Central Rama 3,1,3F,Technology
-JUBILEE,Central Rama 3,1,3F,Fashion
+JUBILEE DIAMOND,Central Rama 3,1,3F,Fashion
 K. ACCESSORIES,Central Rama 3,1,3F,Technology
 KAITUNMARAAYUTTAYA,Central Rama 3,1,6F,Food & Beverage
 KANOM BANN AYAKARN,Central Rama 3,1,GF,Food & Beverage
@@ -177,7 +177,7 @@ MEZZO COFFEE,Central Rama 3,1,2F,Food & Beverage
 MISTER DONUT,Central Rama 3,1,5F,Food & Beverage
 MISTER EYES,Central Rama 3,1,GF,Fashion
 MIXUE,Central Rama 3,1,6F,Food & Beverage
-MK RESTAURANTS,Central Rama 3,1,5F,Food & Beverage
+MK RESTAURANT,Central Rama 3,1,5F,Food & Beverage
 MO-MO-PARADISE,Central Rama 3,1,6F,Food & Beverage
 MOBEL ART,Central Rama 3,1,2F,Lifestyle & Specialty
 MONTIPA,Central Rama 3,1,GF,Fashion
@@ -295,7 +295,7 @@ TPARTNER,Central Rama 3,1,2F,Lifestyle & Specialty
 TRUE,Central Rama 3,1,3F,Technology
 TRUST DENTAL CLINIC,Central Rama 3,1,4F,Beauty & Wellness
 TRUST UNITED CLINIC,Central Rama 3,1,4F,Beauty & Wellness
-TUMRABTHAI,Central Rama 3,1,GF,Beauty & Wellness
+TUMRUBTHAI,Central Rama 3,1,GF,Beauty & Wellness
 UMAY PLUS,Central Rama 3,1,4F,Bank & Financial Services
 UNIQLO,Central Rama 3,1,1F,Fashion
 UOB,Central Rama 3,1,4F,Bank & Financial Services

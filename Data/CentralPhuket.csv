@@ -2,7 +2,7 @@ Source,Target,Weight,Floor,Category
 M LIFE,Central Phuket,1,2F,Technology
 ADIDAS,Central Phuket,1,2F,Fashion
 AEAKALAK KUAY TIEW NEA TUN,Central Phuket,1,3F,Food & Beverage
-AEON THANA SINSAP,Central Phuket,1,4F,Bank & Financial Services
+AEON,Central Phuket,1,4F,Bank & Financial Services
 AFTER SHOKZ,Central Phuket,1,3F,Technology
 AFTER YOU,Central Phuket,1,1F,Food & Beverage
 AGENT PROVOCATEUR,Central Phuket,1,2F,Fashion
@@ -40,7 +40,7 @@ BAANMANGSAWIRAT,Central Phuket,1,3F,Food & Beverage
 BABIE GENIUS,Central Phuket,1,2F,Education
 BAKE A WISH,Central Phuket,1,1F,Food & Beverage
 BALENCIAGA,Central Phuket,1,1F,Fashion
-BANANA,Central Phuket,1,2F,Technology
+IT BANANA,Central Phuket,1,2F,Technology
 BANDAI,Central Phuket,1,GF,Lifestyle & Specialty
 BANGKOK BANK,Central Phuket,1,4F,Bank & Financial Services
 BANGKOK BOOTERY,Central Phuket,1,3F,Fashion
@@ -151,10 +151,10 @@ F-FASHION,Central Phuket,1,2F,Fashion
 FERRAGAMO,Central Phuket,1,1F,Fashion
 FILA,Central Phuket,1,2F,Fashion
 FITFLOP,Central Phuket,1,1F,Fashion
-FOODPARK,Central Phuket,1,3F,Food & Beverage
+FOOD PARK,Central Phuket,1,3F,Food & Beverage
 FOSSIL,Central Phuket,1,1F,Fashion
 FRED PERRY,Central Phuket,1,2F,Fashion
-FUJI JAPANESE RESTAURANT,Central Phuket,1,3F,Food & Beverage
+FUJI,Central Phuket,1,3F,Food & Beverage
 FUKU MATCHA,Central Phuket,1,1F,Food & Beverage
 FURLA,Central Phuket,1,1F,Fashion
 G-SHOCK CASIO,Central Phuket,1,1F,Fashion
@@ -195,7 +195,7 @@ JIM THOMPSON,Central Phuket,1,GF,Fashion
 JIMMY CHOO,Central Phuket,1,1F,Fashion
 JO MALONE,Central Phuket,1,1F,Beauty & Wellness
 JOHN HENRY,Central Phuket,1,3F,Fashion
-JUBILEE,Central Phuket,1,1F,Fashion
+JUBILEE DIAMOND,Central Phuket,1,1F,Fashion
 JU YUAN,Central Phuket,1,3F,Food & Beverage
 JURLIQUE,Central Phuket,1,1F,Beauty & Wellness
 KA MOO BO RAN KA THU,Central Phuket,1,GF,Food & Beverage
@@ -326,7 +326,7 @@ POMELO,Central Phuket,1,1F,Fashion
 PORTO HOUSE BY RIDER CAFÉ,Central Phuket,1,1F,Food & Beverage
 PRIMA,Central Phuket,1,2F,Fashion
 PRIME BURGER THAILAND,Central Phuket,1,GF,Food & Beverage
-PROCLEAN,Central Phuket,1,B1,Lifestyle & Specialty
+PRO CLEAN,Central Phuket,1,B1,Lifestyle & Specialty
 PUMA,Central Phuket,1,2F,Fashion
 PUNGKI KUAY TEAW RUEA,Central Phuket,1,1F,Food & Beverage
 QUIKSILVER,Central Phuket,1,3F,Fashion

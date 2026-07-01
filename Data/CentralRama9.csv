@@ -2,7 +2,13 @@
 
 
 
+
+
+
+
 ```csv
+
+
 
 Source,Target,Weight,Floor,Category
 M LIFE,Central Rama 9,1,4F,Technology
@@ -11,12 +17,12 @@ A'MAZE,Central Rama 9,1,3F,Fashion
 ADIDAS,Central Rama 9,1,1F,Fashion
 ADIDAS,Central Rama 9,1,4F,Fashion
 ADIDAS,Central Rama 9,1,GF,Fashion
-ADIDAS NEO CREDIT,Central Rama 9,1,BF,Fashion
-ADIDAS ORIGINAL,Central Rama 9,1,BF,Fashion
+ADIDAS,Central Rama 9,1,BF,Fashion
+ADIDAS,Central Rama 9,1,BF,Fashion
 ADORE COSMETICS,Central Rama 9,1,2F,Beauty & Wellness
 AIS,Central Rama 9,1,4F,Technology
 AIS,Central Rama 9,1,BF,Technology
-AIS SERENADE,Central Rama 9,1,4F,Technology
+AIS,Central Rama 9,1,4F,Technology
 AKA,Central Rama 9,1,6F,Food & Beverage
 AKALIKO,Central Rama 9,1,5F,Beauty & Wellness
 ALTO COFFEE ROASTERS,Central Rama 9,1,BF,Food & Beverage
@@ -38,7 +44,7 @@ AVOCADO,Central Rama 9,1,BF,Fashion
 B2S,Central Rama 9,1,BF,Lifestyle & Specialty
 BAAN YING CAFE & MEAL,Central Rama 9,1,7F,Food & Beverage
 BAKE A WISH,Central Rama 9,1,GF,Food & Beverage
-BANANA,Central Rama 9,1,4F,Technology
+IT BANANA,Central Rama 9,1,4F,Technology
 BANDAI KIDZ&KITZ,Central Rama 9,1,4F,Lifestyle & Specialty
 BANGKOK BANK,Central Rama 9,1,5F,Bank & Financial Services
 BANGKOK INSURANCE,Central Rama 9,1,5F,Bank & Financial Services
@@ -109,7 +115,7 @@ FITFLOP,Central Rama 9,1,3F,Fashion
 FOCUS,Central Rama 9,1,4F,Technology
 FOOD REPUBLIC,Central Rama 9,1,6F,Food & Beverage
 FOUR SEASONS,Central Rama 9,1,BF,Food & Beverage
-FUJI JAPANESE RESTAURANT,Central Rama 9,1,6F,Food & Beverage
+FUJI,Central Rama 9,1,6F,Food & Beverage
 FUKU MATCHA,Central Rama 9,1,6F,Food & Beverage
 GANGNAM CLINIC,Central Rama 9,1,9F,Beauty & Wellness
 GENTLEWOMAN,Central Rama 9,1,2F,Fashion
@@ -142,13 +148,13 @@ IPPUDO,Central Rama 9,1,BF,Food & Beverage
 J.I.B.,Central Rama 9,1,4F,Technology
 JANE DEER DESSERT,Central Rama 9,1,6F,Food & Beverage
 JASPAL,Central Rama 9,1,1F,Fashion
-JAY MART,Central Rama 9,1,BF,Technology
+JAYMART,Central Rama 9,1,BF,Technology
 JELLY BUNNY,Central Rama 9,1,1F,Fashion
 JIAN CHA TEA,Central Rama 9,1,5F,Food & Beverage
 JONES SALAD,Central Rama 9,1,BF,Food & Beverage
 JOYLIDAY PLUS,Central Rama 9,1,7F,Entertainment
-JUBILEE,Central Rama 9,1,1F,Fashion
-JUBILEE,Central Rama 9,1,2F,Fashion
+JUBILEE DIAMOND,Central Rama 9,1,1F,Fashion
+JUBILEE DIAMOND,Central Rama 9,1,2F,Fashion
 KA-NOM,Central Rama 9,1,BF,Food & Beverage
 KABOCHA SUSHI,Central Rama 9,1,BF,Food & Beverage
 KAGONOYA,Central Rama 9,1,7F,Food & Beverage
@@ -163,7 +169,7 @@ KIPLING,Central Rama 9,1,2F,Fashion
 KMD,Central Rama 9,1,BF,Fashion
 KOI THE,Central Rama 9,1,GF,Food & Beverage
 KOOMI,Central Rama 9,1,BF,Food & Beverage
-KPN,Central Rama 9,1,12F,Education
+KPN MUSIC ACADEMY,Central Rama 9,1,12F,Education
 KRISPY KREME,Central Rama 9,1,1F,Food & Beverage
 KRUNG THAI BANK,Central Rama 9,1,5F,Bank & Financial Services
 KRUNGSRI,Central Rama 9,1,5F,Bank & Financial Services
@@ -200,7 +206,7 @@ MEGA NAILS SPA,Central Rama 9,1,5F,Beauty & Wellness
 MINISO,Central Rama 9,1,4F,Lifestyle & Specialty
 MIRABEL SKIN CLINIC,Central Rama 9,1,10F,Beauty & Wellness
 MISTER DONUT,Central Rama 9,1,BF,Food & Beverage
-MK RESTAURANTS,Central Rama 9,1,6F,Food & Beverage
+MK RESTAURANT,Central Rama 9,1,6F,Food & Beverage
 MO-MO-PARADISE,Central Rama 9,1,7F,Food & Beverage
 MODOLO KIDS,Central Rama 9,1,12F,Education
 MODULO,Central Rama 9,1,12F,Education
@@ -276,11 +282,11 @@ SAMSONITE,Central Rama 9,1,3F,Fashion
 SAMSUNG SERVICE,Central Rama 9,1,4F,Technology
 SANYOD WOK,Central Rama 9,1,BF,Food & Beverage
 SATO DON,Central Rama 9,1,7F,Food & Beverage
-SE-ED BOOK CENTER,Central Rama 9,1,5F,Lifestyle & Specialty
+SE-ED,Central Rama 9,1,5F,Lifestyle & Specialty
 SEIKO,Central Rama 9,1,1F,Fashion
 SF CINEMA,Central Rama 9,1,7F,Entertainment
 SHABUSHI,Central Rama 9,1,6F,Food & Beverage
-SHANE ENGLISH SCHOOL THAILAND,Central Rama 9,1,12F,Education
+SHANE ENGLISH SCHOOL,Central Rama 9,1,12F,Education
 SHU UEMURA,Central Rama 9,1,2F,Fashion
 SIAM COMMERCIAL BANK,Central Rama 9,1,5F,Bank & Financial Services
 SIAM LASER CLINIC,Central Rama 9,1,9F,Beauty & Wellness

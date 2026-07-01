@@ -1,5 +1,5 @@
 Source,Target,Weight,Floor,Category
-ADIDAS FACTORY OUTLET,Central Village,1,GF,Fashion
+ADIDAS,Central Village,1,GF,Fashion
 ALDO,Central Village,1,GF,Fashion
 ANELLO,Central Village,1,GF,Fashion
 ANTA,Central Village,1,GF,Fashion
@@ -7,7 +7,7 @@ ARMANI,Central Village,1,GF,Fashion
 ASICS,Central Village,1,GF,Fashion
 BABYBOTTE,Central Village,1,GF,Fashion
 BAGGAGE LUGGAGE,Central Village,1,GF,Lifestyle & Specialty
-BANANA,Central Village,1,GF,Technology
+IT BANANA,Central Village,1,GF,Technology
 BANGKOK SOUVENIR,Central Village,1,GF,Lifestyle & Specialty
 BAR-B-Q PLAZA,Central Village,1,GF,Food & Beverage
 BATA,Central Village,1,GF,Fashion
@@ -46,7 +46,7 @@ FERRAGAMO,Central Village,1,GF,Fashion
 FILA,Central Village,1,GF,Fashion
 FITFLOP,Central Village,1,GF,Fashion
 FPO,Central Village,1,GF,Fashion
-FUJI JAPANESE RESTAURANT,Central Village,1,GF,Food & Beverage
+FUJI,Central Village,1,GF,Food & Beverage
 G-SHOCK,Central Village,1,GF,Fashion
 G2000,Central Village,1,GF,Fashion
 GIORDANO,Central Village,1,GF,Fashion
@@ -91,7 +91,7 @@ MAX & CO.,Central Village,1,GF,Fashion
 MELISSA CLUBE,Central Village,1,GF,Fashion
 MICHAEL KORS,Central Village,1,GF,Fashion
 MINI SCOOTER,Central Village,1,GF,Lifestyle & Specialty
-MK RESTAURANTS,Central Village,1,GF,Food & Beverage
+MK RESTAURANT,Central Village,1,GF,Food & Beverage
 MLK,Central Village,1,GF,Lifestyle & Specialty
 MLK CONNECT,Central Village,1,GF,Lifestyle & Specialty
 MONOWHEEL,Central Village,1,GF,Entertainment

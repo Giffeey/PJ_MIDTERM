@@ -20,8 +20,8 @@ AURORA,Central Phitsanulok,1,1F,Fashion
 B PLAY,Central Phitsanulok,1,2F,Technology
 B2S,Central Phitsanulok,1,3F,Lifestyle & Specialty
 BAAN KRONG NAM,Central Phitsanulok,1,2F,Lifestyle & Specialty
-BANANA,Central Phitsanulok,1,2F,Technology
-BANANA,Central Phitsanulok,1,2F,Technology
+IT BANANA,Central Phitsanulok,1,2F,Technology
+IT BANANA,Central Phitsanulok,1,2F,Technology
 BANGKOK BANK,Central Phitsanulok,1,3F,Bank & Financial Services
 BANGKOK GOLD,Central Phitsanulok,1,1F,Fashion
 BANGKOK INSURANCE,Central Phitsanulok,1,3F,Bank & Financial Services
@@ -59,9 +59,9 @@ F&Y PHONE,Central Phitsanulok,1,2F,Technology
 FA GLASS,Central Phitsanulok,1,2F,Technology
 FITFLOP,Central Phitsanulok,1,1F,Fashion
 FOCUS,Central Phitsanulok,1,2F,Technology
-FOODPARK,Central Phitsanulok,1,3F,Food & Beverage
+FOOD PARK,Central Phitsanulok,1,3F,Food & Beverage
 FRESH ME,Central Phitsanulok,1,1F,Food & Beverage
-FUJI JAPANESE RESTAURANT,Central Phitsanulok,1,3F,Food & Beverage
+FUJI,Central Phitsanulok,1,3F,Food & Beverage
 FUN CITY,Central Phitsanulok,1,4F,Entertainment
 G-SHOCK,Central Phitsanulok,1,1F,Fashion
 GARMIN,Central Phitsanulok,1,1F,Fashion
@@ -77,8 +77,8 @@ I CARE,Central Phitsanulok,1,3F,Lifestyle & Specialty
 I FIXER,Central Phitsanulok,1,2F,Lifestyle & Specialty
 IT CITY,Central Phitsanulok,1,2F,Technology
 JASPAL,Central Phitsanulok,1,1F,Fashion
-JAY MART,Central Phitsanulok,1,2F,Technology
-JAY MART,Central Phitsanulok,1,2F,Technology
+JAYMART,Central Phitsanulok,1,2F,Technology
+JAYMART,Central Phitsanulok,1,2F,Technology
 JIB,Central Phitsanulok,1,2F,Technology
 JUBILEE DIAMOND,Central Phitsanulok,1,1F,Fashion
 K305,Central Phitsanulok,1,3F,Food & Beverage
@@ -107,7 +107,7 @@ MC DONALD'S,Central Phitsanulok,1,1F,Food & Beverage
 MC JEANS,Central Phitsanulok,1,2F,Fashion
 MIKUCHA,Central Phitsanulok,1,GF,Food & Beverage
 MISTER DONUT,Central Phitsanulok,1,3F,Food & Beverage
-MK RESTAURANTS,Central Phitsanulok,1,3F,Food & Beverage
+MK RESTAURANT,Central Phitsanulok,1,3F,Food & Beverage
 MOSHI MOSHI,Central Phitsanulok,1,2F,Lifestyle & Specialty
 MR.KAO,Central Phitsanulok,1,3F,Food & Beverage
 NAI PHONE,Central Phitsanulok,1,2F,Technology
@@ -143,7 +143,7 @@ SABINA,Central Phitsanulok,1,2F,Fashion
 SAMSUNG,Central Phitsanulok,1,2F,Technology
 SAMSUNG,Central Phitsanulok,1,2F,Technology
 SANTA FE' STEAK,Central Phitsanulok,1,3F,Food & Beverage
-SE-ED BOOK CENTER,Central Phitsanulok,1,3F,Lifestyle & Specialty
+SE-ED,Central Phitsanulok,1,3F,Lifestyle & Specialty
 SHABUSHI,Central Phitsanulok,1,3F,Food & Beverage
 SIAM COMMERCIAL BANK,Central Phitsanulok,1,3F,Bank & Financial Services
 SIZZLER,Central Phitsanulok,1,3F,Food & Beverage

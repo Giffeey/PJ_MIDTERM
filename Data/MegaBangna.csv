@@ -1,6 +1,6 @@
 Source,Target,Weight,Floor,Category
-ADIDAS ORIGINALS,Mega Bangna,1,2F,Fashion
-ADIDAS PERFORMANCE,Mega Bangna,1,2F,Fashion
+ADIDAS,Mega Bangna,1,2F,Fashion
+ADIDAS,Mega Bangna,1,2F,Fashion
 ARI FOOTBALL,Mega Bangna,1,2F,Fashion
 B2S,Mega Bangna,1,2F,Lifestyle & Specialty
 BAIMIANG HEALTHY SHOP,Mega Bangna,1,1F,Food & Beverage
@@ -18,7 +18,6 @@ FITNESS FIRST,Mega Bangna,1,1F,Lifestyle & Specialty
 GENTLEWOMAN,Mega Bangna,1,1F,Fashion
 GREYHOUND CAFE,Mega Bangna,1,1F,Food & Beverage
 HOMEPRO,Mega Bangna,1,1F,Lifestyle & Specialty
-IKEA,Mega Bangna,1,1F,Lifestyle & Specialty
 JAS SOFA GALLERY,Mega Bangna,1,1F,Lifestyle & Specialty
 JD SPORTS,Mega Bangna,1,1F,Fashion
 JIB,Mega Bangna,1,2F,Technology
@@ -93,7 +92,7 @@ BABY HILLS,Mega Bangna,1,2F,Entertainment
 BAGGAGE AND LUGGAGE,Mega Bangna,1,2F,Lifestyle & Specialty
 BAGNIFIQUE,Mega Bangna,1,GF,Fashion
 BAKE A WISH,Mega Bangna,1,1F,Food & Beverage
-BANANA,Mega Bangna,1,2F,Technology
+IT BANANA,Mega Bangna,1,2F,Technology
 BANANA RUN,Mega Bangna,1,2F,Fashion
 BANGKOK DANCE ACADEMY,Mega Bangna,1,2F,Education
 BANGKOK INSURANCE,Mega Bangna,1,1F,Bank & Financial Services
@@ -198,7 +197,7 @@ FOCUS,Mega Bangna,1,2F,Technology
 FOOD PATIO,Mega Bangna,1,2F,Food & Beverage
 FRAMES N LENSES,Mega Bangna,1,GF,Fashion
 FREDERIC HAIR DESIGN,Mega Bangna,1,1F,Beauty & Wellness
-FUJI JAPANESE RESTAURANT,Mega Bangna,1,2F,Food & Beverage
+FUJI,Mega Bangna,1,2F,Food & Beverage
 FUKU MATCHA,Mega Bangna,1,2F,Food & Beverage
 FUNDAO,Mega Bangna,1,1F,Fashion
 G H BANK,Mega Bangna,1,1F,Bank & Financial Services
@@ -264,7 +263,7 @@ JAMES KEY SERVICE,Mega Bangna,1,GF,Lifestyle & Specialty
 JAPARA,Mega Bangna,1,2F,Beauty & Wellness
 JASPAL,Mega Bangna,1,1F,Fashion
 JAYMART,Mega Bangna,1,2F,Technology
-JAYMART SMART PHONE&TABLET,Mega Bangna,1,2F,Technology
+JAYMART,Mega Bangna,1,2F,Technology
 JEWELRY CLINIC,Mega Bangna,1,GF,Lifestyle & Specialty
 JIAN CHA,Mega Bangna,1,1F,Food & Beverage
 JOYLIDAY,Mega Bangna,1,2F,Entertainment
@@ -347,7 +346,7 @@ MISTY MYNX,Mega Bangna,1,1F,Fashion
 MITH BANGKOK,Mega Bangna,1,2F,Beauty & Wellness
 MIXUE,Mega Bangna,1,2F,Food & Beverage
 MK LIVE,Mega Bangna,1,2F,Food & Beverage
-MK RESTAURANTS,Mega Bangna,1,2F,Food & Beverage
+MK RESTAURANT,Mega Bangna,1,2F,Food & Beverage
 MLAB,Mega Bangna,1,1F,Fashion
 MLB,Mega Bangna,1,1F,Fashion
 MOLLY TEA,Mega Bangna,1,1F,Food & Beverage
@@ -413,8 +412,8 @@ PORNKASEM CLINIC,Mega Bangna,1,1F,Beauty & Wellness
 POTATO CORNER,Mega Bangna,1,1F,Food & Beverage
 PRADAP,Mega Bangna,1,GF,Fashion
 PRANAKORN BOAT NOODLE,Mega Bangna,1,1F,Food & Beverage
-PROCLEAN,Mega Bangna,1,GF,Lifestyle & Specialty
-PROCLEAN,Mega Bangna,1,GF,Lifestyle & Specialty
+PRO CLEAN,Mega Bangna,1,GF,Lifestyle & Specialty
+PRO CLEAN,Mega Bangna,1,GF,Lifestyle & Specialty
 PRONTO,Mega Bangna,1,1F,Fashion
 PULL & BEAR,Mega Bangna,1,1F,Fashion
 PUNG SIAM,Mega Bangna,1,1F,Food & Beverage

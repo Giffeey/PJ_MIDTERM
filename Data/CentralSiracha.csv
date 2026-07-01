@@ -1,9 +1,9 @@
 Source,Target,Weight,Floor,Category
 ADIDAS,Central Siracha,1,1F,Fashion
-AEON THANA SINSAP,Central Siracha,1,2F,Bank & Financial Services
+AEON,Central Siracha,1,2F,Bank & Financial Services
 AES CLASS CLINIC,Central Siracha,1,2F,Beauty & Wellness
 AIS,Central Siracha,1,2F,Technology
-AIS SERENADE,Central Siracha,1,2F,Technology
+AIS,Central Siracha,1,2F,Technology
 AKA,Central Siracha,1,3F,Food & Beverage
 AKIMITSU TENDON,Central Siracha,1,1F,Food & Beverage
 ALBEDO,Central Siracha,1,1F,Fashion
@@ -16,8 +16,8 @@ AUTO1,Central Siracha,1,LG,Lifestyle & Specialty
 B.BURNT,Central Siracha,1,1F,Food & Beverage
 B2S,Central Siracha,1,3F,Lifestyle & Specialty
 BAAN CAKE BY NUNAN,Central Siracha,1,GF,Food & Beverage
-BANANA,Central Siracha,1,2F,Technology
-BANANA,Central Siracha,1,2F,Technology
+IT BANANA,Central Siracha,1,2F,Technology
+IT BANANA,Central Siracha,1,2F,Technology
 BANGKOK BANK,Central Siracha,1,2F,Bank & Financial Services
 BANGKOK GOLDS,Central Siracha,1,GF,Fashion
 BAOJI,Central Siracha,1,1F,Fashion
@@ -58,7 +58,7 @@ EYE CLASS,Central Siracha,1,1F,Fashion
 FITFLOP,Central Siracha,1,GF,Fashion
 FOOD PARK,Central Siracha,1,GF,Food & Beverage
 FRUZBERRY,Central Siracha,1,3F,Food & Beverage
-FUJI JAPANESE RESTAURANT,Central Siracha,1,3F,Food & Beverage
+FUJI,Central Siracha,1,3F,Food & Beverage
 FUKU MATCHA,Central Siracha,1,3F,Food & Beverage
 FUN CITY,Central Siracha,1,1F,Entertainment
 FUN STATION,Central Siracha,1,3F,Entertainment
@@ -82,7 +82,7 @@ ISTUDIO BY COPPERWIRED,Central Siracha,1,1F,Technology
 IT CITY,Central Siracha,1,2F,Technology
 ITALASIA,Central Siracha,1,GF,Food & Beverage
 JAITHUENG,Central Siracha,1,3F,Food & Beverage
-JAY MART,Central Siracha,1,2F,Technology
+JAYMART,Central Siracha,1,2F,Technology
 JELLY BUNNY,Central Siracha,1,GF,Fashion
 JETTS 24 HOUR FITNESS,Central Siracha,1,2F,Lifestyle & Specialty
 JIB,Central Siracha,1,2F,Technology
@@ -108,11 +108,11 @@ MAEKAISAENWAN,Central Siracha,1,GF,Fashion
 MAKOTO,Central Siracha,1,GF,Lifestyle & Specialty
 MC JEANS,Central Siracha,1,1F,Fashion
 MELODY KARAOKE,Central Siracha,1,3F,Entertainment
-MIKI MIKI STORE,Central Siracha,1,3F,Lifestyle & Specialty
+MIKI MIKI,Central Siracha,1,3F,Lifestyle & Specialty
 MILK KIDS SALON & NAILS,Central Siracha,1,1F,Beauty & Wellness
 MISTER DONUT,Central Siracha,1,GF,Food & Beverage
 MIXUE,Central Siracha,1,GF,Food & Beverage
-MK RESTAURANTS,Central Siracha,1,3F,Food & Beverage
+MK RESTAURANT,Central Siracha,1,3F,Food & Beverage
 MORTIMER,Central Siracha,1,3F,Fashion
 MOS BURGER,Central Siracha,1,1F,Food & Beverage
 MOSHI MOSHI,Central Siracha,1,1F,Lifestyle & Specialty

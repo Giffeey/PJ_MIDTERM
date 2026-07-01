@@ -1,20 +1,20 @@
 Source,Target,Weight,Floor,Category
 A MONEY,Central Khonkaen,1,2F,Bank & Financial Services
 ADIDAS,Central Khonkaen,1,2F,Fashion
-AEON THANA SINSAP,Central Khonkaen,1,2F,Bank & Financial Services
+AEON,Central Khonkaen,1,2F,Bank & Financial Services
 AIIZ,Central Khonkaen,1,1F,Fashion
 AIS,Central Khonkaen,1,3F,Technology
-AIS SERENADE,Central Khonkaen,1,3F,Technology
+AIS,Central Khonkaen,1,3F,Technology
 AKA,Central Khonkaen,1,4F,Food & Beverage
 AMAXS,Central Khonkaen,1,2F,Lifestyle & Specialty
 ANELLO,Central Khonkaen,1,1F,Fashion
-ARI FOOTBALL CONCEPT STORE,Central Khonkaen,1,2F,Fashion
+ARI FOOTBALL,Central Khonkaen,1,2F,Fashion
 ATM TEA BAR,Central Khonkaen,1,4F,Food & Beverage
 AUNTIE ANNE'S,Central Khonkaen,1,2F,Food & Beverage
 AURORA,Central Khonkaen,1,2F,Fashion
 B SA B,Central Khonkaen,1,2F,Beauty & Wellness
 B2S,Central Khonkaen,1,GF,Lifestyle & Specialty
-BANANA,Central Khonkaen,1,3F,Technology
+IT BANANA,Central Khonkaen,1,3F,Technology
 BANGKOK BANK,Central Khonkaen,1,2F,Bank & Financial Services
 BANGKOK GOLDS,Central Khonkaen,1,2F,Fashion
 BANGKOK INSURANCE,Central Khonkaen,1,2F,Bank & Financial Services
@@ -67,10 +67,10 @@ FILA,Central Khonkaen,1,1F,Fashion
 FITFLOP,Central Khonkaen,1,1F,Fashion
 FITNESS FIRST,Central Khonkaen,1,4F,Lifestyle & Specialty
 FOCUS,Central Khonkaen,1,3F,Technology
-FOODPARK,Central Khonkaen,1,4F,Food & Beverage
+FOOD PARK,Central Khonkaen,1,4F,Food & Beverage
 FORDNOK,Central Khonkaen,1,GF,Lifestyle & Specialty
 FROM SCRATCH,Central Khonkaen,1,GF,Food & Beverage
-FUJI JAPANESE RESTAURANT,Central Khonkaen,1,4F,Food & Beverage
+FUJI,Central Khonkaen,1,4F,Food & Beverage
 FUKU MATCHA,Central Khonkaen,1,4F,Food & Beverage
 FUN CITY,Central Khonkaen,1,5F,Entertainment
 FUN PAVILION,Central Khonkaen,1,5F,Entertainment
@@ -101,7 +101,7 @@ I CARE,Central Khonkaen,1,3F,Technology
 I SERVICE MAC,Central Khonkaen,1,3F,Technology
 IMAROI,Central Khonkaen,1,4F,Food & Beverage
 JASPAL,Central Khonkaen,1,1F,Fashion
-JAY MART,Central Khonkaen,1,3F,Technology
+JAYMART,Central Khonkaen,1,3F,Technology
 JERICHO,Central Khonkaen,1,2F,Beauty & Wellness
 JIB,Central Khonkaen,1,3F,Technology
 JIENG LOOK CHIN PLA+KANOM-JEEN-BUFFET,Central Khonkaen,1,4F,Food & Beverage
@@ -140,7 +140,7 @@ MILLE,Central Khonkaen,1,1F,Beauty & Wellness
 MIND,Central Khonkaen,1,3F,Technology
 MINISO,Central Khonkaen,1,2F,Lifestyle & Specialty
 MISTER DONUT,Central Khonkaen,1,GF,Food & Beverage
-MK RESTAURANTS,Central Khonkaen,1,4F,Food & Beverage
+MK RESTAURANT,Central Khonkaen,1,4F,Food & Beverage
 MLB,Central Khonkaen,1,1F,Fashion
 MODERN CUT,Central Khonkaen,1,GF,Beauty & Wellness
 MOMIZU HOUSE,Central Khonkaen,1,GF,Food & Beverage
@@ -193,7 +193,7 @@ S&P,Central Khonkaen,1,GF,Food & Beverage
 SABINA,Central Khonkaen,1,2F,Fashion
 SAMSUNG,Central Khonkaen,1,3F,Technology
 SANTA FE' STEAK,Central Khonkaen,1,4F,Food & Beverage
-SE-ED BOOK CENTER,Central Khonkaen,1,3F,Lifestyle & Specialty
+SE-ED,Central Khonkaen,1,3F,Lifestyle & Specialty
 SF CINEMA,Central Khonkaen,1,5F,Entertainment
 SHABUSHI,Central Khonkaen,1,4F,Food & Beverage
 SHANE ENGLISH SCHOOL,Central Khonkaen,1,5F,Education

@@ -3,7 +3,7 @@ Source,Target,Weight,Floor,Category
 ABC COOKING STUDIO,Central Eastville,1,2F,Education
 ADIDAS,Central Eastville,1,1F,Fashion
 AIS,Central Eastville,1,2F,Technology
-AIS SERENADE,Central Eastville,1,2F,Technology
+AIS,Central Eastville,1,2F,Technology
 AJC JEWELRY CARE CENTER,Central Eastville,1,GF,Lifestyle & Specialty
 AKA,Central Eastville,1,2F,Food & Beverage
 AKIYOSHI,Central Eastville,1,2F,Food & Beverage
@@ -20,7 +20,7 @@ B2S,Central Eastville,1,2F,Lifestyle & Specialty
 BABIES GENIUS,Central Eastville,1,2F,Education
 BAGGU BAG&SHOE SPA,Central Eastville,1,GF,Lifestyle & Specialty
 BAIMIANG,Central Eastville,1,1F,Food & Beverage
-BANANA,Central Eastville,1,2F,Technology
+IT BANANA,Central Eastville,1,2F,Technology
 BANGKOK BANK,Central Eastville,1,3F,Bank & Financial Services
 BANK OF AYUDHYA,Central Eastville,1,3F,Bank & Financial Services
 BAR-B-Q PLAZA,Central Eastville,1,2F,Food & Beverage
@@ -95,7 +95,7 @@ INNISFREE,Central Eastville,1,1F,Beauty & Wellness
 IPPUDO,Central Eastville,1,1F,Food & Beverage
 ITEM BY JAYMART,Central Eastville,1,2F,Technology
 JASPAL,Central Eastville,1,1F,Fashion
-JAY MART,Central Eastville,1,2F,Technology
+JAYMART,Central Eastville,1,2F,Technology
 JIB,Central Eastville,1,2F,Technology
 K. ACCESSORIES,Central Eastville,1,2F,Technology
 KAFFEINE BY KANOM,Central Eastville,1,1F,Food & Beverage
@@ -136,7 +136,7 @@ MARIMEKKO,Central Eastville,1,1F,Fashion
 MATH TALENT BY DR. YING,Central Eastville,1,2F,Education
 MATSUMOTO KIYOSHI,Central Eastville,1,2F,Beauty & Wellness
 MISTER SERVICE,Central Eastville,1,GF,Lifestyle & Specialty
-MK RESTAURANTS,Central Eastville,1,2F,Food & Beverage
+MK RESTAURANT,Central Eastville,1,2F,Food & Beverage
 MOBILE ONE,Central Eastville,1,2F,Technology
 MORE PHONE,Central Eastville,1,2F,Technology
 MOS BURGER,Central Eastville,1,2F,Food & Beverage

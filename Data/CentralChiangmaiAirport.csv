@@ -1,12 +1,12 @@
 Source,Target,Weight,Floor,Category
-ADIDAS FACTORY OUTLET,Central Chiangmai Airport,1,3F,Fashion
-AEON THANA SINSAP,Central Chiangmai Airport,1,3F,Bank & Financial Services
+ADIDAS,Central Chiangmai Airport,1,3F,Fashion
+AEON,Central Chiangmai Airport,1,3F,Bank & Financial Services
 ANELLO,Central Chiangmai Airport,1,2F,Fashion
 ANYAMANEE,Central Chiangmai Airport,1,2F,Fashion
 ASIA BOOKS,Central Chiangmai Airport,1,1F,Lifestyle & Specialty
 AUNTIE ANNE'S,Central Chiangmai Airport,1,1F,Food & Beverage
 AURORA,Central Chiangmai Airport,1,2F,Fashion
-BANANA,Central Chiangmai Airport,1,3F,Technology
+IT BANANA,Central Chiangmai Airport,1,3F,Technology
 BANGKOK GOLD,Central Chiangmai Airport,1,2F,Fashion
 BANK OF AYUDHYA,Central Chiangmai Airport,1,GF,Bank & Financial Services
 BAR-B-Q PLAZA,Central Chiangmai Airport,1,4F,Food & Beverage
@@ -34,7 +34,7 @@ EXPORT SHOP,Central Chiangmai Airport,1,GF,Fashion
 EYE CLASS,Central Chiangmai Airport,1,GF,Fashion
 EYE DESIGN,Central Chiangmai Airport,1,GF,Fashion
 EYE LAB EXCLUSIVE,Central Chiangmai Airport,1,GF,Fashion
-FOODPARK,Central Chiangmai Airport,1,4F,Food & Beverage
+FOOD PARK,Central Chiangmai Airport,1,4F,Food & Beverage
 FUKU MATCHA,Central Chiangmai Airport,1,4F,Food & Beverage
 GIORDANO,Central Chiangmai Airport,1,1F,Fashion
 GLOBLEX SECURITIES,Central Chiangmai Airport,1,1F,Bank & Financial Services
@@ -46,9 +46,9 @@ HOLLYWOOD,Central Chiangmai Airport,1,1F,Fashion
 HUAWEI,Central Chiangmai Airport,1,3F,Technology
 INNISFREE,Central Chiangmai Airport,1,1F,Beauty & Wellness
 IT CITY,Central Chiangmai Airport,1,3F,Technology
-JAY MART,Central Chiangmai Airport,1,3F,Technology
+JAYMART,Central Chiangmai Airport,1,3F,Technology
 JOYLIDAY PLUS,Central Chiangmai Airport,1,4F,Entertainment
-JUBILEE,Central Chiangmai Airport,1,2F,Fashion
+JUBILEE DIAMOND,Central Chiangmai Airport,1,2F,Fashion
 K LOVE PHONE,Central Chiangmai Airport,1,3F,Technology
 KFC,Central Chiangmai Airport,1,1F,Food & Beverage
 KHUNPOOM,Central Chiangmai Airport,1,1F,Fashion
@@ -68,7 +68,7 @@ MC,Central Chiangmai Airport,1,2F,Fashion
 MC DONALD'S,Central Chiangmai Airport,1,GF,Food & Beverage
 MINISO,Central Chiangmai Airport,1,GF,Lifestyle & Specialty
 MISTER DONUT,Central Chiangmai Airport,1,GF,Food & Beverage
-MK RESTAURANTS,Central Chiangmai Airport,1,4F,Food & Beverage
+MK RESTAURANT,Central Chiangmai Airport,1,4F,Food & Beverage
 MONKEY SHAKE,Central Chiangmai Airport,1,4F,Food & Beverage
 MOSHI MOSHI,Central Chiangmai Airport,1,3F,Lifestyle & Specialty
 MR. DIY,Central Chiangmai Airport,1,GF,Lifestyle & Specialty
@@ -132,7 +132,7 @@ X=ACT,Central Chiangmai Airport,1,1F,Fashion
 XIAOMI,Central Chiangmai Airport,1,3F,Technology
 YAMAHA,Central Chiangmai Airport,1,3F,Education
 YAMAZAKI,Central Chiangmai Airport,1,GF,Food & Beverage
-YAOWARAJ KRUNGTHEP,Central Chiangmai Airport,1,2F,Fashion
+YAOWARAT KRUNGTHEP,Central Chiangmai Airport,1,2F,Fashion
 YAYOI,Central Chiangmai Airport,1,4F,Food & Beverage
 YVES ROCHER,Central Chiangmai Airport,1,GF,Beauty & Wellness
 ZEIN,Central Chiangmai Airport,1,1F,Fashion

@@ -1,11 +1,11 @@
 Source,Target,Weight,Floor,Category
 ADIDAS,Central Pattaya,1,2F,Fashion
-ADIDAS ORIGINAL,Central Pattaya,1,2F,Fashion
+ADIDAS,Central Pattaya,1,2F,Fashion
 AIS,Central Pattaya,1,3F,Technology
 ALA TURCA TURKISH CUISINE,Central Pattaya,1,5F,Food & Beverage
 AQUA COSMETICS,Central Pattaya,1,3F,Beauty & Wellness
 AUNTIE ANNE'S,Central Pattaya,1,4F,Food & Beverage
-BANANA,Central Pattaya,1,3F,Technology
+IT BANANA,Central Pattaya,1,3F,Technology
 BANGKOK BANK,Central Pattaya,1,4F,Bank & Financial Services
 BANK OF AYUDHYA,Central Pattaya,1,4F,Bank & Financial Services
 BEAUTRIUM,Central Pattaya,1,GF,Beauty & Wellness
@@ -47,8 +47,8 @@ EYE LAB EXCLUSIVE,Central Pattaya,1,2F,Fashion
 F1,Central Pattaya,1,6F,Entertainment
 FIRE PORK,Central Pattaya,1,5F,Food & Beverage
 FITFLOP,Central Pattaya,1,2F,Fashion
-FOODPARK,Central Pattaya,1,GF,Food & Beverage
-FUJI JAPANESE RESTAURANT,Central Pattaya,1,5F,Food & Beverage
+FOOD PARK,Central Pattaya,1,GF,Food & Beverage
+FUJI,Central Pattaya,1,5F,Food & Beverage
 FUN CITY,Central Pattaya,1,6F,Entertainment
 GAGA,Central Pattaya,1,5F,Food & Beverage
 GIORDANO,Central Pattaya,1,2F,Fashion
@@ -69,7 +69,7 @@ I CARE,Central Pattaya,1,4F,Technology
 IPPUDO,Central Pattaya,1,GF,Food & Beverage
 JAMBA JUICE,Central Pattaya,1,GF,Food & Beverage
 JASPAL,Central Pattaya,1,1F,Fashion
-JAY MART,Central Pattaya,1,3F,Technology
+JAYMART,Central Pattaya,1,3F,Technology
 JELLY BUNNY,Central Pattaya,1,2F,Fashion
 JIM THOMPSON,Central Pattaya,1,1F,Fashion
 KASIKORN BANK,Central Pattaya,1,4F,Bank & Financial Services
@@ -89,7 +89,7 @@ LYN AROUND,Central Pattaya,1,1F,Fashion
 MARIO LAND,Central Pattaya,1,6F,Entertainment
 MINISO,Central Pattaya,1,3F,Lifestyle & Specialty
 MIYAZAKI,Central Pattaya,1,6F,Food & Beverage
-MK RESTAURANTS,Central Pattaya,1,5F,Food & Beverage
+MK RESTAURANT,Central Pattaya,1,5F,Food & Beverage
 MLB,Central Pattaya,1,1F,Fashion
 MOSHI MOSHI,Central Pattaya,1,4F,Lifestyle & Specialty
 NEW BALANCE,Central Pattaya,1,GF,Fashion

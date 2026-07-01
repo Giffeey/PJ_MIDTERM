@@ -8,13 +8,13 @@ ACTIKA,Central Ladprao,1,2F,Fashion
 ACTTO,Central Ladprao,1,3F,Technology
 ADIDAS,Central Ladprao,1,1F,Fashion
 ADIDAS,Central Ladprao,1,3F,Fashion
-ADIDAS NEO CREDIT,Central Ladprao,1,2F,Fashion
-ADIDAS ORIGINAL,Central Ladprao,1,2F,Fashion
+ADIDAS,Central Ladprao,1,2F,Fashion
+ADIDAS,Central Ladprao,1,2F,Fashion
 AFTER YOU,Central Ladprao,1,1F,Food & Beverage
 AIIZ,Central Ladprao,1,2F,Fashion
 AIRWHEEL,Central Ladprao,1,3F,Lifestyle & Specialty
 AIS,Central Ladprao,1,2F,Technology
-AIS SERENADE,Central Ladprao,1,3F,Technology
+AIS,Central Ladprao,1,3F,Technology
 AKA,Central Ladprao,1,3F,Food & Beverage
 ALBA,Central Ladprao,1,1F,Fashion
 ALBEDO,Central Ladprao,1,3F,Fashion
@@ -58,7 +58,7 @@ BAAN ICE,Central Ladprao,1,4F,Food & Beverage
 BACKBONE,Central Ladprao,1,3F,Fashion
 BAGTASH,Central Ladprao,1,3F,Fashion
 BAKE A WISH,Central Ladprao,1,3F,Food & Beverage
-BANANA,Central Ladprao,1,3F,Technology
+IT BANANA,Central Ladprao,1,3F,Technology
 BANGKOK BANK,Central Ladprao,1,2F,Bank & Financial Services
 BANGKOK GOLDS,Central Ladprao,1,3F,Fashion
 BANGKOK INSURANCE,Central Ladprao,1,2F,Bank & Financial Services
@@ -263,7 +263,7 @@ FOTO FILE,Central Ladprao,1,GF,Technology
 FRED PERRY,Central Ladprao,1,2F,Fashion
 FREDERIQUE CONSTANT,Central Ladprao,1,1F,Fashion
 FRESH,Central Ladprao,1,1F,Beauty & Wellness
-FUJI JAPANESE RESTAURANT,Central Ladprao,1,3F,Food & Beverage
+FUJI,Central Ladprao,1,3F,Food & Beverage
 G&J JEWELRY,Central Ladprao,1,3F,Fashion
 G-SHOCK CASIO,Central Ladprao,1,1F,Fashion
 G2000,Central Ladprao,1,2F,Fashion
@@ -292,9 +292,9 @@ GOPRO,Central Ladprao,1,3F,Technology
 GOTCHA,Central Ladprao,1,2F,Fashion
 GOVERNMENT SAVINGS BANK,Central Ladprao,1,2F,Bank & Financial Services
 GQ,Central Ladprao,1,3F,Fashion
-GQ JEANS,Central Ladprao,1,3F,Fashion
-GQ SOCKS,Central Ladprao,1,3F,Fashion
-GQ UNDERWEAR,Central Ladprao,1,3F,Fashion
+GQ,Central Ladprao,1,3F,Fashion
+GQ,Central Ladprao,1,3F,Fashion
+GQ,Central Ladprao,1,3F,Fashion
 GRAND SEIKO,Central Ladprao,1,1F,Fashion
 GRATIAE,Central Ladprao,1,2F,Beauty & Wellness
 GREYHOUND,Central Ladprao,1,2F,Fashion
@@ -353,7 +353,7 @@ JACOB,Central Ladprao,1,3F,Fashion
 JAMBA JUICE,Central Ladprao,1,2F,Food & Beverage
 JASPAL,Central Ladprao,1,1F,Fashion
 JAY CHIU,Central Ladprao,1,3F,Fashion
-JAY MART,Central Ladprao,1,3F,Technology
+JAYMART,Central Ladprao,1,3F,Technology
 JBL,Central Ladprao,1,3F,Technology
 JBL CREDIT,Central Ladprao,1,3F,Technology
 JEAN PAUL GAULTIER,Central Ladprao,1,1F,Fashion
@@ -368,7 +368,7 @@ JOLI SNOB,Central Ladprao,1,2F,Fashion
 JONES SALAD,Central Ladprao,1,GF,Food & Beverage
 JOOM ZAP HUT/BAR B Q,Central Ladprao,1,3F,Food & Beverage
 JOURNAL,Central Ladprao,1,1F,Beauty & Wellness
-JUBILEE,Central Ladprao,1,1F,Fashion
+JUBILEE DIAMOND,Central Ladprao,1,1F,Fashion
 JUICY COUTURE,Central Ladprao,1,1F,Fashion
 JUNG SAEM MOOL,Central Ladprao,1,2F,Beauty & Wellness
 JUST IN CASE,Central Ladprao,1,GF,Fashion
@@ -491,7 +491,7 @@ MINE,Central Ladprao,1,3F,Technology
 MISTER EYES,Central Ladprao,1,3F,Fashion
 MISTER LOBSTER,Central Ladprao,1,GF,Food & Beverage
 MIU MIU,Central Ladprao,1,1F,Fashion
-MK RESTAURANTS,Central Ladprao,1,1F,Food & Beverage
+MK RESTAURANT,Central Ladprao,1,1F,Food & Beverage
 MLB,Central Ladprao,1,2F,Fashion
 MO-MO-PARADISE,Central Ladprao,1,3F,Food & Beverage
 MOMOKO,Central Ladprao,1,1F,Lifestyle & Specialty

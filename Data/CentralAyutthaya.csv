@@ -3,7 +3,7 @@ Source,Target,Weight,Floor,Category
 ADIDAS,Central Ayutthaya,1,GF,Fashion
 AGLAM,Central Ayutthaya,1,1F,Lifestyle & Specialty
 AIS,Central Ayutthaya,1,1F,Technology
-AIS SERENADE,Central Ayutthaya,1,1F,Technology
+AIS,Central Ayutthaya,1,1F,Technology
 AKA,Central Ayutthaya,1,2F,Food & Beverage
 AMAXS,Central Ayutthaya,1,1F,Lifestyle & Specialty
 APEX,Central Ayutthaya,1,1F,Beauty & Wellness
@@ -13,8 +13,8 @@ ASIA GOLD,Central Ayutthaya,1,GF,Fashion
 AUNTIE ANNE'S,Central Ayutthaya,1,GF,Food & Beverage
 AURORA,Central Ayutthaya,1,GF,Fashion
 B2S,Central Ayutthaya,1,2F,Lifestyle & Specialty
-BANANA,Central Ayutthaya,1,1F,Technology
-BANANA,Central Ayutthaya,1,1F,Technology
+IT BANANA,Central Ayutthaya,1,1F,Technology
+IT BANANA,Central Ayutthaya,1,1F,Technology
 BANANA NAIL,Central Ayutthaya,1,1F,Beauty & Wellness
 BANGKOK BANK,Central Ayutthaya,1,2F,Bank & Financial Services
 BANGKOK GOLD,Central Ayutthaya,1,GF,Fashion
@@ -45,9 +45,9 @@ DR. PONG,Central Ayutthaya,1,GF,Beauty & Wellness
 EMMO,Central Ayutthaya,1,GF,Fashion
 EYE CLASS,Central Ayutthaya,1,1F,Fashion
 FOCUS,Central Ayutthaya,1,1F,Technology
-FOODPARK,Central Ayutthaya,1,2F,Food & Beverage
+FOOD PARK,Central Ayutthaya,1,2F,Food & Beverage
 FRESH ME,Central Ayutthaya,1,2F,Food & Beverage
-FUJI JAPANESE RESTAURANT,Central Ayutthaya,1,2F,Food & Beverage
+FUJI,Central Ayutthaya,1,2F,Food & Beverage
 FUKU MATCHA,Central Ayutthaya,1,GF,Food & Beverage
 FUN CITY,Central Ayutthaya,1,2F,Entertainment
 G-SHOCK CASIO,Central Ayutthaya,1,GF,Fashion
@@ -60,7 +60,7 @@ HAVAYANAS,Central Ayutthaya,1,GF,Fashion
 HUAWEI,Central Ayutthaya,1,1F,Technology
 I CARE,Central Ayutthaya,1,1F,Technology
 IT CITY,Central Ayutthaya,1,1F,Technology
-JAY MART,Central Ayutthaya,1,1F,Technology
+JAYMART,Central Ayutthaya,1,1F,Technology
 JELLY BUNNY,Central Ayutthaya,1,GF,Fashion
 JIB,Central Ayutthaya,1,1F,Technology
 JONES SALAD,Central Ayutthaya,1,GF,Food & Beverage
@@ -81,7 +81,7 @@ LYN AROUND,Central Ayutthaya,1,GF,Fashion
 MC JEANS,Central Ayutthaya,1,GF,Fashion
 MIDO,Central Ayutthaya,1,GF,Fashion
 MISTER DONUT,Central Ayutthaya,1,GF,Food & Beverage
-MK RESTAURANTS,Central Ayutthaya,1,2F,Food & Beverage
+MK RESTAURANT,Central Ayutthaya,1,2F,Food & Beverage
 MOSHI MOSHI,Central Ayutthaya,1,1F,Lifestyle & Specialty
 MR. DIY,Central Ayutthaya,1,1F,Lifestyle & Specialty
 NESCAFE STREET CAFÉ',Central Ayutthaya,1,1F,Food & Beverage
@@ -109,12 +109,12 @@ S&P,Central Ayutthaya,1,GF,Food & Beverage
 SABINA,Central Ayutthaya,1,GF,Fashion
 SAMSUNG,Central Ayutthaya,1,1F,Technology
 SANTA FE' STEAK,Central Ayutthaya,1,2F,Food & Beverage
-SE-ED BOOK CENTER,Central Ayutthaya,1,1F,Lifestyle & Specialty
+SE-ED,Central Ayutthaya,1,1F,Lifestyle & Specialty
 SENG HEGN,Central Ayutthaya,1,GF,Fashion
 SF CINEMA,Central Ayutthaya,1,2F,Entertainment
 SHABUSHI,Central Ayutthaya,1,2F,Food & Beverage
 SHANE ENGLISH SCHOOL,Central Ayutthaya,1,2F,Education
-SHANE ENGLISH SCHOOL & DIRECT ENGLISH,Central Ayutthaya,1,2F,Education
+SHANE ENGLISH SCHOOL,Central Ayutthaya,1,2F,Education
 SHINKANZEN SUSHI,Central Ayutthaya,1,2F,Food & Beverage
 SIAM COMMERCIAL BANK,Central Ayutthaya,1,2F,Bank & Financial Services
 SKECHERS,Central Ayutthaya,1,GF,Fashion
@@ -150,4 +150,4 @@ YUEDPAO,Central Ayutthaya,1,GF,Fashion
 YUMEYA,Central Ayutthaya,1,2F,Lifestyle & Specialty
 YVES ROCHER,Central Ayutthaya,1,GF,Beauty & Wellness
 ก๋วยเตี๋ยวเรือพระนคร,Central Ayutthaya,1,GF,Food & Beverage
-ลาวญวน,Central Ayutthaya,1,2F,Food & Beverage
+LAO YUAN,Central Ayutthaya,1,2F,Food & Beverage

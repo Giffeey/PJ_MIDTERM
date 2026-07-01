@@ -1,7 +1,7 @@
 Source,Target,Weight,Floor,Category
 ADIDAS,Central Suratthani,1,1F,Fashion
 ADVICE DISTRIBUTIONS,Central Suratthani,1,2F,Technology
-AEON THANA SINSAP,Central Suratthani,1,3F,Bank & Financial Services
+AEON,Central Suratthani,1,3F,Bank & Financial Services
 AFFANFOODHALAL,Central Suratthani,1,3F,Food & Beverage
 AIIZ,Central Suratthani,1,1F,Fashion
 AIS,Central Suratthani,1,2F,Technology
@@ -16,8 +16,8 @@ AURORA,Central Suratthani,1,1F,Fashion
 B2S,Central Suratthani,1,2F,Lifestyle & Specialty
 BABIES GENIUS,Central Suratthani,1,2F,Education
 BAKE A WISH,Central Suratthani,1,1F,Food & Beverage
-BANANA,Central Suratthani,1,2F,Technology
-BANANA,Central Suratthani,1,2F,Technology
+IT BANANA,Central Suratthani,1,2F,Technology
+IT BANANA,Central Suratthani,1,2F,Technology
 BANG NUN TEA,Central Suratthani,1,3F,Food & Beverage
 BANSUAN CHAISAKARIN,Central Suratthani,1,2F,Lifestyle & Specialty
 BATA,Central Suratthani,1,2F,Fashion
@@ -57,7 +57,7 @@ FARMEENROTICHACCHUK,Central Suratthani,1,3F,Food & Beverage
 FAST ACCOUNTING HUB,Central Suratthani,1,2F,Bank & Financial Services
 FIRST DATE,Central Suratthani,1,2F,Fashion
 FLOURISHZ,Central Suratthani,1,2F,Beauty & Wellness
-FOODPARK,Central Suratthani,1,3F,Food & Beverage
+FOOD PARK,Central Suratthani,1,3F,Food & Beverage
 FOTO BOOTH,Central Suratthani,1,4F,Entertainment
 FRESHY CREPE,Central Suratthani,1,3F,Food & Beverage
 GIORDANO,Central Suratthani,1,1F,Fashion
@@ -72,11 +72,11 @@ IT CITY,Central Suratthani,1,2F,Technology
 ITEM SHOP,Central Suratthani,1,2F,Beauty & Wellness
 JAN PHONE,Central Suratthani,1,2F,Technology
 JASPAL,Central Suratthani,1,1F,Fashion
-JAY MART,Central Suratthani,1,2F,Technology
+JAYMART,Central Suratthani,1,2F,Technology
 JEFFER STEAK,Central Suratthani,1,3F,Food & Beverage
 JIB,Central Suratthani,1,2F,Technology
 JING JAI MARKET,Central Suratthani,1,1F,Lifestyle & Specialty
-JUBILEE,Central Suratthani,1,1F,Fashion
+JUBILEE DIAMOND,Central Suratthani,1,1F,Fashion
 KAMOOJAKAPAK,Central Suratthani,1,3F,Food & Beverage
 KAMU TEA,Central Suratthani,1,3F,Food & Beverage
 KASARA SHUSHI,Central Suratthani,1,3F,Food & Beverage
@@ -111,7 +111,7 @@ MAKOTO,Central Suratthani,1,3F,Lifestyle & Specialty
 MC JEANS,Central Suratthani,1,2F,Fashion
 MINISO,Central Suratthani,1,2F,Lifestyle & Specialty
 MISTER DONUT,Central Suratthani,1,1F,Food & Beverage
-MK RESTAURANTS,Central Suratthani,1,3F,Food & Beverage
+MK RESTAURANT,Central Suratthani,1,3F,Food & Beverage
 MOTTA,Central Suratthani,1,2F,Fashion
 NATAPOHN THAI DESSERT,Central Suratthani,1,3F,Food & Beverage
 NATURE,Central Suratthani,1,2F,Fashion
@@ -141,7 +141,7 @@ PRADAP,Central Suratthani,1,2F,Fashion
 PREM,Central Suratthani,1,2F,Fashion
 PRIMA DIAMOND,Central Suratthani,1,1F,Fashion
 RAD,Central Suratthani,1,3F,Food & Beverage
-REAL ME,Central Suratthani,1,2F,Technology
+REALME,Central Suratthani,1,2F,Technology
 ROBINSON DEPARTMENT STORE,Central Suratthani,1,1F,Lifestyle & Specialty
 ROBINSON DEPARTMENT STORE,Central Suratthani,1,2F,Lifestyle & Specialty
 ROBINSON DEPARTMENT STORE,Central Suratthani,1,3F,Lifestyle & Specialty
@@ -155,7 +155,7 @@ SABINA,Central Suratthani,1,1F,Fashion
 SAMSUNG,Central Suratthani,1,2F,Technology
 SANTA FE' STEAK,Central Suratthani,1,3F,Food & Beverage
 SAYLUCK,Central Suratthani,1,3F,Food & Beverage
-SE-ED BOOK CENTER,Central Suratthani,1,3F,Lifestyle & Specialty
+SE-ED,Central Suratthani,1,3F,Lifestyle & Specialty
 SF CINEMA,Central Suratthani,1,4F,Entertainment
 SIAM COMMERCIAL BANK,Central Suratthani,1,3F,Bank & Financial Services
 SKECHERS,Central Suratthani,1,1F,Fashion
@@ -192,7 +192,7 @@ WHAT THE FISH,Central Suratthani,1,1F,Food & Beverage
 WRANGLER,Central Suratthani,1,2F,Fashion
 XIAOMI,Central Suratthani,1,2F,Technology
 YAMAZAKI,Central Suratthani,1,1F,Food & Beverage
-YAOWARAJ KRUNGTHEP,Central Suratthani,1,1F,Fashion
+YAOWARAT KRUNGTHEP,Central Suratthani,1,1F,Fashion
 YAYOI,Central Suratthani,1,3F,Food & Beverage
 YOLO,Central Suratthani,1,2F,Fashion
 YUEDPAO,Central Suratthani,1,2F,Fashion

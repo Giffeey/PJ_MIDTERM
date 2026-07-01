@@ -1,6 +1,6 @@
 Source,Target,Weight,Floor,Category
 ADVICE,Central Nakhon Si,1,2F,Technology
-AEON THANA SINSAP,Central Nakhon Si,1,2F,Bank & Financial Services
+AEON,Central Nakhon Si,1,2F,Bank & Financial Services
 AIIZ,Central Nakhon Si,1,1F,Fashion
 AIS,Central Nakhon Si,1,2F,Technology
 AIS BY PARTNER,Central Nakhon Si,1,2F,Technology
@@ -10,7 +10,7 @@ ARKO-KHAOMOODANG,Central Nakhon Si,1,1F,Food & Beverage
 AROIDEEKAPHOWTHAD,Central Nakhon Si,1,1F,Food & Beverage
 AUNTIE ANNE'S,Central Nakhon Si,1,2F,Food & Beverage
 B2S,Central Nakhon Si,1,2F,Lifestyle & Specialty
-BANANA,Central Nakhon Si,1,2F,Technology
+IT BANANA,Central Nakhon Si,1,2F,Technology
 BANGKOK BANK,Central Nakhon Si,1,2F,Bank & Financial Services
 BANK OF AYUDHYA,Central Nakhon Si,1,2F,Bank & Financial Services
 BAOJI,Central Nakhon Si,1,1F,Fashion
@@ -45,12 +45,12 @@ DTAC,Central Nakhon Si,1,2F,Technology
 EXPORT SHOP,Central Nakhon Si,1,1F,Fashion
 EYE CLASS,Central Nakhon Si,1,2F,Fashion
 FOCUS,Central Nakhon Si,1,2F,Technology
-FOODPARK,Central Nakhon Si,1,1F,Food & Beverage
+FOOD PARK,Central Nakhon Si,1,1F,Food & Beverage
 FOREVER FLAWLESS,Central Nakhon Si,1,2F,Beauty & Wellness
-FUJI JAPANESE RESTAURANT,Central Nakhon Si,1,3F,Food & Beverage
+FUJI,Central Nakhon Si,1,3F,Food & Beverage
 FUKU MATCHA,Central Nakhon Si,1,1F,Food & Beverage
 G-SHOCK,Central Nakhon Si,1,1F,Fashion
-GANGNAM,Central Nakhon Si,1,2F,Beauty & Wellness
+GANGNAM CLINIC,Central Nakhon Si,1,2F,Beauty & Wellness
 GIORDANO,Central Nakhon Si,1,1F,Fashion
 GOKAIMOON SHOP,Central Nakhon Si,1,3F,Lifestyle & Specialty
 GOVERNMENT HOUSING BANK,Central Nakhon Si,1,3F,Bank & Financial Services
@@ -67,7 +67,7 @@ JASPAL,Central Nakhon Si,1,1F,Fashion
 JELLY BUNNY,Central Nakhon Si,1,1F,Fashion
 JIB,Central Nakhon Si,1,2F,Technology
 JOYLIDAY PLUS,Central Nakhon Si,1,3F,Entertainment
-JUBILEE,Central Nakhon Si,1,1F,Fashion
+JUBILEE DIAMOND,Central Nakhon Si,1,1F,Fashion
 KAMU KAMU,Central Nakhon Si,1,2F,Food & Beverage
 KANOMWAN MAILA,Central Nakhon Si,1,1F,Food & Beverage
 KAOMUNKAIROONGSEANG,Central Nakhon Si,1,1F,Food & Beverage
@@ -96,7 +96,7 @@ MIKUCHA,Central Nakhon Si,1,1F,Food & Beverage
 MINISO,Central Nakhon Si,1,2F,Lifestyle & Specialty
 MISTER DONUT,Central Nakhon Si,1,2F,Food & Beverage
 MIZUSAWA,Central Nakhon Si,1,1F,Food & Beverage
-MK RESTAURANTS,Central Nakhon Si,1,3F,Food & Beverage
+MK RESTAURANT,Central Nakhon Si,1,3F,Food & Beverage
 MODERN WAX,Central Nakhon Si,1,GF,Beauty & Wellness
 MOSHI MOSHI,Central Nakhon Si,1,2F,Lifestyle & Specialty
 MR. DIY,Central Nakhon Si,1,3F,Lifestyle & Specialty

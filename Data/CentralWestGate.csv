@@ -11,10 +11,10 @@ ACTIKA,Central Westgate,1,1F,Fashion
 ADIDAS,Central Westgate,1,1F,Fashion
 ADIDAS,Central Westgate,1,2F,Fashion
 ADIDAS,Central Westgate,1,4F,Fashion
-ADIDAS KIDS,Central Westgate,1,4F,Fashion
-ADIDAS NEO CREDIT,Central Westgate,1,2F,Fashion
+ADIDAS,Central Westgate,1,4F,Fashion
+ADIDAS,Central Westgate,1,2F,Fashion
 ADVICE,Central Westgate,1,2F,Technology
-AEON THANA SINSAP,Central Westgate,1,3F,Bank & Financial Services
+AEON,Central Westgate,1,3F,Bank & Financial Services
 AEROSOFT,Central Westgate,1,1F,Fashion
 AFTER YOU,Central Westgate,1,1F,Food & Beverage
 AIAOON,Central Westgate,1,4F,Lifestyle & Specialty
@@ -58,7 +58,7 @@ APPLE MONKEY,Central Westgate,1,4F,Food & Beverage
 AQUABABY,Central Westgate,1,4F,Fashion
 ARCOROC,Central Westgate,1,GF,Lifestyle & Specialty
 ARENA,Central Westgate,1,4F,Fashion
-ARI FOOTBALL CONCEPT STORE,Central Westgate,1,2F,Fashion
+ARI FOOTBALL,Central Westgate,1,2F,Fashion
 ARIES,Central Westgate,1,1F,Fashion
 ARIETE,Central Westgate,1,GF,Lifestyle & Specialty
 ARROW,Central Westgate,1,3F,Fashion
@@ -104,7 +104,7 @@ BALLOON DESIGN,Central Westgate,1,2F,Lifestyle & Specialty
 BAMBIES,Central Westgate,1,4F,Lifestyle & Specialty
 BAMBOLINA,Central Westgate,1,4F,Lifestyle & Specialty
 BAMBOO,Central Westgate,1,GF,Lifestyle & Specialty
-BANANA,Central Westgate,1,2F,Technology
+IT BANANA,Central Westgate,1,2F,Technology
 BANANA NAIL,Central Westgate,1,GF,Beauty & Wellness
 BANDAI,Central Westgate,1,4F,Lifestyle & Specialty
 BANDAI KIDZ&KITZ,Central Westgate,1,4F,Lifestyle & Specialty
@@ -500,7 +500,7 @@ FOF,Central Westgate,1,1F,Fashion
 FOF,Central Westgate,1,2F,Fashion
 FOF,Central Westgate,1,4F,Fashion
 FONNEY,Central Westgate,1,1F,Fashion
-FOODPATIO,Central Westgate,1,3F,Food & Beverage
+FOOD PATIO,Central Westgate,1,3F,Food & Beverage
 FOOTWEAR BY DAPPER,Central Westgate,1,3F,Fashion
 FOREVER FLAWLESS,Central Westgate,1,1F,Beauty & Wellness
 FORFRUIT,Central Westgate,1,4F,Lifestyle & Specialty
@@ -511,7 +511,7 @@ FRESH ME,Central Westgate,1,2F,Beauty & Wellness
 FRN,Central Westgate,1,2F,Fashion
 FROLINA,Central Westgate,1,GF,Lifestyle & Specialty
 FUEL,Central Westgate,1,GF,Lifestyle & Specialty
-FUJI JAPANESE RESTAURANT,Central Westgate,1,3F,Food & Beverage
+FUJI,Central Westgate,1,3F,Food & Beverage
 FUKU MATCHA,Central Westgate,1,1F,Food & Beverage
 FULICO,Central Westgate,1,GF,Lifestyle & Specialty
 FUN CITY,Central Westgate,1,1F,Entertainment
@@ -566,8 +566,8 @@ GP,Central Westgate,1,GF,Lifestyle & Specialty
 GQ,Central Westgate,1,1F,Fashion
 GQ,Central Westgate,1,3F,Fashion
 GQ,Central Westgate,1,4F,Fashion
-GQ SOCKS,Central Westgate,1,3F,Fashion
-GQ UNDERWEAR,Central Westgate,1,3F,Fashion
+GQ,Central Westgate,1,3F,Fashion
+GQ,Central Westgate,1,3F,Fashion
 GRACE KIDS,Central Westgate,1,4F,Lifestyle & Specialty
 GRACO,Central Westgate,1,4F,Lifestyle & Specialty
 GRANNY BEN,Central Westgate,1,4F,Lifestyle & Specialty
@@ -648,9 +648,6 @@ I TONG SHOP,Central Westgate,1,1F,Fashion
 IBILI,Central Westgate,1,GF,Lifestyle & Specialty
 ICECREAMMAHACHAI,Central Westgate,1,3F,Food & Beverage
 IGLOO,Central Westgate,1,GF,Lifestyle & Specialty
-IKEA,Central Westgate,1,1F,Lifestyle & Specialty
-IKEA,Central Westgate,1,2F,Lifestyle & Specialty
-IKEA,Central Westgate,1,3F,Lifestyle & Specialty
 ILIGHTPLUS,Central Westgate,1,GF,Technology
 IMG,Central Westgate,1,GF,Lifestyle & Specialty
 INFANTINO,Central Westgate,1,4F,Lifestyle & Specialty
@@ -680,7 +677,7 @@ JACOB,Central Westgate,1,3F,Fashion
 JANOD,Central Westgate,1,4F,Lifestyle & Specialty
 JASPAL,Central Westgate,1,1F,Fashion
 JAY CHIU,Central Westgate,1,3F,Fashion
-JAY MART,Central Westgate,1,2F,Technology
+JAYMART,Central Westgate,1,2F,Technology
 JCP,Central Westgate,1,GF,Lifestyle & Specialty
 JD SPORTS,Central Westgate,1,1F,Fashion
 JEAN PAUL GAULTIER,Central Westgate,1,1F,Fashion
@@ -710,7 +707,7 @@ JOSILIN,Central Westgate,1,2F,Fashion
 JOSILIN,Central Westgate,1,4F,Fashion
 JOURNAL,Central Westgate,1,1F,Beauty & Wellness
 JOURNAL,Central Westgate,1,2F,Beauty & Wellness
-JUBILEE,Central Westgate,1,1F,Fashion
+JUBILEE DIAMOND,Central Westgate,1,1F,Fashion
 JUICY COUTURE,Central Westgate,1,1F,Fashion
 JUST GENTLE,Central Westgate,1,4F,Beauty & Wellness
 K PLUS,Central Westgate,1,2F,Technology
@@ -934,7 +931,7 @@ MICROBRIK,Central Westgate,1,4F,Lifestyle & Specialty
 MICRON WARE,Central Westgate,1,GF,Lifestyle & Specialty
 MIDO,Central Westgate,1,1F,Fashion
 MIFFY,Central Westgate,1,2F,Lifestyle & Specialty
-MIKI MIKI STORE,Central Westgate,1,2F,Lifestyle & Specialty
+MIKI MIKI,Central Westgate,1,2F,Lifestyle & Specialty
 MIKIKO,Central Westgate,1,2F,Fashion
 MIKUCHA,Central Westgate,1,3F,Food & Beverage
 MILAROSE,Central Westgate,1,1F,Fashion
@@ -953,8 +950,8 @@ MIX ME,Central Westgate,1,4F,Lifestyle & Specialty
 MIXUE,Central Westgate,1,GF,Food & Beverage
 MIYAZAKI,Central Westgate,1,3F,Food & Beverage
 MK MOBILE SHOP,Central Westgate,1,2F,Technology
-MK RESTAURANTS,Central Westgate,1,2F,Food & Beverage
-MK RESTAURANTS,Central Westgate,1,3F,Food & Beverage
+MK RESTAURANT,Central Westgate,1,2F,Food & Beverage
+MK RESTAURANT,Central Westgate,1,3F,Food & Beverage
 MLB,Central Westgate,1,1F,Fashion
 MMP,Central Westgate,1,GF,Lifestyle & Specialty
 MMP WRAP,Central Westgate,1,GF,Lifestyle & Specialty
@@ -1296,7 +1293,7 @@ SCHOLL,Central Westgate,1,3F,Fashion
 SCHOTT ZWIESEL,Central Westgate,1,GF,Lifestyle & Specialty
 SCOOT AND RIDE,Central Westgate,1,4F,Lifestyle & Specialty
 SD TOY,Central Westgate,1,4F,Lifestyle & Specialty
-SE-ED BOOK CENTER,Central Westgate,1,2F,Lifestyle & Specialty
+SE-ED,Central Westgate,1,2F,Lifestyle & Specialty
 SEAGULL,Central Westgate,1,GF,Lifestyle & Specialty
 SEALY,Central Westgate,1,GF,Lifestyle & Specialty
 SEECHA,Central Westgate,1,1F,Fashion
@@ -1620,7 +1617,7 @@ YALE SMART SHOP,Central Westgate,1,2F,Lifestyle & Specialty
 YAMADA,Central Westgate,1,GF,Lifestyle & Specialty
 YAMAHA MUSIC SCHOOL,Central Westgate,1,3F,Education
 YAMAZAKI,Central Westgate,1,1F,Food & Beverage
-YAOWARAJ KRUNGTHEP,Central Westgate,1,1F,Fashion
+YAOWARAT KRUNGTHEP,Central Westgate,1,1F,Fashion
 YAYOI,Central Westgate,1,3F,Food & Beverage
 YEAH,Central Westgate,1,2F,Fashion
 YODCHA,Central Westgate,1,3F,Food & Beverage
