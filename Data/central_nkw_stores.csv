@@ -1,0 +1,621 @@
+﻿name,type,categories,floors,external_id,location_id
+CASIO | Central Department Store,store,Central Department Store,,0f4e04b5-7b79-5769-bdbc-0738a161b1f2,el_688ce5cf5db3b1000156b039
+HEGEN | Central Department Store,store,Central Department Store,,bf6013a8-4671-5642-9ce3-4c38973c341f,el_688ce5cf5db3b1000156b03a
+LUIGINA | Central Department Store,store,Central Department Store,,6403fad8-dd42-54e0-b0b0-c1ca33284860,el_688ce5cf5db3b1000156b03c
+PHILIPS | Central Department Store,store,Central Department Store,,c5e21988-ecdf-58d2-b64b-385888ab64dc,el_688ce5cf5db3b1000156b03d
+HARA | Central Department Store,store,Central Department Store,,1ce299ce-09fc-57bc-bc4d-a1041b1b4dd4,el_688ce5cf5db3b1000156b03e
+LAMER | Central Department Store,store,Central Department Store,,02c8fbdd-ade2-5a67-a4b5-f596bcb0357e,el_688ce5cf5db3b1000156b040
+GUY LAROCHE | Central Department Store,store,Central Department Store,,7ab6c6de-7c15-596a-b17b-09a106231d31,el_688ce5cf5db3b1000156b041
+DEFRY 01 | Central Department Store,store,Central Department Store,,4f2dcb91-55bd-589d-872f-2b296fd449ef,el_688ce5cf5db3b1000156b042
+NIKE | Central Department Store,store,Central Department Store,,9dab4bdc-db76-584d-a557-5f7178a38a37,el_688ce5cf5db3b1000156b045
+CENTRAL HOME | Central Department Store,store,Central Department Store,,352ca04f-16d1-5c63-b249-b2c6fa5a1d85,el_688ce5cf5db3b1000156b046
+PASAYA | Central Department Store,store,Central Department Store,,0c60ae86-e2d2-5f26-b3f7-ff89fe5b16bb,el_688ce5cf5db3b1000156b047
+RALPH LAUREN | Central Department Store,store,Central Department Store,,255dee54-4351-5d71-86fd-ad6a920d01ab,el_688ce5cf5db3b1000156b048
+LEVIS | Central Department Store,store,Central Department Store,,e6160dfd-b952-51d9-9974-443fd096b654,el_688ce5cf5db3b1000156b04a
+ARROW | Central Department Store,store,Central Department Store,,13106924-5834-599b-8e09-154df1e4ca5c,el_688ce5cf5db3b1000156b04b
+MUUNIQUE | Central Department Store,store,Central Department Store,,ae3d5dec-ffb2-57bc-8cf9-fe73dad1a910,el_688ce5cf5db3b1000156b04e
+CROCS | Central Department Store,store,Central Department Store,,52c26d55-bff5-54bf-81f8-ae78ca8ccea0,el_688ce5cf5db3b1000156b050
+MAC | Central Department Store,store,Central Department Store,,e32bfd6a-ef0c-5b77-8793-1b5f18dd6c6c,el_688ce5cf5db3b1000156b051
+JACOB | Central Department Store,store,Central Department Store,,3f008025-3909-56a8-9387-18c24b847503,el_688ce5cf5db3b1000156b052
+TIME SERVICE | Central Department Store,store,Central Department Store,,b7263af2-2294-5bb5-a2b8-c351c6d2123c,el_688ce5cf5db3b1000156b055
+PLAYBOY | Central Department Store,store,Central Department Store,,4599fad9-0c23-57d8-beaf-cccfe8f56ab5,el_688ce5cf5db3b1000156b056
+TREND | Central Department Store,store,Central Department Store,,40cc9c9a-b124-55c4-be26-dd196d08223b,el_688ce5cf5db3b1000156b058
+JINTANA | Central Department Store,store,Central Department Store,,c86e5b49-3f37-535a-84d1-0a5ca5cad578,el_688ce5cf5db3b1000156b05a
+ANELLO | Central Department Store,store,Central Department Store,,174fc987-2ab9-596e-a961-2e23c3985df1,el_688ce5cf5db3b1000156b05e
+NERF HASBRO KIDDO | Central Department Store,store,Central Department Store,,19ad29ac-8ef3-5084-97e6-b9ab07c49ddf,el_688ce5cf5db3b1000156b060
+BODY GLOVE | Central Department Store,store,Central Department Store,,6c9f1149-3d61-58be-93ca-095aaaedf590,el_688ce5cf5db3b1000156b061
+PIGEON | Central Department Store,store,Central Department Store,,9c5afd07-e208-5713-b1f2-52716da0dbc8,el_688ce5cf5db3b1000156b062
+HELLO WD | Central Department Store,store,Central Department Store,,01dbf25b-294a-5a49-a36c-873b2c3d5183,el_688ce5cf5db3b1000156b065
+BABY MOBY | Central Department Store,store,Central Department Store,,226e06a1-b8e6-5d13-a269-76a20df0a512,el_688ce5cf5db3b1000156b066
+POLO WORLD | Central Department Store,store,Central Department Store,,cddbbe02-c725-5693-ab26-2fb739d616eb,el_688ce5cf5db3b1000156b067
+PAW PATROL | Central Department Store,store,Central Department Store,,0a943544-5800-56fe-8263-2e42a0db705b,el_688ce5cf5db3b1000156b068
+JESSICA | Central Department Store,store,Central Department Store,,9e49e18b-29a0-5f0d-b5e5-383495ed1083,el_688ce5cf5db3b1000156b06a
+HATARI | Central Department Store,store,Central Department Store,,39e5cbfb-a5c4-591d-8591-7815b3f49319,el_688ce5cf5db3b1000156b06c
+SCHOLL | Central Department Store,store,Central Department Store,,2b836012-cf61-535a-b020-eddf38f82b45,el_688ce5cf5db3b1000156b06d
+BOBBI BROWN | Central Department Store,store,Central Department Store,,df655a2d-77b7-5d74-a45f-f600b7780a46,el_688ce5cf5db3b1000156b06f
+ORIENT | Central Department Store,store,Central Department Store,,9154f6dd-de66-5051-bb11-0d2addff0b51,el_688ce5cf5db3b1000156b070
+TOSHINO | Central Department Store,store,Central Department Store,,7ccbab3e-5412-5027-9dc4-79fdca67f604,el_688ce5cf5db3b1000156b071
+PAJARA | Central Department Store,store,Central Department Store,,6bfafdcf-5f41-5e43-8dee-d4561667e1a4,el_688ce5cf5db3b1000156b072
+GUESS | Central Department Store,store,Central Department Store,,7a3eb1a7-b5a9-5d9f-8fa9-35e856e65ede,el_688ce5cf5db3b1000156b073
+KIEHLS | Central Department Store,store,Central Department Store,,45d3ab27-35e3-5dca-8367-66996563a4dc,el_688ce5cf5db3b1000156b074
+SAMSONITE | Central Department Store,store,Central Department Store,,ff5c863a-2fd7-537a-8c5f-9926ac8e15d7,el_688ce5cf5db3b1000156b075
+PUREEN | Central Department Store,store,Central Department Store,,768d3dc6-d919-5282-865d-c582163dce4d,el_688ce5cf5db3b1000156b077
+AIIZ | Central Department Store,store,Central Department Store,,ed80d8a6-9032-5f71-bcde-a95d24109ffc,el_688ce5cf5db3b1000156b078
+SHARP | Central Department Store,store,Central Department Store,,c51b52ac-51c6-5ce8-976f-938a35576b36,el_688ce5cf5db3b1000156b079
+SKECHERS | Central Department Store,store,Central Department Store,,2d6332d0-cba1-5959-8085-59d63d0594f5,el_688ce5cf5db3b1000156b07a
+POLO CLUB | Central Department Store,store,Central Department Store,,b8430ed6-7aa4-5d62-b851-ef464844bb2f,el_688ce5cf5db3b1000156b081
+BE ME | Central Department Store,store,Central Department Store,,8bca55b5-4e7d-5c6c-88d9-e8c27dac386b,el_688ce5cf5db3b1000156b082
+MINI MONO | Central Department Store,store,Central Department Store,,6a1f5aeb-6839-5f46-9c2c-167c187bf5ae,el_688ce5cf5db3b1000156b083
+MARSHALL | Central Department Store,store,Central Department Store,,afc6bc69-2714-547c-b23b-ba5a8f7b1069,el_688ce5cf5db3b1000156b084
+ADIDAS NEO CREDIT | Central Department Store,store,Central Department Store,,07e8c75b-0577-5a1c-99dd-51cd9ea0bce3,el_688ce5cf5db3b1000156b085
+VERSACE | Central Department Store,store,Central Department Store,,0eb869e2-da86-5158-b0b8-deebbb776397,el_688ce5cf5db3b1000156b086
+BALMUDA | Central Department Store,store,Central Department Store,,e1327f31-3785-5150-86b2-c07e4600264a,el_688ce5cf5db3b1000156b087
+SANRIO | Central Department Store,store,Central Department Store,,e787f21c-117d-5f6b-b713-7c94b5c21ab7,el_688ce5cf5db3b1000156b088
+LANCOME | Central Department Store,store,Central Department Store,,ae58967d-310e-5078-9110-77a2c49ae949,el_688ce5cf5db3b1000156b089
+PLAYBOY | Central Department Store,store,Central Department Store,,d9b36a54-811d-518c-8733-7082bb4e358c,el_688ce5cf5db3b1000156b08a
+PIERRE CARDIN | Central Department Store,store,Central Department Store,,280407b4-81dd-53f8-bb7b-6ff721fb766d,el_688ce5cf5db3b1000156b08b
+EAZY CLEAN | Central Department Store,store,Central Department Store,,c2761d11-1b3f-52d0-b08e-c07aa537ed6c,el_688ce5cf5db3b1000156b08c
+AVENT | Central Department Store,store,Central Department Store,,2f8a6534-2d47-5ec1-99d4-70c52614dfa4,el_688ce5cf5db3b1000156b08d
+SIVANNA COLORS | Central Department Store,store,Central Department Store,,083b6169-b179-50f7-8a3b-c6dee5802795,el_688ce5cf5db3b1000156b08e
+CLARINS | Central Department Store,store,Central Department Store,,685888d8-1e04-54aa-b35e-29a252bfb825,el_688ce5cf5db3b1000156b08f
+MANWOOD | Central Department Store,store,Central Department Store,,700d5f5f-1ddb-563a-befd-b3268f232e32,el_688ce5cf5db3b1000156b091
+WISHER TOY | Central Department Store,store,Central Department Store,,ac385267-d07e-549e-977d-4758372e603b,el_688ce5cf5db3b1000156b092
+RAINFLOWER | Central Department Store,store,Central Department Store,,46dad750-7bfe-5677-a6df-8ad1847af8ca,el_688ce5cf5db3b1000156b093
+ADDA | Central Department Store,store,Central Department Store,,256adbb6-1b1a-5329-af49-bed007f4f199,el_688ce5cf5db3b1000156b096
+KIDDO | Central Department Store,store,Central Department Store,,b4abccea-ccc7-5cf2-a1d7-0492881b103e,el_688ce5cf5db3b1000156b097
+DAVIE JONES | Central Department Store,store,Central Department Store,,488cf804-33bb-562b-bf22-39ab7beb2b11,el_688ce5cf5db3b1000156b098
+NEW BALANCE | Central Department Store,store,Central Department Store,,18e32b91-11bc-5f96-bf90-4a7986951dcc,el_688ce5cf5db3b1000156b09b
+VTECH | Central Department Store,store,Central Department Store,,f490c8ba-0297-5c28-ae3c-aa0d9b1da738,el_688ce5cf5db3b1000156b09c
+ENFANT | Central Department Store,store,Central Department Store,,fe9502e8-0783-5732-889b-69b6ddfaef7b,el_688ce5cf5db3b1000156b09d
+THOMAS WD | Central Department Store,store,Central Department Store,,a3bd470e-df9e-5060-b4de-64311eab2fc9,el_688ce5cf5db3b1000156b09e
+OTTO SMALL | Central Department Store,store,Central Department Store,,b9940b3c-8758-563e-ba01-465efb6cb442,el_688ce5cf5db3b1000156b09f
+TELLME | Central Department Store,store,Central Department Store,,5f5fa72b-57cf-568c-b9e0-e3c5b800d867,el_688ce5cf5db3b1000156b0a0
+CHOLE | Central Department Store,store,Central Department Store,,58cc5ae8-e579-5f1c-8599-dcec276717e6,el_688ce5cf5db3b1000156b0a1
+ESPADA | Central Department Store,store,Central Department Store,,4afde231-c68c-541a-a779-8a24a3e47f85,el_688ce5cf5db3b1000156b0a2
+KS KIDS | Central Department Store,store,Central Department Store,,36d48e9c-873a-5ad6-af3d-2f7b7ec67867,el_688ce5cf5db3b1000156b0a3
+SEALY | Central Department Store,store,Central Department Store,,6f169707-90fc-5c6c-b59a-2ab786a15e10,el_688ce5cf5db3b1000156b0a6
+OVO | Central Department Store,store,Central Department Store,,482b0245-8d01-5454-8140-260039503ec2,el_688ce5cf5db3b1000156b0a8
+STJAMES | Central Department Store,store,Central Department Store,,62c90981-47b0-5ae4-98ab-80dd63172782,el_688ce5cf5db3b1000156b0a9
+MINIMEX | Central Department Store,store,Central Department Store,,93a574ca-c018-527a-8ef9-cabd472a56af,el_688ce5cf5db3b1000156b0ab
+GQ | Central Department Store,store,Central Department Store,,0b89c339-7142-5af5-a36b-b9bba3dd81c4,el_688ce5cf5db3b1000156b0ad
+EASY PIECES | Central Department Store,store,Central Department Store,,0374b1e6-5ed3-5ec4-b5ef-91a903152666,el_688ce5cf5db3b1000156b0ae
+SO SMOOCHIE | Central Department Store,store,Central Department Store,,44c28abb-1559-5e94-9cda-fca49ef4566b,el_688ce5cf5db3b1000156b0b0
+DIOR | Central Department Store,store,Central Department Store,,a775bb87-37eb-5c17-8fc9-5adcb440e84d,el_688ce5cf5db3b1000156b0b2
+WACOAL | Central Department Store,store,Central Department Store,,8495b1c0-66cd-57b6-be1b-5ebfa3238c00,el_688ce5cf5db3b1000156b0b3
+CITIZEN | Central Department Store,store,Central Department Store,,d9b57e15-f438-56dd-b80d-690bebea15c9,el_688ce5cf5db3b1000156b0b4
+FRN | Central Department Store,store,Central Department Store,,db1b912f-8626-5c4c-b946-1ecf20029a86,el_688ce5cf5db3b1000156b0b6
+ULTIMA II | Central Department Store,store,Central Department Store,,c19d93c4-f883-5df7-b33c-cda93af11e1b,el_688ce5cf5db3b1000156b0b9
+TEFAL | Central Department Store,store,Central Department Store,,85c5984c-23fa-5005-ae14-2d78b23f8e28,el_688ce5cf5db3b1000156b0ba
+CIERA | Central Department Store,store,Central Department Store,,7767b87c-937b-5215-8f6c-04defc15efda,el_688ce5cf5db3b1000156b0bb
+PERICO | Central Department Store,store,Central Department Store,,8913b487-8ed2-5e89-8dd7-c44e3ff071df,el_688ce5cf5db3b1000156b0bc
+SMIGGLE | Central Department Store,store,Central Department Store,,aa00cd31-4a65-57b8-9735-659442c2fd0f,el_688ce5cf5db3b1000156b0bf
+CHERILON | Central Department Store,store,Central Department Store,,8e1506b5-be44-5623-9dc1-1f4ceec70e7a,el_688ce5cf5db3b1000156b0c1
+MAKOTO | Central Department Store,store,Central Department Store,,a85c7f76-ea07-5af9-9b91-e68fc5caf6be,el_688ce5cf5db3b1000156b0c2
+SABINA | Central Department Store,store,Central Department Store,,0743d51a-fe38-58f8-91e1-8bfa6973067b,el_688ce5cf5db3b1000156b0c4
+ADIDAS KIDS | Central Department Store,store,Central Department Store,,8a857a55-ade8-5d60-b102-cd3b1c7050e9,el_688ce5cf5db3b1000156b0c5
+JOHN LANGFORD | Central Department Store,store,Central Department Store,,aacff04f-f992-5d8a-b4f1-f9573f16b9c5,el_688ce5cf5db3b1000156b0c6
+ZEBRA | Central Department Store,store,Central Department Store,,7cad5ae5-2968-5363-9cf7-fa32efc17fdb,el_688ce5cf5db3b1000156b0c7
+BOVY | Central Department Store,store,Central Department Store,,70b3a07c-bce6-556d-9997-96ee8fa3c7a3,el_688ce5cf5db3b1000156b0c8
+ESQUIRE | Central Department Store,store,Central Department Store,,1d33914e-cfd6-53b8-9322-cddc5903bd7c,el_688ce5cf5db3b1000156b0c9
+BWELL | Central Department Store,store,Central Department Store,,8707de99-d15c-5df6-b0ea-d729498daa59,el_688ce5cf5db3b1000156b0cb
+FONNEY | Central Department Store,store,Central Department Store,,912446bc-fd25-5b5f-9211-cd1e100d994b,el_688ce5cf5db3b1000156b0cc
+CUIZIMATE | Central Department Store,store,Central Department Store,,265eb04a-fd45-5eb9-bee9-b6eb9f634b79,el_688ce5cf5db3b1000156b0cd
+CLINIQUE | Central Department Store,store,Central Department Store,,eb105ea7-22f9-5cb7-8fd4-fdade521f35b,el_688ce5cf5db3b1000156b0ce
+DAVIDOFF | Central Department Store,store,Central Department Store,,c86bf61a-7a84-5741-88fd-d3bc9c266ebc,el_688ce5cf5db3b1000156b0cf
+ROVING FOX | Central Department Store,store,Central Department Store,,37254044-f3c5-55ea-a04d-09e80725078d,el_688ce5cf5db3b1000156b0d0
+BEBE AMICO | Central Department Store,store,Central Department Store,,ca6a4f54-bac1-5adf-be45-fcc6e9634924,el_688ce5cf5db3b1000156b0d1
+BEYBLADE | Central Department Store,store,Central Department Store,,d9d93b77-ccc8-5e60-bd17-d070336807cd,el_688ce5cf5db3b1000156b0d2
+PRETTY OVO | Central Department Store,store,Central Department Store,,87ac5732-d17c-557b-a24f-da4c0f7f3678,el_688ce5cf5db3b1000156b0d3
+MAMYPOKO | Central Department Store,store,Central Department Store,,1121d61d-50db-5716-82aa-cb47977a3f60,el_688ce5cf5db3b1000156b0d4
+FILA | Central Department Store,store,Central Department Store,,af58a11e-92d4-5653-a7d4-4e8e31e1e5aa,el_688ce5cf5db3b1000156b0d5
+SANRIO LOCAL | Central Department Store,store,Central Department Store,,546f9960-da12-5efe-9e2b-c0f4cf6ddaea,el_688ce5cf5db3b1000156b0d6
+CARE BEARS | Central Department Store,store,Central Department Store,,915c1d4b-9610-592f-9e7a-c103b5636e21,el_688ce5cf5db3b1000156b0d7
+JACK RUSSEL | Central Department Store,store,Central Department Store,,36970951-0981-5859-9d0c-bb1a82832861,el_688ce5cf5db3b1000156b0d8
+GQ JEANS | Central Department Store,store,Central Department Store,,a15bd1b8-0553-55a2-9e05-d2c15d2289e6,el_688ce5cf5db3b1000156b0d9
+GAMBOL | Central Department Store,store,Central Department Store,,41ef798d-21f2-5c27-844b-4890112992d2,el_688ce5cf5db3b1000156b0da
+NATUR | Central Department Store,store,Central Department Store,,3a0bc0b3-366e-5193-84ab-684fdec65db7,el_688ce5cf5db3b1000156b0db
+REVLON | Central Department Store,store,Central Department Store,,49987ef1-130c-5a1a-9309-d06fe01e656f,el_688ce5cf5db3b1000156b0dc
+MARVEL VISION | Central Department Store,store,Central Department Store,,c880af97-20ba-59e8-aa9b-42f5cca4c80d,el_688ce5cf5db3b1000156b0dd
+ESTEE LAUDER | Central Department Store,store,Central Department Store,,56873e14-85b1-5dd0-b20d-ba1719179a11,el_688ce5cf5db3b1000156b0de
+SFERA | Central Department Store,store,Central Department Store,,e8ac4afe-9d32-5cec-91bf-30cf13abd70d,el_688ce5cf5db3b1000156b0df
+GARMIN | Central Department Store,store,Central Department Store,,c43797c3-a1ea-5828-b288-ad8db3191f49,el_688ce5cf5db3b1000156b0e0
+MC JEANS | Central Department Store,store,Central Department Store,,f8bef356-e1c4-54e5-90f5-7f0e4235e4f8,el_688ce5cf5db3b1000156b0e2
+NIKE | Central Department Store,store,Central Department Store,,1c85dc79-9a7a-54f4-8dbe-cb8a9e5bd0d0,el_688ce5cf5db3b1000156b0e3
+LOTUS | Central Department Store,store,Central Department Store,,08827f55-b503-5532-a325-0c787e0cda58,el_688ce5cf5db3b1000156b0e4
+NESPRESSO | Central Department Store,store,Central Department Store,,4d7707c0-f643-542f-8ea2-4ab1a1c77a85,el_688ce5cf5db3b1000156b0e5
+ELEMENT 72 | Central Department Store,store,Central Department Store,,e5e3a100-ddff-5e8e-883d-b4d8a6508197,el_688ce5cf5db3b1000156b0e6
+NEW ERA | Central Department Store,store,Central Department Store,,7df45b41-1255-5fe7-988c-fec160d6918b,el_688ce5cf5db3b1000156b0e7
+SHU | Central Department Store,store,Central Department Store,,7b72585c-d4bb-56f7-b754-15e046a154fe,el_688ce5cf5db3b1000156b0e8
+CLAUDIA KLEID | Central Department Store,store,Central Department Store,,48516509-814d-554f-8407-6813aadfcaf2,el_688ce5cf5db3b1000156b0ea
+LEGO | Central Department Store,store,Central Department Store,,1081ca71-2202-57a8-9c95-19369d331de3,el_688ce5cf5db3b1000156b0eb
+KLIN | Central Department Store,store,Central Department Store,,4bc53e26-df7b-5f2a-a596-47414ab095bb,el_688ce5cf5db3b1000156b0ec
+HEAVY | Central Department Store,store,Central Department Store,,f6ceef1d-df86-5043-bb06-482bff792f70,el_688ce5cf5db3b1000156b0f1
+SKECHERS FOAMIES | Central Department Store,store,Central Department Store,,96818e34-7cd7-5cc9-ba14-5f48a39aa6b8,el_688ce5cf5db3b1000156b0f2
+GUY LAROCHE | Central Department Store,store,Central Department Store,,9258241c-5cf8-52a5-9f07-4ee23dd41910,el_688ce5cf5db3b1000156b0f3
+YSL | Central Department Store,store,Central Department Store,,aa50529d-4cf5-56c1-ab57-2c13e7aa3899,el_688ce5cf5db3b1000156b0f4
+CALVIN KLEIN | Central Department Store,store,Central Department Store,,aaacb52e-2add-54e8-b7ae-c7993d5eb61c,el_688ce5cf5db3b1000156b0f6
+GUY LAROCHE | Central Department Store,store,Central Department Store,,88e151d0-0de5-541f-a5e5-c54bb4e40ac9,el_688ce5cf5db3b1000156b0f7
+TOMICA | Central Department Store,store,Central Department Store,,0dbf82cd-7af1-5e4a-beea-9a86e6670fd0,el_688ce5cf5db3b1000156b0f8
+GASOLINE & GARAGE | Central Department Store,store,Central Department Store,,c916d24d-f4df-590d-9112-59934128ffe7,el_688ce5cf5db3b1000156b0f9
+PRIMA DIAMOND | Central Department Store,store,Central Department Store,,3d766617-f97e-5af8-b34a-6dd4229dc56a,el_688ce5cf5db3b1000156b0fa
+EXPRESSIONS | Central Department Store,store,Central Department Store,,3dc1feed-3a66-5150-8cbf-989003e4fc3c,el_688ce5cf5db3b1000156b0fb
+ESTIMATE | Central Department Store,store,Central Department Store,,a4f7296b-cc9c-5332-be91-29e6bf4b146d,el_688ce5cf5db3b1000156b0fc
+DUNLOP | Central Department Store,store,Central Department Store,,39d93c63-4317-57c7-834e-6d32bafe4b2b,el_688ce5cf5db3b1000156b0fd
+LEE | Central Department Store,store,Central Department Store,,e32f4193-26d6-516d-b16d-c471cd891873,el_688ce5cf5db3b1000156b0fe
+CROCODILE | Central Department Store,store,Central Department Store,,c72b9f42-0339-54da-b6da-8530e12acbeb,el_688ce5cf5db3b1000156b101
+WRANGLER | Central Department Store,store,Central Department Store,,22af669f-ec8e-58d5-bb1e-19392bb128a0,el_688ce5cf5db3b1000156b103
+PUMA | Central Department Store,store,Central Department Store,,3d6a432a-d2ea-55fe-ab31-ed1cc531ee65,el_688ce5cf5db3b1000156b104
+PUMA | Central Department Store,store,Central Department Store,,0faf1ac4-7c4c-5f69-a6c9-2f22f7215753,el_688ce5cf5db3b1000156b105
+DAY | Central Department Store,store,Central Department Store,,5688700a-4813-5d5c-ad47-be05e5138ce1,el_688ce5cf5db3b1000156b106
+ADDA | Central Department Store,store,Central Department Store,,0431a45c-cc4c-58f5-9e7f-7472c8081e59,el_688ce5cf5db3b1000156b107
+GUESS | Central Department Store,store,Central Department Store,,d7b74132-1b4c-5b07-9ec5-1d7a15b5e2a5,el_688ce5cf5db3b1000156b108
+VING | Central Department Store,store,Central Department Store,,10de5005-1a58-5bd3-b6cb-4ed8ff3c624a,el_688ce5cf5db3b1000156b10a
+FREEWOOD | Central Department Store,store,Central Department Store,,bc873688-ac25-5c6f-8a55-111ae9276fef,el_688ce5cf5db3b1000156b10d
+G&G | Central Department Store,store,Central Department Store,,d2686823-b8d9-5c30-92be-483267ecc47b,el_688ce5cf5db3b1000156b10e
+TEFAL | Central Department Store,store,Central Department Store,,8089e6a2-8e1f-5e66-aad3-401ca08a2077,el_688ce5cf5db3b1000156b10f
+JOCKEY | Central Department Store,store,Central Department Store,,581461e8-79b9-5ecb-8e4c-f7b685ccd605,el_688ce5cf5db3b1000156b110
+CHICCO | Central Department Store,store,Central Department Store,,5e3b740e-a0f6-5b0f-bf20-e636c5dd27ca,el_688ce5cf5db3b1000156b111
+ALUMNUS WOMEN | Central Department Store,store,Central Department Store,,abd5fef3-2d69-593a-8342-8c270f290d9c,el_688ce5cf5db3b1000156b112
+FITFLOP | Central Department Store,store,Central Department Store,,7427febe-c777-5802-a806-132c409650f4,el_688ce5cf5db3b1000156b113
+LTD | Central Department Store,store,Central Department Store,,09e71129-5914-5c5f-84a8-d3e7904a4cc9,el_688ce5cf5db3b1000156b114
+KEEP | Central Department Store,store,Central Department Store,,38abb1c1-8301-56f7-aaae-634d74af3c3d,el_688ce5cf5db3b1000156b116
+JOHN HENRY | Central Department Store,store,Central Department Store,,d5e863bf-0f6c-536d-ab6d-d8c9c682f9c2,el_688ce5cf5db3b1000156b117
+SANRIO | Central Department Store,store,Central Department Store,,4f261c4c-19bc-5265-9b1f-981c9b118045,el_688ce5cf5db3b1000156b118
+LOLITA | Central Department Store,store,Central Department Store,,b095f807-85c5-5f33-aa61-d73ead90794c,el_688ce5cf5db3b1000156b11b
+GIORGIO ARMANI | Central Department Store,store,Central Department Store,,1899bdcd-2ab8-5a27-80e9-43e345572bf6,el_688ce5cf5db3b1000156b11c
+LEE | Central Department Store,store,Central Department Store,,890ee882-1c39-597e-8fad-696a0f16a2b0,el_688ce5cf5db3b1000156b11d
+GEKO | Central Department Store,store,Central Department Store,,f5498878-eacf-55d9-86f4-e66ff23ac245,el_688ce5cf5db3b1000156b11e
+BURBERRY | Central Department Store,store,Central Department Store,,db5c37f4-8706-5849-baca-5aba3d24ee7a,el_688ce5cf5db3b1000156b11f
+FILA | Central Department Store,store,Central Department Store,,ee70d8c8-53d4-5bfb-ba64-697f6dcf7d7e,el_688ce5cf5db3b1000156b120
+HUGO BOSS | Central Department Store,store,Central Department Store,,cec422e0-3403-52d6-b140-70fb38cd6054,el_688ce5cf5db3b1000156b121
+NATURALIZER | Central Department Store,store,Central Department Store,,8cbadd09-5089-544e-990d-2904b0bd9638,el_688ce5cf5db3b1000156b122
+DNEE | Central Department Store,store,Central Department Store,,8db313dc-1b93-54f9-982c-945e3bf7f135,el_688ce5cf5db3b1000156b124
+ESP | Central Department Store,store,Central Department Store,,1abcf6dd-4bb7-561c-844c-d5a556e4e8e0,el_688ce5cf5db3b1000156b125
+JUBILEE | Central Department Store,store,Central Department Store,,b30fdd91-212b-52fd-abaf-5f636c901644,el_688ce5cf5db3b1000156b126
+HUSH PUPPIES | Central Department Store,store,Central Department Store,,def5bc7e-6556-50b5-a26d-0b15371509f6,el_688ce5cf5db3b1000156b128
+MERRIES | Central Department Store,store,Central Department Store,,50188e54-3f13-56b9-be48-9a69ee704284,el_688ce5cf5db3b1000156b129
+SCHOLL | Central Department Store,store,Central Department Store,,412d3fdd-d0ac-52bb-8505-3f5db9062530,el_688ce5cf5db3b1000156b12a
+LOURSON | Central Department Store,store,Central Department Store,,ead812ac-6eff-5cc4-9818-f01818fb588d,el_688ce5cf5db3b1000156b12b
+FITFLOP | Central Department Store,store,Central Department Store,,14c342c4-28c0-5f82-af75-af89d30a3db1,el_688ce5cf5db3b1000156b12c
+ELEMENTS | Central Department Store,store,Central Department Store,,b934d1ed-c235-5f07-9790-96f6c56f212d,el_688ce5cf5db3b1000156b12d
+ANGEL BABY | Central Department Store,store,Central Department Store,,ad5ade9d-5173-5ca5-9d33-1915623f74c4,el_688ce5cf5db3b1000156b12e
+LESASHA | Central Department Store,store,Central Department Store,,d7873b46-b77b-5451-8e7d-15fc49e9fff0,el_688ce5cf5db3b1000156b131
+LUIGI BATANI | Central Department Store,store,Central Department Store,,b7407ac7-cd46-5e22-9be2-6d6fed7e3db8,el_688ce5cf5db3b1000156b132
+GIORDANO | Central Department Store,store,Central Department Store,,7f699f41-410a-550e-a627-58a21407273b,el_688ce5cf5db3b1000156b133
+FARLIN | Central Department Store,store,Central Department Store,,e4ec842b-84ac-5ffc-b9fb-7b08b0dda5c5,el_688ce5cf5db3b1000156b134
+SKECHERS | Central Department Store,store,Central Department Store,,ead00c67-1b99-55a8-9149-420a562bd146,el_688ce5cf5db3b1000156b135
+OMAZZ | Central Department Store,store,Central Department Store,,38c0bb95-e070-56db-8c33-0f722693b274,el_688ce5cf5db3b1000156b137
+NIYOM JEANS | Central Department Store,store,Central Department Store,,36ac608a-22d9-5c23-9dcd-06e7541c55f9,el_688ce5cf5db3b1000156b138
+KANEBO | Central Department Store,store,Central Department Store,,5f56c90b-41cf-5fe4-817b-b2fc876d41b6,el_688ce5cf5db3b1000156b139
+EVERSINCE | Central Department Store,store,Central Department Store,,5bfaf194-0fda-511e-a8a5-fac2c3f176b3,el_688ce5cf5db3b1000156b13d
+FOF | Central Department Store,store,Central Department Store,,2d3cb41f-7425-537c-b08c-81b6e71f9d94,el_688ce5cf5db3b1000156b13e
+MEYER | Central Department Store,store,Central Department Store,,c49dc14d-bb86-5fbd-b7c9-d4339fa18335,el_688ce5cf5db3b1000156b13f
+SATIN | Central Department Store,store,Central Department Store,,38b7c21f-446c-5d7a-958d-fb17f23757e7,el_688ce5cf5db3b1000156b140
+SIRENA | Central Department Store,store,Central Department Store,,4e52c9eb-a2f0-5c71-8ae3-d40281f68be8,el_688ce5cf5db3b1000156b141
+DEFRY 01 | Central Department Store,store,Central Department Store,,f64535a7-7032-5899-84a1-156b09b85b92,el_688ce5cf5db3b1000156b143
+LEVIS KIDS | Central Department Store,store,Central Department Store,,a2afb3f0-d382-5a10-9bf3-bf94e2878feb,el_688ce5cf5db3b1000156b144
+SEIKO | Central Department Store,store,Central Department Store,,13edee2c-3aea-52cb-bbf9-7e6175da76b7,el_688ce5cf5db3b1000156b145
+SANRIO | Central Department Store,store,Central Department Store,,e43e705d-4e29-5544-9965-1f131d19d532,el_688ce5cf5db3b1000156b146
+POLO WORLD | Central Department Store,store,Central Department Store,,e350eee0-5f04-5212-a02c-c13609047e6c,el_688ce5cf5db3b1000156b147
+PULCINELLA | Central Department Store,store,Central Department Store,,f77733b8-2890-56d8-96d3-08cbd7691a5e,el_688ce5cf5db3b1000156b148
+THAMES | Central Department Store,store,Central Department Store,,c6305e00-70de-5c27-b6fb-137795d9ea8f,el_688ce5cf5db3b1000156b14a
+KOSE | Central Department Store,store,Central Department Store,,0cf26f96-748c-529a-bdc8-88043dcfbfa0,el_688ce5cf5db3b1000156b14b
+HORSE TEN | Central Department Store,store,Central Department Store,,71126cf9-6f2c-5cbe-aa4b-033313ef3860,el_688ce5cf5db3b1000156b14c
+C&D | Central Department Store,store,Central Department Store,,98d474ed-06fe-5587-ba9a-eeeeb9cfdfa3,el_688ce5cf5db3b1000156b14d
+DYSON | Central Department Store,store,Central Department Store,,ee82b727-49fc-5855-9a32-913f442d8c16,el_688ce5cf5db3b1000156b14e
+HOTWHEELS | Central Department Store,store,Central Department Store,,fdbdf474-b9ec-565f-b746-e1838e778e11,el_688ce5cf5db3b1000156b14f
+THE MARC JACOBS | Central Department Store,store,Central Department Store,,1f696b25-7a78-5137-b7ca-71a49dde60ef,el_688ce5cf5db3b1000156b150
+NA DREAMS | Central Department Store,store,Central Department Store,,c3ffc2b9-f562-5484-b1aa-59aa8cc05306,el_688ce5cf5db3b1000156b151
+BSC COSMETOLOGY | Central Department Store,store,Central Department Store,,d07cf79e-cb39-5105-8b71-a7c85731b4a6,el_688ce5cf5db3b1000156b153
+TOSHIBA | Central Department Store,store,Central Department Store,,7f4c7728-40b1-5731-8bb6-6c361116dbcd,el_688ce5cf5db3b1000156b154
+SENSO | Central Department Store,store,Central Department Store,,c1c27794-afea-589f-9bb0-27693f892c61,el_688ce5cf5db3b1000156b155
+BEARBEARY | Central Department Store,store,Central Department Store,,65a01571-2131-562f-87d7-42aba6321f8f,el_688ce5cf5db3b1000156b156
+CENTRAL HOME LOCAL | Central Department Store,store,Central Department Store,,b2763b3d-c70d-5908-a66f-498f0f2da196,el_688ce5cf5db3b1000156b157
+CAMERA | Central Department Store,store,Central Department Store,,eb1eabca-d259-5023-8cfe-d8194f7d53fa,el_688ce5cf5db3b1000156b158
+IQ SPORT | Central Department Store,store,Central Department Store,,ef9febd4-4678-535b-b652-76860f0e0aad,el_688ce5cf5db3b1000156b15b
+FULICO | Central Department Store,store,Central Department Store,,e74ce280-e4a7-54cd-96da-abafbce98a7d,el_688ce5cf5db3b1000156b15c
+TRIUMPH | Central Department Store,store,Central Department Store,,2f44b650-eeec-5b7d-88b1-e4f43f73d763,el_688ce5cf5db3b1000156b15d
+ELECTROLUX | Central Department Store,store,Central Department Store,,058a6815-91c1-526e-b554-16175d451c7d,el_688ce5cf5db3b1000156b15e
+DEVY | Central Department Store,store,Central Department Store,,99ffe259-2547-5bf9-9d30-bc4ca4b32772,el_688ce5cf5db3b1000156b160
+FROLINA | Central Department Store,store,Central Department Store,,f66487bb-67d7-50af-8e6d-20a32d12bc53,el_688ce5cf5db3b1000156b161
+HITACHI | Central Department Store,store,Central Department Store,,1f696569-9168-5338-8128-2fa457701a55,el_688ce5cf5db3b1000156b162
+HUSH PUPPIES | Central Department Store,store,Central Department Store,,a6ad9190-622b-5d54-b626-0b752ed3af24,el_688ce5cf5db3b1000156b163
+CLAUDIAS ROMANCE | Central Department Store,store,Central Department Store,,b109f9a6-0a34-5d9f-b7c7-33a11b933f0a,el_688ce5cf5db3b1000156b164
+SANTAS | Central Department Store,store,Central Department Store,,e1b54df2-aa75-523b-abbb-0aee30b117be,el_688ce5cf5db3b1000156b166
+HAVEN | Central Department Store,store,Central Department Store,,6cb8d5b6-172c-5ba8-9267-4e8e612c0f19,el_688ce5cf5db3b1000156b167
+LOCKNLOCK | Central Department Store,store,Central Department Store,,50333454-dcd1-558f-9b2a-5786b7909e02,el_688ce5cf5db3b1000156b168
+GOODBABY | Central Department Store,store,Central Department Store,,3e4c7019-f2f2-5dbd-aaba-b3ddc8ace20d,el_688ce5cf5db3b1000156b169
+G2000 | Central Department Store,store,Central Department Store,,491900b3-d27f-5f86-a580-78fd92471856,el_688ce5cf5db3b1000156b16a
+ELLE | Central Department Store,store,Central Department Store,,1c98adb1-5d04-5e30-be1e-2ef24d7bc0c8,el_688ce5cf5db3b1000156b16b
+TAKE TOYS | Central Department Store,store,Central Department Store,,e827d14b-cf3e-5c12-a9d3-6c217c546025,el_688ce5cf5db3b1000156b16d
+EP | Central Department Store,store,Central Department Store,,97a78373-d885-5cca-a416-b6c20e551796,el_688ce5cf5db3b1000156b16e
+BEVERLY HILLS POLO CLUB | Central Department Store,store,Central Department Store,,881ceb25-c1a6-593a-8c23-9aec3ecee948,el_688ce5cf5db3b1000156b16f
+ABSORBA | Central Department Store,store,Central Department Store,,53b28c52-76fe-5c39-9ad1-a31137e99c1a,el_688ce5cf5db3b1000156b170
+WARRIX | Central Department Store,store,Central Department Store,,84f164d8-2b44-5ad5-8031-82bcf6810779,el_688ce5cf5db3b1000156b171
+COVERMARK | Central Department Store,store,Central Department Store,,0bd7314c-6806-58ed-959e-f10f8cd10216,el_688ce5cf5db3b1000156b172
+ANGEL KIDS | Central Department Store,store,Central Department Store,,79ef85d2-542b-542c-a5b0-9fd6b4e1112e,el_688ce5cf5db3b1000156b174
+GQ UNDERWEAR | Central Department Store,store,Central Department Store,,d9c7aafa-e266-5fa0-bf75-ff5a3de431d8,el_688ce5cf5db3b1000156b175
+PLAN FOR KIDS | Central Department Store,store,Central Department Store,,4b69ada5-4efb-5822-9552-a9f201d29dbc,el_688ce5cf5db3b1000156b176
+GB | Central Department Store,store,Central Department Store,,c8d2c5af-0dca-584c-9612-c155a9934bb2,el_688ce5cf5db3b1000156b177
+TULIP | Central Department Store,store,Central Department Store,,f7184aea-abac-57a9-a187-2abeff3305bc,el_688ce5cf5db3b1000156b178
+PRIMA GOLD | Central Department Store,store,Central Department Store,,637207ef-5523-5cb9-b846-eb47b92cd538,el_688ce5cf5db3b1000156b179
+SHISEIDO | Central Department Store,store,Central Department Store,,476b5469-8b54-50d2-8ba7-39317f9a4557,el_688ce5cf5db3b1000156b17a
+BUCK OFF DENIM | Central Department Store,store,Central Department Store,,d63a0431-577e-5417-bbfd-d0e82a89c5eb,el_688ce5cf5db3b1000156b17b
+MARCO POLO | Central Department Store,store,Central Department Store,,0e907352-1fe0-5710-9a4d-fba42c321e9c,el_688ce5cf5db3b1000156b17c
+PAPA | Central Department Store,store,Central Department Store,,04caec51-7c99-5bbc-a370-93b248feb68d,el_688ce5cf5db3b1000156b17d
+AKEMI | Central Department Store,store,Central Department Store,,6cf69e2c-8759-5523-8bcd-b9fa78f3e69b,el_688ce5cf5db3b1000156b17e
+AMERICAN TOURISTER | Central Department Store,store,Central Department Store,,fe1451dc-6299-5d38-a301-4d8720912486,el_688ce5cf5db3b1000156b180
+SUPERWARE | Central Department Store,store,Central Department Store,,315f0c3c-db31-5e74-9ad2-ca3d96e5b6f1,el_688ce5cf5db3b1000156b181
+GUCCI | Central Department Store,store,Central Department Store,,e5199dca-e037-5880-bd88-fe338b866fdd,el_688ce5cf5db3b1000156b183
+BOWLING | Central Department Store,store,Central Department Store,,a36f4233-89f0-514d-9f23-b6c4e5a54fff,el_688ce5cf5db3b1000156b184
+BONBEBE | Central Department Store,store,Central Department Store,,71f0c780-97d2-5f63-a08f-a3fcd0b527c2,el_688ce5cf5db3b1000156b185
+DORTMUEND | Central Department Store,store,Central Department Store,,2e52d1ee-0c90-5ec7-9b05-8202032e1bff,el_688ce5cf5db3b1000156b186
+MANCHESTER | Central Department Store,store,Central Department Store,,e4fb04ce-4c5c-56e1-8038-a18c4408ae6f,el_688ce5cf5db3b1000156b187
+UNDER ME | Central Department Store,store,Central Department Store,,ce6b1ae4-2811-52ec-a37d-4f42ec2080de,el_688ce5cf5db3b1000156b188
+KRUPS | Central Department Store,store,Central Department Store,,ea830a53-cd2d-5874-8f0c-866dc113fbaa,el_688ce5cf5db3b1000156b189
+G2000 | Central Department Store,store,Central Department Store,,793e28ba-eabe-5aa5-88ef-36cb127bfecb,el_688ce5cf5db3b1000156b18c
+BAOJI | Central Department Store,store,Central Department Store,,daf06ffb-29a7-5aee-ad83-47eed21d0468,el_688ce5cf5db3b1000156b18e
+DAPPER | Central Department Store,store,Central Department Store,,15e74b9c-c257-51e5-81e0-1d242ce5a752,el_688ce5cf5db3b1000156b18f
+UNDERGEAR | Central Department Store,store,Central Department Store,,a6ad7ac1-00fb-580d-8c32-c69e168a65b9,el_688ce5cf5db3b1000156b192
+ELLE | Central Department Store,store,Central Department Store,,ff322052-4701-53e9-966f-e8e1d0f6b598,el_688ce5cf5db3b1000156b193
+LAMY | Central Department Store,store,Central Department Store,,d38adbf7-d1ce-56e5-9e7f-e09bc6d1765a,el_688ce5cf5db3b1000156b194
+SIMPLICITY | Central Department Store,store,Central Department Store,,059fb859-07dc-59c6-8923-f8bbde51cbb3,el_688ce5cf5db3b1000156b195
+TRUE,store,Technology,,eff6fb2f-39bb-5f1a-b7a1-0a8b1c2a5b2b,el_69b4365289064e0001a72c61
+UOB XPRESS,store,Bank & ATM,,400c4885-bc60-5a9f-bb48-4fcb4236d760,el_69b4365289064e0001a72c64
+NATURE,store,Fashion & Accessories,,4b78b48f-9e2d-501c-a7a0-c8fe82fb33af,el_69b4365289064e0001a72c65
+I STUDIO,store,Technology,,5fff49bf-4653-50ab-99c7-dfeafc5bb73d,el_69b4365289064e0001a72c67
+SKECHERS,store,Fashion & Accessories,,65642e3c-197e-5b6c-9818-f72d3d60ed95,el_69b4365289064e0001a72c69
+MR.D.I.Y.,store,Home & Décor,,1890080b-f6b0-5674-bf7b-bf0b3f6ed3e9,el_69b4365289064e0001a72c6c
+ธนาคารกสิกรไทย,store,Bank & ATM,,60eaaa91-3fa6-5cbc-bc33-57399429a36b,el_69b4365289064e0001a72c6d
+ห้างทองหวังทองดี,store,Fashion & Accessories,,a37754a8-3752-5712-a655-9b755e3c7b8e,el_69b4365289064e0001a72c71
+OTORI-YAKI,store,Food & Beverage,,057ce528-cd66-52b9-bf27-e1b2ce131b12,el_69b4365289064e0001a72c74
+ธนาคารทหารไทยธนชาต,store,Bank & ATM,,a5f8c7ad-864b-564b-8ff4-9972cb89283a,el_69b4365289064e0001a72c75
+BETTER VISION,store,General Service,,f64c7331-983a-5a5e-a0ac-9746988a9fa0,el_69b4365289064e0001a72c7d
+TIEWRUASAOWAREE,store,Food & Beverage,,1e8508f0-8e76-59e5-8f01-5671834b6fa0,el_69b4365289064e0001a72c82
+THONGBAI JEWELRY,store,Fashion & Accessories,,a9505725-ad6c-5598-ae08-a1a4080de4fc,el_69b4365289064e0001a72c83
+YAMAZAKI,store,Food & Beverage,,265a069a-0abf-5352-b699-70c372a1a2ce,el_69b4365289064e0001a72c85
+BANANA,store,Technology,,eab26ee2-097c-5269-b3e3-4c22587493bb,el_69b4365289064e0001a72c86
+MK RESTAURANTS,store,Food & Beverage,,c6f806ab-cbcb-5aa0-af99-6542d21588c1,el_69b4365289064e0001a72c89
+CHARMING,store,Technology,,3519f27f-a940-5522-a895-9cc56c7dac85,el_69b4365289064e0001a72c8b
+ORIENTAL JEWELRY,store,Fashion & Accessories,,07f19fb9-dd9b-5a99-86ac-b5d1ac64a968,el_69b4365289064e0001a72c8e
+N B JEWELRY,store,Fashion & Accessories,,a9393f40-0bdb-56d6-a97b-81419cc3d027,el_69b4365289064e0001a72c94
+MOSHI MOSHI,store,Home & Décor,,7a329e61-1ce4-579d-9a8c-d9a28a85956e,el_69b4365289064e0001a72c95
+ฮะจิบัง ราเมน,store,Food & Beverage,,a13b1fd5-944c-5a34-8ae4-ab184f25be7e,el_69b4365289064e0001a72c98
+CLICKROBOT,store,Edutainment,,edc4b4a9-b0c4-5451-9a9c-6f32379581b6,el_69b4365289064e0001a72c9e
+KRUNG THAI BANK,store,Bank & ATM,,0a9c2c07-64f5-5b30-a99f-5da2800c25bd,el_69b4365289064e0001a72ca0
+YUEDPAO,store,Fashion & Accessories,,d8c02153-0ab9-5df8-b1d8-6a2a0411791d,el_69b4365289064e0001a72ca1
+ชาตรามือ,store,Food & Beverage,,131ca915-f8b6-52aa-ad1d-edd6e30b57df,el_69b4365289064e0001a72ca3
+AIS,store,Technology,,6c7b0b4d-b6d3-52e3-b0cb-3730930c4397,el_69b4365289064e0001a72ca7
+รสเสน่ห์,store,Food & Beverage,,b78c9847-e7c1-5674-a714-da1c37d6ecf1,el_69b4365289064e0001a72caa
+HIGH SCHOOL,store,Fashion & Accessories,,1ca7a9dd-82a1-547b-bd23-9bb0f0668c7f,el_69b4365289064e0001a72cab
+ธนาคารออมสิน,store,Bank & ATM,,ffcf260a-78c9-5e98-88f9-a6304ed31998,el_69b4365289064e0001a72cac
+MUJI,store,Home & Décor,,ca171c26-b5fb-51fa-bd6f-45b8d5099051,el_69b4365289064e0001a72cad
+LEVI'S,store,Fashion & Accessories,,80ce1e35-7c6d-5c23-9b4d-5fb89c60de3d,el_69b4365289064e0001a72cae
+JASPAL,store,Fashion & Accessories,,fff60d10-adef-53bb-a238-0367d89b029d,el_69b4365289064e0001a72cb0
+SALAD FACTORY,store,Food & Beverage,,624e741b-a25b-5c7b-9589-7e60c7120ff7,el_69b4365289064e0001a72cb2
+CUTE PRESS,store,Health & Beauty,,192e7fb1-6b63-578f-8f5b-064b0f7594ca,el_69b4365289064e0001a72cb4
+XIAOMI,store,Technology,,b255259a-347b-503b-8266-8282eca1d3b4,el_69b4365289064e0001a72cba
+SANTAFE STEAK HOUSE,store,Food & Beverage,,0bb12a05-20fa-5279-8c23-fddf54940de7,el_69b4365289064e0001a72cbb
+PIZZA HUT,store,Food & Beverage,,48a4e89f-9359-58b0-a982-04e1d7a50356,el_69b4365289064e0001a72cbc
+FOCUS SHOP,store,Technology,,d03a963d-c744-592b-8f51-186935816407,el_69b4365289064e0001a72cbd
+SF CINEMA,store,Entertainment,,4c61f604-3b8d-57f4-90e4-844fe151499f,el_69b4365289064e0001a72cbe
+หอมเปาคัพ,store,Food & Beverage,,0eb0f699-7ca6-59ab-92bd-a8d72c38db10,el_69b4365289064e0001a72cc3
+SOUND CHECK KARAOKE,store,Entertainment,,3ae82e5a-07fb-57b3-afa9-6ca129901cbd,el_69b4365289064e0001a72cc4
+CENTRAL DEPARTMENT STORE,store,Central Department Store,,55327233-acf4-5c9d-82da-57954722a7e2,el_69b4365289064e0001a72cc6
+TOPS,store,Food & Beverage,,2cc268c2-0d82-5929-a755-bcb15bb65d55,el_69b4365289064e0001a72cc9
+OISHI RAMEN/โออิชิ ราเมน,store,Food & Beverage,,01695743-97a5-56cb-9da0-a7ce05633f04,el_69b4365289064e0001a72cca
+LEMONY,store,Home & Décor,,c79cc05d-270f-5eff-830f-37aa7e38e2ae,el_69b4365289064e0001a72ccb
+SWENSEN'S,store,Food & Beverage,,a5abd877-4a74-504c-9ca9-32e33320ff8d,el_69b4365289064e0001a72ccd
+HARBOR LAND,store,Entertainment,,1a16a0bf-1388-531d-9b07-029896a66509,el_69b4365289064e0001a72cd0
+CENTRAL DEPARTMENT STORE,store,Central Department Store,,1ffb24d0-0293-518e-bb0e-69195e35cf1e,el_69b4365289064e0001a72cd3
+MISS SIS,store,Fashion & Accessories,,08926206-9c34-588f-b7cc-2f5aa5c8d0cf,el_69b4365289064e0001a72cd5
+CENTRAL DEPARTMENT STORE,store,Central Department Store,,7c74ba14-cf4f-5e16-98a9-7b19a03cc919,el_69b4365289064e0001a72cd6
+NITIPON CLINIC,store,Health & Beauty,,1277f70c-02a5-5ec6-a3db-264e9896e344,el_69b4365289064e0001a72cd8
+CROCS,store,Fashion & Accessories,,5faf3c38-3299-5ad2-8660-2dd82429987e,el_69b4365289064e0001a72cd9
+The care Nail,store,Health & Beauty,,d25919ab-ef8b-5d64-8775-9fd890780d5d,el_69b4365289064e0001a72cdb
+JELLY BUNNY,store,Fashion & Accessories,,9f27b4b1-4339-5902-949f-1dd6f351333a,el_69b4365289064e0001a72cdc
+C.T. 26,store,General Service,,4984e949-7741-5051-8278-c2b50b81c8b1,el_69b4365289064e0001a72cdd
+ลาวญวน,store,Food & Beverage,,fa51c097-317d-56f0-ae8f-5c8d7e101a10,el_69b4365289064e0001a72ce0
+Future Living,store,Home & Décor,,b0a5970d-203f-5c80-b7b3-3aea3281be52,el_69b4365289064e0001a72ce6
+ทองใบเบเกอรี่,store,Food & Beverage,,9a54c2c3-c159-560d-887c-652fa526a7aa,el_69b4365289064e0001a72ce8
+JAY MART,store,Technology,,87493cf5-6ca5-5a40-a121-99097685b7ba,el_69b4365289064e0001a72ce9
+CPS CHAPS,store,Fashion & Accessories,,a9eaecb7-3a8e-5a92-ac7f-06e93046344f,el_69b4365289064e0001a72cea
+ADVICE,store,Technology,,221467b9-f739-56b2-a51d-8e24b6d40ef4,el_69b4365289064e0001a72ceb
+ธนาคารกรุงศรีอยุธยา,store,Bank & ATM,,e9a691e7-93e7-5252-9bed-28a147a07d97,el_69b4365289064e0001a72cec
+APEX,store,Health & Beauty,,7b495d27-200d-5a09-a7c0-ee4fd2692ce9,el_69b4365289064e0001a72cf1
+ROYAL IVY REGATTA,store,Fashion & Accessories,,4260edb3-d2c7-5d26-8789-d93e3f019165,el_69b4365289064e0001a72cf3
+RESTER,store,Others,,9d7f8fb7-c6a5-542c-848b-3847d0558d1c,el_69b4365289064e0001a72cf4
+LYN AROUND,store,Fashion & Accessories,,18f13c92-8b17-55ff-bcd2-2eb0ab1f1e9f,el_69b4365289064e0001a72cf5
+SUPERSPORTS,store,Fashion & Accessories,,71ff6e05-e91f-59d1-9c57-4f19bbc1d4be,el_69b4365289064e0001a72cfc
+PAY BY P.A.PHONE,store,Technology,,50dc720d-6c66-5f23-94e9-162ef40d34b3,el_69b4365289064e0001a72cfd
+THE FACE SHOP,store,Health & Beauty,,45f582ba-19a3-5d3f-b22e-fb80e3bdcc67,el_69b4365289064e0001a72cff
+PLAY SOUND,store,Edutainment,,24641dfe-2e7e-5e4e-bec1-92128565255c,el_69b4365289064e0001a72d00
+AI-CHA,store,Food & Beverage,,fef9d168-8e28-595b-a3e9-2bc1218c2020,el_69b4365289064e0001a72d02
+ขนมบ้านพู่กันเบเกอรี่โฮมเมด,store,Food & Beverage,,43884a7e-5d68-55aa-a154-66d9aceb1234,el_69b4365289064e0001a72d03
+ADIDAS,store,Fashion & Accessories,,e88d2d6c-d8d9-52e5-adac-48aa03a8bfee,el_69b4365289064e0001a72d09
+LYN,store,Fashion & Accessories,,0bf39aae-c51d-5b70-be5b-05b6b1e8553d,el_69b4365289064e0001a72d0b
+OOTOYA,store,Food & Beverage,,7e6c8d6c-ce00-5f6e-850c-1c97c4a1d2f1,el_69b4365289064e0001a72d0c
+VIVO,store,Technology,,30869617-6561-53b2-8976-bb60f2a937c7,el_69b4365289064e0001a72d0f
+GANGNAM CLINIC,store,Health & Beauty,,58292ad5-5592-59dc-83a5-a0237e8fa906,el_69b4365289064e0001a72d15
+JIB,store,Technology,,ad2a5a55-1e61-5ee7-ae45-c0c005e4bae3,el_69b4365289064e0001a72d19
+SHABUSHI / ชาบูชิ,store,Food & Beverage,,f7ed2eac-f678-5c55-abdd-e81ffbc9c160,el_69b4365289064e0001a72d1a
+WRANGLER,store,Fashion & Accessories,,fb9e3ce4-48bf-558f-b992-cf1a43084073,el_69b4365289064e0001a72d1b
+ME WAFFLE,store,Food & Beverage,,3b59213e-933c-51f6-984a-68f590e2eab7,el_69b4365289064e0001a72d1c
+NARA GEMS,store,Fashion & Accessories,,4c8bd9b7-ba94-5367-a914-c8c9d0520e7e,el_69b4365289064e0001a72d24
+AIS,store,Technology,,15076c33-3f2e-57c2-bb4f-603c2d7bdd29,el_69b4365289064e0001a72d29
+itgo,store,Technology,,6114a456-bad6-5135-8b15-468b70ba4bcb,el_69b4365289064e0001a72d2a
+POWER BUY,store,Technology,,ce4ddd75-9636-51b6-82ba-5615d132b941,el_69b4365289064e0001a72d2c
+REALME,store,Technology,,75043a96-9238-5a58-accb-5601bffa841e,el_69b4365289064e0001a72d30
+SHICHIDA,store,Edutainment,,1bffe900-859e-517c-9102-4fb58355e72e,el_69b4365289064e0001a72d35
+LUXOPTIC,store,General Service,,56000bcf-a0fd-5044-a572-422b9baa2447,el_69b4365289064e0001a72d36
+คันเซย์ ซูชิ,store,Food & Beverage,,a9bb3249-24f5-5256-a992-f8e7d93bced9,el_69b4365289064e0001a72d37
+YAYOI,store,Food & Beverage,,3351a37e-7867-507d-9c89-29b2d3ba3602,el_69b4365289064e0001a72d3a
+CC-OO,store,Fashion & Accessories,,2ee834d3-a068-56de-a987-8ef5d5a7f9ec,el_69b4365289064e0001a72d3f
+OPPO,store,Technology,,50f40946-925a-51a4-afec-48c9fb64aae1,el_69b4365289064e0001a72d42
+ธนาคารกรุงเทพ,store,Bank & ATM,,26a49f5f-84ed-56f7-8ca7-34a805288cb0,el_69b4365289064e0001a72d49
+ORIGANI,store,Health & Beauty,,aecb7cf7-a8b8-5381-a8ec-ca5ce2420f2b,el_69b4365289064e0001a72d4b
+ZEN JAPANESE RESTAURANT,store,Food & Beverage,,a15b4b15-f393-5e4c-85f1-2cdec0509c61,el_69b4365289064e0001a72d4c
+ลูกชิ้นปลาเยาวราช,store,Food & Beverage,,5620f6cf-a5e5-5cdf-9d0e-7ed8bb9d4864,el_69b4365289064e0001a72d4d
+BIG CAMERA,store,Technology,,082bb07c-145b-5061-83ea-ed8805f04546,el_69b4365289064e0001a72d4e
+VANS,store,Fashion & Accessories,,8881e025-1d6d-5c9a-925d-ff3334a0b959,el_69b4365289064e0001a72d50
+BAR-B-Q PLAZA,store,Food & Beverage,,36fa5616-b5cd-567a-a382-7f3c34eb7157,el_69b4365289064e0001a72d52
+FUJI JAPANESE RESTAURANT,store,Food & Beverage,,d71298fe-2979-5114-b0e1-8bb72223625b,el_69b4365289064e0001a72d5c
+BONAGE,store,Health & Beauty,,67f78e20-0fe1-5aed-80f1-d8132128ef6e,el_69b4365289064e0001a72d5e
+สลากเศรษฐี,store,Government Services Point,,7935908b-30d8-57ca-8ef5-45abedd01376,el_69b4365289064e0001a72d5f
+B2S,store,Book & Stationeries,,e198d280-70c8-5725-87ce-992912417145,el_69b4365289064e0001a72d60
+JOYLIDAY PLUS,store,Entertainment,,a198e4b1-e101-5f56-a5b6-b340867e71c6,el_69b4365289064e0001a72d62
+โรงเรียนกวดวิชานครสวรรค์สอนเสริม ( The G ),store,Edutainment,,b0da5084-0008-521f-a242-83a787174471,el_69b4365289064e0001a72d63
+OPTICAL 88,store,General Service,,8c1ae686-002a-5943-a4f0-77e264ccfac8,el_69b4365289064e0001a72d66
+แหลมเจริญูซีฟู้ด,store,Food & Beverage,,9d06187d-a2b2-56dc-a868-69155247165e,el_69b4365289064e0001a72d6a
+THE KLINIQUE,store,Health & Beauty,,b3f5af99-1e01-5df9-ae49-664e328ddfed,el_69b4365289064e0001a72d6b
+ห้างทองเยาวราชกรุงเทพ,store,Fashion & Accessories,,94eaca6f-eb63-54b1-b40b-10ab8ba9aa5d,el_69b4365289064e0001a72d6c
+REV RUNNR,store,Fashion & Accessories,,68adbd72-c091-53a4-862f-594f759dfaaf,el_69b4365289064e0001a72d6d
+ZELYN,store,Fashion & Accessories,,ac24963e-4df4-5b1f-b0c5-2de63e2ab7cb,el_69b4365289064e0001a72d71
+ห้างทองหวังอยากมี,store,Fashion & Accessories,,82937875-f995-5120-86f2-9b7017d21b55,el_69b4365289064e0001a72d73
+BEAUTRIUM,store,Health & Beauty,,cb4cc461-4925-5234-b56c-2a1a13604621,el_69b4365289064e0001a72d75
+NGG,store,Fashion & Accessories,,70ca94af-c8bb-564a-b9a9-32ef16d8d618,el_69b4365289064e0001a72d77
+AURORA,store,Fashion & Accessories,,3ff9a5f3-501e-5758-b434-a5f430ad0072,el_69b4365289064e0001a72d79
+MOD NGERN,store,Fashion & Accessories,,446e8897-e5a9-5352-99e9-1414554890eb,el_69b4365289064e0001a72d7a
+KOI THE',store,Food & Beverage,,02ab8a36-08d1-55e0-8ad5-121985d2978d,el_69b4365289064e0001a72d7c
+ห้างทองอยากมีตัง,store,Fashion & Accessories,,7370d496-d25f-55d5-9d69-3d571fd41295,el_69b4365289064e0001a72d7d
+ASICS,store,Fashion & Accessories,,0962991d-86b5-5676-8a7b-d7f60d92a108,el_69b4365289064e0001a72d7e
+THE NEXT,store,General Service,,8d75c723-8076-5e46-a02d-f4038e02ebe1,el_69b4365289064e0001a72d80
+ลูกชิ้นพิษณุโลกราม่า,store,Food & Beverage,,6787a261-e8cb-542b-9f76-56b01e7fd09f,el_69b4365289064e0001a72d83
+STARBUCKS COFFEE,store,Food & Beverage,,94fece42-9702-59ee-b30d-af773f8444d7,el_69b4365289064e0001a72d85
+CHESTER'S,store,Food & Beverage,,f22237bf-a4f8-5b9a-8f7d-b35151fb6c05,el_69b4365289064e0001a72d87
+ห้างทองหวังโต๊ะกังเยาวราช,store,Fashion & Accessories,,830d0558-2c70-5659-bf61-36cc73947285,el_69b4365289064e0001a72d89
+DIAMOND FOR YOU,store,Fashion & Accessories,,817925ed-971a-5f47-b1b2-0e1bc9933c61,el_69b4365289064e0001a72d8a
+PEPPER LUNCH,store,Food & Beverage,,1daee289-85f0-52fe-86a3-92deb977bbbd,el_69b4365289064e0001a72d8b
+SENGHENG YAOWARAT,store,Fashion & Accessories,,28b68bf4-e02b-59f3-a7b7-34df435a2f66,el_69b4365289064e0001a72d8e
+SAMSUNG,store,Technology,,f3634d99-de8f-5e0c-bd75-ee5c0d5b1b93,el_69b4365289064e0001a72d90
+มากินคลีน,store,Food & Beverage,,95babcf3-7c07-5f83-be82-7b9c88aa0059,el_69b4365289064e0001a72d91
+ปลาวาฬบ้าบิ่นมะพร้าวน้ำหอม,store,Food & Beverage,,0151fcb8-9cf7-559d-b729-c215cd6c8e4c,el_69b4365289064e0001a72d97
+MC JEANS,store,Fashion & Accessories,,e7eae987-824a-58c0-ac3a-a4f0271061df,el_69b4365289064e0001a72d98
+JETTS 24 HOUR FITNESS,store,Entertainment,,651903a8-9386-5190-8629-f824e143f5b8,el_69b4365289064e0001a72d99
+RECYCLE STATION,store,General Service,,74cdc4e6-af50-5070-9288-6d20c66822cc,el_69b4365289064e0001a72d9c
+ORIENTAL PRINCESS,store,Health & Beauty,,6a7befe5-1d6b-5519-90ae-f14e25bf85c8,el_69b4365289064e0001a72d9d
+INFINITY MEDICAL CLINIC,store,Health & Beauty,,431c3f32-aeea-5f1a-9735-0e39feec727b,el_69b4365289064e0001a72d9e
+CAFE AMAZON,store,Food & Beverage,,f0da7296-1fd8-5767-8185-c4866a75cc95,el_69b4365289064e0001a72d9f
+YVES ROCHER,store,Health & Beauty,,d73e0aac-5056-5bec-9982-802d9b00cedd,el_69b4365289064e0001a72da5
+ธนาคารไทยพาณิชย์,store,Bank & ATM,,13774643-4c12-5b9e-b147-1f219a91ebf2,el_69b4365289064e0001a72da9
+UNIQLO,store,Fashion & Accessories,,d7b602a8-da5b-52bc-a594-5427b7b2365b,el_69b4365289064e0001a72daa
+KATSUYA,store,Food & Beverage,,49a0b9f3-3ced-58c5-a79d-27c305e32c2c,el_69b4365289064e0001a72dac
+เสน่ห์ทองม้วน,store,Food & Beverage,,ea8844ef-2e2a-5e4c-8f58-acef94d955d0,el_69b4365289064e0001a72dae
+PIE BON CHOC,store,Food & Beverage,,67dec562-f50c-515e-9273-1250394bfbb8,el_69b4365289064e0001a72db0
+GAGA,store,Food & Beverage,,447089ea-ad0e-58b6-a97a-20c766c9992c,el_69b4365289064e0001a72db1
+ส้มยิ้ม ริมน้ำ,store,Food & Beverage,,271966a8-3bae-57c5-a120-03781b411957,el_69b4365289064e0001a72db2
+WATSONS,store,Health & Beauty,,58467a12-cbbe-58bb-a434-c14520afd351,el_69b4365289064e0001a72db6
+KT OPTIC,store,General Service,,d7335486-3336-5687-b662-ff0cb12cdc21,el_69b4365289064e0001a72dba
+KAMU.KAMU,store,Food & Beverage,,daec0ed4-acae-5eac-8985-2dbd2b07fc29,el_69b4365289064e0001a72dbb
+BONCHON,store,Food & Beverage,,f845467d-d9a5-5c85-b509-634d17ef1e5f,el_69caa012db32730001ad7437
+MIXUE,store,Food & Beverage,,e63dd6d4-0778-5ce9-85f1-34a9f64b2495,el_69caa012db32730001ad7438
+KFC,store,Food & Beverage,,c9163567-c509-5ba2-979a-669be2e29efd,el_69caa012db32730001ad7439
+คุณพิสิทธิ์ เข็มทอง,store,Others,,1c3de685-a294-55e8-b1ce-f480ef61e066,el_6a3c00c4d047ed0001caa627
+Human Charger,store,Others,,5eed32c9-b880-55fd-a4ef-c7a08b4969bf,el_6a3c00c4d047ed0001caa629
+CHUN,store,Food & Beverage,,cc5191f5-4f07-51d6-8fc8-40d838b81d08,el_6a3c00c4d047ed0001caa62b
+คุณศักดิ์ชัย อยู่นิ่ม,store,Others,,ecab5540-3e8a-5fb6-a37a-8c1f86d19b2f,el_6a3c00c4d047ed0001caa62d
+ESCENT NAKHON SAWAN,store,General Service,,f873ad28-8164-57c1-8714-81f497df9302,el_6a3c00c4d047ed0001caa62e
+LOOKER,store,Fashion & Accessories,,014f49a3-fe3b-5ae9-90ab-d4eb30bbb87e,el_6a3c00c4d047ed0001caa62f
+TG FONE,store,Technology,,a3964710-cfaf-5487-a23e-815eb5f8cd43,el_6a3c00c4d047ed0001caa630
+DARLEEN,store,Fashion & Accessories,,db3063e7-5c80-5e6e-a094-a031adaaf003,el_6a3c00c4d047ed0001caa631
+คุณชณัชตา ศรีเหรา,store,Others,,28babe3c-66c2-51a5-8441-1d8d8ac48a86,el_6a3c00c4d047ed0001caa632
+DYSON,store,Technology,,e2e890cb-6ad3-5418-a6aa-e0b56763618a,el_6a3c00c4d047ed0001caa633
+COZY NAIL STUDIO,store,Health & Beauty,,31e2d61f-f26f-5e09-90cc-6a8093783096,el_6a3c00c4d047ed0001caa634
+AUNTIE ANNE'S,store,Food & Beverage,,a35563a5-1294-5a2f-a9c0-599b5b32a7ee,el_6a3c00c4d047ed0001caa636
+คุณปริวัตร อินชู,store,Others,,b5c1611e-ddc7-571e-b7ec-a09bc67bbf5d,el_6a3c00c4d047ed0001caa638
+KANSAI SHUSHI,store,Food & Beverage,,4af5d114-4db7-55ca-9a13-52be1197c090,el_6a3c00c4d047ed0001caa639
+BLOOMING HOUSE,store,Fashion & Accessories,,9ec6fab3-7642-5859-afe0-cbb72eb242a9,el_6a3c00c4d047ed0001caa63a
+LA LA ROSE,store,Fashion & Accessories,,375941a5-fbfa-5e6c-ac27-d24932f19c3c,el_6a3c00c4d047ed0001caa63b
+บ้านผ้าฝ้ายลินิน,store,Fashion & Accessories,,68ffb2f1-54c4-547d-b115-0ef33bfbe7fa,el_6a3c00c4d047ed0001caa63c
+UNT MOBILE REPAIR,store,Technology,,119c9462-f74f-5a1f-8998-035250419bfa,el_6a3c00c4d047ed0001caa63d
+MISTER DONUT,store,Food & Beverage,,3d0f808d-af5e-5880-a4dd-f196ae0c40e6,el_6a3c00c4d047ed0001caa63f
+FOODPATIO,store,Food & Beverage,,3cf0c9bd-67c7-5b55-b611-da827664944d,el_6a3c00c4d047ed0001caa640
+หัตถชา,store,Home & Décor,,6e8c7c46-f5e4-556e-8990-06ec2170e71c,el_6a3c00c4d047ed0001caa641
+PHOENIX PREMIUM CAR CLEANING,store,General Service,,55edfc0e-4307-5020-b57d-aaafdf586256,el_6a3c00c4d047ed0001caa642
+EARS CANDY,store,Fashion & Accessories,,41116b31-6da0-5c1c-9e5a-73b0cf9d3ae8,el_6a3c00c4d047ed0001caa643
+คุณพชรพล เพ็ชรสินธพ,store,Others,,35060d9a-8684-5819-983d-ab6333ee323d,el_6a3c00c4d047ed0001caa644
+PRADAP,store,Fashion & Accessories,,92add133-64b3-5975-a5ee-910637d7170f,el_6a3c00c4d047ed0001caa645
+88 DENIM EDITION,store,Fashion & Accessories,,bc730fac-fc2b-5d30-bff2-d82280351c5c,el_6a3c00c4d047ed0001caa647
+คุณคทาวุธ ลาภเลิศลอย,store,Others,,ac235708-8d9e-526e-a2b5-21c3d03a9275,el_6a3c00c4d047ed0001caa648
+บ้านวาสนา,store,General Service,,07d10d99-e562-573d-a191-fb4763b591bc,el_6a3c00c4d047ed0001caa649
+คุณชุติมา เทพทรัพย์,store,Others,,a6c14313-bd35-528a-98ed-ebc5866b3884,el_6a3c00c4d047ed0001caa64a
+คุณพัชรวลัย พัฒนนวพงศ์,store,Others,,15e6bdde-eca7-535e-a427-6f2416b10098,el_6a3c00c4d047ed0001caa64b
+G-SHOCK CASIO,store,Fashion & Accessories,,7ae94daa-6ff0-5629-a5fb-86fe5170c71a,el_6a3c00c4d047ed0001caa64c
+BATA,store,Fashion & Accessories,,c8165164-9f29-59fa-bb14-554d11d4a7cc,el_6a3c00c4d047ed0001caa64d
+คุณเด่นพงษ์ มั่นคง,store,Others,,542f476e-dd56-5a18-9d52-6c6e0d810086,el_6a3c00c4d047ed0001caa64e
+คุณปิยนันท์ บัวอยู่,store,Others,,c0a11312-66a7-592d-a83b-4533aee11f5e,el_6a3c00c4d047ed0001caa64f
+BKK DIAMOND,store,General Service,,dfc0dc5d-d3ba-5849-a2db-55e2b8252397,el_6a3c00c4d047ed0001caa651
+สมุนไพรอัญชันแฮร์,store,Health & Beauty,,fbc8136c-056d-530e-9609-a98f48fe516e,el_6a3c00c4d047ed0001caa652
+MA-LONG.1989,store,Fashion & Accessories,,e8ce849d-6d96-5a22-b7d3-ce515d17d4d8,el_6a3c00c4d047ed0001caa653
+CHIC,store,Technology,,0782fe4c-97ff-5e93-b636-0460f691a198,el_6a3c00c4d047ed0001caa655
+เตี๋ยวลุยสวน & หม่าล่า,store,Food & Beverage,,37a515e0-63b8-584c-af03-1ed57bc9d081,el_6a3c00c4d047ed0001caa657
+PREM BAG AND CLOTHES,store,Fashion & Accessories,,b285e56f-64e6-58ce-88ce-9ddbbfcab8e9,el_6a3c00c4d047ed0001caa658
+คุณทันดร นาคสมบูรณ์,store,Others,,cccd71e9-d066-52b5-b6fd-fac795785365,el_6a3c00c4d047ed0001caa659
+คุณรุ่งรวี ธีราธัญพร,store,Others,,137b2578-3e02-5ffa-a855-4e2097c5cadb,el_6a3c00c4d047ed0001caa65a
+ONE MOBILE,store,Technology,,91597b9f-aafe-525a-9be3-7af348d09c88,el_6a3c00c4d047ed0001caa65b
+LEE STYLES,store,Fashion & Accessories,,7f47f4ed-cea8-5419-b5ea-c9aa6144c983,el_6a3c00c4d047ed0001caa65c
+2WINTOYS,store,Lifestyle,,c5acaff6-96c6-53ff-8045-7a332cc38485,el_6a3c00c4d047ed0001caa65e
+คุณตรีภพ เทียนสว่าง,store,Others,,4fc94c8f-4e38-5bb8-98e0-7825f90cf5ee,el_6a3c00c4d047ed0001caa65f
+OPOL PHONE,store,Technology,,69f35b6c-d2b7-5d95-bd00-82ecda4573dc,el_6a3c00c4d047ed0001caa660
+PHOTOVIBES HAUS,store,General Service,,ccb7dea3-cfa3-5e5f-bb2e-4f1b560e890d,el_6a3c00c4d047ed0001caa661
+BLOOMING HOUSE,store,Fashion & Accessories,,8e9a53dd-2be5-5dff-a91b-5e60284d08a9,el_6a3c00c4d047ed0001caa662
+คุณสุภัส แสงอุ่น,store,Others,,0bed7fb0-321c-5f5c-876e-8fc3b880d550,el_6a3c00c4d047ed0001caa663
+I SERVICE,store,Technology,,d4ab0ba8-467a-59df-a635-5dc6dc7aa2f5,el_6a3c00c4d047ed0001caa664
+คุณณัฐรัตรน์ โพธ์แตง,store,Others,,aca85054-8d6a-5281-a71e-946f68e74883,el_6a3c00c4d047ed0001caa665
+KANE,store,Fashion & Accessories,,5675abec-b576-5575-8943-e6ed41bf0025,el_6a3c00c4d047ed0001caa667
+NINETIES DESIGN,store,Fashion & Accessories,,db1a3204-372d-58c7-b598-1e2a41e0d76c,el_6a3c00c4d047ed0001caa66b
+GARMIN,store,Fashion & Accessories,,a9786c1c-e5e3-5a07-af1c-bd3cf77ba2a0,el_6a3c00c4d047ed0001caa66c
+ไอปอล์เคส,store,Technology,,483611f6-6052-5d55-85e2-93ce0f395941,el_6a3c00c4d047ed0001caa66d
+TINY TOYS,store,Entertainment,,ff0c25a4-d00e-5f1e-b198-c24b19f191e7,el_6a3c00c4d047ed0001caa66e
+BAOJI,store,Fashion & Accessories,,093af220-43f2-519d-a1bc-2bf985627171,el_6a3c00c4d047ed0001caa66f
+คุณกุลธิดา พิทักษ์ภิรมย์สุข,store,Others,,7451a084-f917-5f2c-b39d-3665d7ae9259,el_6a3c00c4d047ed0001caa670
+BAOJI,store,Fashion & Accessories,,e4655fe5-e06e-5cf2-8506-112a548b6991,el_6a3c00c4d047ed0001caa672
+คุณณัชดิษฐ์ ระยา,store,Others,,20419afc-784c-52c2-8964-ab7ae9535d82,el_6a3c00c4d047ed0001caa673
+คุณวรรณา กองทรง,store,Others,,7618ca53-3fa6-5063-b675-b673eba63996,el_6a3c00c4d047ed0001caa674
+คุณอังคณา พรหมเรืองฤทธิ์,store,Others,,c4a30c5d-72ba-5c66-8ac6-fc36b430222b,el_6a3c00c4d047ed0001caa675
+คุณอำนาจ ช่วยรักษา,store,Others,,bb3d2fc9-02c4-5ae9-af35-cfa06d12a7a8,el_6a3c00c4d047ed0001caa676
+HUSH PUPPIES,store,Fashion & Accessories,,62ed6821-186c-57e5-91e3-d91962d019a1,el_6a3c00c4d047ed0001caa677
+CONVERSE,store,Fashion & Accessories,,0da428eb-464e-5067-b6a4-ae19efb6b009,el_6a3c00c4d047ed0001caa678
+มาย คิดส์,store,Fashion & Accessories,,c7871f49-0b59-58e2-8212-b3ce608a1db5,el_6a3c00c4d047ed0001caa679
+กายะจิต,store,Others,,7395be82-bbd8-5011-a67b-d5635c3661c3,el_6a3c00c4d047ed0001caa67a
+บ้านตุ๊กตานครสวรรค์,store,Lifestyle,,41cfd620-d55e-5757-8a7b-f9fe80374efd,el_6a3c00c4d047ed0001caa67c
+คุณณัฐพล เจนกสิสาตร์,store,Others,,17b552f7-1735-51e8-8582-99551ae08657,el_6a3c00c4d047ed0001caa67d
+คุณอารดา คล่องวิถี,store,Others,,432615f7-54ca-5453-bbea-cf2dafd54dbb,el_6a3c00c4d047ed0001caa67e
+คุณอรณิช ปฎิมาประกร,store,Others,,042659a6-006c-59f7-a6fe-764467030637,el_6a3c00c4d047ed0001caa67f
+NXN TECHNOLOGY,store,Others,,0249b4bf-a8f5-597f-8f5e-d4316b2f2381,el_6a3c00c4d047ed0001caa680
+ME.oW Smoothie,store,Food & Beverage,,30f5d329-e391-5578-aa2f-d64c784dc115,el_6a3c00c4d047ed0001caa683
+JUBILEE,store,Fashion & Accessories,,4dcd83ed-5946-53dd-a050-1f02772b712c,el_6a3c00c4d047ed0001caa684
+BEARHOUSE,store,Food & Beverage,,64a72e8a-cd68-5ab4-880a-356c57070cde,el_6a3c00c4d047ed0001caa687
+คุณชัญญพัชร์ ภูกระโดน,store,Others,,ff4b8935-fa07-557a-9fb8-336ec517c27b,el_6a3c00c4d047ed0001caa688
+BOOST JUICE BAR,store,Food & Beverage,,1a8e32bd-72af-5073-a385-f26f14c41d2a,el_6a3c00c4d047ed0001caa689
+PRADAP,store,Fashion & Accessories,,e340595b-5fc8-5ca3-a1b8-d8e14c0181b2,el_6a3c00c4d047ed0001caa68a
+คุณนฤมล แรงกสิวิทย์,store,Others,,22e5de2b-d6bc-53e0-bc6b-b48b9107efef,el_6a3c00c4d047ed0001caa68b
+คุณอุรุสา ฐิตานุกูล,store,Others,,44bd6a73-b057-500c-98da-a5527160bacb,el_6a3c00c4d047ed0001caa68f
+คุณเจตตะวัน พิลึก,store,Others,,69cf971b-fe4b-56e9-9d22-a8fecc8cbd69,el_6a3c00c4d047ed0001caa690
+คุณธนพร พันธุ์วิทยากูล,store,Others,,15d8678b-faff-5f2a-bb20-394097e56ef6,el_6a3c00c4d047ed0001caa691
+คุณศศิวิมล อ้นนา,store,Others,,33fd328b-914a-5242-8620-0c7b42780c90,el_6a3c00c4d047ed0001caa693
+MY TIME,store,Fashion & Accessories,,5af0319a-389a-56fd-aab9-a7421ec219da,el_6a3c00c4d047ed0001caa694
+PROMTHONG,store,Fashion & Accessories,,22be95ea-7c9b-5dc2-8697-fb7a07863a3e,el_6a3c00c4d047ed0001caa695
+ELEGANT CHIC,store,Fashion & Accessories,,2e7f5026-0941-5f5d-a433-7d2296397ae9,el_6a3c00c4d047ed0001caa697
+CLOTHVIBES,store,Fashion & Accessories,,301f4f86-6678-55ba-af81-f16e83be22b4,el_6a3c00c4d047ed0001caa698
+คุณชิตษณุพงษ์ ประทุมานนท์,store,Others,,7343fbd9-e602-58bb-91d6-1a9feafe8064,el_6a3c00c4d047ed0001caa699
+SUKISHI CHARCOAL GRILL,store,Food & Beverage,,897781c0-f712-546e-9efd-84655e00f65d,el_6a3c00c4d047ed0001caa69a
+PHONE HOUSE,store,Technology,,1c82b383-1374-5dd9-af7a-694fd7cb42f3,el_6a3c00c4d047ed0001caa69b
+UNISEX,store,Fashion & Accessories,,0dec8f8f-64b9-544c-9bc6-9448ac867b67,el_6a3c00c4d047ed0001caa69d
+U R THE,store,Fashion & Accessories,,2c741352-ef64-5ab2-86d5-3e4c7576c28c,el_6a3c00c4d047ed0001caa69e
+คุณกรชนก ศรีสำเภา,store,Others,,929a3e94-a79a-5c74-93c2-9e3fe7808664,el_6a3c00c4d047ed0001caa6a0
+ESTER STUDIO,store,Fashion & Accessories,,cbe8daa3-4b12-57b4-9a2a-0ce236e4f53d,el_6a3c00c4d047ed0001caa6a1
+คุณพิช์ต์ศินี อะมะมูล,store,Others,,6aacb6a3-6d75-5735-a256-29ce51fa1c35,el_6a3c00c4d047ed0001caa6a2
+MOTTA,store,Fashion & Accessories,,36f64517-d088-577e-8d2e-ba1d8303da9a,el_6a3c00c4d047ed0001caa6a3
+LEMO,store,Others,,76a77a85-5ea5-5add-9938-353de5e6fd73,el_6a3c00c4d047ed0001caa6a7
+คุณอินทรเดช อินทสิทธิ์,store,Others,,7d7bad22-7217-52cd-8ceb-f2e318cf8ff4,el_6a3c00c4d047ed0001caa6a8
+คุณจักรกฤษ จันเกตุ,store,Others,,b193c465-f099-5dec-adcf-bcace3d71705,el_6a3c00c4d047ed0001caa6aa
+คุณพิมพ์ประทีป บุญน่วม,store,Others,,6f182bdd-947f-5461-8719-f616c2ef754d,el_6a3c00c4d047ed0001caa6ab
+คุณอรณิชา สวัสดี,store,Others,,89112f8b-1f2e-58ce-be9b-33a122377f92,el_6a3c00c4d047ed0001caa6ac
+คุณวีรพล จิตรากร,store,Others,,2ee2bfb4-e7c8-5108-87da-8ff5ae5e1367,el_6a3c00c4d047ed0001caa6ad
+คุณกิตติคุณ รุททองจันทร์,store,Others,,57df70fc-e916-5132-b035-d6e8ee2bc3c2,el_6a3c00c4d047ed0001caa6ae
+COWAY,store,Home & Décor,,a5309f20-661c-582f-88d2-fdb8786bdb5e,el_6a3c00c4d047ed0001caa6af
+คุณวรกมล ล้วนงาม,store,Others,,8c7a59fc-d3dc-5387-ba00-4fab359a14fb,el_6a3c00c4d047ed0001caa6b0
+HI-SHIELD,store,Technology,,0227278e-fe70-54ed-8ed1-ed6de8ad70b3,el_6a3c00c4d047ed0001caa6b1
+AMORN TELECOM,store,Technology,,f238cebc-41f6-5d5b-b0a9-c4b0dde25754,el_6a3c00c4d047ed0001caa6b2
+N B JEWELRY,store,Fashion & Accessories,,01ff8f6b-b717-5664-8b3a-98717b2f93f7,el_6a3c00c4d047ed0001caa6b4
+LEMO,store,Others,,abdeb608-e266-5116-a9c7-9104b87986e3,el_6a3c00c4d047ed0001caa6b5
+สลากเศรษฐี,store,Government Services Point,,cbac6998-c5d9-5170-98fc-7d47227774de,el_6a3c00c4d047ed0001caa6b6
+GRASSE PERFUME,store,Health & Beauty,,edea7a74-b1ed-5f99-8fbc-54b07c7393f8,el_6a3c00c4d047ed0001caa6b7
+SF POP BOOTH,store,Food & Beverage,,e6daeade-2bd5-552a-95a6-5d9b212b092e,el_6a3c00c4d047ed0001caa6b8
+คุณกานต์พงศ์ สมบูรณ์,store,Others,,69ceb02f-76f6-5d5f-b4d4-7f5bb26b020b,el_6a3c00c4d047ed0001caa6b9
+คุณมนสิชา วงค์เรือน,store,Others,,99ffb29e-a1a0-59fd-877d-041a2281a0f3,el_6a3c00c4d047ed0001caa6ba
+คุณวริศรา ภัทรรังษี,store,Others,,6137639f-aa22-5229-bead-6ef471932d44,el_6a3c00c4d047ed0001caa6bc
+BLACK SHARK CLINIC,store,Health & Beauty,,0203f9c9-c173-5710-90f1-6851e51d9fef,el_6a3c00c4d047ed0001caa6bd
+WHITE STORY,store,Food & Beverage,,c0ec28ec-4e26-52c8-b173-44cea8f43dfd,el_6a3c00c4d047ed0001caa6be
+คุณชุรินธิพร เสวกุล,store,Others,,7e69e0a0-0a47-5a1e-8c75-d4f53c64e705,el_6a3c00c4d047ed0001caa6bf
+เอกเยาวราช,store,Food & Beverage,,c344f230-a5ad-5b13-a96a-3cb7a5278f7c,el_6a3c00c4d047ed0001caa6c0
+คุณนภัทสนันท์ ศรีจันทร์,store,Others,,d917c0b3-667f-5633-b3fb-faa006cdd15c,el_6a3c00c4d047ed0001caa6c1
+เวียงพิงค์,store,Food & Beverage,,9fab15a8-c032-5c65-be71-c0470b29b9d1,el_6a3c00c4d047ed0001caa6c2
+ขนมบ้านอาจารย์,store,Food & Beverage,,042074b8-7574-59af-ac1b-6aaaff1a7021,el_6a3c00c4d047ed0001caa6c3
+คุณชนัญธิภา เทียนงาม,store,Others,,141a482a-d10b-5f8e-8950-16f2f2a91dfc,el_6a3c00c4d047ed0001caa6c5
+คุณวรัมพร บ้านคุ้ม,store,Others,,7dbade08-d094-5806-b866-1f6a68f654a6,el_6a3c00c4d047ed0001caa6c7
+คุณอารียา มาสม,store,Others,,cd83b784-ca44-5302-8ff8-ea4a5395b2df,el_6a3c00c4d047ed0001caa6c9
+คุณธนะสิทธิ์ เนตรทิพย์,store,Others,,7540c3e5-0052-5be3-a3b0-9448ac42fe91,el_6a3c00c4d047ed0001caa6ca
+SHIP SMILE,store,General Service,,6b770ac4-3293-521d-b14f-ce74723ac336,el_6a3c00c4d047ed0001caa6cb
+RUBY STUDIO,store,Fashion & Accessories,,03e102af-6346-593b-a298-f50df2662d74,el_6a3c00c4d047ed0001caa6cc
+JELLY POP,store,Food & Beverage,,d5bc8b5e-6f01-5e4d-bb16-64dd65ce396c,el_6a3c00c4d047ed0001caa6ce
+LUXORA'S PERFUME,store,Health & Beauty,,7ab164f7-7e8d-5fef-87cd-b10b96939772,el_6a3c00c4d047ed0001caa6d0
+คุณฐปนัท พูลสนธิ์,store,Others,,5d973806-b048-5c23-b5f3-e1b60254f61d,el_6a3c00c4d047ed0001caa6d1
+WHY BY เฮงพลัส,store,Technology,,fcb42bbd-a7b7-5a18-a3b1-c582a9235de5,el_6a3c00c4d047ed0001caa6d2
+S&P BAKERY,store,Food & Beverage,,e9947a93-4922-55ab-8227-0394b346552e,el_6a3c00c4d047ed0001caa6d5
+"กระเป๋าถัก,เสื้อผ้าใยกัญชงแฮนด์เมด",store,Fashion & Accessories,,222f2ac7-b299-5e86-8275-d19447cc008c,el_6a3c00c4d047ed0001caa6d6
+ESTER STUDIO,store,Fashion & Accessories,,83eb1174-71fc-56ee-bb6e-3f3fcd828acf,el_6a3c00c4d047ed0001caa6d7
+คุณอิสริยาภรณ์ ด้วงทอง,store,Others,,2722c1e3-e1f1-5e43-84d4-1dfab3bc16b1,el_6a3c00c4d047ed0001caa6d8
+SOFAs,store,Home & Décor,,83aedbb1-442c-5444-999c-d57408bace8f,el_6a3c00c4d047ed0001caa6da
+คุณกชนุช อ่อนละมัย,store,Others,,59a32bc4-ca68-5790-a246-65a637a36070,el_6a3c00c4d047ed0001caa6dc
+คุณอิสสราภรณ์ เนื่องภิรมย์,store,Others,,ef8ad8b9-08bd-5c38-90c8-a5c16a594cc4,el_6a3c00c4d047ed0001caa6dd
+คุณภวัต กิ่งจันทร์,store,Others,,39565cfe-e014-52a2-b049-87d4af374a15,el_6a3c00c4d047ed0001caa6de
+คุณอัจฉรา จันแก้ว,store,Others,,c47d004d-0f79-5895-85c2-22bbb046e5b9,el_6a3c00c4d047ed0001caa6df
+คุณสุพัตรา ชวลิตพงษ์,store,Others,,c9b1e169-0ffb-525a-8141-ca7ff0c7801b,el_6a3c00c4d047ed0001caa6e0
+LOOKER,store,Fashion & Accessories,,f7ca68fd-1594-5f63-82ae-6be558611db5,el_6a3c00c4d047ed0001caa6e2
+Pornmaya,store,Health & Beauty,,163717a9-b9dc-55df-b3e2-e99302c332d1,el_6a3c00c4d047ed0001caa6e4
+OHO SHOP,store,Fashion & Accessories,,9d9e6a76-ada3-5d50-ab1f-f68c1d6052dd,el_6a3c00c4d047ed0001caa6e5
+คุณสุธาดา บุญเอี่ยม,store,Others,,423e7915-b63e-5fc4-a6f8-98ef7c046ebb,el_6a3c00c4d047ed0001caa6e6
+YUMEYA,store,Entertainment,,edfb8398-a183-542b-a394-bc7ca0af2ca3,el_6a3c00c4d047ed0001caa6e7
+คุณธิยานันท์ อภิพลเกียรติ์,store,Others,,2b151f47-c614-537a-a36f-7c8cd76d5680,el_6a3c00c4d047ed0001caa6e9
+LEMO,store,Others,,6c998d98-2a39-5bc7-a1c5-ecc14f11fc45,el_6a3c00c4d047ed0001caa6eb
+AGLAM,store,Health & Beauty,,8f4f3143-f27d-5e22-ba69-e7aac9b05936,el_6a3c00c4d047ed0001caa6ec
+LAMOBI,store,Fashion & Accessories,,78fd63ef-a60d-5c47-bc7f-152b18f9bfa6,el_6a3c00c4d047ed0001caa6ee
+239GIFTSHOP,store,Fashion & Accessories,,ea92dfa6-52f1-58fa-aa7d-9aa150cc9693,el_6a3c00c4d047ed0001caa6ef
+BOSTANTEN,store,Fashion & Accessories,,fb39d97c-fb4c-52c1-ac32-7c71defe430e,el_6a3c00c4d047ed0001caa6f1
+คุณวรการ ธนาวงศ์งานหมั่น,store,Others,,cb9c31ce-134c-54b4-b537-da0c941b2bdb,el_6a3c00c4d047ed0001caa6f2
+คุณสายรุ้ง อ่ำชูศรี,store,Others,,3fdb5763-7619-54e7-8f32-e34314c0625b,el_6a3c00c4d047ed0001caa6f3
+คุณธนาพร ชุ่มชื่น,store,Others,,fde1680c-3d6a-5c12-89ba-dbf2af85cd39,el_6a3ff554fa98a10001ab48d5
+SOFAs,store,Home & Décor,,bdd73e89-f887-5080-ac86-f9018e6f29f8,el_6a47de470381ed0001a56cc9
+คุณเกริกวิทย์ ศรศักดิ์,store,Others,,a3166117-4a96-5a44-b5d6-41596365153b,el_6a47de470381ed0001a56cca
+Pro Gadgets,store,Technology,,79fdc0bc-5fc5-5c14-9fd4-e742de709641,el_6a47de470381ed0001a56ccb
+สมาคมคนพิการ นครสวรรค์,store,Health & Beauty,,06794917-0724-5205-bfab-8c4de062a4f1,el_6a47de470381ed0001a56ccc
+90’S PHOTOBOOTH,store,Others,,494b2902-9462-550f-8b63-76eeaec38c35,el_6a47de470381ed0001a56ccd
+CDS,store,Home & Décor,,5dafcd1b-21cb-5f2b-a3be-7f7b502d21d3,el_6a47de470381ed0001a56cce
+ส.อรุณ,store,Lifestyle,,6c160b1f-917d-5c5d-a772-0addc7e6b9c2,el_6a47de470381ed0001a56ccf
+ผ้าสาลู by น้องปันปัน,store,Fashion & Accessories,,d1f8245e-2516-5517-9fed-792fd7e05872,el_6a47de470381ed0001a56cd0
+RESTER,store,Technology,,be1c046c-54b6-52e7-9237-d24a07e12137,el_6a47de470381ed0001a56cd1
+TOMORROW,store,Fashion & Accessories,,dacb2429-569a-5864-975b-9eb1e7fd694f,el_6a47de470381ed0001a56cd2
+คุณอริสรา ผดุงชีวิต,store,Others,,fe036637-66b0-590b-ae8e-93c2029bf12b,el_6a47de470381ed0001a56cd3
+GLAM SEOUL,store,Fashion & Accessories,,0084c00b-f835-5508-88b6-fec5e1b1966b,el_6a47de470381ed0001a56cd4
+หินจักรพรรดิ,store,Fashion & Accessories,,ceefa9ef-d3b5-5e52-a4bc-7bca6f7374e3,el_6a47de470381ed0001a56cd5
+CUTIE BUNNY,store,Fashion & Accessories,,528b383c-9907-567f-b7ed-b912ac1bb0b3,el_6a47de470381ed0001a56cd6
+คุณรัชดาภรณ์ แทนธานี,store,Others,,b3d2d850-1a1d-5a32-9705-2d72345b5161,el_6a47de470381ed0001a56cd7
+MONTIPA,store,Fashion & Accessories,,cc4c8f5f-725e-5004-bbfb-72a03ca5879c,el_6a47de470381ed0001a56cd8
+SUGARMAMA HOUSE,store,Home & Décor,,e348674e-6860-5343-9390-c929e58a55ff,el_6a47de470381ed0001a56cd9
+CDS,store,Fashion & Accessories,,d65319e3-0665-583d-aa9a-2d7a56fdb1ec,el_6a47de470381ed0001a56cda
+JOYLIDAY PLUS @Game zone,store,Entertainment,,8d904b4e-b53f-5160-b90b-a5cc996497d1,el_6a47de470381ed0001a56cdb
+CDS,store,Fashion & Accessories,,83886a21-679a-5cd1-828e-6fe3aeb4ca6a,el_6a47de470381ed0001a56cdc
+Luxury หมอนโรงแรม 6 ดาว,store,Home & Décor,,d4c2315c-9de9-54ad-8a1f-9175a991bbeb,el_6a47de470381ed0001a56cdd
+คุณวรรณา สุขแช่ม,store,Others,,8c4eb00d-0e6a-5654-a2c6-845eebc8099d,el_6a47de470381ed0001a56cde
+Luxury หมอนโรงแรม 6 ดาว,store,Home & Décor,,d14a0cf6-9a4c-57fd-95c7-46f91a2d0f27,el_6a47de470381ed0001a56cdf
+COWAY,store,Home & Décor,,2cef1093-b234-5e43-b062-f575ffbf67cd,el_6a47de470381ed0001a56ce0
+คุณอรัญญา ยามวัน,store,Others,,d437d76b-7ed6-50b9-82b6-cf19c59c4ef4,el_6a47de470381ed0001a56ce1
+คุณวรินท์ชญา พูลแก้ว,store,Others,,0363b3dc-67f4-5aca-9632-2cdd866c13ec,el_6a47de470381ed0001a56ce2
+B2S,store,Book & Stationeries,,c0782ac5-95f4-5bf0-a4d1-71f583ab841e,el_6a47de470381ed0001a56ce3
+HIPSTER DIY,store,Home & Décor,,95e078a6-2233-533a-85b1-bb657967d352,el_6a47de470381ed0001a56ce4
+กายะจิต,store,Others,,a34f7f45-4f7f-5214-96aa-11008042c737,el_6a47de470381ed0001a56ce5
+BATA,store,Fashion & Accessories,,3c6720c0-705f-50ca-87c5-ff590926fa2d,el_6a47de470381ed0001a56ce6
+TPARTNER,store,Lifestyle,,701fa9da-806d-501b-8c63-b72f03764937,el_6a47de470381ed0001a56ce7
+สมาคมคนพิการ นครสวรรค์,store,Health & Beauty,,d9d9dee9-2854-5300-a561-038e1fd4fe1c,el_6a492fcf54315300015db3eb
+SPIN,store,Fashion & Accessories,,c2b492e3-c935-55b5-8aaa-a6960fcd1c03,el_6a4bd2fdd7073e00015e011d
+คุณกิตติพงศ์ รุ่งรัตน์,store,Others,,56e7be00-4296-5d43-a552-2250b92877d8,el_6a4d2449a6ea960001ef87e8
+คุณกนกวรรณ มากกลาง,store,Others,,dd14b418-0950-5723-82fd-581faf13fe9a,el_6a4e75c366837d0001267c3d
+คุณสรวิชญ์ โลหสมบูรณ์,store,Others,,873e0542-de02-5817-a986-a630affe4d19,el_6a4fc760957ef30001d70d1a
+คุณจิรพงษ์ ต่างใจ,store,Others,,524f4671-07ba-525c-8525-ee3b1533b00d,el_6a53bbe6291f9b0001b07771
+HUAWEI,store,Technology,,04173fd9-639c-5524-9a6a-fba9b3e1b315,el_6a53bbe6291f9b0001b07772
+คุณปริญ ด้วงตะกั่ว,store,Others,,65781f26-ff87-5b28-8660-84df4f1a259b,el_6a53bbe6291f9b0001b07774
+คุณสถาพร วงศ์คุ้มพงศ์,store,Others,,95fcc87d-517b-5420-bde5-a65392e744d1,el_6a565eff719460000164faac
+คุณธวัชชัย พูลกระจ่าง,store,Others,,68c1e05e-3dce-5869-8855-3c6264807c88,el_6a565eff719460000164faad
+THE TRAVEL STORE,store,Fashion & Accessories,,7040b92b-68d5-5f4c-98c0-a4404396768a,el_6a5901d2de92ef0001a8265b
+DAIRY QUEEN,store,Food & Beverage,,7f05bbd4-bbcd-5d2c-8d2f-5349ac11a778,el_6a5901d2de92ef0001a8265c
+BODY GLOVE,store,Fashion & Accessories,,be88d24e-b13c-56cc-8607-eca7169bf9f2,el_6a5901d2de92ef0001a8265d
+Passion Brew Cafe,store,Food & Beverage,,6203dd3b-3422-5cc0-a1b0-84e668c49ffa,el_6a5901d2de92ef0001a8265e
+POTATO CORNER,store,Food & Beverage,,1d75f2ed-ba1d-578f-9f3e-91d4a682ddcb,el_6a5901d2de92ef0001a8265f
+KRISPY KREME,store,Food & Beverage,,bf11a33b-d9b3-5ca6-8217-2c662893aab7,el_6a5901d2de92ef0001a82660
+O-li-no,store,Food & Beverage,,d5dd5dcc-28be-55b3-9493-916448b705e8,el_6a5901d2de92ef0001a82661
+FIXIFOOT,store,General Service,,d6481ed7-3179-5625-8999-de6c3fe232c1,el_6a5901d2de92ef0001a82662
+มุมศิลป์,store,Others,,f82ad03d-3bd9-5d4d-a306-5b9e916f3756,el_6a5a53471a4ed20001d09b12
+Kongthong 88,store,Entertainment,,24ce9553-c40c-53c8-b168-0e9c53e20e5e,el_6a5cf655d0283e00011ee2fe
+KANE,store,Fashion & Accessories,,c2c323ef-a651-590e-af0d-8fe66bf88078,el_6a5e484aab1ea90001fcfddd

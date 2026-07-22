@@ -1,0 +1,423 @@
+{
+  "model": {
+    "type": "GCNRegressor",
+    "nodes": 1808,
+    "edges": 587914
+  },
+  "categories": [
+    {
+      "category": "Fashion & Apparel",
+      "count": 283,
+      "top_tenant": "CROCS",
+      "top_score": 0.9651795625686646,
+      "feature_importance": {
+        "Food & Beverage": 0.48745062947273254,
+        "Fashion & Apparel": 0.0,
+        "Beauty & Wellness": 0.0,
+        "Lifestyle & Specialty": 0.0,
+        "Technology & Electronics": 0.0,
+        "Bank & Financial Services": 0.0,
+        "Services & Education": 0.0,
+        "Entertainment": 0.0,
+        "Supermarket": 0.0,
+        "OtherCat": 0.0,
+        "IsInternal": 0.0
+      },
+      "top_neighbors": [
+        {
+          "tenant": "PANASONIC",
+          "category": "Robinson Department Store",
+          "importance": 0.49868109822273254
+        },
+        {
+          "tenant": "D'ARTE",
+          "category": "Fashion & Apparel",
+          "importance": 0.49854394793510437
+        },
+        {
+          "tenant": "Melody Karaoke",
+          "category": "Entertainment",
+          "importance": 0.49790748953819275
+        },
+        {
+          "tenant": "AUTO 1",
+          "category": "Services & Education",
+          "importance": 0.49578243494033813
+        },
+        {
+          "tenant": "KAMIMURA",
+          "category": "Central Department Store",
+          "importance": 0.4950808882713318
+        }
+      ]
+    },
+    {
+      "category": "Food & Beverage",
+      "count": 257,
+      "top_tenant": "STARBUCKS COFFEE",
+      "top_score": 1.0,
+      "feature_importance": {
+        "Food & Beverage": 0.44820618629455566,
+        "Fashion & Apparel": 0.0,
+        "Beauty & Wellness": 0.0,
+        "Lifestyle & Specialty": 0.0,
+        "Technology & Electronics": 0.0,
+        "Bank & Financial Services": 0.0,
+        "Services & Education": 0.0,
+        "Entertainment": 0.0,
+        "Supermarket": 0.0,
+        "OtherCat": 0.0,
+        "IsInternal": 0.0
+      },
+      "top_neighbors": [
+        {
+          "tenant": "Maitreechit",
+          "category": "Technology & Electronics",
+          "importance": 0.49955233931541443
+        },
+        {
+          "tenant": "LIVING SOLUTIONS",
+          "category": "Robinson Department Store",
+          "importance": 0.49749043583869934
+        },
+        {
+          "tenant": "LUCKY PHONE",
+          "category": "Technology & Electronics",
+          "importance": 0.49582159519195557
+        },
+        {
+          "tenant": "AIS SERENADE",
+          "category": "Technology & Electronics",
+          "importance": 0.4953354001045227
+        },
+        {
+          "tenant": "ILY",
+          "category": "Fashion & Apparel",
+          "importance": 0.49486038088798523
+        }
+      ]
+    },
+    {
+      "category": "Beauty & Wellness",
+      "count": 128,
+      "top_tenant": "WATSONS",
+      "top_score": 1.0,
+      "feature_importance": {
+        "Food & Beverage": 0.4618561267852783,
+        "Fashion & Apparel": 0.0,
+        "Beauty & Wellness": 0.0,
+        "Lifestyle & Specialty": 0.0,
+        "Technology & Electronics": 0.0,
+        "Bank & Financial Services": 0.0,
+        "Services & Education": 0.0,
+        "Entertainment": 0.0,
+        "Supermarket": 0.0,
+        "OtherCat": 0.0,
+        "IsInternal": 0.0
+      },
+      "top_neighbors": [
+        {
+          "tenant": "HELLO KITTY",
+          "category": "Robinson Department Store",
+          "importance": 0.5020936131477356
+        },
+        {
+          "tenant": "CPS CHAPS",
+          "category": "Fashion & Apparel",
+          "importance": 0.49816223978996277
+        },
+        {
+          "tenant": "FEEL YOUTH",
+          "category": "Services & Education",
+          "importance": 0.49711906909942627
+        },
+        {
+          "tenant": "NU SPORT",
+          "category": "Robinson Department Store",
+          "importance": 0.4951765239238739
+        },
+        {
+          "tenant": "ROVING  FOX",
+          "category": "Fashion & Apparel",
+          "importance": 0.4943643808364868
+        }
+      ]
+    },
+    {
+      "category": "Technology & Electronics",
+      "count": 87,
+      "top_tenant": "BANANA",
+      "top_score": 0.8693096041679382,
+      "feature_importance": {
+        "Food & Beverage": 0.44991183280944824,
+        "Fashion & Apparel": 0.0,
+        "Beauty & Wellness": 0.0,
+        "Lifestyle & Specialty": 0.0,
+        "Technology & Electronics": 0.0,
+        "Bank & Financial Services": 0.0,
+        "Services & Education": 0.0,
+        "Entertainment": 0.0,
+        "Supermarket": 0.0,
+        "OtherCat": 0.0,
+        "IsInternal": 0.0
+      },
+      "top_neighbors": [
+        {
+          "tenant": "TANITA",
+          "category": "Central Department Store",
+          "importance": 0.4989001452922821
+        },
+        {
+          "tenant": "Mahanakhonbkk",
+          "category": "Other",
+          "importance": 0.49795401096343994
+        },
+        {
+          "tenant": "MUSIC COLLECTION",
+          "category": "Entertainment",
+          "importance": 0.4970186948776245
+        },
+        {
+          "tenant": "ONE TO TWO COFFEE",
+          "category": "Food & Beverage",
+          "importance": 0.4969654679298401
+        },
+        {
+          "tenant": "WISH WELL PHARMACY",
+          "category": "Beauty & Wellness",
+          "importance": 0.49629661440849304
+        }
+      ]
+    },
+    {
+      "category": "Lifestyle & Specialty",
+      "count": 67,
+      "top_tenant": "B2S",
+      "top_score": 0.7922508120536804,
+      "feature_importance": {
+        "Food & Beverage": 0.4670906364917755,
+        "Fashion & Apparel": 0.0,
+        "Beauty & Wellness": 0.0,
+        "Lifestyle & Specialty": 0.0,
+        "Technology & Electronics": 0.0,
+        "Bank & Financial Services": 0.0,
+        "Services & Education": 0.0,
+        "Entertainment": 0.0,
+        "Supermarket": 0.0,
+        "OtherCat": 0.0,
+        "IsInternal": 0.0
+      },
+      "top_neighbors": [
+        {
+          "tenant": "KFC",
+          "category": "Food & Beverage",
+          "importance": 0.4944510757923126
+        },
+        {
+          "tenant": "WATSONS",
+          "category": "Beauty & Wellness",
+          "importance": 0.49361157417297363
+        },
+        {
+          "tenant": "NATURE",
+          "category": "Fashion & Apparel",
+          "importance": 0.49283578991889954
+        },
+        {
+          "tenant": "LITTLE REDFOX",
+          "category": "Fashion & Apparel",
+          "importance": 0.4925539791584015
+        },
+        {
+          "tenant": "MARCO POLO",
+          "category": "Robinson Department Store",
+          "importance": 0.4922960102558136
+        }
+      ]
+    },
+    {
+      "category": "Services & Education",
+      "count": 55,
+      "top_tenant": "BETTER VISION",
+      "top_score": 0.6859736442565918,
+      "feature_importance": {
+        "Food & Beverage": 0.4666684567928314,
+        "Fashion & Apparel": 0.0,
+        "Beauty & Wellness": 0.0,
+        "Lifestyle & Specialty": 0.0,
+        "Technology & Electronics": 0.0,
+        "Bank & Financial Services": 0.0,
+        "Services & Education": 0.0,
+        "Entertainment": 0.0,
+        "Supermarket": 0.0,
+        "OtherCat": 0.0,
+        "IsInternal": 0.0
+      },
+      "top_neighbors": [
+        {
+          "tenant": "LALUNE MACARON",
+          "category": "Food & Beverage",
+          "importance": 0.4990937411785126
+        },
+        {
+          "tenant": "CARSON",
+          "category": "Robinson Department Store",
+          "importance": 0.49749115109443665
+        },
+        {
+          "tenant": "BSC",
+          "category": "Robinson Department Store",
+          "importance": 0.496187299489975
+        },
+        {
+          "tenant": "สลากเศรษฐี",
+          "category": "Services & Education",
+          "importance": 0.4960666000843048
+        },
+        {
+          "tenant": "BERGHOFF",
+          "category": "Central Department Store",
+          "importance": 0.4951692521572113
+        }
+      ]
+    },
+    {
+      "category": "Entertainment",
+      "count": 46,
+      "top_tenant": "SF CINEMA",
+      "top_score": 0.5742652416229248,
+      "feature_importance": {
+        "Food & Beverage": 0.4672136604785919,
+        "Fashion & Apparel": 0.0,
+        "Beauty & Wellness": 0.0,
+        "Lifestyle & Specialty": 0.0,
+        "Technology & Electronics": 0.0,
+        "Bank & Financial Services": 0.0,
+        "Services & Education": 0.0,
+        "Entertainment": 0.0,
+        "Supermarket": 0.0,
+        "OtherCat": 0.0,
+        "IsInternal": 0.0
+      },
+      "top_neighbors": [
+        {
+          "tenant": "SE-ED BOOK CENTER",
+          "category": "Lifestyle & Specialty",
+          "importance": 0.4912998080253601
+        },
+        {
+          "tenant": "BIRKENSTOCK",
+          "category": "Fashion & Apparel",
+          "importance": 0.4911080002784729
+        },
+        {
+          "tenant": "HATARI",
+          "category": "Robinson Department Store",
+          "importance": 0.4904049336910248
+        },
+        {
+          "tenant": "HOTWHEELS",
+          "category": "Robinson Department Store",
+          "importance": 0.4895661473274231
+        },
+        {
+          "tenant": "BSC COSMETOLOGY",
+          "category": "Robinson Department Store",
+          "importance": 0.4895051121711731
+        }
+      ]
+    },
+    {
+      "category": "Bank & Financial Services",
+      "count": 38,
+      "top_tenant": "ธนาคารกรุงเทพ",
+      "top_score": 0.8157420754432678,
+      "feature_importance": {
+        "Food & Beverage": 0.43052276968955994,
+        "Fashion & Apparel": 0.0,
+        "Beauty & Wellness": 0.0,
+        "Lifestyle & Specialty": 0.0,
+        "Technology & Electronics": 0.0,
+        "Bank & Financial Services": 0.0,
+        "Services & Education": 0.0,
+        "Entertainment": 0.0,
+        "Supermarket": 0.0,
+        "OtherCat": 0.0,
+        "IsInternal": 0.0
+      },
+      "top_neighbors": [
+        {
+          "tenant": "SUSHIRO",
+          "category": "Food & Beverage",
+          "importance": 0.496346652507782
+        },
+        {
+          "tenant": "กับข้าวกับปลา",
+          "category": "Food & Beverage",
+          "importance": 0.4957881271839142
+        },
+        {
+          "tenant": "VTECH",
+          "category": "Robinson Department Store",
+          "importance": 0.4956875741481781
+        },
+        {
+          "tenant": "BIRKENSTOCK",
+          "category": "Fashion & Apparel",
+          "importance": 0.49524685740470886
+        },
+        {
+          "tenant": "ADIDAS NEO CREDIT",
+          "category": "Robinson Department Store",
+          "importance": 0.49509578943252563
+        }
+      ]
+    },
+    {
+      "category": "Supermarket",
+      "count": 2,
+      "top_tenant": "TOPS SUPERMARKET",
+      "top_score": 0.5869680643081665,
+      "feature_importance": {
+        "Food & Beverage": 0.4531201422214508,
+        "Fashion & Apparel": 0.0,
+        "Beauty & Wellness": 0.0,
+        "Lifestyle & Specialty": 0.0,
+        "Technology & Electronics": 0.0,
+        "Bank & Financial Services": 0.0,
+        "Services & Education": 0.0,
+        "Entertainment": 0.0,
+        "Supermarket": 0.0,
+        "OtherCat": 0.0,
+        "IsInternal": 0.0
+      },
+      "top_neighbors": [
+        {
+          "tenant": "SUKISHI KOREAN CHARCOAL GRILL",
+          "category": "Food & Beverage",
+          "importance": 0.4938000440597534
+        },
+        {
+          "tenant": "MARSHMELLOW",
+          "category": "Central Department Store",
+          "importance": 0.49340155720710754
+        },
+        {
+          "tenant": "ESTIMATE",
+          "category": "Robinson Department Store",
+          "importance": 0.4932557940483093
+        },
+        {
+          "tenant": "OOTOYA",
+          "category": "Food & Beverage",
+          "importance": 0.4932299256324768
+        },
+        {
+          "tenant": "FERRENI BLACK",
+          "category": "Central Department Store",
+          "importance": 0.49288657307624817
+        }
+      ]
+    }
+  ]
+}

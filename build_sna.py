@@ -1,48 +1,136 @@
+import sys
 import csv
 import os
 import glob
 import pandas as pd
 import networkx as nx
 import community as community_louvain
-from collections import defaultdict
-from networkx.algorithms import bipartite
+from collections import defaultdict, Counter
+import time
+
+# Set stdout to utf-8 to avoid UnicodeEncodeError
+sys.stdout.reconfigure(encoding='utf-8')
 
 DATA_DIR = r"C:\DADS7201\PJ_MIDTERM\Data"
 OUT_DIR = r"C:\DADS7201\PJ_MIDTERM\Output"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # ============================================================
-# STEP 1: Load all tenant-mall bipartite edges
+# STEP 1: Load all tenant-mall edges from central_*_stores.csv files
 # ============================================================
-def load_tenant_mall_csv(fpath):
-    with open(fpath, "r", encoding="utf-8-sig") as f:
-        lines = f.readlines()
-    header_idx = 0
-    for i, l in enumerate(lines):
-        if l.strip().startswith("Source") and "Target" in l:
-            header_idx = i
-            break
-    csv_lines = lines[header_idx:]
-    reader = csv.DictReader(csv_lines)
-    result = []
-    for row in reader:
-        if None in row or row.get("Source") is None or row.get("Target") is None:
-            continue
-        tenant = row["Source"].strip()
-        mall_name = row["Target"].strip()
-        try:
-            weight = int(row.get("Weight", 1))
-        except (ValueError, TypeError):
-            weight = 1
-        result.append((tenant, mall_name, weight))
-    return result
 
-mall_files = glob.glob(os.path.join(DATA_DIR, "Central*.csv")) + [os.path.join(DATA_DIR, "MegaBangna.csv")]
+CATEGORY_MAP = {
+    "Fashion & Accessories": "Fashion & Apparel",
+    "Health & Beauty": "Beauty & Wellness",
+    "Technology": "Technology & Electronics",
+    "Home & Decor": "Lifestyle & Specialty",
+    "Home & D\u00e9cor": "Lifestyle & Specialty",
+    "Book & Stationeries": "Lifestyle & Specialty",
+    "Super Market": "Supermarket",
+    "General Service": "Services & Education",
+    "Others": "Other",
+    "Bank & ATM": "Bank & Financial Services",
+    "Edutainment": "Entertainment",
+    "Lifestyle": "Lifestyle & Specialty",
+    "Government Services Point": "Services & Education",
+    "Pet Service": "Lifestyle & Specialty",
+    "Attraction": "Entertainment",
+    "Food & Beverage": "Food & Beverage",
+}
+
+# Load mall_code -> mall_name mapping
+mall_map = {}
+mall_csv = os.path.join(DATA_DIR, "cpn_all_malls_summary.csv")
+if os.path.exists(mall_csv):
+    with open(mall_csv, "r", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            mall_map[row["mall_code"].strip().lower()] = row["mall_name"].strip()
+
+import glob
+store_files = sorted(glob.glob(os.path.join(DATA_DIR, "*_stores.csv")))
 tenant_mall_edges = []
-for fpath in sorted(mall_files):
-    tenant_mall_edges.extend(load_tenant_mall_csv(fpath))
+cat_map_raw = {}
+for fpath in store_files:
+    fname = os.path.basename(fpath)
+    # Extract mall code from filename: central_{code}_stores.csv
+    code = fname.replace("central_", "").replace("_stores.csv", "").replace("_", "")
+    mall_name = mall_map.get(code, fname)
+    with open(fpath, "r", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            tenant = row["name"].strip()
+            if not tenant:
+                continue
+            cat = row.get("categories", "").strip()
+            mapped_cat = CATEGORY_MAP.get(cat, cat)
+            tenant_mall_edges.append((tenant, mall_name, 1))
+            if tenant not in cat_map_raw:
+                cat_map_raw[tenant] = mapped_cat
 
-print(f"Loaded {len(tenant_mall_edges)} tenant-mall edges from {len(mall_files)} files")
+# Strip sub-brand suffix → brand, AND add department store node in same mall
+DEPT_STORE_SUFFIX = {
+    " | CENTRAL DEPARTMENT STORE": "Central Department Store",
+    " | ROBINSON DEPARTMENT STORE": "Robinson Department Store",
+}
+new_edges = []
+for t, m, w in tenant_mall_edges:
+    upper = t.upper()
+    matched = None
+    for suffix, dept_name in DEPT_STORE_SUFFIX.items():
+        if suffix in upper:
+            brand = t.rsplit(" | ", 1)[0].strip()
+            new_edges.append((brand, m, w))
+            matched = dept_name
+            break
+    if matched:
+        new_edges.append((matched, m, w))
+    else:
+        new_edges.append((t, m, w))
+tenant_mall_edges = new_edges
+
+# Normalize case variants so "CENTRAL DEPARTMENT STORE" and "Central Department Store" are the same
+CASE_NORMALIZE = {
+    "CENTRAL DEPARTMENT STORE": "Central Department Store",
+    "ROBINSON DEPARTMENT STORE": "Robinson Department Store",
+}
+tenant_mall_edges = [
+    (CASE_NORMALIZE.get(t.upper().strip(), t), m, w) for t, m, w in tenant_mall_edges
+]
+
+# Update cat_map: strip suffix key → brand + department store
+new_cat_map = {}
+for old_name, cat in cat_map_raw.items():
+    upper = old_name.upper()
+    matched_dept = None
+    for suffix, dept_name in DEPT_STORE_SUFFIX.items():
+        if suffix in upper:
+            brand = old_name.rsplit(" | ", 1)[0].strip()
+            matched_dept = dept_name
+            break
+    if matched_dept:
+        new_cat_map.setdefault(brand, cat)
+        new_cat_map.setdefault(matched_dept, cat)
+    else:
+        new_cat_map.setdefault(old_name, cat)
+cat_map_raw = new_cat_map
+
+# Normalize cat_map keys for case variants
+for old_name in list(cat_map_raw.keys()):
+    normalized = CASE_NORMALIZE.get(old_name.upper().strip(), old_name)
+    if normalized != old_name:
+        cat_map_raw.setdefault(normalized, cat_map_raw[old_name])
+        del cat_map_raw[old_name]
+
+# Deduplicate (tenant, mall) pairs
+seen = set()
+deduped = []
+for t, m, w in tenant_mall_edges:
+    key = (t, m)
+    if key not in seen:
+        seen.add(key)
+        deduped.append((t, m, w))
+tenant_mall_edges = deduped
+
+print(f"Loaded {len(tenant_mall_edges)} tenant-mall edges from {len(store_files)} files")
 tenants = set(e[0] for e in tenant_mall_edges)
 malls = set(e[1] for e in tenant_mall_edges)
 print(f"  Unique tenants: {len(tenants)}, Unique malls: {len(malls)}")
@@ -157,77 +245,102 @@ company_edges = [
 print(f"Defined {len(company_edges)} company relationship edges")
 
 # Write updated RelatedCompany.csv
-with open(os.path.join(DATA_DIR, "RelatedCompany.csv"), "w", encoding="utf-8", newline="") as f:
-    writer = csv.writer(f)
-    writer.writerow(["Source", "Target", "Weight", "Category"])
-    for src, tgt, w, cat in company_edges:
-        writer.writerow([src, tgt, w, cat])
-print("Updated RelatedCompany.csv written")
+try:
+    with open(os.path.join(DATA_DIR, "RelatedCompany.csv"), "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["Source", "Target", "Weight", "Category"])
+        for src, tgt, w, cat in company_edges:
+            writer.writerow([src, tgt, w, cat])
+    print("Updated RelatedCompany.csv written")
+except PermissionError:
+    print("Skipped RelatedCompany.csv (file locked)")
 
 # ============================================================
-# STEP 3: Build bipartite graph
+# STEP 3-5: Co-occurrence graph (manual projection, threshold >= 3)
 # ============================================================
-B = nx.Graph()
-B.add_nodes_from(tenants, bipartite=0)
-B.add_nodes_from(malls, bipartite=1)
-for tenant, mall, w in tenant_mall_edges:
-    B.add_edge(tenant, mall, weight=w)
+from collections import Counter
 
-print(f"\nBipartite graph: {B.number_of_nodes()} nodes, {B.number_of_edges()} edges")
+print("\nBuilding tenant co-occurrence graph (manual projection)...")
+t1 = time.time()
 
-# Add company edges
-for src, tgt, w, cat in company_edges:
-    B.add_edge(src, tgt, weight=w, category=cat)
+# Group tenants by mall
+mall_tenants = defaultdict(list)
+for t, m, _ in tenant_mall_edges:
+    mall_tenants[m].append(t)
 
-# ============================================================
-# STEP 4: In-Degree Centrality
-# ============================================================
-mall_degrees = {}
-tenant_degrees = {}
-mall_degrees = {}
+# Count co-occurring pairs
+pair_counts = Counter()
+for mall, tenants_list in mall_tenants.items():
+    n = len(tenants_list)
+    if n < 2:
+        continue
+    tenants_list.sort()
+    for i in range(n):
+        t1_name = tenants_list[i]
+        for j in range(i+1, n):
+            t2_name = tenants_list[j]
+            key = (t1_name, t2_name) if t1_name < t2_name else (t2_name, t1_name)
+            pair_counts[key] += 1
+
+t2 = time.time()
+print(f"  Pair counting: {t2-t1:.1f}s  |  Total pairs: {len(pair_counts)}")
+
+# Degree (mall presence count)
 uniq_pairs = set((t, m) for t, m, _ in tenant_mall_edges)
-for tenant, mall in uniq_pairs:
-    tenant_degrees[tenant] = tenant_degrees.get(tenant, 0) + 1
-    mall_degrees[mall] = mall_degrees.get(mall, 0) + 1
+tenant_degrees = defaultdict(int)
+mall_degrees_dict = defaultdict(int)
+for t, m in uniq_pairs:
+    tenant_degrees[t] += 1
+    mall_degrees_dict[m] += 1
+
+# Build filtered graph (weight >= 3)
+COOC_THRESHOLD = 3
+G2 = nx.Graph()
+for (u, v), w in pair_counts.items():
+    if w >= COOC_THRESHOLD:
+        G2.add_edge(u, v, weight=w)
+
+t3 = time.time()
+print(f"  Filter (weight>={COOC_THRESHOLD}): {t3-t2:.1f}s")
+print(f"Tenant co-occurrence graph: {G2.number_of_nodes()} nodes, {G2.number_of_edges()} edges")
+del pair_counts  # free memory
+
+# In-Degree Centrality (from tenant_mall_edges)
 
 sorted_tenants = sorted(tenant_degrees.items(), key=lambda x: -x[1])
-print(f"\n=== IN-DEGREE CENTRALITY (Tenants by Mall Presence - Top 20) ===")
+print(f"\n=== DEGREE CENTRALITY (Tenants by Mall Presence - Top 20) ===")
 for t, d in sorted_tenants[:20]:
     print(f"  {t:40s} {d:4d} malls")
 
-sorted_malls = sorted(mall_degrees.items(), key=lambda x: -x[1])
-print(f"\n=== IN-DEGREE CENTRALITY (Malls by Tenant Count) ===")
+sorted_malls = sorted(mall_degrees_dict.items(), key=lambda x: -x[1])
+print(f"\n=== MALLS BY TENANT COUNT ===")
 for m, d in sorted_malls:
     print(f"  {m:40s} {d:5d} tenants")
 
 # ============================================================
-# STEP 5: Weighted tenant co-occurrence projection (efficient)
+# STEP 5-6: Betweenness Centrality (on co-occurrence graph)
 # ============================================================
-print("\nComputing weighted tenant projection (co-occurrence)...")
-# Use bipartite.weighted_projected_graph with a ratio threshold
-# Only connect tenants that co-occur in at least 2 malls
-G = bipartite.weighted_projected_graph(B, tenants, ratio=False)
-
-# Filter edges with weight >= 2 (co-occur in at least 2 malls)
-G2 = nx.Graph()
-for u, v, d in G.edges(data=True):
-    w = d["weight"]
-    if w >= 2:
-        G2.add_edge(u, v, weight=w)
-
-print(f"Tenant co-occurrence graph (>=2 co-malls): {G2.number_of_nodes()} nodes, {G2.number_of_edges()} edges")
-
-# ============================================================
-# STEP 6: Betweenness Centrality (on co-occurrence graph)
-# ============================================================
+import time
 print("Computing betweenness centrality (this may take a moment)...")
-# Use a sample if too large - but with our filtered graph it should be ok
-betweenness = nx.betweenness_centrality(G2, weight="weight", normalized=True, k=min(500, G2.number_of_nodes()))
+t_bet = time.time()
+BET_K = min(100, G2.number_of_nodes())
+betweenness = nx.betweenness_centrality(G2, weight="weight", normalized=True, k=BET_K, seed=42)
 sorted_bet = sorted(betweenness.items(), key=lambda x: -x[1])
+print(f"  Betweenness done ({time.time()-t_bet:.1f}s, k={BET_K})")
 
 print(f"\n=== BETWEENNESS CENTRALITY (Top 20) ===")
 for t, b in sorted_bet[:20]:
     print(f"  {t:40s} {b:12.6f}")
+
+# Eigenvector Centrality
+print("\nComputing eigenvector centrality...")
+t_eig = time.time()
+eigenvector = nx.eigenvector_centrality_numpy(G2, weight="weight")
+sorted_eig = sorted(eigenvector.items(), key=lambda x: -x[1])
+print(f"  Eigenvector done ({time.time()-t_eig:.1f}s)")
+print(f"\n=== EIGENVECTOR CENTRALITY (Top 20) ===")
+for t, e in sorted_eig[:20]:
+    print(f"  {t:40s} {e:12.6f}")
 
 # ============================================================
 # STEP 7: Bridge detection
@@ -252,7 +365,9 @@ except Exception as e:
 # STEP 8: Community Detection (Louvain)
 # ============================================================
 print("Detecting communities (Louvain)...")
+t_comm = time.time()
 partition = community_louvain.best_partition(G2, weight="weight")
+print(f"  Communities done ({time.time()-t_comm:.1f}s)")
 
 communities = defaultdict(list)
 for node, com_id in partition.items():
@@ -294,27 +409,35 @@ for com_id, members in sorted(c_communities.items(), key=lambda x: -len(x[1])):
 # ============================================================
 # STEP 9b: Load corporate brand relationships
 # ============================================================
+# STEP 9b: Load corporate brand relationships from cpn_brand_analysis.csv (CRC/CRG groups)
+# ============================================================
 corp_brands = defaultdict(set)
 brand_corp = {}
-corp_path = os.path.join(DATA_DIR, "corporate_brands.csv")
+corp_path = os.path.join(DATA_DIR, "cpn_brand_analysis.csv")
 if os.path.exists(corp_path):
     with open(corp_path, "r", encoding="utf-8-sig") as f:
         for row in csv.DictReader(f):
-            corp = row["Corporate"].strip().upper()
-            brand = row["Brand"].strip().upper()
-            corp_brands[corp].add(brand)
-            brand_corp[brand] = corp
+            grp = row["group"].strip().upper()
+            if grp in ("CRC", "CRG"):
+                brand = row["store_name"].strip().upper()
+                if brand not in brand_corp:
+                    brand_corp[brand] = grp
+                    corp_brands[grp].add(brand)
     print(f"\nLoaded {len(brand_corp)} corporate brand mappings from {len(corp_brands)} groups")
+else:
+    print("\nNo cpn_brand_analysis.csv found — skipping CRC/CRG brand mapping")
 
 # ============================================================
 # STEP 10: Save all outputs
 # ============================================================
-pd.DataFrame(sorted_tenants, columns=["Tenant", "MallCount"]).to_csv(
+pd.DataFrame(sorted_tenants, columns=["Tenant", "Degree"]).to_csv(
     os.path.join(OUT_DIR, "in_degree_centrality.csv"), index=False)
 pd.DataFrame(sorted_malls, columns=["Mall", "TenantCount"]).to_csv(
     os.path.join(OUT_DIR, "mall_tenant_counts.csv"), index=False)
 pd.DataFrame(sorted_bet, columns=["Tenant", "Betweenness"]).to_csv(
     os.path.join(OUT_DIR, "betweenness_centrality.csv"), index=False)
+pd.DataFrame(sorted_eig, columns=["Tenant", "Eigenvector"]).to_csv(
+    os.path.join(OUT_DIR, "eigenvector_centrality.csv"), index=False)
 if bridge_info:
     pd.DataFrame(bridge_info, columns=["Weight", "Tenant1", "Tenant2"]).to_csv(
         os.path.join(OUT_DIR, "bridges.csv"), index=False)
@@ -324,7 +447,7 @@ for com_id, members in sorted(communities.items(), key=lambda x: -len(x[1])):
     for m in members:
         rows.append({"Tenant": m, "Community": com_id,
                      "Corporate": brand_corp.get(m, ""),
-                     "MallCount": tenant_degrees.get(m, 0)})
+                     "Degree": tenant_degrees.get(m, 0)})
 pd.DataFrame(rows).to_csv(os.path.join(OUT_DIR, "tenant_communities.csv"), index=False)
 
 # Combined graph statistics
@@ -342,27 +465,33 @@ with open(os.path.join(OUT_DIR, "graph_stats.txt"), "w", encoding="utf-8") as f:
     for k, v in stats.items():
         f.write(f"{k}: {v}\n")
 
+# Save co-occurrence edges (for app.py Tab 4 graph)
+pd.DataFrame(
+    [(u, v, d['weight']) for u, v, d in G2.edges(data=True)],
+    columns=["Tenant1", "Tenant2", "Weight"]
+).to_csv(os.path.join(OUT_DIR, "cooccurrence_edges.csv"), index=False)
+print(f"  cooccurrence_edges.csv written with {G2.number_of_edges()} edges")
+
 # Brand node CSV: full tenant reference
-cat_map = defaultdict(set)
-for fpath in mall_files:
-    for t, m, _ in load_tenant_mall_csv(fpath):
-        pass
-    with open(fpath, "r", encoding="utf-8-sig") as f:
-        for row in csv.DictReader(f):
-            if row.get("Source"):
-                cat_map[row["Source"].strip()].add(row.get("Category", "").strip())
 bn_rows = []
 for t in sorted(tenants):
     malls_list = sorted(set(m for tt, m, _ in tenant_mall_edges if tt == t))
-    cats = sorted(c for c in cat_map.get(t, set()) if c)
-    bn_rows.append({"Tenant": t, "MallCount": tenant_degrees.get(t, 0),
+    cats = [cat_map_raw.get(t, "")]
+    bn_rows.append({"Tenant": t, "Degree": tenant_degrees.get(t, 0),
                     "Malls": "; ".join(malls_list),
-                    "Categories": "; ".join(cats) if cats else "",
+                    "Categories": "; ".join(c for c in cats if c),
                     "Community": partition.get(t, ""),
                     "Corporate": brand_corp.get(t, ""),
-                    "Betweenness": round(betweenness.get(t, 0), 6)})
+                    "Betweenness": round(betweenness.get(t, 0), 6),
+                    "Eigenvector": round(eigenvector.get(t, 0), 6)})
 pd.DataFrame(bn_rows).to_csv(os.path.join(OUT_DIR, "brandnode.csv"), index=False)
 print(f"  brandnode.csv written with {len(bn_rows)} tenants")
+
+# Adjacency list (tenant→CPN with weight = degree/mall count)
+adj_rows = sorted([(t, c) for t, c in sorted_tenants], key=lambda x: -x[1])
+pd.DataFrame(adj_rows, columns=["Source", "Weight"]).to_csv(
+    os.path.join(OUT_DIR, "adjacency_list.csv"), index=False)
+print(f"  adjacency_list.csv written with {len(adj_rows)} tenants")
 
 print(f"\n{'='*60}")
 print(f"All outputs saved to {OUT_DIR}")

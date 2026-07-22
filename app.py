@@ -1,465 +1,274 @@
 import streamlit as st
 import pandas as pd
-import networkx as nx
-import community as community_louvain
-import csv
-import glob
 import os
-from collections import defaultdict, Counter
-from networkx.algorithms import bipartite
+import json
 import plotly.graph_objects as go
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), "Data")
+OUT_DIR = os.path.join(os.path.dirname(__file__), "Output")
 
-st.set_page_config(page_title="CPN Tenant SNA Dashboard", layout="wide")
+st.set_page_config(page_title="CPN Tenant SNA", layout="wide")
 st.title("CPN Tenant & Retail Alliance — Social Network Analysis")
 
-st.markdown("""
-**CPN** (Central Pattana) operates Thailand's largest mall network. This analysis builds an **alliance graph** from the Tenant–CPN Adjacency List — each tenant is connected to CPN with a weight (1–5) based on mall presence — plus brand-ownership edges to **CRC** (Central Retail Corporation) and **CRG** (Central Restaurant Group). The graph reveals influence (in-degree), bridging power (betweenness), structural weak points (bridges), and the overall shape of the CPN Retail Alliance.
-""")
-
-# ---- CATEGORY KEYWORDS for community labeling ----
-CATEGORY_KEYWORDS = {
-    "Fashion & Apparel": ["FASHION", "SHOES", "BAG", "JEWEL", "WATCH", "LUXURY",
-                          "CLOTH", "WEAR", "APPAREL", "ACCESSORY", "LEATHER",
-                          "OPTIC", "EYE", "LENS", "SUNGLASS"],
-    "Food & Beverage": ["FOOD", "BEVERAGE", "RESTAURANT", "CAFE", "COFFEE", "TEA",
-                         "KITCHEN", "GRILL", "SUSHI", "RAMEN", "PIZZA", "BURGER",
-                         "DESSERT", "ICE CREAM", "BAKERY", "JUICE", "CHICKEN",
-                         "STEAK", "SEAFOOD", "NOODLE", "HOT POT"],
-    "Technology & Electronics": ["TECHNOLOGY", "ELECTRON", "PHONE", "MOBILE",
-                                   "CAMERA", "COMPUTER", "GADGET", "DIGITAL",
-                                   "GAME", "IT "],
-    "Beauty & Wellness": ["BEAUTY", "WELLNESS", "SPA", "CLINIC", "SALON",
-                           "COSMETIC", "SKIN", "HAIR", "NAIL", "FRAGRANCE",
-                           "MASSAGE", "DENTAL"],
-    "Bank & Financial": ["BANK", "FINANCE", "INSURANCE", "CREDIT", "INVESTMENT"],
-    "Lifestyle & Specialty": ["LIFESTYLE", "HOME", "FURNITURE", "DECOR",
-                               "BOOK", "STATIONERY", "TOY", "KID", "BABY",
-                               "PET", "SPORT", "FITNESS"],
-    "Services & Education": ["SERVICE", "EDUCATION", "SCHOOL", "ACADEMY",
-                              "MUSIC", "DANCE", "STUDIO", "CLEAN", "REPAIR"],
-    "Entertainment": ["ENTERTAINMENT", "CINEMA", "THEATER", "ARCADE", "PLAY"],
-}
-
 CATEGORY_COLORS = {
-    "Fashion & Apparel": "#e91e63",
     "Food & Beverage": "#ff5722",
     "Beauty & Wellness": "#4caf50",
     "Technology & Electronics": "#2196f3",
-    "Lifestyle & Specialty": "#9c27b0",
     "Bank & Financial Services": "#ffc107",
+    "Fashion & Apparel": "#e91e63",
+    "Lifestyle & Specialty": "#9c27b0",
     "Services & Education": "#00bcd4",
     "Entertainment": "#ff9800",
     "Supermarket": "#795548",
 }
 
-# Manual category overrides for variant/non-CSV tenant names
-VARIANT_CATEGORIES = {
-    "FUJI JAPANESE RESTAURANT": "Food & Beverage",
-    "MK RESTAURANTS": "Food & Beverage",
-    "JAY MART": "Technology & Electronics",
-}
+cat_map = {}
+brandnode_path = os.path.join(OUT_DIR, "brandnode.csv")
+if os.path.exists(brandnode_path):
+    for _, r in pd.read_csv(brandnode_path).iterrows():
+        cats = str(r.get("Categories", "")).strip()
+        if cats:
+            cat_map[r["Tenant"].strip()] = cats.split(";")[0].strip()
 
-def fallback_category(name):
-    up = name.upper()
-    for cat, kws in CATEGORY_KEYWORDS.items():
-        for kw in kws:
-            if kw in up:
-                return cat
-    return "Other"
+def get_color(tenant):
+    return CATEGORY_COLORS.get(cat_map.get(tenant, "Other"), "#9e9e9e")
 
-REGION_MAP = {
-    "Central Ladprao": "Bangkok", "centralwOrld": "Bangkok", "Central Pinklao": "Bangkok",
-    "Central Rama 2": "Bangkok", "Central Rama 3": "Bangkok", "Central Rama 9": "Bangkok",
-    "Central Bangna": "Bangkok", "Central Eastville": "Bangkok", "Central Westville": "Bangkok",
-    "Central Village": "Bangkok", "Central Ramindra": "Bangkok", "Mega Bangna": "Bangkok",
-    "Central Rattanathibet": "Bangkok", "Central Chaengwattana": "Bangkok", "Central Ayutthaya": "Bangkok",
-    "Central Salaya": "Bangkok", "Central Mahachai": "Bangkok", "Central Nakhon Pathom": "Bangkok",
-    "Central Chiangmai": "Northern", "Central Chiangmai Airport": "Northern", "Central Chiangrai": "Northern",
-    "Central Lampang": "Northern", "Central Phitsanulok": "Northern", "Central Nakhon Sawan": "Northern",
-    "Central Udon": "Northeastern", "Central Korat": "Northeastern", "Central Khonkaen": "Northeastern",
-    "Central Ubon": "Northeastern",
-    "Central Pattaya": "Eastern", "Central Chonburi": "Eastern", "Central Siracha": "Eastern",
-    "Central Rayong": "Eastern", "Central Chanthaburi": "Eastern",
-    "Central Phuket": "Southern", "Central Hatyai": "Southern", "Central Suratthani": "Southern",
-    "Central Nakhon Si": "Southern", "Central Marina": "Southern", "Central Samui": "Southern",
-}
-
-REGION_COLORS = {
-    "Bangkok": "#e74c3c", "Northern": "#3498db",
-    "Northeastern": "#2ecc71", "Eastern": "#9b59b6", "Southern": "#1abc9c",
-}
+# ── Data Loaders ──
+@st.cache_data
+def load_in_degree():
+    df = pd.read_csv(os.path.join(OUT_DIR, "in_degree_centrality.csv"))
+    return df.rename(columns={"Degree": "Malls"})
 
 @st.cache_data
-def load_tenant_mall_edges():
-    mall_files = glob.glob(os.path.join(DATA_DIR, "Central*.csv")) + [os.path.join(DATA_DIR, "MegaBangna.csv")]
-    edges = []
-    for fpath in sorted(mall_files):
-        with open(fpath, "r", encoding="utf-8-sig") as f:
-            lines = f.readlines()
-        hdr_idx = 0
-        for i, l in enumerate(lines):
-            if l.strip().startswith("Source") and "Target" in l:
-                hdr_idx = i
-                break
-        reader = csv.DictReader(lines[hdr_idx:])
-        for row in reader:
-            if None in row or row.get("Source") is None or row.get("Target") is None:
-                continue
-            tenant = row["Source"].strip()
-            mall = row["Target"].strip()
-            try:
-                w = int(row.get("Weight", 1))
-            except (ValueError, TypeError):
-                w = 1
-            edges.append((tenant, mall, w))
-    return edges
+def load_betweenness():
+    return pd.read_csv(os.path.join(OUT_DIR, "betweenness_centrality.csv"))
 
 @st.cache_data
-def compute_sna(edges):
-    tenants = set(e[0] for e in edges)
-    malls = set(e[1] for e in edges)
-
-    uniq_pairs = set((t, m) for t, m, _ in edges)
-    tdeg = defaultdict(int)
-    mdeg = defaultdict(int)
-    for t, m in uniq_pairs:
-        tdeg[t] += 1
-        mdeg[m] += 1
-    in_deg = sorted(tdeg.items(), key=lambda x: -x[1])
-    mall_deg = sorted(mdeg.items(), key=lambda x: -x[1])
-
-    B = nx.Graph()
-    B.add_nodes_from(tenants, bipartite=0)
-    B.add_nodes_from(malls, bipartite=1)
-    for t, m, w in edges:
-        B.add_edge(t, m, weight=w)
-
-    G = bipartite.weighted_projected_graph(B, tenants, ratio=False)
-    G2 = nx.Graph()
-    for u, v, d in G.edges(data=True):
-        if d["weight"] >= 2:
-            G2.add_edge(u, v, weight=d["weight"])
-
-    n_nodes = G2.number_of_nodes()
-    k = min(500, n_nodes)
-    bet = nx.betweenness_centrality(G2, weight="weight", normalized=True, k=k)
-    sorted_bet = sorted(bet.items(), key=lambda x: -x[1])
-
-    try:
-        bridges = list(nx.bridges(G2))
-        br_list = []
-        for u, v in bridges:
-            w = G2[u][v]["weight"]
-            br_list.append((w, u, v))
-        br_list.sort(key=lambda x: -x[0])
-    except Exception:
-        br_list = []
-
-    partition = community_louvain.best_partition(G2, weight="weight")
-    comms = defaultdict(list)
-    for node, cid in partition.items():
-        comms[cid].append(node)
-    sorted_comms = sorted(comms.items(), key=lambda x: -len(x[1]))
-
-    return in_deg, mall_deg, sorted_bet, br_list, sorted_comms, G2, partition
-
-def guess_community_name(members):
-    scores = Counter()
-    for m in members:
-        up = m.upper()
-        for cat, kws in CATEGORY_KEYWORDS.items():
-            for kw in kws:
-                if kw in up:
-                    scores[cat] += 1
-                    break
-    if scores:
-        return scores.most_common(1)[0][0]
-    return "Mixed / General"
-
-# ---- STORE CATEGORY from CSV for diagram coloring ----
-def load_all_categories(edges):
-    mall_files = glob.glob(os.path.join(DATA_DIR, "Central*.csv")) + [os.path.join(DATA_DIR, "MegaBangna.csv")]
-    cat_map = {}
-    for fpath in sorted(mall_files):
-        with open(fpath, "r", encoding="utf-8-sig") as f:
-            lines = f.readlines()
-        hdr_idx = 0
-        for i, l in enumerate(lines):
-            if l.strip().startswith("Source") and "Target" in l:
-                hdr_idx = i
-                break
-        reader = csv.DictReader(lines[hdr_idx:])
-        for row in reader:
-            if None in row or row.get("Source") is None:
-                continue
-            t = row["Source"].strip()
-            cat = row.get("Category", "").strip()
-            if cat and t not in cat_map:
-                cat_map[t] = cat
-    return cat_map
+def load_eigenvector():
+    return pd.read_csv(os.path.join(OUT_DIR, "eigenvector_centrality.csv"))
 
 @st.cache_data
-def load_corporate_brands():
-    """Load corporate→brand mapping from corporate_brands.csv."""
-    corp_path = os.path.join(DATA_DIR, "corporate_brands.csv")
-    brand_corp = {}
-    corp_color = {}
-    colors = ["#e74c3c", "#3498db", "#2ecc71", "#f39c12", "#9b59b6", "#1abc9c"]
-    if os.path.exists(corp_path):
-        with open(corp_path, "r", encoding="utf-8-sig") as f:
-            corp_set = set()
-            for row in csv.DictReader(f):
-                corp = row["Corporate"].strip()
-                brand = row["Brand"].strip().upper()
-                brand_corp[brand] = corp
-                corp_set.add(corp)
-            for i, c in enumerate(sorted(corp_set)):
-                corp_color[c] = colors[i % len(colors)]
-    return brand_corp, corp_color
+def load_stats():
+    path = os.path.join(OUT_DIR, "graph_stats.txt")
+    stats = {}
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            if ":" in line:
+                k, v = line.split(":", 1)
+                stats[k.strip()] = v.strip()
+    return stats
 
-with st.spinner("Loading tenant data and computing SNA metrics..."):
-    edges = load_tenant_mall_edges()
-    in_deg, mall_deg, bet_list, br_list, comms, G, partition = compute_sna(edges)
-    cat_map = load_all_categories(edges)
-    brand_corp, corp_color_map = load_corporate_brands()
+@st.cache_data
+def load_cpi():
+    df = pd.read_csv(os.path.join(OUT_DIR, "cpi_data.csv"))
+    df["ym"] = df["year"].astype(str) + "-" + df["month"].astype(str).str.zfill(2)
+    df["ym_label"] = df["monthLabel"]
+    return df
 
-# ---- Label communities ----
-named_comms = []
-for cid, members in comms:
-    name = guess_community_name(members)
-    named_comms.append((cid, name, members))
+@st.cache_data
+def load_cci():
+    return pd.read_csv(os.path.join(OUT_DIR, "cci_excel_data.csv"))
 
-st.sidebar.header("Alliance Graph Summary")
-st.sidebar.metric("Tenant–Mall Edges", f"{len(edges):,}")
-st.sidebar.metric("Co-occurrence Nodes", f"{G.number_of_nodes():,}")
-st.sidebar.metric("Co-occurrence Edges", f"{G.number_of_edges():,}")
-st.sidebar.metric("Alliance Nodes", "CPN · CRC · CRG + tenants")
-st.sidebar.markdown(
-    "<small>◆ CPN = Mall operator &nbsp;&nbsp;◆ CRC = Retail &nbsp;&nbsp;◆ CRG = F&B</small>",
-    unsafe_allow_html=True,
+@st.cache_data
+def load_gnn_pred():
+    p = os.path.join(OUT_DIR, "gnn_predictions.csv")
+    return pd.read_csv(p) if os.path.exists(p) else pd.DataFrame()
+
+@st.cache_data
+def load_gnn_analysis():
+    p = os.path.join(OUT_DIR, "gnn_analysis.json")
+    if os.path.exists(p):
+        with open(p, "r") as f:
+            return json.load(f)
+    return None
+
+with st.spinner("Loading SNA data..."):
+    df_in = load_in_degree()
+    df_bet = load_betweenness()
+    df_eig = load_eigenvector()
+    stats = load_stats()
+    df_gnn = load_gnn_pred()
+    gnn_analysis = load_gnn_analysis()
+
+top_in = df_in.head(10)
+top_bet = df_bet.head(10)
+top_eig = df_eig.head(10)
+
+# Extract R² from analysis if available
+gnn_r2 = gnn_analysis.get("model", {}).get("r2", 0.0) if gnn_analysis else 0.0
+
+st.markdown("""
+This analysis builds a **tenant co-occurrence network** from CPN's 44 mall properties across Thailand.
+Two tenants are connected when they appear together in the same mall; edge weight = number of shared malls.
+The graph reveals **influence** (degree = mall presence), **bridging power** (betweenness centrality),
+**connectedness** (eigenvector centrality), and **GNN-predicted composite significance** within the CPN Retail Alliance.
+""")
+
+col1, col2, col3, col4, col5 = st.columns(5)
+col1.metric("Shops / Tenants", stats.get("Total unique tenants", "—"))
+col2.metric("CPN (Hub)", "1")
+col3.metric("Alliance (CRC, CRG)", "2")
+col4.metric("Tenant–Mall Edges", stats.get("Total tenant-mall edges", "—"))
+col5.metric("Co-occurrence Edges", stats.get("Co-occurrence graph edges", "—"))
+
+
+def make_bar_chart(df, val_col, label):
+    fig = go.Figure()
+    for _, row in df.iterrows():
+        fig.add_trace(go.Bar(
+            x=[row[val_col]], y=[row["Tenant"]], orientation="h",
+            marker_color=get_color(row["Tenant"]),
+            text=row[val_col], texttemplate="%{x}" if val_col == "Malls" else "%{x:.5f}",
+            textposition="outside", showlegend=False, width=0.7,
+        ))
+    fig.update_layout(
+        height=400, margin=dict(l=0, r=30, t=0, b=0),
+        xaxis=dict(title=label),
+        yaxis=dict(autorange="reversed", type="category"),
+        plot_bgcolor="rgba(0,0,0,0)", font=dict(size=12),
+    )
+    return fig
+
+
+def make_table(df, val_col, fmt):
+    styled = df.style
+    if fmt:
+        styled = styled.format({val_col: fmt})
+    return styled
+
+
+# ── 1. Top 10 Degree ──
+st.subheader("Top 10 Tenants by Mall Presence (Degree Centrality)")
+c1, c2 = st.columns([2, 1.2])
+c1.plotly_chart(make_bar_chart(top_in, "Malls", "Number of Malls"), use_container_width=True)
+c2.dataframe(
+    make_table(top_in, "Malls", "{:d}"),
+    use_container_width=True, hide_index=True,
+    column_config={"Tenant": "Tenant", "Malls": "Malls"},
 )
 
-# ============================================================
-# TABS
-# ============================================================
-tab1, tab2, tab3, tab4 = st.tabs([
-    " In-Degree",
-    " Betweenness",
-    " Bridges",
-    " Network Diagram",
-])
+# ── 2. Top 10 Betweenness ──
+st.subheader("Top 10 by Betweenness Centrality")
+st.caption("Higher betweenness = more tenants depend on this tenant to bridge across different mall clusters")
+c3, c4 = st.columns([2, 1.2])
+c3.plotly_chart(make_bar_chart(top_bet, "Betweenness", "Betweenness Centrality"), use_container_width=True)
+c4.dataframe(
+    make_table(top_bet, "Betweenness", "{:.6f}"),
+    use_container_width=True, hide_index=True,
+    column_config={"Tenant": "Tenant", "Betweenness": st.column_config.NumberColumn("Betweenness", format="%.6f")},
+)
 
-with tab1:
-    st.subheader("Tenants with the most mall presences")
-    top_n = st.slider("Show top N", 5, 100, 30, key="indeg_n")
-    df_in = pd.DataFrame(in_deg[:top_n], columns=["Tenant", "Malls"])
-    c1, c2 = st.columns([2, 1])
-    with c1:
-        st.bar_chart(df_in.set_index("Tenant"), height=500)
-    with c2:
-        st.dataframe(df_in, use_container_width=True, hide_index=True)
+# ── 3. Top 10 Eigenvector ──
+st.subheader("Top 10 by Eigenvector Centrality")
+st.caption("Higher eigenvector = connected to many well-connected tenants (influential neighbors)")
+c5, c6 = st.columns([2, 1.2])
+c5.plotly_chart(make_bar_chart(top_eig, "Eigenvector", "Eigenvector Centrality"), use_container_width=True)
+c6.dataframe(
+    make_table(top_eig, "Eigenvector", "{:.6f}"),
+    use_container_width=True, hide_index=True,
+    column_config={"Tenant": "Tenant", "Eigenvector": st.column_config.NumberColumn("Eigenvector", format="%.6f")},
+)
 
-    st.divider()
-    st.subheader("Malls by tenant count (grouped by region)")
-    top_per = st.slider("Show top N malls per region (0 = show all)", 0, 10, 3, key="top_per_region")
-    df_mall = pd.DataFrame(mall_deg, columns=["Mall", "Tenants"])
-    df_mall["Region"] = df_mall["Mall"].map(REGION_MAP).fillna("Other")
-    region_order = ["Bangkok", "Northern", "Northeastern", "Eastern", "Southern"]
-    df_mall["Region"] = pd.Categorical(df_mall["Region"], categories=region_order, ordered=True)
-    if top_per > 0:
-        df_mall = df_mall.groupby("Region", observed=True).head(top_per).reset_index(drop=True)
-    df_mall = df_mall.sort_values(["Region", "Tenants"], ascending=[True, False])
-    fig = go.Figure()
-    for region in region_order:
-        subset = df_mall[df_mall["Region"] == region]
-        if not subset.empty:
-            fig.add_trace(go.Bar(
-                x=subset["Tenants"], y=subset["Mall"],
-                orientation="h", marker_color=REGION_COLORS[region],
-                name=region, text=subset["Tenants"], textposition="outside",
-            ))
-    fig.update_layout(
-        height=650, margin=dict(l=0, r=0, t=0, b=0),
-        xaxis_title="Tenants", yaxis=dict(autorange="reversed"),
-        legend=dict(title="Region", orientation="h", y=1.08),
-        plot_bgcolor="rgba(0,0,0,0)",
-        barmode="stack",
+# ── 4. GNN Prediction ──
+st.subheader("GNN-Predicted Tenant Significance (Composite Score)")
+st.caption(f"GCN model learned from category features + co-occurrence graph | R² = {gnn_r2:.4f} | Target = 0.4·z(Deg) + 0.3·z(Bet) + 0.2·z(Eig) + 0.1·Internal")
+
+if not df_gnn.empty:
+    top_gnn = df_gnn.head(10)
+    fig_gnn = go.Figure()
+    for _, row in top_gnn.iterrows():
+        fig_gnn.add_trace(go.Bar(
+            x=[row["GNN_Prediction"]], y=[row["Tenant"]], orientation="h",
+            marker_color=get_color(row["Tenant"]),
+            text=row["GNN_Prediction"], texttemplate="%{x:.3f}",
+            textposition="outside", showlegend=False, width=0.7,
+        ))
+    fig_gnn.update_layout(
+        height=400, margin=dict(l=0, r=30, t=0, b=0),
+        xaxis=dict(title="GNN Predicted Score"),
+        yaxis=dict(autorange="reversed", type="category"),
+        plot_bgcolor="rgba(0,0,0,0)", font=dict(size=12),
     )
-    st.plotly_chart(fig, use_container_width=True)
+    col_g1, col_g2 = st.columns([2, 1.2])
+    col_g1.plotly_chart(fig_gnn, use_container_width=True)
+    col_g2.dataframe(
+        top_gnn[["Tenant", "Category", "CompositeScore", "GNN_Prediction"]].style.format({"CompositeScore": "{:.4f}", "GNN_Prediction": "{:.4f}"}),
+        use_container_width=True, hide_index=True,
+    )
 
-with tab2:
-    st.subheader("Top connectors (Betweenness Centrality)")
-    st.caption("Higher betweenness = more tenants depend on this tenant to bridge across different mall clusters")
-    top_b = st.slider("Show top N", 5, 100, 30, key="bet_n")
-    df_bet = pd.DataFrame(bet_list[:top_b], columns=["Tenant", "Betweenness"])
-    c1, c2 = st.columns([2, 1])
-    with c1:
-        st.bar_chart(df_bet.set_index("Tenant"), height=500)
-    with c2:
-        st.dataframe(df_bet.style.format({"Betweenness": "{:.6f}"}), use_container_width=True, hide_index=True)
+if gnn_analysis:
+    with st.expander("Per-Category GNNExplainer Insights — Top tenant & key connections by category"):
+        for cat_info in gnn_analysis.get("categories", []):
+            nbrs = cat_info["top_neighbors"]
+            nbr_str = ", ".join(f'{n["tenant"]} ({n["category"]})' for n in nbrs)
+            st.markdown(f"**{cat_info['category']}** ({cat_info['count']} nodes)")
+            st.markdown(f"- Top tenant: `{cat_info['top_tenant']}` (score: {cat_info['top_score']:.4f})")
+            st.markdown(f"- Key neighbor: `{nbrs[0]['tenant']}` ({nbrs[0]['category']}, edge importance: {nbrs[0]['importance']:.3f})")
+            st.markdown(f"- Top 5 neighbors: {nbr_str}")
+            st.markdown("---")
 
-with tab3:
-    st.subheader("Critical edges (Bridges)")
-    st.caption("Edges whose removal would disconnect the tenant co-occurrence graph")
-    if br_list:
-        df_br = pd.DataFrame(br_list, columns=["Co-malls", "Tenant A", "Tenant B"])
-        st.dataframe(df_br.style.format({"Co-malls": "{:d}"}), use_container_width=True, hide_index=True)
-    else:
-        st.info("No bridges found — the graph is fully connected beyond single-link edges.")
+# ── 5. CPI Section ──
+st.subheader("Consumer Price Index (CPI)")
+st.caption("Source: CPI-G Report (TPSO), base year 2566 = 100")
+df_cpi = load_cpi()
+regions = df_cpi[["regionCode", "regionName"]].drop_duplicates().set_index("regionCode")["regionName"].to_dict()
+selected = st.selectbox("Select region", options=list(regions.keys()), format_func=lambda c: regions[c], index=0)
 
-with tab4:
-    st.subheader("CPN Tenant & Retail Alliance — Network")
-    st.caption("Circles = tenants  ◆  diamonds = corporate entities. Drag nodes to explore. Light gray = CPN→tenant. Dashed = brand ownership. Bold = alliance.")
+cpi_sel = df_cpi[df_cpi["regionCode"] == selected].sort_values(["year", "month"])
 
-    color_mode = "Category"
-    max_nodes = st.slider("Max tenants to show (largest by mall count)", 20, 300, 80, key="net_n")
+fig_cpi = go.Figure()
+fig_cpi.add_trace(go.Scatter(
+    x=cpi_sel["ym_label"], y=cpi_sel["index"], mode="lines+markers",
+    name=f"CPI - {regions[selected]}",
+    line=dict(color="#2196f3", width=2), marker=dict(size=6),
+))
+for rc, rn in regions.items():
+    if rc == selected:
+        continue
+    sub = df_cpi[df_cpi["regionCode"] == rc].sort_values(["year", "month"])
+    fig_cpi.add_trace(go.Scatter(
+        x=sub["ym_label"], y=sub["index"], mode="lines",
+        name=rn, line=dict(width=1, dash="dot"), opacity=0.4, showlegend=True,
+    ))
+fig_cpi.update_layout(
+    height=400, margin=dict(l=0, r=30, t=0, b=40),
+    xaxis=dict(title=""), yaxis=dict(title="CPI Index (base 2566)"),
+    plot_bgcolor="rgba(0,0,0,0)", font=dict(size=12), hovermode="x unified",
+)
+col_cpi1, col_cpi2 = st.columns([2.5, 1.2])
+col_cpi1.plotly_chart(fig_cpi, use_container_width=True)
+latest = cpi_sel.iloc[-1]
+col_cpi2.metric("Latest CPI", f"{latest['index']:.2f}", f"{latest['change']:+.2f} (MoM)")
+col_cpi2.metric("Period", f"{cpi_sel['ym_label'].iloc[0]} to {cpi_sel['ym_label'].iloc[-1]}")
+col_cpi2.metric("Avg CPI", f"{cpi_sel['index'].mean():.2f}")
+col_cpi2.metric("Regions Available", str(len(regions)))
 
-    top_tenants = [t for t, _ in in_deg[:max_nodes]]
-    H = G.subgraph(top_tenants).copy()
+# ── 6. CCI Section ──
+st.subheader("Consumer Confidence Index (CCI)")
+st.caption("Source: CCI Report (TPSO), มิ.ย.2568 – มิ.ย.2569")
+df_cci = load_cci()
+df_cci = df_cci.sort_values("ym")
 
-    H2 = nx.Graph()
-    H2.add_nodes_from(top_tenants)
-    for u, v in H.edges():
-        if u in top_tenants and v in top_tenants:
-            H2.add_edge(u, v, weight=G[u][v]["weight"])
-
-    ALLIANCE_NODES = {"CPN": "#e74c3c", "CRC": "#3498db", "CRG": "#2ecc71"}
-    for node in ALLIANCE_NODES:
-        H2.add_node(node)
-
-    adj_path = os.path.join(DATA_DIR, "..", "Output", "adjacency_list.csv")
-    extra_adj_tenants = []
-    if os.path.exists(adj_path):
-        with open(adj_path, "r", encoding="utf-8-sig") as f:
-            for row in csv.DictReader(f):
-                tenant = row["Source"].strip()
-                w = int(row["Weight"])
-                if tenant in H2:
-                    H2.add_edge("CPN", tenant, weight=w, etype="affiliation")
-                elif tenant in VARIANT_CATEGORIES:
-                    extra_adj_tenants.append((tenant, w))
-
-    for tenant, w in extra_adj_tenants:
-        if tenant not in H2:
-            H2.add_node(tenant)
-        H2.add_edge("CPN", tenant, weight=w, etype="affiliation")
-
-    for brand, corp in brand_corp.items():
-        if brand in H2 and corp in ("CRC", "CRG"):
-            H2.add_edge(corp, brand, weight=1, etype="ownership")
-
-    for corp in ("CRC", "CRG"):
-        H2.add_edge("CPN", corp, weight=1, etype="alliance")
-
-    node_colors = {}
-    for n in H2.nodes():
-        if n in ALLIANCE_NODES:
-            node_colors[n] = ALLIANCE_NODES[n]
-        else:
-            cat = VARIANT_CATEGORIES.get(n) or cat_map.get(n) or fallback_category(n)
-            node_colors[n] = CATEGORY_COLORS.get(cat, "#9e9e9e")
-
-    # ---- Build vis.js data ----
-    ALLIANCE_NODES_SORTED = sorted(ALLIANCE_NODES.keys())
-    in_deg_dict = dict(in_deg)
-
-    vis_nodes = []
-    for n in H2.nodes():
-        if n in ALLIANCE_NODES:
-            sz = 26
-            shp = "diamond"
-            ttl = ""
-            if n == "CPN":
-                nc = sum(1 for nb in H2.neighbors("CPN") if nb not in ("CRC", "CRG"))
-                ttl = "CPN &mdash; Mall Operator&lt;br&gt;Tenants in view: %d" % nc
-            elif n == "CRC":
-                nb = sum(1 for nb in H2.neighbors("CRC") if nb != "CPN")
-                ttl = "CRC &mdash; Central Retail Corp&lt;br&gt;Brands in view: %d" % nb
-            else:
-                nb = sum(1 for nb in H2.neighbors("CRG") if nb != "CPN")
-                ttl = "CRG &mdash; Central Restaurant Group&lt;br&gt;Brands in view: %d" % nb
-        else:
-            mc = in_deg_dict.get(n, 0)
-            sz = min(mc * 0.8 + 8, 40)
-            shp = "dot"
-            corp = brand_corp.get(n, "")
-            cat = cat_map.get(n, "")
-            parts = [n, "Malls: %d" % mc]
-            if cat:
-                parts.append("Category: " + cat)
-            if corp:
-                parts.append("Corporate: " + corp)
-            ttl = "&lt;br&gt;".join(parts)
-
-        vis_nodes.append({
-            "id": n, "label": n, "size": sz, "shape": shp,
-            "color": {"background": node_colors[n], "border": "#444"},
-            "title": ttl,
-        })
-
-    vis_edges = []
-    # CPN → tenant
-    for tenant in H2.neighbors("CPN"):
-        if tenant in ("CRC", "CRG"):
-            continue
-        w = H2["CPN"][tenant].get("weight", 1)
-        vis_edges.append({"from": "CPN", "to": tenant, "width": w * 0.6, "color": {"color": "rgba(180,180,180,0.4)"}})
-    # Ownership
-    for corp, clr in [("CRC", "#3498db"), ("CRG", "#2ecc71")]:
-        if corp not in H2:
-            continue
-        for brand in H2.neighbors(corp):
-            if brand == "CPN":
-                continue
-            vis_edges.append({"from": corp, "to": brand, "width": 2, "dashes": True, "color": {"color": clr}})
-    # Alliance
-    for corp in ("CRC", "CRG"):
-        if corp not in H2 or "CPN" not in H2:
-            continue
-        vis_edges.append({"from": "CPN", "to": corp, "width": 4, "color": {"color": ALLIANCE_NODES[corp]}})
-
-    import json
-    nodes_json = json.dumps(vis_nodes, ensure_ascii=False)
-    edges_json = json.dumps(vis_edges, ensure_ascii=False)
-
-    html = """<!DOCTYPE html>
-<html>
-<head>
-<script src="https://unpkg.com/vis-network@9.1.6/standalone/umd/vis-network.min.js"></script>
-<style>
-* { margin:0; padding:0; box-sizing:border-box; }
-#network { width:100%%; height:700px; }
-</style>
-</head>
-<body>
-<div id="network"></div>
-<script>
-var nodesData = %s;
-var edgesData = %s;
-var nodes = new vis.DataSet(nodesData);
-var edges = new vis.DataSet(edgesData);
-var container = document.getElementById('network');
-var data = { nodes: nodes, edges: edges };
-var options = {
-  physics: { enabled: true, stabilization: { iterations: 100 }, solver: 'barnesHut',
-    barnesHut: { gravitationalConstant: -2000, centralGravity: 0.3, springLength: 200, springConstant: 0.04, damping: 0.5 } },
-  interaction: { dragNodes: true, dragView: true, zoomView: true, hover: true, tooltipDelay: 200 },
-  nodes: { font: { size: 10, face: 'Tahoma' }, borderWidth: 1, borderWidthSelected: 2 },
-  edges: { smooth: { type: 'continuous' } },
-};
-var network = new vis.Network(container, data, options);
-network.once('stabilizationIterationsDone', function() { network.setOptions({ physics: { enabled: false } }); });
-</script>
-</body>
-</html>""" % (nodes_json, edges_json)
-
-    st.components.v1.html(html, height=750)
-
-    # Legend
-    st.markdown("**Category Legend**")
-    legend_items = [(cat, clr) for cat, clr in CATEGORY_COLORS.items() if cat in {cat_map.get(n, "") for n in H2.nodes()} | {fallback_category(n) for n in H2.nodes()}]
-    cols = st.columns(len(legend_items))
-    for col, (cat, clr) in zip(cols, legend_items):
-        col.markdown(f'<span style="display:inline-block;width:12px;height:12px;background:{clr};border-radius:50%;margin-right:4px"></span> {cat}', unsafe_allow_html=True)
+fig_cci = go.Figure()
+fig_cci.add_trace(go.Scatter(
+    x=df_cci["ym"], y=df_cci["รวม"], mode="lines+markers",
+    name="Overall CCI", line=dict(color="#ff5722", width=2),
+))
+fig_cci.add_trace(go.Scatter(
+    x=df_cci["ym"], y=df_cci["ปัจจุบัน"], mode="lines+markers",
+    name="Present Situation", line=dict(color="#ffc107", width=2, dash="dash"),
+))
+fig_cci.add_trace(go.Scatter(
+    x=df_cci["ym"], y=df_cci["อนาคต"], mode="lines+markers",
+    name="Future Expectation", line=dict(color="#4caf50", width=2, dash="dot"),
+))
+fig_cci.update_layout(
+    height=400, margin=dict(l=0, r=30, t=0, b=40),
+    xaxis=dict(title=""), yaxis=dict(title="CCI Index"),
+    plot_bgcolor="rgba(0,0,0,0)", font=dict(size=12),
+    hovermode="x unified", legend=dict(orientation="h", y=1.12),
+)
+col_cci1, col_cci2 = st.columns([2.5, 1.2])
+col_cci1.plotly_chart(fig_cci, use_container_width=True)
+clatest = df_cci.iloc[-1]
+col_cci2.metric("Latest CCI", f"{clatest['รวม']:.1f}", f"{clatest['ปัจจุบัน']:.1f} / {clatest['อนาคต']:.1f} (P/F)")
+col_cci2.metric("Period", f"{df_cci['ym'].iloc[0]} to {df_cci['ym'].iloc[-1]}")
