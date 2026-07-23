@@ -19,9 +19,17 @@ CATEGORY_COLORS = {
     "Supermarket": "#795548",
     "Central Department Store": "#607d8b",
     "Robinson Department Store": "#607d8b",
+    "Other": "#9e9e9e",
 }
 
 ALLIANCE_COLORS = {"CPN": "#e74c3c", "CRC": "#2980b9", "CRG": "#27ae60"}
+
+CATEGORY_ORDER = [
+    "Food & Beverage", "Fashion & Apparel", "Beauty & Wellness",
+    "Lifestyle & Specialty", "Technology & Electronics",
+    "Entertainment", "Services & Education",
+    "Bank & Financial Services", "Supermarket", "Other",
+]
 
 cat_map = {}
 with open(os.path.join(OUT_DIR, 'brandnode.csv'), 'r', encoding='utf-8-sig') as f:
@@ -143,6 +151,22 @@ def add_nodes(fig, G, pos, label_pos, show_legend=True, **grid_kw):
         hoverinfo='text', showlegend=False,
     ), **grid_kw)
 
+def add_category_legend(fig, **grid_kw):
+    # Dummy trace for alliance entities (diamond)
+    fig.add_trace(go.Scatter(
+        x=[None], y=[None], mode='markers',
+        marker=dict(color='#e74c3c', size=14, symbol='diamond', line=dict(width=1, color='#333')),
+        name='Alliance Entity (CPN/CRC/CRG)', showlegend=True,
+    ), **grid_kw)
+    # Dummy trace per category (circle)
+    for cat in CATEGORY_ORDER:
+        color = CATEGORY_COLORS.get(cat, "#9e9e9e")
+        fig.add_trace(go.Scatter(
+            x=[None], y=[None], mode='markers',
+            marker=dict(color=color, size=10, symbol='circle', line=dict(width=1, color='#333')),
+            name=cat, showlegend=True,
+        ), **grid_kw)
+
 def export_single(title, fname, top_list):
     G = build_graph(top_list)
     pos, spread, label_pos = layout_zigzag(top_list)
@@ -150,6 +174,7 @@ def export_single(title, fname, top_list):
     fig = go.Figure()
     add_edges(fig, G, pos, show_legend=True)
     add_nodes(fig, G, pos, label_pos)
+    add_category_legend(fig)
     fig.update_layout(
         title=dict(text=title, font=dict(size=15)),
         xaxis=dict(range=[-ax, ax], showgrid=False, zeroline=False, visible=False),
@@ -183,6 +208,7 @@ def export_combined(tenants_dict, fname):
         G, pos, label_pos = graphs_data[key]
         add_edges(fig, G, pos, show_legend=(idx==1), row=1, col=idx)
         add_nodes(fig, G, pos, label_pos, row=1, col=idx)
+        add_category_legend(fig, row=1, col=idx)
         fig.update_xaxes(range=[-ax, ax], showgrid=False, zeroline=False, visible=False, row=1, col=idx)
         fig.update_yaxes(range=[-3.6, 3.5], showgrid=False, zeroline=False, visible=False, row=1, col=idx)
     fig.update_layout(
@@ -207,7 +233,7 @@ print("Degree:", top_deg)
 print("Betweenness:", top_bet)
 print("Eigenvector:", top_eig)
 
-export_single("Top 10 by Mall Presence (Degree)", "network_top10_degree", top_deg)
+export_single("Top 10 by Degree Centrality", "network_top10_degree", top_deg)
 export_single("Top 10 by Betweenness Centrality", "network_top10_betweenness", top_bet)
 export_single("Top 10 by Eigenvector Centrality", "network_top10_eigenvector", top_eig)
 

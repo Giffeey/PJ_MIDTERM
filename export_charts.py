@@ -41,21 +41,24 @@ def export_chart(csv_file, value_col, title, prefix):
     labels = [d[0] for d in data]
     values = [d[1] for d in data]
     colors = [get_color(t) for t in labels]
+    max_val = max(values) if values else 1
 
     # ── Bar chart ──
     fig = go.Figure()
     for t, v, c in zip(labels, values, colors):
+        fmt = '%{x}' if value_col == 'Degree' else '%{x:.6f}'
         fig.add_trace(go.Bar(
             x=[v], y=[t], orientation='h',
             marker=dict(color=c, line=dict(width=1, color='#333')),
-            text=v, texttemplate='%{x}', textposition='outside',
+            texttemplate=fmt, textposition='outside',
             hoverinfo='y+x', showlegend=False,
             width=0.7,
         ))
 
     fig.update_layout(
         title=dict(text=title, font=dict(size=16)),
-        xaxis=dict(title=value_col, showgrid=True, gridcolor='#eee'),
+        xaxis=dict(title=value_col, showgrid=True, gridcolor='#eee',
+                   range=[0, max_val * 1.2]),
         yaxis=dict(autorange='reversed', showgrid=False),
         height=400, width=700,
         margin=dict(l=10, r=30, t=50, b=30),
@@ -101,7 +104,7 @@ def export_chart(csv_file, value_col, title, prefix):
 # ── Export all 3 ──
 print("=== Degree (Mall Presence) ===")
 export_chart(os.path.join(OUT_DIR, 'in_degree_centrality.csv'), 'Degree',
-             'Top 10 by Mall Presence (Degree)', 'top10_degree')
+             'Top 10 by Degree Centrality', 'top10_degree')
 
 print("\n=== Betweenness Centrality ===")
 export_chart(os.path.join(OUT_DIR, 'betweenness_centrality.csv'), 'Betweenness',

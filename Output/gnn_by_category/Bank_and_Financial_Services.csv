@@ -1,0 +1,39 @@
+﻿Tenant,CompositeScore,GNN_Prediction,Category
+KRUNG THAI BANK,0.8111402,0.83799493,Bank & Financial Services
+ธนาคารกรุงเทพ,0.8157421,0.81398225,Bank & Financial Services
+ธนาคารกสิกรไทย,0.72303265,0.7826245,Bank & Financial Services
+ธนาคารกรุงศรีอยุธยา,0.7062542,0.7583815,Bank & Financial Services
+ธนาคารไทยพาณิชย์,0.7351237,0.73367596,Bank & Financial Services
+ธนาคารออมสิน,0.6762053,0.69845724,Bank & Financial Services
+ธนาคารทหารไทยธนชาต,0.7410296,0.6924709,Bank & Financial Services
+ATM SIAM COMMERCIAL BANK,0.75794333,0.52875423,Bank & Financial Services
+ธนาคารยูโอบีจำกัด (มหาชน),0.37488124,0.4891903,Bank & Financial Services
+กรุงเทพประกันภัย,0.35115808,0.39003792,Bank & Financial Services
+ATM KASIKORN BANK,0.40174603,0.33339417,Bank & Financial Services
+UOB XPRESS,0.34673733,0.32218727,Bank & Financial Services
+ธนาคารไทยเครดิต,0.25138932,0.31170797,Bank & Financial Services
+UMAY PLUS,0.28611034,0.30946767,Bank & Financial Services
+AEON THANA SINSAP,0.42511418,0.28192204,Bank & Financial Services
+กรุงศรี เฟิร์สช้อยส์,0.2598594,0.27857015,Bank & Financial Services
+ธนาคารอาคารสงเคราะห์,0.3228452,0.27446204,Bank & Financial Services
+เมืองไทยประกันชีวิต,0.20772682,0.26649383,Bank & Financial Services
+SUPER RICH THAILAND,0.23587412,0.2633958,Bank & Financial Services
+CIMB THAI BANK,0.20851927,0.22805259,Bank & Financial Services
+ATM BANGKOK BANK,0.27589697,0.21656917,Bank & Financial Services
+TISCO BANK,0.23627464,0.20764594,Bank & Financial Services
+ธนาคารเกียรตินาคินภัทร,0.17120075,0.19916087,Bank & Financial Services
+THE VIRIYAH INSURANCE,0.17855804,0.17992836,Bank & Financial Services
+KRUNGSRI FIRST CHOICE,0.23637328,0.13904926,Bank & Financial Services
+LH BANK,0.092904545,0.13464291,Bank & Financial Services
+PROMISE,0.054444004,0.07454482,Bank & Financial Services
+ERGO,0.09205044,0.068437524,Bank & Financial Services
+ATM BANK OF AYUDHYA,0.1698364,0.06332615,Bank & Financial Services
+ATM KRUNG THAI BANK,0.07806986,0.05994277,Bank & Financial Services
+GOVERNMENT SAVING BANK,0.002408889,0.055923067,Bank & Financial Services
+SIAM COMMERCIAL BANK,0.002408889,0.055923067,Bank & Financial Services
+BANGKOK BANK,0.002408889,0.055923067,Bank & Financial Services
+KASIKORN BANK,0.002408889,0.055923067,Bank & Financial Services
+BANK OF AYUDHYA,0.002408889,0.055923067,Bank & Financial Services
+SUPER RICH CURRENCY,0.026124505,0.044128455,Bank & Financial Services
+AEON,0.027399572,0.0295461,Bank & Financial Services
+VALUE PLUS CURRENCY EXCHANGE,0.0010648537,0.0017291121,Bank & Financial Services

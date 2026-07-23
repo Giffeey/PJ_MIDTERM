@@ -137,7 +137,7 @@ def make_table(df, val_col, fmt):
 
 
 # ── 1. Top 10 Degree ──
-st.subheader("Top 10 Tenants by Mall Presence (Degree Centrality)")
+st.subheader("Top 10 by Degree Centrality")
 c1, c2 = st.columns([2, 1.2])
 c1.plotly_chart(make_bar_chart(top_in, "Malls", "Number of Malls"), use_container_width=True)
 c2.dataframe(

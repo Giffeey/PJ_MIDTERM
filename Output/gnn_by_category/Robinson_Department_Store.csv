@@ -1,0 +1,330 @@
+﻿Tenant,CompositeScore,GNN_Prediction,Category
+GIORDANO,0.7596573,0.7857344,Robinson Department Store
+DYSON,0.660271,0.6492599,Robinson Department Store
+LACOSTE,0.68976164,0.6416924,Robinson Department Store
+FITFLOP,0.6315649,0.6237345,Robinson Department Store
+JUBILEE,0.5849142,0.61892426,Robinson Department Store
+CONVERSE,0.54956746,0.5885109,Robinson Department Store
+GARMIN,0.54518914,0.573141,Robinson Department Store
+WACOAL,0.60137886,0.5690892,Robinson Department Store
+HUSH PUPPIES,0.5068146,0.54787827,Robinson Department Store
+GUESS,0.5357007,0.5349145,Robinson Department Store
+WRANGLER,0.48318586,0.51552224,Robinson Department Store
+CALVIN KLEIN,0.4973207,0.5142907,Robinson Department Store
+LEE,0.47134748,0.50848687,Robinson Department Store
+ANELLO,0.4410626,0.48605275,Robinson Department Store
+FILA,0.46144143,0.48405328,Robinson Department Store
+ARROW,0.41907787,0.47126567,Robinson Department Store
+NIKE,0.43024155,0.46875945,Robinson Department Store
+G2000,0.406364,0.46247497,Robinson Department Store
+LANCOME,0.4084188,0.4602411,Robinson Department Store
+AMERICAN TOURISTER,0.41242123,0.45662615,Robinson Department Store
+GUY LAROCHE,0.42119277,0.45640135,Robinson Department Store
+PLAYBOY,0.49078646,0.45169628,Robinson Department Store
+LEGO,0.3921793,0.44007295,Robinson Department Store
+ADIDAS KIDS,0.39372793,0.4331327,Robinson Department Store
+CHERILON,0.38996595,0.43127105,Robinson Department Store
+HEAVY,0.35425243,0.43069515,Robinson Department Store
+CAMERA,0.335659,0.42259774,Robinson Department Store
+PIERRE CARDIN,0.36006823,0.42144957,Robinson Department Store
+SANTAS,0.36006823,0.42144957,Robinson Department Store
+SANRIO,0.38750547,0.4208355,Robinson Department Store
+AIIZ,0.46206132,0.41726658,Robinson Department Store
+JOCKEY,0.36134303,0.41608414,Robinson Department Store
+ENFANT,0.36134303,0.41608414,Robinson Department Store
+FROLINA,0.3608057,0.41608414,Robinson Department Store
+HOTWHEELS,0.3608057,0.41608414,Robinson Department Store
+TRIUMPH,0.3608057,0.41608414,Robinson Department Store
+JOHN HENRY,0.3608057,0.41608414,Robinson Department Store
+PUREEN,0.3608057,0.4160841,Robinson Department Store
+POLO CLUB,0.3608057,0.4160841,Robinson Department Store
+PHILIPS,0.3608057,0.4160841,Robinson Department Store
+PUMA,0.4327035,0.41018036,Robinson Department Store
+JOHN LANGFORD,0.3451954,0.40732995,Robinson Department Store
+TOMICA,0.34140095,0.40729252,Robinson Department Store
+CHOLE,0.34140095,0.40729252,Robinson Department Store
+ELLE,0.34140095,0.40729252,Robinson Department Store
+SMIGGLE,0.3419383,0.40729252,Robinson Department Store
+SHISEIDO,0.34140095,0.40729252,Robinson Department Store
+CARE BEARS,0.34269565,0.40089926,Robinson Department Store
+ESP,0.39151564,0.39894018,Robinson Department Store
+VING,0.38017586,0.39827237,Robinson Department Store
+CENTRAL HOME,0.32976404,0.3966402,Robinson Department Store
+DNEE,0.32976404,0.3966402,Robinson Department Store
+HAVEN,0.32976404,0.3966402,Robinson Department Store
+CENTRAL HOME LOCAL,0.32976404,0.3966402,Robinson Department Store
+LESASHA,0.32976404,0.3966402,Robinson Department Store
+ESTEE LAUDER,0.32976404,0.3966402,Robinson Department Store
+EAZY CLEAN,0.32976404,0.3966402,Robinson Department Store
+ESQUIRE,0.32976404,0.3966402,Robinson Department Store
+GQ UNDERWEAR,0.32976404,0.3966402,Robinson Department Store
+AKEMI,0.32976404,0.3966402,Robinson Department Store
+CUIZIMATE,0.32976404,0.3966402,Robinson Department Store
+ELECTROLUX,0.32976404,0.3966402,Robinson Department Store
+TEFAL,0.32976404,0.39664018,Robinson Department Store
+MEYER,0.32976404,0.39664018,Robinson Department Store
+LTD,0.32976404,0.39664018,Robinson Department Store
+NATURALIZER,0.32976404,0.39664018,Robinson Department Store
+LOTUS,0.32976404,0.39664018,Robinson Department Store
+ANGEL BABY,0.34187582,0.39659694,Robinson Department Store
+CASIO,0.34187582,0.39659694,Robinson Department Store
+ELEMENTS,0.34187582,0.39659694,Robinson Department Store
+EXPRESSIONS,0.3534425,0.3965222,Robinson Department Store
+PASAYA,0.363153,0.3964354,Robinson Department Store
+BURBERRY,0.34971192,0.3960218,Robinson Department Store
+KIDDO,0.32934391,0.39279222,Robinson Department Store
+RADO,0.3680333,0.39056155,Robinson Department Store
+GUCCI,0.33071283,0.38899812,Robinson Department Store
+TORA,0.31348804,0.38797387,Robinson Department Store
+POLO WORLD,0.31116268,0.38771054,Robinson Department Store
+CLARINS,0.31116268,0.38771054,Robinson Department Store
+KANEBO,0.31116268,0.38771054,Robinson Department Store
+BABY MOBY,0.31116268,0.38771054,Robinson Department Store
+LOLITA,0.3395429,0.38758478,Robinson Department Store
+MAC,0.33033407,0.38338932,Robinson Department Store
+MAMYPOKO,0.31260487,0.3830891,Robinson Department Store
+EP,0.31260487,0.3830891,Robinson Department Store
+ZEBRA,0.31300786,0.3830891,Robinson Department Store
+ADIDAS NEO CREDIT,0.35099718,0.38253254,Robinson Department Store
+SCHOLL,0.35099718,0.38253254,Robinson Department Store
+LEVIS,0.35099718,0.38253254,Robinson Department Store
+ABSORBA,0.35099718,0.38253254,Robinson Department Store
+PIGEON,0.35099718,0.38253254,Robinson Department Store
+LAURA MERCIER,0.3261116,0.3820162,Robinson Department Store
+CARSON,0.3261116,0.3820162,Robinson Department Store
+AVENT,0.3399157,0.38080004,Robinson Department Store
+CLINIQUE,0.32199946,0.38054535,Robinson Department Store
+HELLO KITTY,0.29516327,0.37977937,Robinson Department Store
+OCEAN,0.29516327,0.37977937,Robinson Department Store
+BSC,0.30469117,0.37778777,Robinson Department Store
+SEIKO,0.32480565,0.37772965,Robinson Department Store
+SANRIO LOCAL,0.31056026,0.37746865,Robinson Department Store
+DEFRY 01,0.33866915,0.37746146,Robinson Department Store
+BOBBI BROWN,0.31755945,0.37180182,Robinson Department Store
+DAVIDOFF,0.32642883,0.3691927,Robinson Department Store
+POLOTRAVEL CLUB,0.31068203,0.36915475,Robinson Department Store
+KRUPS,0.29155067,0.36790648,Robinson Department Store
+HATARI,0.3378828,0.36755309,Robinson Department Store
+JACOB,0.30657876,0.36751428,Robinson Department Store
+CAGGIONI,0.2823081,0.366842,Robinson Department Store
+SUPERWARE,0.2951405,0.36650264,Robinson Department Store
+TOSHINO,0.2951405,0.36650264,Robinson Department Store
+ESPADA,0.31934425,0.3657001,Robinson Department Store
+PAW PATROL,0.32313588,0.36477527,Robinson Department Store
+CHICCO,0.32313588,0.36477527,Robinson Department Store
+COVERMARK,0.34587854,0.36448345,Robinson Department Store
+TOSHIBA,0.31880328,0.36234275,Robinson Department Store
+BSC COSMETOLOGY,0.33747485,0.36205307,Robinson Department Store
+BANDAI,0.27458987,0.35914028,Robinson Department Store
+SYLVANIAN FAMILIES,0.29304177,0.35791138,Robinson Department Store
+THAMES,0.36153862,0.35669726,Robinson Department Store
+DAKS,0.31447947,0.35529956,Robinson Department Store
+EVERSINCE,0.2928811,0.35219833,Robinson Department Store
+MONTBLANC,0.30144268,0.3498051,Robinson Department Store
+SKII,0.29078496,0.34813324,Robinson Department Store
+CITY TOYS,0.2691888,0.3478245,Robinson Department Store
+PERICO,0.29210213,0.34770197,Robinson Department Store
+SIRENA,0.29270473,0.34750932,Robinson Department Store
+DELONGHI,0.27916938,0.343632,Robinson Department Store
+OMAZZ,0.28696448,0.3425068,Robinson Department Store
+SILVERLIT,0.2808057,0.3419325,Robinson Department Store
+SIMPLICITY,0.32705802,0.34170625,Robinson Department Store
+THE MARC JACOBS,0.2896612,0.34116837,Robinson Department Store
+PRIMA ART,0.27691135,0.34111568,Robinson Department Store
+RALPH LAUREN,0.27699324,0.3406913,Robinson Department Store
+KOSE,0.28786898,0.3398633,Robinson Department Store
+PRIMA GOLD,0.28604016,0.33962116,Robinson Department Store
+TREND,0.33236715,0.33941773,Robinson Department Store
+DEVY,0.33236715,0.33941773,Robinson Department Store
+STJAMES,0.33236715,0.3394177,Robinson Department Store
+FONNEY,0.27990532,0.33514383,Robinson Department Store
+DISNEY PRINCESS,0.29546952,0.3349601,Robinson Department Store
+LAMER,0.2843884,0.33408138,Robinson Department Store
+VTECH,0.28099093,0.33390412,Robinson Department Store
+ANGEL KIDS,0.27658245,0.332473,Robinson Department Store
+KIDS&TEENS,0.2553821,0.33218077,Robinson Department Store
+NESTLE,0.2553821,0.33218077,Robinson Department Store
+MINI MONO,0.31053388,0.33030075,Robinson Department Store
+EMBIX,0.2584327,0.32857803,Robinson Department Store
+GQ JEANS,0.31006324,0.3276221,Robinson Department Store
+BVLGARI,0.24599631,0.32673457,Robinson Department Store
+DISNEY KIDDO,0.25402227,0.32638332,Robinson Department Store
+THREE,0.26713526,0.3257135,Robinson Department Store
+BEYBLADE,0.27743858,0.32178137,Robinson Department Store
+HUGO BOSS,0.31361687,0.3216655,Robinson Department Store
+PANASONIC,0.26258302,0.32154194,Robinson Department Store
+BABY STONE,0.27660203,0.32045466,Robinson Department Store
+GB,0.25517878,0.31946602,Robinson Department Store
+BP WORLD,0.46490374,0.3189332,Robinson Department Store
+COACH,0.3731193,0.31854388,Robinson Department Store
+KIEHLS,0.257892,0.31764892,Robinson Department Store
+ESTIMATE,0.2875601,0.31604913,Robinson Department Store
+EAZY CLEAN LOCAL,0.24869768,0.31353745,Robinson Department Store
+VERSACE,0.27172294,0.31350896,Robinson Department Store
+SEIKO CLOCK,0.24587776,0.31349748,Robinson Department Store
+MAJORETE,0.31307852,0.31261358,Robinson Department Store
+DORTMUEND,0.25471327,0.30841646,Robinson Department Store
+BEVERLY HILLS POLO CLUB,0.3113703,0.30530533,Robinson Department Store
+BRAUN,0.27139476,0.30424652,Robinson Department Store
+FOF,0.34629077,0.30237478,Robinson Department Store
+NIYOM JEANS,0.2682657,0.30159888,Robinson Department Store
+DAPPER,0.25051707,0.30149528,Robinson Department Store
+MARCO POLO,0.34640086,0.30014282,Robinson Department Store
+CRUISE BY CHRISTIANA,0.2551987,0.29778388,Robinson Department Store
+PRIMA DIAMOND,0.2482343,0.2970443,Robinson Department Store
+SEALY,0.24415818,0.29442284,Robinson Department Store
+JESSICA,0.27107352,0.29404956,Robinson Department Store
+ORIENT,0.23113002,0.29309306,Robinson Department Store
+ROOKIE,0.24119623,0.28934875,Robinson Department Store
+HELLO WD,0.2557852,0.28722724,Robinson Department Store
+DUNLOP,0.25062042,0.2797951,Robinson Department Store
+NA DREAMS,0.21954526,0.2772459,Robinson Department Store
+MARVEL HASBRO KIDDO,0.23125248,0.2769694,Robinson Department Store
+MASARU,0.22519873,0.27558157,Robinson Department Store
+JEAN PAUL GAULTIER,0.24422182,0.27106896,Robinson Department Store
+NERF HASBRO KIDDO,0.229511,0.26933444,Robinson Department Store
+IMOO,0.22258426,0.26554292,Robinson Department Store
+LANEIGE,0.24374884,0.2634679,Robinson Department Store
+PACIFIC UNION,0.31880602,0.26266685,Robinson Department Store
+LAZBOY,0.23028241,0.26100555,Robinson Department Store
+DIOR,0.24970564,0.26025766,Robinson Department Store
+MUUNIQUE,0.29105058,0.25861847,Robinson Department Store
+KENWOOD SMALL,0.26607773,0.2581937,Robinson Department Store
+REVLON,0.26398844,0.25570813,Robinson Department Store
+SKECHERS FOAMIES,0.24948478,0.25543055,Robinson Department Store
+DELSEY,0.25008973,0.25512618,Robinson Department Store
+BOUTON,0.26348585,0.25379515,Robinson Department Store
+GQ SOCKS,0.25195798,0.24958757,Robinson Department Store
+HARA,0.23855498,0.24884798,Robinson Department Store
+MANCHESTER,0.3211345,0.24583173,Robinson Department Store
+GEDA BABY,0.2209442,0.24231613,Robinson Department Store
+FOOTWEAR BY DAPPER,0.18919685,0.24066699,Robinson Department Store
+BOSSINI,0.15519015,0.24007022,Robinson Department Store
+RAINFLOWER,0.26174834,0.23982085,Robinson Department Store
+COOKEEZ MAKERY HASBRO KIDDO,0.20635927,0.23772243,Robinson Department Store
+CITIZEN,0.1875713,0.23128408,Robinson Department Store
+MARVEL VISION,0.30628616,0.223629,Robinson Department Store
+ROVING FOX,0.24924557,0.2209684,Robinson Department Store
+BAOJI,0.2617633,0.21882346,Robinson Department Store
+CARA,0.24048424,0.21395771,Robinson Department Store
+OVO,0.21581599,0.21072468,Robinson Department Store
+CHRISTIANA,0.17595059,0.21029712,Robinson Department Store
+SHARP,0.23380974,0.2091001,Robinson Department Store
+LEVIS KIDS,0.16964747,0.20270044,Robinson Department Store
+KEEP,0.20296192,0.2020313,Robinson Department Store
+BABYLISS,0.1662513,0.19965,Robinson Department Store
+PARENT,0.23139885,0.19889668,Robinson Department Store
+ELLE HOMME,0.16274238,0.19765842,Robinson Department Store
+GRANNY BEN,0.17238529,0.19397727,Robinson Department Store
+LUMINOX,0.15851851,0.1935826,Robinson Department Store
+PHATMOJO,0.16984208,0.19084522,Robinson Department Store
+AUKA,0.18307823,0.19054209,Robinson Department Store
+TULIP,0.22510971,0.18891436,Robinson Department Store
+DISNEY JEANS,0.23147395,0.18866125,Robinson Department Store
+LOCCITANE,0.13194892,0.18731864,Robinson Department Store
+CIERA,0.18077451,0.18625914,Robinson Department Store
+TURBORA,0.16225685,0.18592626,Robinson Department Store
+MATINO,0.20118815,0.18493176,Robinson Department Store
+LADY PLUS,0.17715468,0.18347165,Robinson Department Store
+JAGUAR,0.19077471,0.18299355,Robinson Department Store
+CROCODILE,0.2042167,0.18188551,Robinson Department Store
+PRETTY OVO,0.20392732,0.18119489,Robinson Department Store
+WARRIX,0.19904529,0.17972535,Robinson Department Store
+NECA,0.17028934,0.17671055,Robinson Department Store
+ELFE,0.1594684,0.17550912,Robinson Department Store
+LOUIS FONTAINE,0.1949163,0.17430925,Robinson Department Store
+MANWOOD,0.1862834,0.17346418,Robinson Department Store
+MIKIKO,0.1582064,0.17316994,Robinson Department Store
+OTTO SMALL,0.13661614,0.17059493,Robinson Department Store
+CHELSEE,0.15405515,0.16560988,Robinson Department Store
+FREEWOOD,0.18011704,0.16529918,Robinson Department Store
+BOWLING,0.18301399,0.16084346,Robinson Department Store
+LOURSON,0.19110951,0.15876716,Robinson Department Store
+POKEMON DEES SUPREME,0.16368613,0.15540823,Robinson Department Store
+TELLME,0.1706041,0.14486608,Robinson Department Store
+ALAIN DELON,0.13991754,0.14185768,Robinson Department Store
+GENTLE STYLES,0.15897316,0.14085162,Robinson Department Store
+SENSO,0.16923183,0.13752484,Robinson Department Store
+Robinson Department Store,0.22520766,0.1372607,Robinson Department Store
+ARTY,0.14948267,0.13700756,Robinson Department Store
+VALENTINO RUDY,0.07712933,0.13628477,Robinson Department Store
+DAVIE JONES,0.1577083,0.1359839,Robinson Department Store
+MINT,0.14712468,0.13360909,Robinson Department Store
+MONARCH,0.08866808,0.13324055,Robinson Department Store
+BABY BRIGHT,0.12501448,0.13059103,Robinson Department Store
+PLY,0.12525265,0.13040063,Robinson Department Store
+FARLIN,0.13443531,0.12784402,Robinson Department Store
+PAPA,0.13443531,0.12784402,Robinson Department Store
+PORTLAND,0.19991241,0.12233794,Robinson Department Store
+BLOKEES,0.087149724,0.121891335,Robinson Department Store
+ADDA,0.1150965,0.12018955,Robinson Department Store
+UNDER ME,0.15438913,0.11886722,Robinson Department Store
+SATIN,0.13116914,0.11123066,Robinson Department Store
+ABC DESIGN,0.12338324,0.108053505,Robinson Department Store
+PAUL MARC,0.118938714,0.10765779,Robinson Department Store
+MA SWIMSUIT,0.11894293,0.103401735,Robinson Department Store
+OK APPAREL,0.06707015,0.09599514,Robinson Department Store
+IQ SPORT,0.10451477,0.09551674,Robinson Department Store
+BEARBEARY,0.0711613,0.09463606,Robinson Department Store
+STEVENS,0.13730375,0.09245674,Robinson Department Store
+WONGNIMIT,0.13730375,0.09245674,Robinson Department Store
+HENNEY BEAR,0.11129018,0.091590606,Robinson Department Store
+PAJARA,0.06933794,0.09004365,Robinson Department Store
+MOMCO,0.07308199,0.08978885,Robinson Department Store
+JOLLYNN,0.082731485,0.08171708,Robinson Department Store
+BUCK OFF DENIM,0.067447074,0.08094655,Robinson Department Store
+SHOKZ,0.06595518,0.07973234,Robinson Department Store
+TM TOYS MART,0.14694762,0.07961474,Robinson Department Store
+G&G,0.08062278,0.07860524,Robinson Department Store
+GASOLINE & GARAGE,0.066493265,0.0777879,Robinson Department Store
+SWASH,0.10933299,0.07758099,Robinson Department Store
+PROOFS,0.10653556,0.07743822,Robinson Department Store
+DIVOOM,0.0542152,0.073271014,Robinson Department Store
+ERAWON,0.05580189,0.072860956,Robinson Department Store
+MMIX,0.051846083,0.071748674,Robinson Department Store
+WALKER,0.07516166,0.07157032,Robinson Department Store
+OCEANA,0.07101947,0.06858644,Robinson Department Store
+MIX SELF,0.05834333,0.06846818,Robinson Department Store
+Z KOREA,0.076141946,0.066437095,Robinson Department Store
+KOMONOYA,0.08450856,0.06431399,Robinson Department Store
+AEROSOFT,0.055628076,0.063628525,Robinson Department Store
+BOOM BOTTLE,0.0504711,0.06332392,Robinson Department Store
+POLICE,0.050739773,0.06332392,Robinson Department Store
+SLUMBERLAND,0.050739773,0.06332392,Robinson Department Store
+LE COQ SPORTIF,0.06582107,0.06242802,Robinson Department Store
+MARWELL,0.056189064,0.0617878,Robinson Department Store
+RANDY,0.042558126,0.0598508,Robinson Department Store
+SANDOZ,0.054283746,0.05962737,Robinson Department Store
+NU SPORT,0.043294422,0.057455845,Robinson Department Store
+JOINUS,0.043294422,0.057455845,Robinson Department Store
+GSP SPORT,0.057664808,0.05473407,Robinson Department Store
+GAMBOL,0.050109003,0.048574157,Robinson Department Store
+BEBEPLAY,0.051999997,0.04146209,Robinson Department Store
+OLIVE,0.03394282,0.036620103,Robinson Department Store
+KITO,0.04883095,0.036489446,Robinson Department Store
+GURU,0.04343528,0.03648432,Robinson Department Store
+ITOKIN NICE CAREER,0.052085023,0.036440037,Robinson Department Store
+HOW,0.04078278,0.0356239,Robinson Department Store
+AMILA,0.0412216,0.032698676,Robinson Department Store
+LIVING SOLUTIONS,0.0412216,0.032698676,Robinson Department Store
+PAN DERMACARE,0.027032234,0.031453803,Robinson Department Store
+ELISEES,0.027032234,0.031453803,Robinson Department Store
+DRESS CODE,0.027300904,0.031453803,Robinson Department Store
+LITTLE BABY,0.05188396,0.031140272,Robinson Department Store
+ELITE,0.024870701,0.030368526,Robinson Department Store
+BESIDEU,0.024870701,0.030368526,Robinson Department Store
+BASEBALL,0.0448519,0.030100789,Robinson Department Store
+PARK TOYS,0.0345701,0.029910915,Robinson Department Store
+FEERIQUE,0.03478197,0.029790998,Robinson Department Store
+LAFEE,0.034916304,0.029790998,Robinson Department Store
+BLUE CORNER,0.028367737,0.027848288,Robinson Department Store
+BOVY,0.027256526,0.024858586,Robinson Department Store
+ULTIMA II,0.03358904,0.024752352,Robinson Department Store
+MELLOW PLANET,0.019263132,0.018900946,Robinson Department Store
+ARENA,0.021882169,0.018250093,Robinson Department Store
+BENICIO,0.019675935,0.015690885,Robinson Department Store
+GRACO,0.012505552,0.012472298,Robinson Department Store
+THOMPSON,0.015257627,0.008729726,Robinson Department Store
+TTN,0.011876241,0.006294988,Robinson Department Store
+HATCHIMALS,0.009507741,0.0055064186,Robinson Department Store
+SOM,0.007280842,0.0037036277,Robinson Department Store

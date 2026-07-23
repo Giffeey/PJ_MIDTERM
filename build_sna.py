@@ -96,9 +96,58 @@ tenant_mall_edges = [
     (CASE_NORMALIZE.get(t.upper().strip(), t), m, w) for t, m, w in tenant_mall_edges
 ]
 
+# Merge Thai→English bank name variants (ATM variants kept separate)
+BANK_NAME_MERGE = {
+    "ธนาคารกรุงเทพ": "BANGKOK BANK",
+    "ธนาคารกรุงศรีอยุธยา": "BANK OF AYUDHYA",
+    "ธนาคารกสิกรไทย": "KASIKORN BANK",
+    "ธนาคารทหารไทย": "TMBTHANACHAT BANK",
+    "ธนาคารทหารไทยธนชาต": "TMBTHANACHAT BANK",
+    "ธนาคารไทยพาณิชย์": "SIAM COMMERCIAL BANK",
+    "ธนาคารยูโอบีจำกัด (มหาชน)": "UNITED OVERSEAS BANK (THAI) PUBLIC COMPANY LIMITED",
+    "ธนาคารออมสิน": "GOVERNMENT SAVING BANK",
+    "ธนาคารอาคารสงเคราะห์": "GOVERNMENT HOUSING BANK",
+    "ธนาคารไทยเครดิต": "THAI CREDIT BANK",
+    "ธนาคารเกียรตินาคินภัทร": "KIATNAKIN PHATRA BANK",
+    "LAND AND HOUSES BANK": "LH BANK",
+    "ฮะจิบัง ราเมน": "HACHIBAN RAMEN",
+    "ชาตรามือ": "CHATRAMUE",
+    "ลาวญวน": "LAO YUAN",
+    "กายะจิต": "KAYAJIT",
+    "คำพูน": "KUMPOON",
+    "ซินไฉฮั้ว": "SINCHAIHUA",
+    "OISHI BIZTORO/โออิชิ บิซโทโระ": "OISHI BIZTORO",
+    "OISHI RAMEN/โออิชิ ราเมน": "OISHI RAMEN",
+    "SHABUSHI / ชาบูชิ": "SHABUSHI",
+    "WAGASHI ขนมญี่ปุ่น": "WAGASHI",
+    "ผลไม้": "POLAMAI",
+}
+tenant_mall_edges = [
+    (BANK_NAME_MERGE.get(t, t), m, w) for t, m, w in tenant_mall_edges
+]
+
+# Filter out ATM / Kiosk entries from Bank & Financial Services (branch only)
+EXCLUDED_TENANTS = {
+    "ATM BANGKOK BANK", "ATM BANK OF AYUDHYA", "ATM KASIKORN BANK",
+    "ATM KRUNG THAI BANK", "ATM SIAM COMMERCIAL BANK",
+    "KRUNG THAI BANK CARD TOUCH", "UOB XPRESS",
+}
+tenant_mall_edges = [(t, m, w) for t, m, w in tenant_mall_edges if t not in EXCLUDED_TENANTS]
+
 # Update cat_map: strip suffix key → brand + department store
+# Priority: standalone entries first, sub-brand entries second (don't overwrite)
 new_cat_map = {}
+
+# Pass 1: standalone entries (no |) take priority
 for old_name, cat in cat_map_raw.items():
+    if "|" not in old_name:
+        new_cat_map[old_name] = cat
+
+# Pass 2: sub-brand entries (strip suffix) — setdefault won't overwrite pass-1
+# Then any remaining entries (with | but not matching known suffix)
+for old_name, cat in cat_map_raw.items():
+    if old_name in new_cat_map:
+        continue  # already set in pass 1
     upper = old_name.upper()
     matched_dept = None
     for suffix, dept_name in DEPT_STORE_SUFFIX.items():
@@ -110,7 +159,7 @@ for old_name, cat in cat_map_raw.items():
         new_cat_map.setdefault(brand, cat)
         new_cat_map.setdefault(matched_dept, cat)
     else:
-        new_cat_map.setdefault(old_name, cat)
+        new_cat_map[old_name] = cat
 cat_map_raw = new_cat_map
 
 # Normalize cat_map keys for case variants
@@ -119,6 +168,18 @@ for old_name in list(cat_map_raw.keys()):
     if normalized != old_name:
         cat_map_raw.setdefault(normalized, cat_map_raw[old_name])
         del cat_map_raw[old_name]
+
+# Merge cat_map keys for Thai→English bank names
+for old_name in list(cat_map_raw.keys()):
+    merged = BANK_NAME_MERGE.get(old_name)
+    if merged and merged != old_name:
+        cat_map_raw.setdefault(merged, cat_map_raw[old_name])
+        del cat_map_raw[old_name]
+
+# Remove ATM / Kiosk entries from cat_map
+for t in list(cat_map_raw.keys()):
+    if t in EXCLUDED_TENANTS:
+        del cat_map_raw[t]
 
 # Deduplicate (tenant, mall) pairs
 seen = set()
